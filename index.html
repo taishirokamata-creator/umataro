@@ -1,0 +1,389 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>🐴 馬太郎 ペーパートレード</title>
+<style>
+:root{--bg:#f7f8fa;--card:#fff;--fg:#1a1d24;--mut:#6b7280;--line:#e5e7eb;--grid:#cbd5e1;
+--up:#16a34a;--down:#dc2626;--ev:#7c3aed;--accent:#2563eb;}
+@media(prefers-color-scheme:dark){:root{--bg:#0f1218;--card:#181c24;--fg:#e8eaed;--mut:#9aa0ab;
+--line:#262b36;--grid:#374151;--up:#22c55e;--down:#f87171;--ev:#a78bfa;--accent:#60a5fa;}}
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,"Hiragino Sans","Noto Sans JP",sans-serif;
+background:var(--bg);color:var(--fg);line-height:1.5;-webkit-text-size-adjust:100%}
+.wrap{max-width:760px;margin:0 auto;padding:16px}
+header h1{font-size:1.4rem;margin:.2em 0}.sub{color:var(--mut);font-size:.8rem}
+.hero{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;margin:14px 0}
+.big{font-size:2.6rem;font-weight:800;line-height:1}.big.up{color:var(--up)}.big.down{color:var(--down)}
+.biglabel{color:var(--mut);font-size:.85rem;margin-bottom:6px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:14px}
+.stat{background:var(--bg);border-radius:10px;padding:8px;text-align:center}
+.stat .v{font-weight:700;font-size:1.05rem}.stat .l{color:var(--mut);font-size:.7rem}.stat .s{font-size:.65rem;color:var(--mut)}
+.spark{width:100%;height:120px;margin-top:12px;display:block}
+.warn{background:color-mix(in srgb,var(--down) 12%,transparent);border:1px solid color-mix(in srgb,var(--down) 30%,transparent);
+color:var(--fg);border-radius:12px;padding:10px 12px;font-size:.8rem;margin:12px 0}
+.day{margin:22px 0 0}.day h2{font-size:1.05rem;display:flex;align-items:center;gap:10px;border-bottom:1px solid var(--line);padding-bottom:6px}
+.droi{font-size:.8rem;color:var(--accent);font-weight:700}.dn{font-size:.72rem;color:var(--mut);margin-left:auto}
+.cond{color:var(--mut);font-weight:400;font-size:.72rem;margin-left:4px}
+.datetabs{display:flex;gap:6px;flex-wrap:wrap;margin:16px 0 4px;position:sticky;top:0;
+background:var(--bg);padding:6px 0;z-index:5}
+.datetabs button{font-size:.82rem;font-weight:700;padding:6px 14px;border:1px solid var(--line);
+background:var(--card);color:var(--fg);border-radius:20px;cursor:pointer}
+.datetabs button.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+.dsum{font-size:.8rem;color:var(--accent);font-weight:700;margin:6px 0}
+.venuetabs{display:flex;gap:6px;flex-wrap:wrap;margin:4px 0 10px}
+.venuetabs button{font-size:.8rem;padding:5px 14px;border:1px solid var(--line);background:transparent;
+color:var(--mut);border-radius:8px;cursor:pointer}
+.venuetabs button.active{background:color-mix(in srgb,var(--accent) 15%,transparent);
+color:var(--accent);border-color:var(--accent);font-weight:700}
+.rname{font-size:.82rem;font-weight:700;color:var(--accent)}
+.grade{font-size:.62rem;font-weight:800;background:var(--ev);color:#fff;padding:0 5px;border-radius:4px;margin-left:5px;vertical-align:middle}
+.racecard{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:11px 12px;margin-top:10px}
+.rhead{font-size:.92rem;display:flex;align-items:center;gap:6px;flex-wrap:wrap;padding-bottom:6px;border-bottom:1px solid var(--line);margin-bottom:6px}
+.rbuy{margin-left:auto;font-size:.7rem;font-weight:700;color:var(--up);background:color-mix(in srgb,var(--up) 15%,transparent);padding:1px 8px;border-radius:6px}
+.rpass{margin-left:auto;font-size:.7rem;font-weight:700;color:var(--mut);background:var(--bg);padding:1px 8px;border-radius:6px}
+.cand{padding:7px 0;border-bottom:1px dashed var(--line)}.cand:last-child{border-bottom:none}
+.cand.ghit{background:color-mix(in srgb,var(--up) 7%,transparent);border-radius:8px;padding:7px 8px}
+.cand.gmiss{background:color-mix(in srgb,var(--down) 6%,transparent);border-radius:8px;padding:7px 8px}
+.cline{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.mk{font-size:.72rem;font-weight:800;padding:1px 7px;border-radius:6px;white-space:nowrap}
+.mk.buy{color:var(--up);background:color-mix(in srgb,var(--up) 16%,transparent)}
+.mk.pass{color:var(--mut);background:var(--bg)}
+.hn{font-weight:700;font-size:.98rem}
+.fin{margin-left:auto;font-size:.8rem;font-weight:700;color:var(--mut)}.fin.win{color:var(--up)}.fin.pend{color:var(--accent)}
+.missed{color:var(--down);font-weight:700;font-size:.72rem}
+.cnums{display:flex;gap:12px;flex-wrap:wrap;font-size:.76rem;color:var(--mut);margin:3px 0}
+.cnums .n b,.cnums .nbuy b{color:var(--ev)}.cnums .nbuy{color:var(--fg);font-weight:700}
+.cwhy{font-size:.78rem;line-height:1.5;color:var(--fg);opacity:.9}
+.reval{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 14px;margin:12px 0}
+.reval summary{font-weight:700;font-size:.92rem;cursor:pointer}
+.revnote{font-size:.76rem;color:var(--mut);line-height:1.55}
+.calwrap{display:flex;gap:14px;flex-wrap:wrap}
+table.cal{border-collapse:collapse;font-size:.74rem;margin:4px 0}
+table.cal th,table.cal td{padding:3px 8px;text-align:right;border-bottom:1px solid var(--line)}
+table.cal th:first-child,table.cal td:first-child{text-align:left}
+table.cal td.ok{color:var(--up);font-weight:700}table.cal td.hi{color:var(--accent);font-weight:700}table.cal td.lo{color:var(--down);font-weight:700}
+.revpol{font-size:.78rem;margin-top:8px}.pol{margin:4px 0;padding-left:18px}.pol li{margin:2px 0}
+footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
+</style></head><body><div class="wrap">
+<header><h1>🐴 馬太郎 ペーパートレード</h1>
+<div class="sub">期待値100%超だけを買う（賭けない検証運用）・更新 2026-07-12 13:07</div></header>
+
+<div class="hero">
+  <div class="biglabel">累計回収率</div>
+  <div class="big up">106.7<span style="font-size:1.2rem">%</span></div>
+  <svg viewBox="0 0 640 160" class="spark" preserveAspectRatio="none" role="img" aria-label="累計収支の推移">
+      <polyline points="8,67.2 8.0,114.8 86.0,121.0 164.0,143.7 242.0,149.9 320.0,152.0 398.0,78.8 476.0,8.0 554.0,22.5 632.0,57.7 632.0,67.2" fill="var(--up)" opacity="0.12" stroke="none"/>
+      <line x1="8" y1="67.2" x2="632" y2="67.2" stroke="var(--grid)" stroke-dasharray="3 3"/>
+      <polyline points="8.0,114.8 86.0,121.0 164.0,143.7 242.0,149.9 320.0,152.0 398.0,78.8 476.0,8.0 554.0,22.5 632.0,57.7" fill="none" stroke="var(--up)" stroke-width="2.5" stroke-linejoin="round"/>
+    </svg>
+  <div class="stats">
+    <div class="stat"><div class="v">9</div><div class="l">点数</div><div class=s>未確定17</div></div>
+    <div class="stat"><div class="v">22%</div><div class="l">的中率</div><div class=s>2的中</div></div>
+    <div class="stat"><div class="v">6,900</div><div class="l">投資(仮)</div></div>
+    <div class="stat"><div class="v">+460</div><div class="l">収支(仮)</div></div>
+  </div>
+</div>
+
+<div class="warn">⚠️ <b>検証中</b>：これは賭けずに記録している成績です。少数試合の回収率はほぼ<b>運（ノイズ）</b>。的中1〜2本で大きく振れます。意味を持つ判断には数百点の蓄積が必要です。</div>
+
+<details class="reval" open>
+      <summary>🔬 再検証（答え合わせ）— 評価済 99頭 / 8レース</summary>
+      <p class="revnote">見送りも含む全馬を台帳に記録し、母集団で仮説を検証する。
+      <b>個別の当たり外れ（運）ではなく、帯ごとに予測≒実測かを見る。</b>一方向のズレが続けばモデル修正、
+      小さく振れるだけなら分散。※現状サンプル僅少で判断保留。</p>
+      <div class="calwrap"><table class="cal"><thead><tr><th>予測勝率帯</th><th>n</th><th>予測</th><th>実測</th></tr></thead><tbody><tr><td>0–5%</td><td>50</td><td>2%</td><td class="ok">0%</td></tr><tr><td>5–10%</td><td>25</td><td>7%</td><td class="lo">16%</td></tr><tr><td>10–20%</td><td>12</td><td>14%</td><td class="ok">17%</td></tr><tr><td>20–35%</td><td>9</td><td>27%</td><td class="hi">11%</td></tr><tr><td>35–101%</td><td>3</td><td>40%</td><td class="hi">33%</td></tr></tbody></table><table class="cal"><thead><tr><th>予測3着内帯</th><th>n</th><th>予測</th><th>実測</th></tr></thead><tbody><tr><td>0–15%</td><td>38</td><td>6%</td><td class="ok">8%</td></tr><tr><td>15–30%</td><td>31</td><td>23%</td><td class="lo">35%</td></tr><tr><td>30–50%</td><td>15</td><td>36%</td><td class="hi">27%</td></tr><tr><td>50–101%</td><td>15</td><td>61%</td><td class="hi">40%</td></tr></tbody></table></div>
+      <div class="revpol"><b>見送りルールの答え合わせ</b><ul class='pol'><li>EV[1.0,1.1)で見送った単勝 3頭 → もし買えば回収率 <b>0%</b></li><li>大穴除外(単勝&gt;20倍) 2頭 → もし買えば <b>0%</b></li><li>複勝除外(&gt;13倍) 1頭 → もし買えば <b>0%</b></li></ul></div>
+    </details>
+
+<div class="datetabs"><button data-date="2026-07-12">7/12（日）</button><button data-date="2026-07-11">7/11（土）</button></div>
+<div class="daypanel" data-date="2026-07-12"><div class="dsum">回収率 0%・3場 10R評価</div><div class="venuetabs"><button data-venue="函館">函館</button><button data-venue="福島">福島</button><button data-venue="小倉">小倉</button></div><div class="venuepanel" data-venue="函館"><section class="racecard">
+      <div class="rhead"><b>函館4R</b>
+        <span class="cond">芝2600m</span><span class="rbuy">○1点</span></div>
+      <div class="cand">
+      <div class="cline"><span class="mk buy">○ 単勝を購入</span><span class="hn">ダディーズソード</span><span class="fin">16着</span></div>
+      <div class="cnums"><span class="nbuy">単 15% 11.5倍 <b>EV1.733</b></span><span class="n">複 41% 2.7倍 <b>EV1.094</b></span></div>
+      <div class="cwhy">単勝11.5倍は約9%で当たればトントンの水準。モデルは勝率15%とみて“買える”と判断。 根拠: 上がり(末脚)がコース平均より速い、152日ぶりの休養明け、騎手が勝率10%と好調。</div>
+    </div><div class="cand">
+      <div class="cline"><span class="mk pass">✕ 見送り</span><span class="hn">モヴシエラ</span><span class="fin">15着</span></div>
+      <div class="cnums"><span class="n">単 3% 30.2倍 <b>EV0.955</b></span><span class="n">複 15% 6.8倍 <b>EV1.041</b></span></div>
+      <div class="cwhy">最高期待値1.04が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 持ちタイムがこのコース水準より速い）</div>
+    </div><div class="cand">
+      <div class="cline"><span class="mk pass">✕ 見送り</span><span class="hn">ミカレオス</span><span class="fin">5着</span></div>
+      <div class="cnums"><span class="n">単 1% 88.7倍 <b>EV0.806</b></span><span class="n">複 6% 16.0倍 <b>EV0.947</b></span></div>
+      <div class="cwhy">最高期待値0.95が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 持ちタイムがこのコース水準より速い、上がり(末脚)がコース平均より速い、馬体重-6kg）</div>
+    </div>
+    </section><section class="racecard">
+      <div class="rhead"><b>函館9R</b><span class="rname">北海ハンデキャップ<span class="grade">重賞</span></span>
+        <span class="cond">芝1800m</span><span class="rbuy">○2点</span></div>
+      <div class="cand">
+      <div class="cline"><span class="mk buy">○ 単勝＋複勝を購入</span><span class="hn">ジャズ</span><span class="fin pend">レース前</span></div>
+      <div class="cnums"><span class="nbuy">単 9% 17.4倍 <b>EV1.518</b></span><span class="nbuy">複 31% 3.6倍 <b>EV1.124</b></span></div>
+      <div class="cwhy">単勝17.4倍は約6%で当たればトントンの水準。モデルは勝率9%とみて“買える”と判断。 根拠: 上がり(末脚)がコース平均より速い、厩舎が勝率11%と信頼できる、前走から49日と好interval。</div>
+    </div><div class="cand">
+      <div class="cline"><span class="mk buy">○ 単勝を購入</span><span class="hn">マイネルフーガ</span><span class="fin pend">レース前</span></div>
+      <div class="cnums"><span class="nbuy">単 7% 15.1倍 <b>EV1.117</b></span><span class="n">複 28% 2.5倍 <b>EV0.693</b></span></div>
+      <div class="cwhy">単勝15.1倍は約7%で当たればトントンの水準。モデルは勝率7%とみて“買える”と判断。 根拠: 持ちタイムがこのコース水準より速い、芝での複勝率64%と適性が高い。</div>
+    </div><div class="cand">
+      <div class="cline"><span class="mk pass">✕ 見送り</span><span class="hn">フォルテフィオーレ</span><span class="fin pend">レース前</span></div>
+      <div class="cnums"><span class="n">単 6% 18.6倍 <b>EV1.036</b></span><span class="n">複 24% 2.9倍 <b>EV0.697</b></span></div>
+      <div class="cwhy">最高期待値1.04が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 厩舎が勝率11%と信頼できる、芝での複勝率45%と適性が高い、前走から29日と好interval）</div>
+    </div>
+    </section><section class="racecard">
+      <div class="rhead"><b>函館12R</b>
+        <span class="cond">芝1200m</span><span class="rbuy">○1点</span></div>
+      <div class="cand">
+      <div class="cline"><span class="mk buy">○ 単勝を購入</span><span class="hn">ペイシャアーサー</span><span class="fin pend">レース前</span></div>
+      <div class="cnums"><span class="nbuy">単 12% 9.9倍 <b>EV1.142</b></span><span class="n">複 39% 2.3倍 <b>EV0.889</b></span></div>
+      <div class="cwhy">単勝9.9倍は約10%で当たればトントンの水準。モデルは勝率12%とみて“買える”と判断。 根拠: 芝での複勝率56%と適性が高い、当地(函館)の複勝率100%とコース巧者、持ちタイムがこのコース水準より速い。</div>
+    </div><div class="cand">
+      <div class="cline"><span class="mk pass">✕ 見送り</span><span class="hn">ココソラーレ</span><span class="fin pend">レース前</span></div>
+      <div class="cnums"><span class="n">単 7% 14.2倍 <b>EV0.972</b></span><span class="n">複 27% 1.6倍 <b>EV0.424</b></span></div>
+      <div class="cwhy">最高期待値0.97が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 持ちタイムがこのコース水準より速い、前に行って粘れる先行脚質、上がり(末脚)がコース平均より速い）</div>
+    </div><div class="cand">
+      <div class="cline"><span class="mk pass">✕ 見送り</span><span class="hn">ナンナンプー</span><span class="fin pend">レース前</span></div>
+      <div class="cnums"><span class="n">単 6% 13.8倍 <b>EV0.884</b></span><span class="n">複 26% 2.0倍 <b>EV0.515</b></span></div>
+      <div class="cwhy">最高期待値0.88が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 持ちタイムがこのコース水準より速い、上がり(末脚)がコース平均より速い）</div>
+    </div>
+    </section></div><div class="venuepanel" data-venue="福島" style="display:none"><section class="racecard">
+      <div class="rhead"><b>福島6R</b>
+        <span class="cond">ダート1150m</span><span class="rbuy">○3点</span></div>
+      <div class="cand">
+      <div class="cline"><span class="mk buy">○ 複勝を購入</span><span class="hn">ジェムシリカ</span><span class="fin pend">レース前</span></div>
+      <div class="cnums"><span class="n">単 11% 9.9倍 <b>EV1.057</b></span><span class="nbuy">複 31% 5.3倍 <b>EV1.623</b></span></div>
+      <div class="cwhy">複勝5.3倍は3着内に来れば的中。モデルは3着内率31%とみて“買える”と判断。 根拠: 持ちタイムがこのコース水準より速い、前走から43日と好interval、前に行って粘れる先行脚質。</div>
+    </div><div class="cand">
+      <div class="cline"><span class="mk buy">○ 単勝を購入</span><span class="hn">ユニオンジャック</span><span class="fin pend">レース前</span></div>
+      <div class="cnums"><span class="nbuy">単 7% 18.4倍 <b>EV1.289</b></span><span class="n">複 24% 3.9倍 <b>EV0.937</b></span></div>
+      <div class="cwhy">単勝18.4倍は約5%で当たればトントンの水準。モデルは勝率7%とみて“買える”と判断。</div>
+    </div><div class="cand">
+      <div class="cline"><span class="mk pass">✕ 見送り</span><span class="hn">ジャメビュ</span><span class="fin pend">レース前</span></div>
+      <div class="cnums"><span class="n">単 4% 27.2倍 <b>EV1.156</b></span><span class="n">複 16% 5.3倍 <b>EV0.862</b></span></div>
+      <div class="cwhy">単勝は期待値1.16だが27倍の大穴(上限20)で除外（モデル注目点: 上がり(末脚)がコース平均より速い、持ちタイムがこのコース水準より速い、前に行って粘れる先行脚質）</div>
+    </div>
+    </section><section class="racecard">
+      <div class="rhead"><b>福島8R</b>
+        <span class="cond">芝1200m</span><span class="rbuy">○1点</span></div>
+      <div class="cand">
+      <div class="cline"><span class="mk buy">○ 単勝＋複勝を購入</span><span class="hn">ザバルガド</span><span class="fin pend">レース前</span></div>
+      <div class="cnums"><span class="nbuy">単 14% 9.8倍 <b>EV1.324</b></span><span class="nbuy">複 39% 3.9倍 <b>EV1.507</b></span></div>
+      <div class="cwhy">単勝9.8倍は約10%で当たればトントンの水準。モデルは勝率14%とみて“買える”と判断。 根拠: 上がり(末脚)がコース平均より速い、通算勝率20%と勝ち切る力がある、持ちタイムがこのコース水準より速い。</div>
+    </div><div class="cand">
+      <div class="cline"><span class="mk pass">✕ 見送り</span><span class="hn">レッドカメリア</span><span class="fin pend">レース前</span></div>
+      <div class="cnums"><span class="n">単 4% 32.7倍 <b>EV1.309</b></span><span class="n">複 16% 3.8倍 <b>EV0.618</b></span></div>
+      <div class="cwhy">単勝は期待値1.31だが33倍の大穴(上限20)で除外（モデル注目点: 持ちタイムがこのコース水準より速い、上がり(末脚)がコース平均より速い、前に行って粘れる先行脚質）</div>
+    </div><div class="cand">
+      <div class="cline"><span class="mk pass">✕ 見送り</span><span class="hn">ホウオウショコラ</span><span class="fin pend">レース前</span></div>
+      <div class="cnums"><span class="n">単 6% 20.5倍 <b>EV1.299</b></span><span class="n">複 24% 3.4倍 <b>EV0.802</b></span></div>
+      <div class="cwhy">単勝は期待値1.30だが20倍の大穴(上限20)で除外（モデル注目点: 通算勝率17%と勝ち切る力がある、前走から63日と好interval、厩舎が勝率10%と信頼できる）</div>
+    </div>
+    </section><section class="racecard">
+      <div class="rhead"><b>福島11R</b><span class="rname">七夕賞<span class="grade">G3</span></span>
+        <span class="cond">芝2000m</span><span class="rbuy">○1点</span></div>
+      <div class="cand">
+      <div class="cline"><span class="mk buy">○ 単勝を購入</span><span class="hn">バトルボーン</span><span class="fin pend">レース前</span></div>
+      <div class="cnums"><span class="nbuy">単 17% 6.7倍 <b>EV1.132</b></span><span class="n">複 43% 2.4倍 <b>EV1.023</b></span></div>
+      <div class="cwhy">単勝6.7倍は約15%で当たればトントンの水準。モデルは勝率17%とみて“買える”と判断。 根拠: 前走から63日と好interval、通算勝率45%と勝ち切る力がある、前に行って粘れる先行脚質。</div>
+    </div><div class="cand">
+      <div class="cline"><span class="mk pass">✕ 見送り</span><span class="hn">ヤマニンブークリエ</span><span class="fin pend">レース前</span></div>
+      <div class="cnums"><span class="n">単 11% 9.1倍 <b>EV0.96</b></span><span class="n">複 31% 2.8倍 <b>EV0.874</b></span></div>
+      <div class="cwhy">最高期待値0.96が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 芝での複勝率40%と適性が高い、前に行って粘れる先行脚質、前走から57日と好interval）</div>
+    </div><div class="cand">
+      <div class="cline"><span class="mk pass">✕ 見送り</span><span class="hn">カラマティアノス</span><span class="fin pend">レース前</span></div>
+      <div class="cnums"><span class="n">単 19% 4.3倍 <b>EV0.822</b></span><span class="n">複 47% 2.0倍 <b>EV0.93</b></span></div>
+      <div class="cwhy">最高期待値0.93が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 持ちタイムがこのコース水準より速い、通算勝率25%と勝ち切る力がある、前走3番人気で評価されていた）</div>
+    </div>
+    </section><section class="racecard">
+      <div class="rhead"><b>福島12R</b><span class="rname">彦星賞<span class="grade">重賞</span></span>
+        <span class="cond">ダート1150m</span><span class="rbuy">○2点</span></div>
+      <div class="cand">
+      <div class="cline"><span class="mk buy">○ 単勝を購入</span><span class="hn">ホウオウプレミア</span><span class="fin pend">レース前</span></div>
+      <div class="cnums"><span class="nbuy">単 12% 12.5倍 <b>EV1.502</b></span><span class="n">複 34% 3.1倍 <b>EV1.057</b></span></div>
+      <div class="cwhy">単勝12.5倍は約8%で当たればトントンの水準。モデルは勝率12%とみて“買える”と判断。 根拠: 上がり(末脚)がコース平均より速い、ダートでの複勝率36%と適性が高い、前走から35日と好interval。</div>
+    </div><div class="cand">
+      <div class="cline"><span class="mk buy">○ 複勝を購入</span><span class="hn">サヨノジャンボリー</span><span class="fin pend">レース前</span></div>
+      <div class="cnums"><span class="n">単 7% 13.2倍 <b>EV0.86</b></span><span class="nbuy">複 23% 5.2倍 <b>EV1.18</b></span></div>
+      <div class="cwhy">複勝5.2倍は3着内に来れば的中。モデルは3着内率23%とみて“買える”と判断。 根拠: 通算勝率17%と勝ち切る力がある、持ちタイムがこのコース水準より速い、前走1着と好走直後。</div>
+    </div><div class="cand">
+      <div class="cline"><span class="mk pass">✕ 見送り</span><span class="hn">クリノオリーブ</span><span class="fin pend">レース前</span></div>
+      <div class="cnums"><span class="n">単 7% 12.1倍 <b>EV0.862</b></span><span class="n">複 24% 4.1倍 <b>EV0.985</b></span></div>
+      <div class="cwhy">最高期待値0.98が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 前走2着と好走直後、ダートでの複勝率44%と適性が高い、持ちタイムがこのコース水準より速い）</div>
+    </div>
+    </section></div><div class="venuepanel" data-venue="小倉" style="display:none"><section class="racecard">
+      <div class="rhead"><b>小倉7R</b>
+        <span class="cond">ダート1700m</span><span class="rbuy">○3点</span></div>
+      <div class="cand">
+      <div class="cline"><span class="mk pass">✕ 見送り</span><span class="hn">セルジュバローズ</span><span class="fin pend">レース前</span></div>
+      <div class="cnums"><span class="n">単 4% 42.8倍 <b>EV1.839</b></span><span class="n">複 17% 6.4倍 <b>EV1.075</b></span></div>
+      <div class="cwhy">単勝は期待値1.84だが43倍の大穴(上限20)で除外（モデル注目点: 厩舎が勝率13%と信頼できる、前に行って粘れる先行脚質、通算勝率20%と勝ち切る力がある）</div>
+    </div><div class="cand">
+      <div class="cline"><span class="mk buy">○ 複勝を購入</span><span class="hn">ニシノミチアキ</span><span class="fin pend">レース前</span></div>
+      <div class="cnums"><span class="n">単 4% 39.1倍 <b>EV1.68</b></span><span class="nbuy">複 17% 6.7倍 <b>EV1.125</b></span></div>
+      <div class="cwhy">複勝6.7倍は3着内に来れば的中。モデルは3着内率17%とみて“買える”と判断。 根拠: 持ちタイムがこのコース水準より速い、後方から差してくる脚質。</div>
+    </div><div class="cand">
+      <div class="cline"><span class="mk pass">✕ 見送り</span><span class="hn">テーオーノーベル</span><span class="fin pend">レース前</span></div>
+      <div class="cnums"><span class="n">単 4% 35.4倍 <b>EV1.521</b></span><span class="n">複 17% 5.3倍 <b>EV0.89</b></span></div>
+      <div class="cwhy">単勝は期待値1.52だが35倍の大穴(上限20)で除外（モデル注目点: 134日ぶりの休養明け、上がり(末脚)がコース平均より速い、持ちタイムがこのコース水準より速い）</div>
+    </div>
+    </section><section class="racecard">
+      <div class="rhead"><b>小倉8R</b>
+        <span class="cond">芝1800m</span><span class="rbuy">○1点</span></div>
+      <div class="cand">
+      <div class="cline"><span class="mk buy">○ 単勝を購入</span><span class="hn">ペイシャシス</span><span class="fin pend">レース前</span></div>
+      <div class="cnums"><span class="nbuy">単 32% 3.6倍 <b>EV1.147</b></span><span class="n">複 68% 1.3倍 <b>EV0.89</b></span></div>
+      <div class="cwhy">単勝3.6倍は約28%で当たればトントンの水準。モデルは勝率32%とみて“買える”と判断。 根拠: 芝での複勝率50%と適性が高い、通算勝率25%と勝ち切る力がある、持ちタイムがこのコース水準より速い。</div>
+    </div><div class="cand">
+      <div class="cline"><span class="mk pass">✕ 見送り</span><span class="hn">ミッキーマーメイド</span><span class="fin pend">レース前</span></div>
+      <div class="cnums"><span class="n">単 24% 4.3倍 <b>EV1.016</b></span><span class="n">複 60% 1.1倍 <b>EV0.664</b></span></div>
+      <div class="cwhy">最高期待値1.02が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 騎手が勝率23%と好調、161日ぶりの休養明け、中団から立ち回れる脚質）</div>
+    </div><div class="cand">
+      <div class="cline"><span class="mk pass">✕ 見送り</span><span class="hn">ミリタリータトゥー</span><span class="fin pend">レース前</span></div>
+      <div class="cnums"><span class="n">単 24% 2.4倍 <b>EV0.567</b></span><span class="n">複 60% 1.3倍 <b>EV0.785</b></span></div>
+      <div class="cwhy">最高期待値0.79が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 上がり(末脚)がコース平均より速い、持ちタイムがこのコース水準より速い、通算複勝率100%と堅実に走る）</div>
+    </div>
+    </section><section class="racecard">
+      <div class="rhead"><b>小倉11R</b><span class="rname">阿蘇ステークス<span class="grade">重賞</span></span>
+        <span class="cond">ダート1700m</span><span class="rbuy">○1点</span></div>
+      <div class="cand">
+      <div class="cline"><span class="mk buy">○ 単勝を購入</span><span class="hn">レイナデアルシーラ</span><span class="fin pend">レース前</span></div>
+      <div class="cnums"><span class="nbuy">単 11% 10.7倍 <b>EV1.221</b></span><span class="n">複 39% 2.5倍 <b>EV0.966</b></span></div>
+      <div class="cwhy">単勝10.7倍は約9%で当たればトントンの水準。モデルは勝率11%とみて“買える”と判断。 根拠: 前に行って粘れる先行脚質、持ちタイムがこのコース水準より速い、ダートでの複勝率46%と適性が高い。</div>
+    </div><div class="cand">
+      <div class="cline"><span class="mk pass">✕ 見送り</span><span class="hn">モックモック</span><span class="fin pend">レース前</span></div>
+      <div class="cnums"><span class="n">単 41% 2.0倍 <b>EV0.826</b></span><span class="n">複 74% 1.3倍 <b>EV0.957</b></span></div>
+      <div class="cwhy">最高期待値0.96が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 上がり(末脚)がコース平均より速い、騎手が勝率23%と好調、持ちタイムがこのコース水準より速い）</div>
+    </div><div class="cand">
+      <div class="cline"><span class="mk pass">✕ 見送り</span><span class="hn">ゴッドブルービー</span><span class="fin pend">レース前</span></div>
+      <div class="cnums"><span class="n">単 8% 11.9倍 <b>EV0.895</b></span><span class="n">複 28% 2.4倍 <b>EV0.666</b></span></div>
+      <div class="cwhy">最高期待値0.90が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 上がり(末脚)がコース平均より速い、前走3番人気で評価されていた、前走1着と好走直後）</div>
+    </div>
+    </section></div></div><div class="daypanel" data-date="2026-07-11" style="display:none"><div class="dsum">回収率 142%・3場 7R評価</div><div class="venuetabs"><button data-venue="函館">函館</button><button data-venue="福島">福島</button><button data-venue="小倉">小倉</button></div><div class="venuepanel" data-venue="函館"><section class="racecard">
+      <div class="rhead"><b>函館7R</b>
+        <span class="cond">芝1800m</span><span class="rpass">見送り</span></div>
+      <div class="cand">
+      <div class="cline"><span class="mk pass">✕ 見送り</span><span class="hn">ターンザテーブルス</span><span class="fin">7着</span></div>
+      <div class="cnums"><span class="n">単 35% 2.5倍 <b>EV0.885</b></span><span class="n">複 68% 1.4倍 <b>EV0.959</b></span></div>
+      <div class="cwhy">最高期待値0.96が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 上がり(末脚)がコース平均より速い、前走2着と好走直後、通算複勝率67%と堅実に走る）</div>
+    </div><div class="cand gmiss">
+      <div class="cline"><span class="mk pass">✕ 見送り</span><span class="hn">ナムラヒナギク</span><span class="fin">3着</span> <span class="missed">← 見送ったが好走</span></div>
+      <div class="cnums"><span class="n">単 5% 20.6倍 <b>EV0.936</b></span><span class="n">複 21% 4.2倍 <b>EV0.893</b></span></div>
+      <div class="cwhy">最高期待値0.94が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 持ちタイムがこのコース水準より速い、当地(函館)の複勝率50%とコース巧者、馬体重-16kg）</div>
+    </div><div class="cand">
+      <div class="cline"><span class="mk pass">✕ 見送り</span><span class="hn">ベアサナエチャン</span><span class="fin">4着</span></div>
+      <div class="cnums"><span class="n">単 5% 19.4倍 <b>EV0.881</b></span><span class="n">複 21% 2.7倍 <b>EV0.574</b></span></div>
+      <div class="cwhy">最高期待値0.88が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 芝での複勝率42%と適性が高い、前走1着と好走直後、上がり(末脚)がコース平均より速い）</div>
+    </div>
+    </section><section class="racecard">
+      <div class="rhead"><b>函館8R</b>
+        <span class="cond">ダート1700m</span><span class="rbuy">○1点</span></div>
+      <div class="cand">
+      <div class="cline"><span class="mk buy">○ 単勝を購入</span><span class="hn">ナムラハリス</span><span class="fin">7着</span></div>
+      <div class="cnums"><span class="nbuy">単 6% 18.7倍 <b>EV1.111</b></span><span class="n">複 24% 2.8倍 <b>EV0.661</b></span></div>
+      <div class="cwhy">単勝18.7倍は約5%で当たればトントンの水準。モデルは勝率6%とみて“買える”と判断。 根拠: 持ちタイムがこのコース水準より速い、通算勝率25%と勝ち切る力がある、ダートでの複勝率50%と適性が高い。</div>
+    </div><div class="cand">
+      <div class="cline"><span class="mk pass">✕ 見送り</span><span class="hn">ブリスフル</span><span class="fin">6着</span></div>
+      <div class="cnums"><span class="n">単 1% 74.5倍 <b>EV0.94</b></span><span class="n">複 7% 9.2倍 <b>EV0.599</b></span></div>
+      <div class="cwhy">最高期待値0.94が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 持ちタイムがこのコース水準より速い）</div>
+    </div><div class="cand">
+      <div class="cline"><span class="mk pass">✕ 見送り</span><span class="hn">シビックアスコット</span><span class="fin">12着</span></div>
+      <div class="cnums"><span class="n">単 1% 70.4倍 <b>EV0.888</b></span><span class="n">複 7% 10.2倍 <b>EV0.664</b></span></div>
+      <div class="cwhy">最高期待値0.89が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 馬体重-8kg）</div>
+    </div>
+    </section><section class="racecard">
+      <div class="rhead"><b>函館9R</b><span class="rname">北斗特別<span class="grade">重賞</span></span>
+        <span class="cond">芝2000m</span><span class="rbuy">○1点</span></div>
+      <div class="cand ghit">
+      <div class="cline"><span class="mk buy">○ 単勝を購入</span><span class="hn">ハルフロンティア</span><span class="fin win">1着・的中 +3,740円</span></div>
+      <div class="cnums"><span class="nbuy">単 6% 18.7倍 <b>EV1.179</b></span><span class="n">複 25% 3.0倍 <b>EV0.743</b></span></div>
+      <div class="cwhy">単勝18.7倍は約5%で当たればトントンの水準。モデルは勝率6%とみて“買える”と判断。 根拠: 厩舎が勝率11%と信頼できる、持ちタイムがこのコース水準より速い。</div>
+    </div><div class="cand">
+      <div class="cline"><span class="mk pass">✕ 見送り</span><span class="hn">モルビド</span><span class="fin">6着</span></div>
+      <div class="cnums"><span class="n">単 9% 12.6倍 <b>EV1.071</b></span><span class="n">複 31% 1.9倍 <b>EV0.582</b></span></div>
+      <div class="cwhy">最高期待値1.07が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 当地(函館)の複勝率100%とコース巧者、上がり(末脚)がコース平均より速い、持ちタイムがこのコース水準より速い）</div>
+    </div><div class="cand gmiss">
+      <div class="cline"><span class="mk pass">✕ 見送り</span><span class="hn">エトワールブーケ</span><span class="fin">3着</span> <span class="missed">← 見送ったが好走</span></div>
+      <div class="cnums"><span class="n">単 6% 13.7倍 <b>EV0.885</b></span><span class="n">複 26% 2.5倍 <b>EV0.643</b></span></div>
+      <div class="cwhy">最高期待値0.89が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 通算勝率50%と勝ち切る力がある、前走から49日と好interval、芝での複勝率50%と適性が高い）</div>
+    </div>
+    </section><section class="racecard">
+      <div class="rhead"><b>函館10R</b><span class="rname">ＨＴＢ杯<span class="grade">重賞</span></span>
+        <span class="cond">芝1200m</span><span class="rbuy">○1点</span></div>
+      <div class="cand">
+      <div class="cline"><span class="mk pass">✕ 見送り</span><span class="hn">フレッシュラン</span><span class="fin">13着</span></div>
+      <div class="cnums"><span class="n">単 1% 114.9倍 <b>EV1.489</b></span><span class="n">複 8% 20.4倍 <b>EV1.595</b></span></div>
+      <div class="cwhy">単勝は期待値1.49だが115倍の大穴(上限20)で除外／複勝は期待値1.59だが20倍(上限13)で除外（モデル注目点: 通算勝率22%と勝ち切る力がある、この距離(1200m)は複勝率67%と得意、馬体重+6kg）</div>
+    </div><div class="cand">
+      <div class="cline"><span class="mk buy">○ 単勝を購入</span><span class="hn">ラスティングスノー</span><span class="fin">10着</span></div>
+      <div class="cnums"><span class="nbuy">単 9% 16.5倍 <b>EV1.451</b></span><span class="n">複 31% 3.1倍 <b>EV0.949</b></span></div>
+      <div class="cwhy">単勝16.5倍は約6%で当たればトントンの水準。モデルは勝率9%とみて“買える”と判断。 根拠: 通算勝率29%と勝ち切る力がある、持ちタイムがこのコース水準より速い、芝での複勝率43%と適性が高い。</div>
+    </div><div class="cand">
+      <div class="cline"><span class="mk pass">✕ 見送り</span><span class="hn">モレポブラーノ</span><span class="fin">14着</span></div>
+      <div class="cnums"><span class="n">単 1% 84.2倍 <b>EV1.056</b></span><span class="n">複 7% 14.1倍 <b>EV0.918</b></span></div>
+      <div class="cwhy">最高期待値1.06が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 通算勝率17%と勝ち切る力がある、前に行って粘れる先行脚質、持ちタイムがこのコース水準より速い）</div>
+    </div>
+    </section></div><div class="venuepanel" data-venue="福島" style="display:none"><section class="racecard">
+      <div class="rhead"><b>福島1R</b>
+        <span class="cond">障害3380m</span><span class="rbuy">○2点</span></div>
+      <div class="cand">
+      <div class="cline"><span class="mk buy">○ 単勝を購入</span><span class="hn">ジーククローネ</span><span class="fin">4着</span></div>
+      <div class="cnums"><span class="nbuy">単 17% 12.3倍 <b>EV2.058</b></span><span class="n">複 48% 2.0倍 <b>EV0.958</b></span></div>
+      <div class="cwhy">単勝12.3倍は約8%で当たればトントンの水準。モデルは勝率17%とみて“買える”と判断。 根拠: 上がり(末脚)がコース平均より速い、前走から49日と好interval、厩舎が勝率13%と信頼できる。</div>
+    </div><div class="cand">
+      <div class="cline"><span class="mk buy">○ 複勝を購入</span><span class="hn">ヒットアンドロール</span><span class="fin">7着</span></div>
+      <div class="cnums"><span class="n">単 7% 21.1倍 <b>EV1.544</b></span><span class="nbuy">複 27% 4.7倍 <b>EV1.279</b></span></div>
+      <div class="cwhy">複勝4.7倍は3着内に来れば的中。モデルは3着内率27%とみて“買える”と判断。 根拠: 上がり(末脚)がコース平均より速い、後方から差してくる脚質、馬体重-6kg。</div>
+    </div><div class="cand">
+      <div class="cline"><span class="mk pass">✕ 見送り</span><span class="hn">コスモチプリア</span><span class="fin">10着</span></div>
+      <div class="cnums"><span class="n">単 4% 21.2倍 <b>EV0.93</b></span><span class="n">複 20% 3.5倍 <b>EV0.712</b></span></div>
+      <div class="cwhy">最高期待値0.93が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 上がり(末脚)がコース平均より速い、馬体重-10kg、後方から差してくる脚質）</div>
+    </div>
+    </section><section class="racecard">
+      <div class="rhead"><b>福島5R</b>
+        <span class="cond">芝1200m</span><span class="rbuy">○1点</span></div>
+      <div class="cand">
+      <div class="cline"><span class="mk buy">○ 単勝を購入</span><span class="hn">ソースウィート</span><span class="fin">6着</span></div>
+      <div class="cnums"><span class="nbuy">単 7% 18.3倍 <b>EV1.208</b></span><span class="n">複 28% 2.2倍 <b>EV0.61</b></span></div>
+      <div class="cwhy">単勝18.3倍は約5%で当たればトントンの水準。モデルは勝率7%とみて“買える”と判断。</div>
+    </div><div class="cand">
+      <div class="cline"><span class="mk pass">✕ 見送り</span><span class="hn">スリーフラワー</span><span class="fin">10着</span></div>
+      <div class="cnums"><span class="n">単 9% 12.1倍 <b>EV1.052</b></span><span class="n">複 34% 1.8倍 <b>EV0.614</b></span></div>
+      <div class="cwhy">最高期待値1.05が基準1.1未満＝市場が適正〜割高とみて見送り</div>
+    </div><div class="cand">
+      <div class="cline"><span class="mk pass">✕ 見送り</span><span class="hn">ディスペアーホープ</span><span class="fin">4着</span></div>
+      <div class="cnums"><span class="n">単 8% 12.1倍 <b>EV0.942</b></span><span class="n">複 31% 1.7倍 <b>EV0.521</b></span></div>
+      <div class="cwhy">最高期待値0.94が基準1.1未満＝市場が適正〜割高とみて見送り</div>
+    </div>
+    </section></div><div class="venuepanel" data-venue="小倉" style="display:none"><section class="racecard">
+      <div class="rhead"><b>小倉9R</b><span class="rname">英彦山特別<span class="grade">重賞</span></span>
+        <span class="cond">芝2600m</span><span class="rbuy">○1点</span></div>
+      <div class="cand ghit">
+      <div class="cline"><span class="mk buy">○ 単勝を購入</span><span class="hn">カレンラップスター</span><span class="fin win">1着・的中 +3,620円</span></div>
+      <div class="cnums"><span class="nbuy">単 6% 18.1倍 <b>EV1.142</b></span><span class="n">複 25% 3.4倍 <b>EV0.843</b></span></div>
+      <div class="cwhy">単勝18.1倍は約6%で当たればトントンの水準。モデルは勝率6%とみて“買える”と判断。 根拠: 前走から48日と好interval、上がり(末脚)がコース平均より速い、持ちタイムがこのコース水準より速い。</div>
+    </div><div class="cand">
+      <div class="cline"><span class="mk pass">✕ 見送り</span><span class="hn">ジュンライデン</span><span class="fin">4着</span></div>
+      <div class="cnums"><span class="n">単 4% 24.2倍 <b>EV1.076</b></span><span class="n">複 20% 3.6倍 <b>EV0.732</b></span></div>
+      <div class="cwhy">最高期待値1.08が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 厩舎が勝率16%と信頼できる、持ちタイムがこのコース水準より速い、中団から立ち回れる脚質）</div>
+    </div><div class="cand">
+      <div class="cline"><span class="mk pass">✕ 見送り</span><span class="hn">バリオス</span><span class="fin">10着</span></div>
+      <div class="cnums"><span class="n">単 9% 11.8倍 <b>EV1.037</b></span><span class="n">複 31% 2.0倍 <b>EV0.613</b></span></div>
+      <div class="cwhy">最高期待値1.04が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 通算勝率33%と勝ち切る力がある、持ちタイムがこのコース水準より速い、中団から立ち回れる脚質）</div>
+    </div>
+    </section></div></div>
+
+<footer>馬太郎 — 予測(校正済み勝率)×オッズで期待値を計算し、100%未満は買わない。購入は自動化しない。</footer>
+</div><script>
+(function(){
+  function q(s,r){return Array.prototype.slice.call((r||document).querySelectorAll(s));}
+  function showVenue(panel,v){
+    q('.venuepanel',panel).forEach(function(p){p.style.display=(p.dataset.venue===v)?'':'none';});
+    q('.venuetabs button',panel).forEach(function(b){b.classList.toggle('active',b.dataset.venue===v);});
+  }
+  function showDate(d){
+    q('.daypanel').forEach(function(p){p.style.display=(p.dataset.date===d)?'':'none';});
+    q('.datetabs button').forEach(function(b){b.classList.toggle('active',b.dataset.date===d);});
+    var panel=document.querySelector('.daypanel[data-date="'+d+'"]');
+    if(panel){var v=panel.querySelector('.venuetabs button'); if(v){showVenue(panel,v.dataset.venue);}}
+  }
+  q('.datetabs button').forEach(function(b){b.onclick=function(){showDate(b.dataset.date);};});
+  q('.venuetabs button').forEach(function(b){b.onclick=function(){showVenue(b.closest('.daypanel'),b.dataset.venue);};});
+  var f=document.querySelector('.datetabs button'); if(f){showDate(f.dataset.date);}
+})();
+</script></body></html>
