@@ -89,7 +89,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
 <header><h1>🐴 馬太郎 ペーパートレード</h1>
 <div class="sub">期待値100%超だけを買う（賭けない検証運用）</div>
 <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:5px">
-<span class="updated" style="font-size:.76rem;font-weight:700;color:var(--accent);background:color-mix(in srgb,var(--accent) 10%,transparent);border-radius:7px;padding:2px 9px">🕒 最終更新 2026-08-23 16:15（この時刻時点の情報）</span>
+<span class="updated" style="font-size:.76rem;font-weight:700;color:var(--accent);background:color-mix(in srgb,var(--accent) 10%,transparent);border-radius:7px;padding:2px 9px">🕒 最終更新 2026-08-23 16:26（この時刻時点の情報）</span>
 <button onclick="location.href=location.pathname+'?t='+Date.now()" title="最新の公開版を取得します（自動更新は各レースの発走5分前と結果確定時）" style="font-size:.74rem;font-weight:700;cursor:pointer;border:1px solid var(--line);background:var(--card);color:var(--fg);border-radius:7px;padding:3px 10px">🔄 最新に更新</button>
 </div></header>
 
@@ -112,17 +112,17 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
 <div class="warn">⚠️ <b>検証中</b>：これは賭けずに記録している成績です。少数試合の回収率はほぼ<b>運（ノイズ）</b>。的中1〜2本で大きく振れます。意味を持つ判断には数百点の蓄積が必要です。</div>
 
 <details class="reval" open>
-      <summary>🔬 再検証（答え合わせ）— 評価済 5545頭 / 427レース</summary>
+      <summary>🔬 再検証（答え合わせ）— 評価済 5557頭 / 428レース</summary>
       <p class="revnote">見送りも含む全馬を台帳に記録し、母集団で仮説を検証する。
       <b>個別の当たり外れ（運）ではなく、帯ごとに予測≒実測かを見る。</b>一方向のズレが続けばモデル修正、
       小さく振れるだけなら分散。※現状サンプル僅少で判断保留。</p>
-      <div class="calwrap"><table class="cal"><thead><tr><th>予測勝率帯</th><th>n</th><th>予測</th><th>実測</th></tr></thead><tbody><tr><td>0–5%</td><td>3034</td><td>2%</td><td class="ok">2%</td></tr><tr><td>5–10%</td><td>1230</td><td>7%</td><td class="ok">8%</td></tr><tr><td>10–20%</td><td>767</td><td>14%</td><td class="ok">17%</td></tr><tr><td>20–35%</td><td>375</td><td>26%</td><td class="ok">24%</td></tr><tr><td>35–101%</td><td>139</td><td>45%</td><td class="ok">49%</td></tr></tbody></table><table class="cal"><thead><tr><th>予測3着内帯</th><th>n</th><th>予測</th><th>実測</th></tr></thead><tbody><tr><td>0–15%</td><td>2156</td><td>7%</td><td class="ok">6%</td></tr><tr><td>15–30%</td><td>1860</td><td>22%</td><td class="ok">22%</td></tr><tr><td>30–50%</td><td>940</td><td>38%</td><td class="ok">40%</td></tr><tr><td>50–101%</td><td>589</td><td>63%</td><td class="ok">61%</td></tr></tbody></table></div>
+      <div class="calwrap"><table class="cal"><thead><tr><th>予測勝率帯</th><th>n</th><th>予測</th><th>実測</th></tr></thead><tbody><tr><td>0–5%</td><td>3039</td><td>2%</td><td class="ok">2%</td></tr><tr><td>5–10%</td><td>1232</td><td>7%</td><td class="ok">8%</td></tr><tr><td>10–20%</td><td>771</td><td>14%</td><td class="ok">17%</td></tr><tr><td>20–35%</td><td>376</td><td>26%</td><td class="ok">24%</td></tr><tr><td>35–101%</td><td>139</td><td>45%</td><td class="ok">49%</td></tr></tbody></table><table class="cal"><thead><tr><th>予測3着内帯</th><th>n</th><th>予測</th><th>実測</th></tr></thead><tbody><tr><td>0–15%</td><td>2160</td><td>7%</td><td class="ok">6%</td></tr><tr><td>15–30%</td><td>1863</td><td>22%</td><td class="ok">22%</td></tr><tr><td>30–50%</td><td>944</td><td>38%</td><td class="ok">40%</td></tr><tr><td>50–101%</td><td>590</td><td>63%</td><td class="ok">61%</td></tr></tbody></table></div>
       <div class="revpol"><b>確定オッズで判定し直したら（オッズのタイミング運を除いた"モデル本来の実力"）</b><ul class="pol"><li>確定オッズでEV≥1.1を買い直し <b>235頭中14勝 → flat回収率 55%</b>（判定も払戻も確定オッズ＝理論上限の実力。100%未満なら優位性なし）</li><li>（参考）実際の買い（記録時判定）を確定払戻でflat集計 112頭 → <b>79%</b></li></ul><div class="revnote">※確定オッズは事後にしか分からず実際には賭けられない“答え合わせ用”。サンプルが数百に増えるまではノイズ。</div></div>
-      <div class="revpol"><b>見送りルールの答え合わせ</b><ul class='pol'><li>EV[1.0,1.1)で見送った単勝 160頭 → もし買えば回収率 <b>64%</b></li><li>大穴除外(単勝&gt;20倍) 247頭 → もし買えば <b>122%</b></li><li>複勝除外(&gt;13倍) 31頭 → もし買えば <b>0%</b></li></ul></div>
+      <div class="revpol"><b>見送りルールの答え合わせ</b><ul class='pol'><li>EV[1.0,1.1)で見送った単勝 160頭 → もし買えば回収率 <b>64%</b></li><li>大穴除外(単勝&gt;20倍) 248頭 → もし買えば <b>121%</b></li><li>複勝除外(&gt;13倍) 31頭 → もし買えば <b>0%</b></li></ul></div>
     </details>
 
 <div class="datetabs"><button data-date="2026-08-23">8/23（日）</button><button data-date="2026-08-22">8/22（土）</button><button data-date="2026-08-16">8/16（日）</button><button data-date="2026-08-15">8/15（土）</button><button data-date="2026-08-09">8/9（日）</button><button data-date="2026-08-08">8/8（土）</button><button data-date="2026-08-02">8/2（日）</button><button data-date="2026-08-01">8/1（土）</button><button data-date="2026-07-26">7/26（日）</button><button data-date="2026-07-25">7/25（土）</button><button data-date="2026-07-19">7/19（日）</button><button data-date="2026-07-18">7/18（土）</button><button data-date="2026-07-12">7/12（日）</button><button data-date="2026-07-11">7/11（土）</button></div>
-<div class="daypanel" data-date="2026-08-23"><div class="dsum">投資 30,400円 → 払戻 35,830円<span class="dnet">（+5,430円）</span><span class="dsub">回収率 118%・3場 28R評価</span></div><div class="daynote mid"><b>📊 本日の総評：標準的な決着</b> 25レース中7レースで1番人気が勝利（勝ち馬オッズ中央値 6.9倍、上位3人気での決着 56%）。全見送り11レースは、上位人気での決着64%＝市場が本命を順当に評価し妙味が出にくかったレース群。買い目を出した15レースは市場と見立てが分かれた歪みのあるレース。（3レースは結果待ち）<span class="cav">※少数のため傾向の目安</span></div><div class="venuetabs"><button data-venue="札幌">札幌</button><button data-venue="新潟">新潟</button><button data-venue="中京">中京</button></div><div class="venuepanel" data-venue="札幌"><section class="racecard">
+<div class="daypanel" data-date="2026-08-23"><div class="dsum">投資 30,400円 → 払戻 35,830円<span class="dnet">（+5,430円）</span><span class="dsub">回収率 118%・3場 28R評価</span></div><div class="daynote mid"><b>📊 本日の総評：標準的な決着</b> 26レース中7レースで1番人気が勝利（勝ち馬オッズ中央値 6.3倍、上位3人気での決着 58%）。全見送り12レースは、上位人気での決着67%＝市場が本命を順当に評価し妙味が出にくかったレース群。買い目を出した15レースは市場と見立てが分かれた歪みのあるレース。（2レースは結果待ち）<span class="cav">※少数のため傾向の目安</span></div><div class="venuetabs"><button data-venue="札幌">札幌</button><button data-venue="新潟">新潟</button><button data-venue="中京">中京</button></div><div class="venuepanel" data-venue="札幌"><section class="racecard">
       <div class="rhead"><b>札幌1R</b>
         <span class="cond">ダート1000m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>最も割の良い4番ルーチェコメットでも期待値0.94で基準1.10未満。市場とモデルの評価が一致しており、過小評価（＝買える）馬がいない。</div>
@@ -470,15 +470,15 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="verdict pass"><b>✕ 見送り</b>5番シルバーレインは単勝の期待値が基準を超えるが、29倍の大穴（オッズ変動・薄い校正で不利）のため方針で除外。ほかに割の合う馬なし。</div>
       
       <div class="cand">
-      <div class="cline"><span class="mk pass">✕ 見送り</span><span class="um">5</span><span class="hn">シルバーレイン</span><span class="kyaku">追込</span><span class="fin pend">結果待ち</span></div>
+      <div class="cline"><span class="mk pass">✕ 見送り</span><span class="um">5</span><span class="hn">シルバーレイン</span><span class="kyaku">追込</span><span class="fin">8着</span></div>
       <div class="cnums"><span class="n">単 6% 28.8倍 <b>EV1.848</b></span><span class="n">複 24% 4.1倍 <b>EV0.985</b></span></div>
       <div class="cwhy">単勝は期待値1.85だが29倍の大穴(上限20)で除外（モデル注目点: 当地(新潟)の複勝率100%とコース巧者、前走3番人気で評価されていた、持ちタイムがこのコース水準より速い）</div>
     </div><div class="cand">
-      <div class="cline"><span class="mk pass">✕ 見送り</span><span class="um">2</span><span class="hn">コンテネレッツア</span><span class="fin pend">結果待ち</span></div>
+      <div class="cline"><span class="mk pass">✕ 見送り</span><span class="um">2</span><span class="hn">コンテネレッツア</span><span class="fin">5着</span></div>
       <div class="cnums"><span class="n">単 5% 23.9倍 <b>EV1.08</b></span><span class="n">複 19% 3.8倍 <b>EV0.733</b></span></div>
       <div class="cwhy">最高期待値1.08が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 芝での複勝率57%と適性が高い、厩舎が勝率13%と信頼できる、当地(新潟)の複勝率100%とコース巧者）</div>
     </div><div class="cand">
-      <div class="cline"><span class="mk pass">✕ 見送り</span><span class="um">11</span><span class="hn">パワースナッチ</span><span class="kyaku">先行</span><span class="fin pend">結果待ち</span></div>
+      <div class="cline"><span class="mk pass">✕ 見送り</span><span class="um">11</span><span class="hn">パワースナッチ</span><span class="kyaku">先行</span><span class="fin">6着</span></div>
       <div class="cnums"><span class="n">単 11% 9.1倍 <b>EV0.984</b></span><span class="n">複 34% 1.9倍 <b>EV0.648</b></span></div>
       <div class="cwhy">最高期待値0.98が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 通算複勝率64%と堅実に走る、通算勝率18%と勝ち切る力がある、この距離(1400m)は複勝率40%と得意）</div>
     </div>
