@@ -48,6 +48,11 @@ color:var(--mut);border-radius:8px;cursor:pointer}
 color:var(--accent);border-color:var(--accent);font-weight:700}
 .rname{font-size:.82rem;font-weight:700;color:var(--accent)}
 .grade{font-size:.62rem;font-weight:800;background:var(--ev);color:#fff;padding:0 5px;border-radius:4px;margin-left:5px;vertical-align:middle}
+.preview{background:var(--card);border:2px solid var(--accent);border-radius:14px;padding:12px;margin:14px 0;font-size:.8rem}
+.preview>.rc-sub{margin:3px 0 6px}
+.pv-venue summary{font-weight:800;cursor:pointer;margin:8px 0 2px;color:var(--accent)}
+.pv-race{border-top:1px solid var(--line);padding:6px 2px}.pv-race ul{margin:3px 0 0 1.1em;padding:0}
+.pv-buy{font-weight:800;color:var(--up)}.pv-pass{color:var(--mut)}
 .rulecmp{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin:10px 0;font-size:.8rem}
 .rulecmp table{width:100%;border-collapse:collapse;margin-top:6px}
 .rulecmp th,.rulecmp td{text-align:left;padding:6px 4px;border-top:1px solid var(--line);vertical-align:top}
@@ -110,9 +115,11 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
 <header><h1>🐴 馬太郎 ペーパートレード</h1>
 <div class="sub">期待値100%超だけを買う（賭けない検証運用）</div>
 <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:5px">
-<span class="updated" style="font-size:.76rem;font-weight:700;color:var(--accent);background:color-mix(in srgb,var(--accent) 10%,transparent);border-radius:7px;padding:2px 9px">🕒 最終更新 2026-10-10 22:26（この時刻時点の情報）</span>
+<span class="updated" style="font-size:.76rem;font-weight:700;color:var(--accent);background:color-mix(in srgb,var(--accent) 10%,transparent);border-radius:7px;padding:2px 9px">🕒 最終更新 2026-10-10 22:34（この時刻時点の情報）</span>
 <button onclick="location.href=location.pathname+'?t='+Date.now()" title="最新の公開版を取得します（自動更新は各レースの発走5分前と結果確定時）" style="font-size:.74rem;font-weight:700;cursor:pointer;border:1px solid var(--line);background:var(--card);color:var(--fg);border-radius:7px;padding:3px 10px">🔄 最新に更新</button>
 </div></header>
+
+<div class="preview"><b>🔮 10/11（日）の前日予想（暫定）</b><span class="rc-sub">10/10 22:34 時点の前日発売オッズで計算・暫定の買い候補 8点。オッズは当日まで動くので、<b>最終判定は各レース発走5分前</b>（ここでの○が当日見送りになることも、その逆もある）。ペーパーの成績には入らない。</span><details class="pv-venue" open><summary>東京</summary><div class="pv-race"><b>1R</b> <span class="cond">10:05 ダート1600m</span> <div><span class="pv-buy">暫定○ 1点</span><ul><li><b>5番 カンタベリートップ</b> 勝率2.3%（複 9.6倍〜 EV1.124）<span class="rc-sub">前走から22日と好interval、前に行って粘れる先行脚質</span></li></ul></div></div><div class="pv-race"><b>2R</b> <span class="cond">10:35 芝1600m</span> <div><span class="pv-buy">暫定○ 1点</span><ul><li><b>11番 ミラマルニ</b> 勝率8.9%（単 12.4倍 EV1.108）<span class="rc-sub">後方から差してくる脚質、上がり(末脚)がコース平均より速い、持ちタイムがこのコース水準より速い</span></li></ul></div></div><div class="pv-race"><b>3R</b> <span class="cond">11:05 芝2000m</span> <div><span class="pv-buy">暫定○ 1点</span><ul><li><b>11番 テイクユアタイム</b> 勝率2.6%（複 7.8倍〜 EV1.194）<span class="rc-sub">後方から差してくる脚質</span></li></ul></div></div><div class="pv-race"><b>4R</b> <span class="cond">11:35 ダート1600m</span> <div><span class="pv-pass">見送り見込み</span><span class="rc-sub">最も期待値の高い 15番 ベアフラッシュ 期待値1.03＝基準1.1未満</span></div></div><div class="pv-race"><b>5R</b> <span class="cond">12:25 芝2000m</span> <div><span class="pv-pass">見送り見込み</span><span class="rc-sub">最も期待値の高い 2番 アインザッツ 期待値0.91＝基準1.1未満</span></div></div><div class="pv-race"><b>6R</b> <span class="cond">12:55 ダート1400m</span> <div><span class="pv-buy">暫定○ 1点</span><ul><li><b>9番 スタートレイン</b> 勝率4.2%（複 7.0倍〜 EV1.175）<span class="rc-sub">前走から57日と好interval、持ちタイムがこのコース水準より速い、上がり(末脚)がコース平均より速い</span></li></ul></div></div><div class="pv-race"><b>7R</b> <span class="cond">13:25 ダート1600m</span> <div><span class="pv-pass">見送り見込み</span><span class="rc-sub">最も期待値の高い 11番 ロジリッキー 期待値1.87＝上限1.2以上（勝率を過大評価しやすい帯）または大穴のため除外</span></div></div><div class="pv-race"><b>8R</b> <span class="cond">14:00 芝2400m</span> <div><span class="pv-pass">見送り見込み</span><span class="rc-sub">最も期待値の高い 17番 トラストボス 期待値1.28＝上限1.2以上（勝率を過大評価しやすい帯）または大穴のため除外</span></div></div><div class="pv-race"><b>9R</b> <span class="cond">14:35 芝1600m</span> 鷹巣山特別<div><span class="pv-pass">見送り見込み</span><span class="rc-sub">最も期待値の高い 9番 クレパスキュラー 期待値1.07＝基準1.1未満</span></div></div><div class="pv-race"><b>10R</b> <span class="cond">15:10 ダート1400m</span> テレビ静岡賞<div><span class="pv-buy">暫定○ 1点</span><ul><li><b>4番 スペイドアン</b> 勝率4.6%（複 6.7倍〜 EV1.198）<span class="rc-sub">前走から56日と好interval、当地(東京)の複勝率60%とコース巧者、前に行って粘れる先行脚質</span></li></ul></div></div><div class="pv-race"><b>11R</b> <span class="cond">15:45 芝1800m</span> アイルランドトロフィー<span class=grade>G2</span><div><span class="pv-pass">見送り見込み</span><span class="rc-sub">最も期待値の高い 8番 ルージュソリテール 期待値1.22＝上限1.2以上（勝率を過大評価しやすい帯）または大穴のため除外</span></div><div class="gref"><b>📌 重賞の参考情報</b><ul><li><b>今日の芝</b>前のレースが2戦未満のため傾向なし</li><li><b>このレースの過去1回</b>勝ち馬5番人気以下 0回・3着内に8番人気以下 0回<span class="cav">（年 勝ち馬人気/3着内の最低人気：2025年 4人気/6）</span></li></ul><span class="cav">※10年検証では、傾向はあるがオッズにほぼ織り込み済み（買い判定には未使用）。芝の重賞では有利側の枠が市場の見立てより約8%多く勝つ／過去に荒れた重賞は今年も荒れやすい（3着内に8番人気以下 57%、堅い重賞は38%）。最終判断の定性情報として。</span></div></div><div class="pv-race"><b>12R</b> <span class="cond">16:30 ダート1300m</span> <div><span class="pv-pass">見送り見込み</span><span class="rc-sub">最も期待値の高い 8番 ジャックナダル 期待値1.56＝上限1.2以上（勝率を過大評価しやすい帯）または大穴のため除外</span></div></div></details><details class="pv-venue" open><summary>京都</summary><div class="pv-race"><b>1R</b> <span class="cond">09:50 ダート1200m</span> <div><span class="pv-pass">見送り見込み</span><span class="rc-sub">最も期待値の高い 8番 ナムラモモタロー 期待値1.12＝単勝は1400m未満のため除外、または大穴のため除外</span></div></div><div class="pv-race"><b>2R</b> <span class="cond">10:20 芝2000m</span> <div><span class="pv-pass">見送り見込み</span><span class="rc-sub">最も期待値の高い 6番 ハヤブサカツオー 期待値0.96＝基準1.1未満</span></div></div><div class="pv-race"><b>3R</b> <span class="cond">10:50 ダート1400m</span> <div><span class="pv-buy">暫定○ 1点</span><ul><li><b>13番 クレセンティア</b> 勝率8.8%（複 4.2倍〜 EV1.143）<span class="rc-sub">厩舎が勝率11%と信頼できる</span></li></ul></div></div><div class="pv-race"><b>4R</b> <span class="cond">11:20 障害2910m</span> <div><span class="pv-pass">見送り見込み</span><span class="rc-sub">最も期待値の高い 2番 エナジーグラン 期待値1.08＝基準1.1未満</span></div></div><div class="pv-race"><b>5R</b> <span class="cond">12:10 芝2000m</span> <div><span class="pv-pass">見送り見込み</span><span class="rc-sub">最も期待値の高い 11番 ルーモマカーリ 期待値1.00＝基準1.1未満</span></div></div><div class="pv-race"><b>6R</b> <span class="cond">12:40 ダート1800m</span> <div><span class="pv-pass">見送り見込み</span><span class="rc-sub">最も期待値の高い 7番 アルビオン 期待値2.74＝上限1.2以上（勝率を過大評価しやすい帯）または大穴のため除外</span></div></div><div class="pv-race"><b>7R</b> <span class="cond">13:10 芝1800m</span> <div><span class="pv-pass">見送り見込み</span><span class="rc-sub">最も期待値の高い 11番 カーメルタザイト 期待値1.86＝上限1.2以上（勝率を過大評価しやすい帯）または大穴のため除外</span></div></div><div class="pv-race"><b>8R</b> <span class="cond">13:40 ダート1800m</span> <div><span class="pv-pass">見送り見込み</span><span class="rc-sub">最も期待値の高い 6番 プウスカンドゥール 期待値1.86＝上限1.2以上（勝率を過大評価しやすい帯）または大穴のため除外</span></div></div><div class="pv-race"><b>9R</b> <span class="cond">14:15 ダート1200m</span> 円山特別<div><span class="pv-buy">暫定○ 1点</span><ul><li><b>15番 パールフロント</b> 勝率7.5%（複 4.7倍〜 EV1.165）<span class="rc-sub">上がり(末脚)がコース平均より速い、前走から56日と好interval、ダートでの複勝率44%と適性が高い</span></li></ul></div></div><div class="pv-race"><b>10R</b> <span class="cond">14:50 芝1600m</span> 三年坂ステークス<div><span class="pv-pass">見送り見込み</span><span class="rc-sub">最も期待値の高い 9番 サクセスアイ 期待値1.46＝上限1.2以上（勝率を過大評価しやすい帯）または大穴のため除外</span></div></div><div class="pv-race"><b>11R</b> <span class="cond">15:30 ダート1800m</span> 太秦ステークス<div><span class="pv-buy">暫定○ 1点</span><ul><li><b>11番 マリオロード</b> 勝率5.8%（単 19.1倍 EV1.112）<span class="rc-sub">上がり(末脚)がコース平均より速い、持ちタイムがこのコース水準より速い、前走から49日と好interval</span></li></ul></div></div><div class="pv-race"><b>12R</b> <span class="cond">16:10 芝1600m</span> <div><span class="pv-pass">見送り見込み</span><span class="rc-sub">最も期待値の高い 11番 マゲバスピード 期待値1.96＝上限1.2以上（勝率を過大評価しやすい帯）または大穴のため除外</span></div></div></details></div>
 
 <div class="hero">
   <div class="biglabel">累計回収率（旧ルール＋新ルールの通算）</div>
@@ -314,7 +321,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.77が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 前走2着と好走直後、前走から62日と好interval、騎手が勝率15%と好調）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>東京9R</b><span class="rname">陣馬特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>東京9R</b><span class="rname">陣馬特別</span>
         <span class="cond">芝2400m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>最も割の良い8番イクリールでも期待値1.01で基準1.10未満。市場とモデルの評価が一致しており、過小評価（＝買える）馬がいない。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 1頭（先行争いの中心 8番イクリール）。スローペース想定で、逃げ・先行に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明9頭で推定</span></div>
@@ -333,7 +340,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.86が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 持ちタイムがこのコース水準より速い、騎手が勝率25%と好調、厩舎が勝率17%と信頼できる）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>東京10R</b><span class="rname">ＪＲＡ電話・インターネット発売５０周年記念<span class="grade">重賞</span></span>
+      <div class="rhead"><b>東京10R</b><span class="rname">ＪＲＡ電話・インターネット発売５０周年記念</span>
         <span class="cond">ダート2100m</span><span class="rbuy">○3点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：11番シテフローラル（複EV1.206）、5番バタール（単EV1.437・複EV1.166）、12番タイキインドラ（複EV1.105）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 7頭（先行争いの中心 16番シャローファースト）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明16頭で推定</span></div>
@@ -523,7 +530,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.99が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 前走2着と好走直後、上がり(末脚)がコース平均より速い、ダートでの複勝率35%と適性が高い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>京都8R</b><span class="rname">紫菊賞<span class="grade">重賞</span></span>
+      <div class="rhead"><b>京都8R</b><span class="rname">紫菊賞</span>
         <span class="cond">芝2000m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：2番ホウオウワールド（複EV1.136）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 2頭（先行争いの中心 3番ポルトブルー）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明6頭で推定</span></div>
@@ -561,7 +568,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値1.03が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: ダートでの複勝率38%と適性が高い、前走から35日と好interval、上がり(末脚)がコース平均より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>京都10R</b><span class="rname">宇治川特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>京都10R</b><span class="rname">宇治川特別</span>
         <span class="cond">芝1400m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：14番キングケープ（単EV1.111）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       
@@ -580,7 +587,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値1.06が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 通算勝率22%と勝ち切る力がある、持ちタイムがこのコース水準より速い、前に行って粘れる先行脚質）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>京都11R</b><span class="rname">御陵ステークス<span class="grade">重賞</span></span>
+      <div class="rhead"><b>京都11R</b><span class="rname">御陵ステークス</span>
         <span class="cond">ダート1800m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：11番サイモンシュバリエ（単EV1.181）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 7頭（先行争いの中心 13番サンライズケヴィン）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明13頭で推定</span></div>
@@ -770,7 +777,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">単勝は期待値1.14だが30倍の大穴(上限20)で除外（モデル注目点: この距離(1800m)は複勝率100%と得意、上がり(末脚)がコース平均より速い、前走3番人気で評価されていた）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>東京9R</b><span class="rname">ｔｖｋ賞<span class="grade">重賞</span></span>
+      <div class="rhead"><b>東京9R</b><span class="rname">ｔｖｋ賞</span>
         <span class="cond">芝1400m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>2番レイユールは単勝の期待値が基準を超えるが、28倍の大穴（オッズ変動・薄い校正で不利）のため方針で除外。ほかに割の合う馬なし。</div>
       
@@ -789,7 +796,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値1.05が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 持ちタイムがこのコース水準より速い、騎手が勝率25%と好調、当地(東京)の複勝率100%とコース巧者）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>東京10R</b><span class="rname">赤富士ステークス<span class="grade">重賞</span></span>
+      <div class="rhead"><b>東京10R</b><span class="rname">赤富士ステークス</span>
         <span class="cond">ダート1600m</span><span class="rbuy">○2点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：6番クールブロン（複EV1.135）、8番ルグランヴァン（単EV1.222）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 7頭（先行争いの中心 1番ターコイズフリンジ）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明10頭で推定</span></div>
@@ -998,7 +1005,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値1.02が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 上がり(末脚)がコース平均より速い、通算複勝率65%と堅実に走る、前走0番人気で評価されていた）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>京都9R</b><span class="rname">大原ステークス<span class="grade">重賞</span></span>
+      <div class="rhead"><b>京都9R</b><span class="rname">大原ステークス</span>
         <span class="cond">芝2000m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：5番キュクヌス（複EV1.193）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 7頭（先行争いの中心 13番リーティアコナル）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明16頭で推定</span></div>
@@ -1017,7 +1024,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">単勝は期待値1.70だが78倍の大穴(上限20)で除外（モデル注目点: 持ちタイムがこのコース水準より速い、当地(京都)の複勝率50%とコース巧者、141日ぶりの休養明け）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>京都10R</b><span class="rname">藤森ステークス<span class="grade">重賞</span></span>
+      <div class="rhead"><b>京都10R</b><span class="rname">藤森ステークス</span>
         <span class="cond">ダート1200m</span><span class="rbuy">○2点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：16番エコロエイト（複EV1.163）、10番スマートフォルス（単EV1.153）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       
@@ -1226,7 +1233,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.97が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 上がり(末脚)がコース平均より速い、持ちタイムがこのコース水準より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>東京9R</b><span class="rname">八ヶ岳特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>東京9R</b><span class="rname">八ヶ岳特別</span>
         <span class="cond">芝1800m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：3番ステラスペース（単EV1.379）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 8頭（先行争いの中心 6番レッドバレンティア）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明12頭で推定</span></div>
@@ -1245,7 +1252,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.99が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 上がり(末脚)がコース平均より速い、持ちタイムがこのコース水準より速い、厩舎が勝率13%と信頼できる）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>東京10R</b><span class="rname">白秋ステークス<span class="grade">重賞</span></span>
+      <div class="rhead"><b>東京10R</b><span class="rname">白秋ステークス</span>
         <span class="cond">芝1400m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>13番コスモサガルマータは単勝の期待値が基準を超えるが、107倍の大穴（オッズ変動・薄い校正で不利）のため方針で除外。ほかに割の合う馬なし。</div>
       
@@ -1454,7 +1461,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">単勝4.5倍は約22%で当たればトントンの水準。モデルは勝率27%とみて“買える”と判断。 根拠: 前走2着と好走直後、持ちタイムがこのコース水準より速い、前走から55日と好interval。</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>京都9R</b><span class="rname">りんどう賞<span class="grade">重賞</span></span>
+      <div class="rhead"><b>京都9R</b><span class="rname">りんどう賞</span>
         <span class="cond">芝1400m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>最も割の良い5番ショウナンカノアでも期待値0.93で基準1.10未満。市場とモデルの評価が一致しており、過小評価（＝買える）馬がいない。</div>
       
@@ -1473,7 +1480,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.84が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 通算勝率50%と勝ち切る力がある、前走1着と好走直後、通算複勝率100%と堅実に走る）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>京都10R</b><span class="rname">大山崎ステークス<span class="grade">重賞</span></span>
+      <div class="rhead"><b>京都10R</b><span class="rname">大山崎ステークス</span>
         <span class="cond">ダート1200m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>2番スペシャルナンバーは単勝の期待値が基準を超えるが、48倍の大穴（オッズ変動・薄い校正で不利）のため方針で除外。ほかに割の合う馬なし。</div>
       
@@ -1682,7 +1689,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.96が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: ダートでの複勝率56%と適性が高い、持ちタイムがこのコース水準より速い、中団から立ち回れる脚質）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>中山9R</b><span class="rname">サフラン賞<span class="grade">重賞</span></span>
+      <div class="rhead"><b>中山9R</b><span class="rname">サフラン賞</span>
         <span class="cond">芝1600m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>最も割の良い2番シルクドマルスでも期待値1.07で基準1.10未満。市場とモデルの評価が一致しており、過小評価（＝買える）馬がいない。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 4頭（先行争いの中心 3番シルバーウィル）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明5頭で推定</span></div>
@@ -1701,7 +1708,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.95が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 上がり(末脚)がコース平均より速い、前走から50日と好interval、通算複勝率100%と堅実に走る）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>中山10R</b><span class="rname">茨城新聞杯<span class="grade">重賞</span></span>
+      <div class="rhead"><b>中山10R</b><span class="rname">茨城新聞杯</span>
         <span class="cond">芝2000m</span><span class="rbuy">○2点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：11番アイキャンドウイッ（複EV1.181）、12番ダノンカゼルタ（単EV1.253）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 10頭（先行争いの中心 8番ベネスピラ）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明17頭で推定</span></div>
@@ -1739,7 +1746,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.99が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 通算勝率50%と勝ち切る力がある、126日ぶりの休養明け、厩舎が勝率11%と信頼できる）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>中山12R</b><span class="rname">外房ステークス<span class="grade">重賞</span></span>
+      <div class="rhead"><b>中山12R</b><span class="rname">外房ステークス</span>
         <span class="cond">ダート1200m</span><span class="rbuy">○2点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：12番ボディブロー（複EV1.212）、2番ローズカリス（単EV1.121）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       
@@ -1910,7 +1917,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.83が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 持ちタイムがこのコース水準より速い、前走2着と好走直後、当地(阪神)の複勝率50%とコース巧者）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>阪神9R</b><span class="rname">兵庫特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>阪神9R</b><span class="rname">兵庫特別</span>
         <span class="cond">芝2400m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：9番メイショウナルカミ（単EV1.347）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 2頭（先行争いの中心 8番アットアブラスト）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明11頭で推定</span></div>
@@ -1929,7 +1936,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.98が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 持ちタイムがこのコース水準より速い、後方から差してくる脚質）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>阪神10R</b><span class="rname">堺ステークス<span class="grade">重賞</span></span>
+      <div class="rhead"><b>阪神10R</b><span class="rname">堺ステークス</span>
         <span class="cond">ダート1800m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：12番タマモキャリコ（単EV1.387）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 4頭（先行争いの中心 12番タマモキャリコ）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明12頭で推定</span></div>
@@ -2043,7 +2050,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.97が基準1.1未満＝市場が適正〜割高とみて見送り</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>中山4R</b><span class="rname">清秋ジャンプステークス<span class="grade">重賞</span></span>
+      <div class="rhead"><b>中山4R</b><span class="rname">清秋ジャンプステークス</span>
         <span class="cond">障害3210m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：3番ネビーイーム（複EV1.105）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 1頭（先行争いの中心 2番メイショウソムリエ）。スローペース想定で、逃げ・先行に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明6頭で推定</span></div>
@@ -2138,7 +2145,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.93が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 持ちタイムがこのコース水準より速い、上がり(末脚)がコース平均より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>中山9R</b><span class="rname">芙蓉ステークス<span class="grade">重賞</span></span>
+      <div class="rhead"><b>中山9R</b><span class="rname">芙蓉ステークス</span>
         <span class="cond">芝2000m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>5番タイヴァスは単勝の期待値が基準を超えるが、23倍の大穴（オッズ変動・薄い校正で不利）のため方針で除外。ほかに割の合う馬なし。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 3頭（先行争いの中心 8番スタースポット）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明8頭で推定</span></div>
@@ -2157,7 +2164,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.85が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 通算勝率50%と勝ち切る力がある、芝での複勝率50%と適性が高い、この距離(2000m)は複勝率100%と得意）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>中山10R</b><span class="rname">勝浦特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>中山10R</b><span class="rname">勝浦特別</span>
         <span class="cond">芝1200m</span><span class="rbuy">○3点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：13番レザンノワール（複EV1.317）、10番セレッソデアモール（複EV1.232）、16番ピコアーガイル（複EV1.177）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       
@@ -2176,7 +2183,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">単勝は期待値1.21だが23倍の大穴(上限20)で除外（モデル注目点: 持ちタイムがこのコース水準より速い、上がり(末脚)がコース平均より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>中山11R</b><span class="rname">秋風ステークス<span class="grade">重賞</span></span>
+      <div class="rhead"><b>中山11R</b><span class="rname">秋風ステークス</span>
         <span class="cond">芝1600m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>最も割の良い13番セブンマジシャンでも期待値1.08で基準1.10未満。市場とモデルの評価が一致しており、過小評価（＝買える）馬がいない。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 8頭（先行争いの中心 12番マテンロウブラボー）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明13頭で推定</span></div>
@@ -2366,7 +2373,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.90が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 厩舎が勝率10%と信頼できる、騎手が勝率11%と好調、持ちタイムがこのコース水準より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>阪神9R</b><span class="rname">ヤマボウシ賞<span class="grade">重賞</span></span>
+      <div class="rhead"><b>阪神9R</b><span class="rname">ヤマボウシ賞</span>
         <span class="cond">ダート1400m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>最も割の良い2番リーチツモドライチでも期待値1.06で基準1.10未満。市場とモデルの評価が一致しており、過小評価（＝買える）馬がいない。</div>
       
@@ -2385,7 +2392,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.81が基準1.1未満＝市場が適正〜割高とみて見送り</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>阪神10R</b><span class="rname">野分特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>阪神10R</b><span class="rname">野分特別</span>
         <span class="cond">芝1600m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>最も割の良い1番ヴォーカライズでも期待値0.95で基準1.10未満。市場とモデルの評価が一致しており、過小評価（＝買える）馬がいない。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 8頭（先行争いの中心 2番ストップザタイム）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明11頭で推定</span></div>
@@ -2594,7 +2601,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">単勝19.6倍は約5%で当たればトントンの水準。モデルは勝率6%とみて“買える”と判断。 根拠: 上がり(末脚)がコース平均より速い、持ちタイムがこのコース水準より速い、前に行って粘れる先行脚質。</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>中山9R</b><span class="rname">鋸山特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>中山9R</b><span class="rname">鋸山特別</span>
         <span class="cond">ダート1800m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>7番コパノエビータは単勝の期待値が基準を超えるが、111倍の大穴（オッズ変動・薄い校正で不利）のため方針で除外。ほかに割の合う馬なし。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 9頭（先行争いの中心 14番ヴンダーバール）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明13頭で推定</span></div>
@@ -2613,7 +2620,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">単勝は期待値1.53だが111倍の大穴(上限20)で除外／複勝は期待値1.68だが21倍(上限13)で除外（モデル注目点: 厩舎が勝率11%と信頼できる、持ちタイムがこのコース水準より速い、中団から立ち回れる脚質）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>中山10R</b><span class="rname">２００６メモリアル　ディープインパクトカップ<span class="grade">重賞</span></span>
+      <div class="rhead"><b>中山10R</b><span class="rname">２００６メモリアル　ディープインパクトカップ</span>
         <span class="cond">芝1600m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>3番ジャルディニエは単勝の期待値が基準を超えるが、51倍の大穴（オッズ変動・薄い校正で不利）のため方針で除外。ほかに割の合う馬なし。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 8頭（先行争いの中心 8番ロゼル）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明9頭で推定</span></div>
@@ -2632,7 +2639,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.96が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 持ちタイムがこのコース水準より速い、前に行って粘れる先行脚質）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>中山11R</b><span class="rname">ＪＲＡアニバーサリーステークス<span class="grade">重賞</span></span>
+      <div class="rhead"><b>中山11R</b><span class="rname">ＪＲＡアニバーサリーステークス</span>
         <span class="cond">ダート1800m</span><span class="rbuy">○2点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：6番タンゴバイラリン（複EV1.629）、16番ルーラーリッチ（複EV1.194）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 9頭（先行争いの中心 3番ディーズゴールド）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明15頭で推定</span></div>
@@ -2822,7 +2829,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">オッズ未取得のため判断保留（モデル注目点: 後方から差してくる脚質）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>中山9R</b><span class="rname">鋸山特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>中山9R</b><span class="rname">鋸山特別</span>
         <span class="cond">ダート1800m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>オッズ評価の対象がなく判断保留。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 8頭（先行争いの中心 14番ヴンダーバール）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明15頭で推定</span></div>
@@ -2841,7 +2848,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">オッズ未取得のため判断保留（モデル注目点: 上がり(末脚)がコース平均より速い、前走2着と好走直後、持ちタイムがこのコース水準より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>中山10R</b><span class="rname">２００６メモリアル　ディープインパクトカップ<span class="grade">重賞</span></span>
+      <div class="rhead"><b>中山10R</b><span class="rname">２００６メモリアル　ディープインパクトカップ</span>
         <span class="cond">芝1600m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>オッズ評価の対象がなく判断保留。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 6頭（先行争いの中心 8番ロゼル）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明9頭で推定</span></div>
@@ -2860,7 +2867,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">オッズ未取得のため判断保留（モデル注目点: 上がり(末脚)がコース平均より速い、通算勝率15%と勝ち切る力がある、前に行って粘れる先行脚質）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>中山11R</b><span class="rname">ＪＲＡアニバーサリーステークス<span class="grade">重賞</span></span>
+      <div class="rhead"><b>中山11R</b><span class="rname">ＪＲＡアニバーサリーステークス</span>
         <span class="cond">ダート1800m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>オッズ評価の対象がなく判断保留。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 6頭（先行争いの中心 3番ディーズゴールド）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明15頭で推定</span></div>
@@ -3050,7 +3057,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.93が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 前走3番人気で評価されていた、上がり(末脚)がコース平均より速い、厩舎が勝率10%と信頼できる）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>阪神9R</b><span class="rname">新涼特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>阪神9R</b><span class="rname">新涼特別</span>
         <span class="cond">ダート1400m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>8番ワーズワースは単勝の期待値が基準を超えるが、27倍の大穴（オッズ変動・薄い校正で不利）のため方針で除外。ほかに割の合う馬なし。</div>
       
@@ -3069,7 +3076,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値1.02が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 前走から58日と好interval、通算勝率22%と勝ち切る力がある、この距離(1400m)は複勝率38%と得意）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>阪神10R</b><span class="rname">２０１６メモリアル　キタサンブラックカップ<span class="grade">重賞</span></span>
+      <div class="rhead"><b>阪神10R</b><span class="rname">２０１６メモリアル　キタサンブラックカップ</span>
         <span class="cond">芝2200m</span><span class="rbuy">○2点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：14番サトノクローク（複EV1.102）、4番ミスタージーティー（単EV1.128）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 4頭（先行争いの中心 10番ナリタエスペランサ）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明16頭で推定</span></div>
@@ -3278,7 +3285,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.97が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 前走2着と好走直後、前走3番人気で評価されていた、持ちタイムがこのコース水準より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>中山9R</b><span class="rname">松戸特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>中山9R</b><span class="rname">松戸特別</span>
         <span class="cond">ダート2400m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：1番キタノファーンヒル（複EV1.129）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 5頭（先行争いの中心 3番コズミックダンサー）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明12頭で推定</span></div>
@@ -3297,7 +3304,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値1.05が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 持ちタイムがこのコース水準より速い、中団から立ち回れる脚質）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>中山10R</b><span class="rname">汐留特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>中山10R</b><span class="rname">汐留特別</span>
         <span class="cond">ダート1200m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>4番ヤマメキングは単勝の期待値が基準を超えるが、146倍の大穴（オッズ変動・薄い校正で不利）のため方針で除外。ほかに割の合う馬なし。</div>
       
@@ -3506,7 +3513,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.86が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 持ちタイムがこのコース水準より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>阪神9R</b><span class="rname">夕月特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>阪神9R</b><span class="rname">夕月特別</span>
         <span class="cond">芝2000m</span><span class="rbuy">○2点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：7番ラブリーリディア（単EV1.194）、2番エコテーラー（単EV1.178）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 4頭（先行争いの中心 2番エコテーラー）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明10頭で推定</span></div>
@@ -3525,7 +3532,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">単勝14.1倍は約7%で当たればトントンの水準。モデルは勝率8%とみて“買える”と判断。 根拠: 前に行って粘れる先行脚質、芝での複勝率45%と適性が高い、持ちタイムがこのコース水準より速い。</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>阪神10R</b><span class="rname">鳥取特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>阪神10R</b><span class="rname">鳥取特別</span>
         <span class="cond">ダート1800m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>15番テイエムパイロットは単勝の期待値が基準を超えるが、24倍の大穴（オッズ変動・薄い校正で不利）のため方針で除外。ほかに割の合う馬なし。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 4頭（先行争いの中心 12番サンライズケヴィン）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明15頭で推定</span></div>
@@ -3544,7 +3551,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.89が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 持ちタイムがこのコース水準より速い、通算勝率29%と勝ち切る力がある、ダートでの複勝率43%と適性が高い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>阪神11R</b><span class="rname">道頓堀ステークス<span class="grade">重賞</span></span>
+      <div class="rhead"><b>阪神11R</b><span class="rname">道頓堀ステークス</span>
         <span class="cond">芝1200m</span><span class="rbuy">○2点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：15番ミロワール（単EV1.142）、10番モーデン（単EV1.139）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       
@@ -3734,7 +3741,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.59が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: ダートでの複勝率56%と適性が高い、持ちタイムがこのコース水準より速い、前走1番人気で評価されていた）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>中山9R</b><span class="rname">カンナステークス<span class="grade">重賞</span></span>
+      <div class="rhead"><b>中山9R</b><span class="rname">カンナステークス</span>
         <span class="cond">芝1200m</span><span class="rbuy">○2点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：1番マルモリムソウ（単EV1.289）、4番セタキト（単EV1.183）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       
@@ -3753,7 +3760,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.85が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 通算勝率50%と勝ち切る力がある、持ちタイムがこのコース水準より速い、芝での複勝率50%と適性が高い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>中山10R</b><span class="rname">九十九里特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>中山10R</b><span class="rname">九十九里特別</span>
         <span class="cond">芝2500m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>最も割の良い3番カレンラップスターでも期待値0.94で基準1.10未満。市場とモデルの評価が一致しており、過小評価（＝買える）馬がいない。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 5頭（先行争いの中心 2番トリニティ）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明12頭で推定</span></div>
@@ -3772,7 +3779,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.85が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 持ちタイムがこのコース水準より速い、通算勝率15%と勝ち切る力がある）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>中山11R</b><span class="rname">ながつきステークス<span class="grade">重賞</span></span>
+      <div class="rhead"><b>中山11R</b><span class="rname">ながつきステークス</span>
         <span class="cond">ダート1800m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>5番カンピオーネは単勝の期待値が基準を超えるが、38倍の大穴（オッズ変動・薄い校正で不利）のため方針で除外。ほかに割の合う馬なし。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 4頭（先行争いの中心 13番ゴールデンクラウド）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明13頭で推定</span></div>
@@ -3943,7 +3950,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値1.00が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 持ちタイムがこのコース水準より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>阪神8R</b><span class="rname">野路菊ステークス<span class="grade">重賞</span></span>
+      <div class="rhead"><b>阪神8R</b><span class="rname">野路菊ステークス</span>
         <span class="cond">芝1600m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：6番ブラッドバローズ（複EV1.103）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       
@@ -3981,7 +3988,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.91が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 持ちタイムがこのコース水準より速い、後方から差してくる脚質、上がり(末脚)がコース平均より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>阪神10R</b><span class="rname">北摂特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>阪神10R</b><span class="rname">北摂特別</span>
         <span class="cond">芝1200m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>13番ウチュウノセカイは単勝の期待値が基準を超えるが、56倍の大穴（オッズ変動・薄い校正で不利）のため方針で除外。ほかに割の合う馬なし。</div>
       
@@ -4000,7 +4007,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値1.06が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 持ちタイムがこのコース水準より速い、前走から35日と好interval）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>阪神11R</b><span class="rname">大阪スポーツ杯<span class="grade">重賞</span></span>
+      <div class="rhead"><b>阪神11R</b><span class="rname">大阪スポーツ杯</span>
         <span class="cond">ダート1400m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：13番トウカイポワール（複EV1.336）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 5頭（先行争いの中心 1番テイエムヒショウ）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明7頭で推定</span></div>
@@ -4722,7 +4729,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.72が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 上がり(末脚)がコース平均より速い、前走3番人気で評価されていた、持ちタイムがこのコース水準より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>札幌9R</b><span class="rname">Ｆビレッジ特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>札幌9R</b><span class="rname">Ｆビレッジ特別</span>
         <span class="cond">芝2000m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>最も割の良い2番カージオイドでも期待値1.06で基準1.10未満。市場とモデルの評価が一致しており、過小評価（＝買える）馬がいない。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 5頭（先行争いの中心 6番ハルフロンティア）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明14頭で推定</span></div>
@@ -4741,7 +4748,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.99が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 通算勝率20%と勝ち切る力がある、持ちタイムがこのコース水準より速い、前走から41日と好interval）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>札幌10R</b><span class="rname">札幌スポニチ賞<span class="grade">重賞</span></span>
+      <div class="rhead"><b>札幌10R</b><span class="rname">札幌スポニチ賞</span>
         <span class="cond">芝1200m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：1番スイミーユニバンス（複EV1.303）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       
@@ -4950,7 +4957,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.92が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 上がり(末脚)がコース平均より速い、持ちタイムがこのコース水準より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>中山9R</b><span class="rname">古作特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>中山9R</b><span class="rname">古作特別</span>
         <span class="cond">芝1800m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：12番ゴディアーモ（単EV1.118）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 9頭（先行争いの中心 8番ルンベーラ）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明13頭で推定</span></div>
@@ -4969,7 +4976,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.82が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 持ちタイムがこのコース水準より速い、前に行って粘れる先行脚質）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>中山10R</b><span class="rname">白井特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>中山10R</b><span class="rname">白井特別</span>
         <span class="cond">芝1200m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：10番キープサインオン（単EV1.553）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       
@@ -5178,7 +5185,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.82が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 騎手が勝率23%と好調、168日ぶりの休養明け、前走3番人気で評価されていた）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>阪神9R</b><span class="rname">出石特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>阪神9R</b><span class="rname">出石特別</span>
         <span class="cond">ダート1800m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>3番ジーニアスバローズは単勝の期待値が基準を超えるが、29倍の大穴（オッズ変動・薄い校正で不利）のため方針で除外。ほかに割の合う馬なし。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 2頭（先行争いの中心 3番ジーニアスバローズ）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明11頭で推定</span></div>
@@ -5197,7 +5204,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.99が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 持ちタイムがこのコース水準より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>阪神10R</b><span class="rname">西宮ステークス<span class="grade">重賞</span></span>
+      <div class="rhead"><b>阪神10R</b><span class="rname">西宮ステークス</span>
         <span class="cond">芝1800m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：1番オールセインツ（単EV1.299・複EV1.582）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 1頭（先行争いの中心 2番エイカイマッケンロ）。スローペース想定で、逃げ・先行に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明6頭で推定</span></div>
@@ -5425,7 +5432,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.89が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 通算勝率20%と勝ち切る力がある、騎手が勝率12%と好調、持ちタイムがこのコース水準より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>札幌10R</b><span class="rname">ＨＢＣ賞<span class="grade">重賞</span></span>
+      <div class="rhead"><b>札幌10R</b><span class="rname">ＨＢＣ賞</span>
         <span class="cond">芝1200m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>最も割の良い15番シーグルロスでも期待値1.06で基準1.10未満。市場とモデルの評価が一致しており、過小評価（＝買える）馬がいない。</div>
       
@@ -5444,7 +5451,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.95が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 前走から56日と好interval、通算勝率15%と勝ち切る力がある、持ちタイムがこのコース水準より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>札幌11R</b><span class="rname">日高ステークス<span class="grade">重賞</span></span>
+      <div class="rhead"><b>札幌11R</b><span class="rname">日高ステークス</span>
         <span class="cond">芝1500m</span><span class="rbuy">○2点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：12番パワーホール（複EV1.272）、2番ワタシマツワ（単EV1.154・複EV1.113）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       
@@ -5463,7 +5470,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">単勝14.1倍は約7%で当たればトントンの水準。モデルは勝率8%とみて“買える”と判断。 根拠: 上がり(末脚)がコース平均より速い、前走1着と好走直後、通算勝率27%と勝ち切る力がある。</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>札幌12R</b><span class="rname">北辰特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>札幌12R</b><span class="rname">北辰特別</span>
         <span class="cond">芝2600m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>3番モルビドは単勝の期待値が基準を超えるが、27倍の大穴（オッズ変動・薄い校正で不利）のため方針で除外。ほかに割の合う馬なし。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 3頭（先行争いの中心 6番ミッドタウンナイト）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明14頭で推定</span></div>
@@ -5577,7 +5584,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値1.05が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 134日ぶりの休養明け、通算複勝率67%と堅実に走る、持ちタイムがこのコース水準より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>新潟6R</b><span class="rname">両津湾特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>新潟6R</b><span class="rname">両津湾特別</span>
         <span class="cond">ダート1800m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：7番トゥーザムーン（単EV1.101）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 8頭（先行争いの中心 3番オクトーバーナイン）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明14頭で推定</span></div>
@@ -5596,7 +5603,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.93が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 上がり(末脚)がコース平均より速い、騎手が勝率23%と好調、持ちタイムがこのコース水準より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>新潟7R</b><span class="rname">日本海ステークス<span class="grade">重賞</span></span>
+      <div class="rhead"><b>新潟7R</b><span class="rname">日本海ステークス</span>
         <span class="cond">芝2200m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>2番ウインデイジーは単勝の期待値が基準を超えるが、25倍の大穴（オッズ変動・薄い校正で不利）のため方針で除外。ほかに割の合う馬なし。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 0頭（先行争いの中心 4番シュバルツマサムネ）。スローペース想定で、逃げ・先行に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明12頭で推定</span></div>
@@ -5634,7 +5641,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.88が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 騎手が勝率25%と好調、持ちタイムがこのコース水準より速い、前に行って粘れる先行脚質）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>新潟9R</b><span class="rname">閃光特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>新潟9R</b><span class="rname">閃光特別</span>
         <span class="cond">芝1000m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：16番スペルキャスター（単EV1.163）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       
@@ -5805,7 +5812,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.89が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 141日ぶりの休養明け、ダートでの複勝率35%と適性が高い、持ちタイムがこのコース水準より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>中京6R</b><span class="rname">白川郷ステークス<span class="grade">重賞</span></span>
+      <div class="rhead"><b>中京6R</b><span class="rname">白川郷ステークス</span>
         <span class="cond">ダート1900m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>最も割の良い7番タイセイカイザーでも期待値1.02で基準1.10未満。市場とモデルの評価が一致しており、過小評価（＝買える）馬がいない。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 4頭（先行争いの中心 10番インジケーター）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明16頭で推定</span></div>
@@ -5843,7 +5850,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.79が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 通算勝率50%と勝ち切る力がある、厩舎が勝率11%と信頼できる、持ちタイムがこのコース水準より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>中京8R</b><span class="rname">熊野特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>中京8R</b><span class="rname">熊野特別</span>
         <span class="cond">芝2200m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：6番ニュークレド（単EV1.382）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 4頭（先行争いの中心 7番カフジエメンタール）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明15頭で推定</span></div>
@@ -6109,7 +6116,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.94が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 芝での複勝率57%と適性が高い、厩舎が勝率11%と信頼できる、中団から立ち回れる脚質）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>札幌10R</b><span class="rname">すずらん賞<span class="grade">重賞</span></span>
+      <div class="rhead"><b>札幌10R</b><span class="rname">すずらん賞</span>
         <span class="cond">芝1200m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：11番ラビリンスティアラ（単EV1.369）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       
@@ -6128,7 +6135,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.86が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 持ちタイムがこのコース水準より速い、通算複勝率67%と堅実に走る、前走2番人気で評価されていた）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>札幌11R</b><span class="rname">札幌日刊スポーツ杯<span class="grade">重賞</span></span>
+      <div class="rhead"><b>札幌11R</b><span class="rname">札幌日刊スポーツ杯</span>
         <span class="cond">芝2000m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>最も割の良い3番マイネルフォルツァでも期待値1.08で基準1.10未満。市場とモデルの評価が一致しており、過小評価（＝買える）馬がいない。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 6頭（先行争いの中心 14番バースライト）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明14頭で推定</span></div>
@@ -6147,7 +6154,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.95が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 持ちタイムがこのコース水準より速い、前走から34日と好interval）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>札幌12R</b><span class="rname">千歳特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>札幌12R</b><span class="rname">千歳特別</span>
         <span class="cond">ダート1700m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>最も割の良い4番アラナコアでも期待値0.98で基準1.10未満。市場とモデルの評価が一致しており、過小評価（＝買える）馬がいない。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 7頭（先行争いの中心 9番マーゴットサンズ）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明11頭で推定</span></div>
@@ -6261,7 +6268,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.88が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 上がり(末脚)がコース平均より速い、持ちタイムがこのコース水準より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>新潟6R</b><span class="rname">新発田城特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>新潟6R</b><span class="rname">新発田城特別</span>
         <span class="cond">ダート1800m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：6番ルシャルムール（単EV1.101）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 7頭（先行争いの中心 11番ヴェーヌドール）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明13頭で推定</span></div>
@@ -6280,7 +6287,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.91が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 厩舎が勝率11%と信頼できる、持ちタイムがこのコース水準より速い、中団から立ち回れる脚質）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>新潟7R</b><span class="rname">赤倉特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>新潟7R</b><span class="rname">赤倉特別</span>
         <span class="cond">芝2000m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>11番ティムールは単勝の期待値が基準を超えるが、58倍の大穴（オッズ変動・薄い校正で不利）のため方針で除外。ほかに割の合う馬なし。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 8頭（先行争いの中心 6番オリバナム）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明16頭で推定</span></div>
@@ -6489,7 +6496,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.85が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 前走から49日と好interval、厩舎が勝率12%と信頼できる、持ちタイムがこのコース水準より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>中京6R</b><span class="rname">清洲特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>中京6R</b><span class="rname">清洲特別</span>
         <span class="cond">ダート1200m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>8番ブルーノートは単勝の期待値が基準を超えるが、101倍の大穴（オッズ変動・薄い校正で不利）のため方針で除外。ほかに割の合う馬なし。</div>
       
@@ -6508,7 +6515,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.92が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 持ちタイムがこのコース水準より速い、この距離(1200m)は複勝率38%と得意）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>中京7R</b><span class="rname">長篠ステークス<span class="grade">重賞</span></span>
+      <div class="rhead"><b>中京7R</b><span class="rname">長篠ステークス</span>
         <span class="cond">芝1400m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>最も割の良い3番ビップジーニーでも期待値1.05で基準1.10未満。市場とモデルの評価が一致しており、過小評価（＝買える）馬がいない。</div>
       
@@ -6527,7 +6534,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.98が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 持ちタイムがこのコース水準より速い、上がり(末脚)がコース平均より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>中京8R</b><span class="rname">桑名特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>中京8R</b><span class="rname">桑名特別</span>
         <span class="cond">芝1400m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>11番アスクキングコングは単勝の期待値が基準を超えるが、98倍の大穴（オッズ変動・薄い校正で不利）のため方針で除外。ほかに割の合う馬なし。</div>
       
@@ -6774,7 +6781,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.85が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 175日ぶりの休養明け、騎手が勝率14%と好調、この距離(1800m)は複勝率40%と得意）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>札幌9R</b><span class="rname">ルスツ特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>札幌9R</b><span class="rname">ルスツ特別</span>
         <span class="cond">芝2000m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>最も割の良い10番ユメシルベでも期待値0.96で基準1.10未満。市場とモデルの評価が一致しており、過小評価（＝買える）馬がいない。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 2頭（先行争いの中心 2番ハルフロンティア）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明13頭で推定</span></div>
@@ -6793,7 +6800,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.82が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 前走から49日と好interval、持ちタイムがこのコース水準より速い、通算勝率20%と勝ち切る力がある）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>札幌10R</b><span class="rname">２０２６ワールドオールスタージョッキーズ第３戦<span class="grade">重賞</span></span>
+      <div class="rhead"><b>札幌10R</b><span class="rname">２０２６ワールドオールスタージョッキーズ第３戦</span>
         <span class="cond">ダート1700m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：7番レッドライトニング（単EV1.311）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 5頭（先行争いの中心 3番ハイクオリティ）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明12頭で推定</span></div>
@@ -6831,7 +6838,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値1.09が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 通算勝率20%と勝ち切る力がある、芝での複勝率37%と適性が高い、持ちタイムがこのコース水準より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>札幌12R</b><span class="rname">２０２６ワールドオールスタージョッキーズ第４戦<span class="grade">重賞</span></span>
+      <div class="rhead"><b>札幌12R</b><span class="rname">２０２６ワールドオールスタージョッキーズ第４戦</span>
         <span class="cond">芝1800m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：2番マイネルフォルツァ（複EV1.242）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 8頭（先行争いの中心 13番コスモスプモーニ）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明13頭で推定</span></div>
@@ -6945,7 +6952,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.94が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 上がり(末脚)がコース平均より速い、持ちタイムがこのコース水準より速い、前に行って粘れる先行脚質）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>新潟6R</b><span class="rname">古町ステークス<span class="grade">重賞</span></span>
+      <div class="rhead"><b>新潟6R</b><span class="rname">古町ステークス</span>
         <span class="cond">ダート1800m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>10番ヴァナルガンドは単勝の期待値が基準を超えるが、30倍の大穴（オッズ変動・薄い校正で不利）のため方針で除外。ほかに割の合う馬なし。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 9頭（先行争いの中心 8番プルートマスター）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明15頭で推定</span></div>
@@ -6983,7 +6990,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.90が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 前走1着と好走直後、通算複勝率100%と堅実に走る、上がり(末脚)がコース平均より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>新潟8R</b><span class="rname">飯豊特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>新潟8R</b><span class="rname">飯豊特別</span>
         <span class="cond">芝1400m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>5番シルバーレインは単勝の期待値が基準を超えるが、29倍の大穴（オッズ変動・薄い校正で不利）のため方針で除外。ほかに割の合う馬なし。</div>
       
@@ -7173,7 +7180,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値1.05が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 前走から49日と好interval、通算勝率25%と勝ち切る力がある、上がり(末脚)がコース平均より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>中京6R</b><span class="rname">有松特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>中京6R</b><span class="rname">有松特別</span>
         <span class="cond">芝1600m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：3番ジーティーマン（単EV1.215）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       
@@ -7192,7 +7199,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値1.01が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 厩舎が勝率13%と信頼できる、芝での複勝率37%と適性が高い、持ちタイムがこのコース水準より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>中京7R</b><span class="rname">名古屋城ステークス<span class="grade">重賞</span></span>
+      <div class="rhead"><b>中京7R</b><span class="rname">名古屋城ステークス</span>
         <span class="cond">ダート1800m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：15番レッドプロフェシー（単EV1.701・複EV1.153）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 7頭（先行争いの中心 7番ペイシャモノノフ）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明16頭で推定</span></div>
@@ -7211,7 +7218,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値1.04が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 上がり(末脚)がコース平均より速い、持ちタイムがこのコース水準より速い、前走3番人気で評価されていた）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>中京8R</b><span class="rname">豊川特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>中京8R</b><span class="rname">豊川特別</span>
         <span class="cond">ダート1200m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>6番オドラニャソンソンは単勝の期待値が基準を超えるが、102倍の大穴（オッズ変動・薄い校正で不利）のため方針で除外。ほかに割の合う馬なし。</div>
       
@@ -7458,7 +7465,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.83が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: ダートでの複勝率50%と適性が高い、持ちタイムがこのコース水準より速い、前走から34日と好interval）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>札幌9R</b><span class="rname">クローバー賞<span class="grade">重賞</span></span>
+      <div class="rhead"><b>札幌9R</b><span class="rname">クローバー賞</span>
         <span class="cond">芝1500m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>最も割の良い8番モンビスキュイでも期待値1.03で基準1.10未満。市場とモデルの評価が一致しており、過小評価（＝買える）馬がいない。</div>
       
@@ -7477,7 +7484,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.85が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 上がり(末脚)がコース平均より速い、前走1番人気で評価されていた、前走から42日と好interval）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>札幌10R</b><span class="rname">２０２６ワールドオールスタージョッキーズ第１戦<span class="grade">重賞</span></span>
+      <div class="rhead"><b>札幌10R</b><span class="rname">２０２６ワールドオールスタージョッキーズ第１戦</span>
         <span class="cond">芝1200m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>8番ホウオウヘッセンは単勝の期待値が基準を超えるが、27倍の大穴（オッズ変動・薄い校正で不利）のため方針で除外。ほかに割の合う馬なし。</div>
       
@@ -7496,7 +7503,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.99が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 上がり(末脚)がコース平均より速い、持ちタイムがこのコース水準より速い、通算勝率15%と勝ち切る力がある）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>札幌11R</b><span class="rname">２０２６ワールドオールスタージョッキーズ第２戦<span class="grade">重賞</span></span>
+      <div class="rhead"><b>札幌11R</b><span class="rname">２０２６ワールドオールスタージョッキーズ第２戦</span>
         <span class="cond">芝2000m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>最も割の良い4番スパークリシャールでも期待値0.96で基準1.10未満。市場とモデルの評価が一致しており、過小評価（＝買える）馬がいない。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 3頭（先行争いの中心 13番ディーガレジェンド）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明14頭で推定</span></div>
@@ -7515,7 +7522,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.91が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 後方から差してくる脚質、当地(札幌)の複勝率100%とコース巧者、持ちタイムがこのコース水準より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>札幌12R</b><span class="rname">ニセコ特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>札幌12R</b><span class="rname">ニセコ特別</span>
         <span class="cond">ダート1700m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>6番ブリオメンテは単勝の期待値が基準を超えるが、24倍の大穴（オッズ変動・薄い校正で不利）のため方針で除外。ほかに割の合う馬なし。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 5頭（先行争いの中心 2番ココデイック）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明8頭で推定</span></div>
@@ -7629,7 +7636,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値1.01が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 中団から立ち回れる脚質）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>新潟6R</b><span class="rname">長岡ステークス<span class="grade">重賞</span></span>
+      <div class="rhead"><b>新潟6R</b><span class="rname">長岡ステークス</span>
         <span class="cond">芝1600m</span><span class="rbuy">○2点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：16番マルチャン（複EV1.382）、18番マイエレメント（単EV1.233）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 11頭（先行争いの中心 3番ジェットマグナム）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明16頭で推定</span></div>
@@ -7667,7 +7674,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値1.04が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 通算勝率24%と勝ち切る力がある、持ちタイムがこのコース水準より速い、前走から42日と好interval）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>新潟8R</b><span class="rname">岩室温泉特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>新潟8R</b><span class="rname">岩室温泉特別</span>
         <span class="cond">ダート1200m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：13番アクアマリーナ（単EV1.217）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       
@@ -7857,7 +7864,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.97が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 前走から42日と好interval、通算複勝率60%と堅実に走る、前走2着と好走直後）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>中京6R</b><span class="rname">大府特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>中京6R</b><span class="rname">大府特別</span>
         <span class="cond">ダート1800m</span><span class="rbuy">○2点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：8番ビルンバウム（複EV1.115）、14番ノボリクレバー（単EV1.277・複EV1.248）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 7頭（先行争いの中心 8番ビルンバウム）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明14頭で推定</span></div>
@@ -7876,7 +7883,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値1.03が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 厩舎が勝率11%と信頼できる、上がり(末脚)がコース平均より速い、前走1番人気で評価されていた）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>中京7R</b><span class="rname">伊賀ステークス<span class="grade">重賞</span></span>
+      <div class="rhead"><b>中京7R</b><span class="rname">伊賀ステークス</span>
         <span class="cond">ダート1400m</span><span class="rbuy">○2点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：2番クールブロン（複EV1.246）、10番テリフィックプラン（複EV1.484）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 5頭（先行争いの中心 10番テリフィックプラン）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明6頭で推定</span></div>
@@ -7895,7 +7902,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.99が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 上がり(末脚)がコース平均より速い、持ちタイムがこのコース水準より速い、ダートでの複勝率44%と適性が高い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>中京8R</b><span class="rname">瀬戸特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>中京8R</b><span class="rname">瀬戸特別</span>
         <span class="cond">ダート1900m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>最も割の良い6番クレスコドルフィンでも期待値0.99で基準1.10未満。市場とモデルの評価が一致しており、過小評価（＝買える）馬がいない。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 2頭（先行争いの中心 4番サイモンゼスト）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明10頭で推定</span></div>
@@ -8142,7 +8149,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.82が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 前走3番人気で評価されていた、厩舎が勝率10%と信頼できる、前に行って粘れる先行脚質）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>札幌9R</b><span class="rname">小樽特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>札幌9R</b><span class="rname">小樽特別</span>
         <span class="cond">芝1200m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：8番ユーティジャーニー（単EV1.126）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       
@@ -8161,7 +8168,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.96が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 持ちタイムがこのコース水準より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>札幌10R</b><span class="rname">大通公園特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>札幌10R</b><span class="rname">大通公園特別</span>
         <span class="cond">ダート1000m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>11番フェデルミエールは単勝の期待値が基準を超えるが、104倍の大穴（オッズ変動・薄い校正で不利）のため方針で除外。ほかに割の合う馬なし。</div>
       
@@ -8199,7 +8206,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.84が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 騎手が勝率23%と好調、133日ぶりの休養明け、前に行って粘れる先行脚質）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>札幌12R</b><span class="rname">阿寒湖特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>札幌12R</b><span class="rname">阿寒湖特別</span>
         <span class="cond">芝2600m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>10番ドッビアーコは単勝の期待値が基準を超えるが、164倍の大穴（オッズ変動・薄い校正で不利）のため方針で除外。ほかに割の合う馬なし。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 4頭（先行争いの中心 4番マイネルゼウス）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明14頭で推定</span></div>
@@ -8313,7 +8320,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.92が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 上がり(末脚)がコース平均より速い、通算勝率25%と勝ち切る力がある、芝での複勝率50%と適性が高い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>新潟6R</b><span class="rname">稲妻ステークス<span class="grade">重賞</span></span>
+      <div class="rhead"><b>新潟6R</b><span class="rname">稲妻ステークス</span>
         <span class="cond">芝1000m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：13番トールキン（単EV1.323）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       
@@ -8332,7 +8339,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.97が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 通算勝率27%と勝ち切る力がある、持ちタイムがこのコース水準より速い、前走から36日と好interval）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>新潟7R</b><span class="rname">ＮＳＴ賞<span class="grade">重賞</span></span>
+      <div class="rhead"><b>新潟7R</b><span class="rname">ＮＳＴ賞</span>
         <span class="cond">ダート1200m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：13番ダノンタッチダウン（複EV2.082）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       
@@ -8351,7 +8358,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.99が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 厩舎が勝率13%と信頼できる、当地(新潟)の複勝率67%とコース巧者、通算勝率19%と勝ち切る力がある）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>新潟8R</b><span class="rname">瀬波温泉特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>新潟8R</b><span class="rname">瀬波温泉特別</span>
         <span class="cond">ダート1800m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：11番ヴォルスター（複EV1.112）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 7頭（先行争いの中心 12番ブレードサクセス）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明13頭で推定</span></div>
@@ -8541,7 +8548,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.96が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 上がり(末脚)がコース平均より速い、前走3着と好走直後、持ちタイムがこのコース水準より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>中京6R</b><span class="rname">長久手特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>中京6R</b><span class="rname">長久手特別</span>
         <span class="cond">芝2000m</span><span class="rbuy">○2点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：1番ホウオウタイタン（複EV1.2）、3番エアビッグマム（複EV1.119）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 3頭（先行争いの中心 5番アーリーハーベスト）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明7頭で推定</span></div>
@@ -8579,7 +8586,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.93が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 持ちタイムがこのコース水準より速い、通算勝率56%と勝ち切る力がある、厩舎が勝率11%と信頼できる）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>中京8R</b><span class="rname">大垣特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>中京8R</b><span class="rname">大垣特別</span>
         <span class="cond">ダート1400m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：8番ジュルナール（複EV1.165）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 5頭（先行争いの中心 2番マキシマムビスタ）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明6頭で推定</span></div>
@@ -8826,7 +8833,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.94が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 持ちタイムがこのコース水準より速い、前走2番人気で評価されていた、通算複勝率64%と堅実に走る）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>札幌9R</b><span class="rname">コスモス賞<span class="grade">重賞</span></span>
+      <div class="rhead"><b>札幌9R</b><span class="rname">コスモス賞</span>
         <span class="cond">芝1800m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>5番ミラクルヴェリテは単勝の期待値が基準を超えるが、22倍の大穴（オッズ変動・薄い校正で不利）のため方針で除外。ほかに割の合う馬なし。</div>
       
@@ -8845,7 +8852,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.96が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 持ちタイムがこのコース水準より速い、通算勝率50%と勝ち切る力がある、通算複勝率100%と堅実に走る）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>札幌10R</b><span class="rname">知床特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>札幌10R</b><span class="rname">知床特別</span>
         <span class="cond">芝1200m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>最も割の良い7番モズトキキでも期待値1.08で基準1.10未満。市場とモデルの評価が一致しており、過小評価（＝買える）馬がいない。</div>
       
@@ -8864,7 +8871,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.99が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 通算勝率25%と勝ち切る力がある、前走1着と好走直後、上がり(末脚)がコース平均より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>札幌11R</b><span class="rname">報知杯大雪ハンデキャップ<span class="grade">重賞</span></span>
+      <div class="rhead"><b>札幌11R</b><span class="rname">報知杯大雪ハンデキャップ</span>
         <span class="cond">ダート1700m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：5番ゲキザル（単EV1.235）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 7頭（先行争いの中心 6番レーウィン）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明13頭で推定</span></div>
@@ -8883,7 +8890,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">単勝9.2倍は約11%で当たればトントンの水準。モデルは勝率13%とみて“買える”と判断。 根拠: 持ちタイムがこのコース水準より速い、上がり(末脚)がコース平均より速い、前に行って粘れる先行脚質。</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>札幌12R</b><span class="rname">積丹特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>札幌12R</b><span class="rname">積丹特別</span>
         <span class="cond">芝2600m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：12番アーレムアレス（単EV1.131）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 5頭（先行争いの中心 7番ミッドタウンナイト）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明14頭で推定</span></div>
@@ -8997,7 +9004,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.99が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 厩舎が勝率11%と信頼できる、持ちタイムがこのコース水準より速い、上がり(末脚)がコース平均より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>新潟6R</b><span class="rname">阿賀野川特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>新潟6R</b><span class="rname">阿賀野川特別</span>
         <span class="cond">芝2200m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>最も割の良い13番パッションリッチでも期待値1.07で基準1.10未満。市場とモデルの評価が一致しており、過小評価（＝買える）馬がいない。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 5頭（先行争いの中心 12番ブラックオリンピア）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明14頭で推定</span></div>
@@ -9016,7 +9023,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.90が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 通算勝率15%と勝ち切る力がある、持ちタイムがこのコース水準より速い、芝での複勝率44%と適性が高い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>新潟7R</b><span class="rname">上越ステークス<span class="grade">重賞</span></span>
+      <div class="rhead"><b>新潟7R</b><span class="rname">上越ステークス</span>
         <span class="cond">ダート1200m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：1番アメリカンチケット（複EV1.108）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       
@@ -9035,7 +9042,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値1.01が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 持ちタイムがこのコース水準より速い、通算複勝率62%と堅実に走る、通算勝率38%と勝ち切る力がある）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>新潟8R</b><span class="rname">三国特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>新潟8R</b><span class="rname">三国特別</span>
         <span class="cond">ダート1800m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>最も割の良い2番インディヴァインでも期待値0.92で基準1.10未満。市場とモデルの評価が一致しており、過小評価（＝買える）馬がいない。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 8頭（先行争いの中心 6番ベストブラザーズ）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明14頭で推定</span></div>
@@ -9225,7 +9232,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.93が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 持ちタイムがこのコース水準より速い、上がり(末脚)がコース平均より速い、中団から立ち回れる脚質）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>中京6R</b><span class="rname">知多特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>中京6R</b><span class="rname">知多特別</span>
         <span class="cond">芝1200m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>3番ヒーローインチーフは単勝の期待値が基準を超えるが、20倍の大穴（オッズ変動・薄い校正で不利）のため方針で除外。ほかに割の合う馬なし。</div>
       
@@ -9244,7 +9251,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.99が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 持ちタイムがこのコース水準より速い、上がり(末脚)がコース平均より速い、芝での複勝率44%と適性が高い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>中京7R</b><span class="rname">高山ステークス<span class="grade">重賞</span></span>
+      <div class="rhead"><b>中京7R</b><span class="rname">高山ステークス</span>
         <span class="cond">芝2000m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：1番アラタマフェーヴル（単EV1.199）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 4頭（先行争いの中心 1番アラタマフェーヴル）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明7頭で推定</span></div>
@@ -9263,7 +9270,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.88が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 持ちタイムがこのコース水準より速い、上がり(末脚)がコース平均より速い、前に行って粘れる先行脚質）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>中京8R</b><span class="rname">常滑特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>中京8R</b><span class="rname">常滑特別</span>
         <span class="cond">芝2000m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>最も割の良い4番パンチャマハブータでも期待値0.95で基準1.10未満。市場とモデルの評価が一致しており、過小評価（＝買える）馬がいない。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 2頭（先行争いの中心 6番ダンツウルス）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明9頭で推定</span></div>
@@ -9529,7 +9536,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値1.05が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 上がり(末脚)がコース平均より速い、持ちタイムがこのコース水準より速い、この距離(1200m)は複勝率50%と得意）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>札幌10R</b><span class="rname">富良野特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>札幌10R</b><span class="rname">富良野特別</span>
         <span class="cond">ダート1700m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>6番ストラーダは単勝の期待値が基準を超えるが、38倍の大穴（オッズ変動・薄い校正で不利）のため方針で除外。ほかに割の合う馬なし。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 11頭（先行争いの中心 3番プライベートアイズ）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明13頭で推定</span></div>
@@ -9548,7 +9555,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.96が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 通算勝率29%と勝ち切る力がある、持ちタイムがこのコース水準より速い、上がり(末脚)がコース平均より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>札幌11R</b><span class="rname">ＵＨＢ賞<span class="grade">重賞</span></span>
+      <div class="rhead"><b>札幌11R</b><span class="rname">ＵＨＢ賞</span>
         <span class="cond">芝1200m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>11番ダンツエランは単勝の期待値が基準を超えるが、134倍の大穴（オッズ変動・薄い校正で不利）のため方針で除外。ほかに割の合う馬なし。</div>
       
@@ -9567,7 +9574,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値1.06が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 通算勝率26%と勝ち切る力がある、前走から43日と好interval、持ちタイムがこのコース水準より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>札幌12R</b><span class="rname">石狩特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>札幌12R</b><span class="rname">石狩特別</span>
         <span class="cond">芝1800m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>最も割の良い8番ヴァロアークでも期待値0.92で基準1.10未満。市場とモデルの評価が一致しており、過小評価（＝買える）馬がいない。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 1頭（先行争いの中心 6番ドーギッド）。スローペース想定で、逃げ・先行に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明6頭で推定</span></div>
@@ -9681,7 +9688,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.88が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 持ちタイムがこのコース水準より速い、前走3着と好走直後、通算勝率17%と勝ち切る力がある）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>新潟6R</b><span class="rname">佐渡ステークス<span class="grade">重賞</span></span>
+      <div class="rhead"><b>新潟6R</b><span class="rname">佐渡ステークス</span>
         <span class="cond">芝1800m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>最も割の良い7番モズロックンロールでも期待値0.97で基準1.10未満。市場とモデルの評価が一致しており、過小評価（＝買える）馬がいない。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 4頭（先行争いの中心 9番サトノヴィレ）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明12頭で推定</span></div>
@@ -9719,7 +9726,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.93が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 厩舎が勝率18%と信頼できる、通算勝率40%と勝ち切る力がある、前に行って粘れる先行脚質）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>新潟8R</b><span class="rname">驀進特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>新潟8R</b><span class="rname">驀進特別</span>
         <span class="cond">芝1000m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：17番クールベイビー（単EV1.18）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       
@@ -9909,7 +9916,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.93が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 持ちタイムがこのコース水準より速い、上がり(末脚)がコース平均より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>中京6R</b><span class="rname">浜名湖特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>中京6R</b><span class="rname">浜名湖特別</span>
         <span class="cond">芝2000m</span><span class="rbuy">○3点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：4番ダイヤモンドハンズ（複EV1.498）、2番サトノアイボリー（複EV1.153）、3番カレントゥルーシー（複EV1.103）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 0頭（先行争いの中心 1番マイバレンタイン）。スローペース想定で、逃げ・先行に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明5頭で推定</span></div>
@@ -9947,7 +9954,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.97が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 通算勝率22%と勝ち切る力がある、持ちタイムがこのコース水準より速い、上がり(末脚)がコース平均より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>中京8R</b><span class="rname">揖斐川特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>中京8R</b><span class="rname">揖斐川特別</span>
         <span class="cond">ダート1800m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：6番ジェシーテソーロ（複EV1.116）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 3頭（先行争いの中心 6番ジェシーテソーロ）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明11頭で推定</span></div>
@@ -10213,7 +10220,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">複勝6.1倍は3着内に来れば的中。モデルは3着内率19%とみて“買える”と判断。 根拠: 前走から56日と好interval、持ちタイムがこのコース水準より速い、上がり(末脚)がコース平均より速い。</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>札幌10R</b><span class="rname">藻岩山特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>札幌10R</b><span class="rname">藻岩山特別</span>
         <span class="cond">芝2000m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>最も割の良い8番ビーオンザカバーでも期待値1.07で基準1.10未満。市場とモデルの評価が一致しており、過小評価（＝買える）馬がいない。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 2頭（先行争いの中心 5番バルティカ）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明8頭で推定</span></div>
@@ -10251,7 +10258,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.94が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 持ちタイムがこのコース水準より速い、前に行って粘れる先行脚質、前走2着と好走直後）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>札幌12R</b><span class="rname">摩周湖特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>札幌12R</b><span class="rname">摩周湖特別</span>
         <span class="cond">芝1500m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>13番オーシャントライブは単勝の期待値が基準を超えるが、106倍の大穴（オッズ変動・薄い校正で不利）のため方針で除外。ほかに割の合う馬なし。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 8頭（先行争いの中心 2番ホウキボシ）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明8頭で推定</span></div>
@@ -10365,7 +10372,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.93が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 前走2着と好走直後、中団から立ち回れる脚質、通算複勝率60%と堅実に走る）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>新潟6R</b><span class="rname">三面川特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>新潟6R</b><span class="rname">三面川特別</span>
         <span class="cond">芝1800m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>6番ミラーダカリエンテは単勝の期待値が基準を超えるが、49倍の大穴（オッズ変動・薄い校正で不利）のため方針で除外。ほかに割の合う馬なし。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 3頭（先行争いの中心 6番ミラーダカリエンテ）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明8頭で推定</span></div>
@@ -10384,7 +10391,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値1.03が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 持ちタイムがこのコース水準より速い、通算勝率33%と勝ち切る力がある、上がり(末脚)がコース平均より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>新潟7R</b><span class="rname">関越ステークス<span class="grade">重賞</span></span>
+      <div class="rhead"><b>新潟7R</b><span class="rname">関越ステークス</span>
         <span class="cond">芝1800m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>2番ヤマニンサンパは単勝の期待値が基準を超えるが、33倍の大穴（オッズ変動・薄い校正で不利）のため方針で除外。ほかに割の合う馬なし。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 6頭（先行争いの中心 5番ラインベック）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明15頭で推定</span></div>
@@ -10403,7 +10410,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">単勝は期待値1.22だが33倍の大穴(上限20)で除外（モデル注目点: 厩舎が勝率12%と信頼できる、前走から56日と好interval、持ちタイムがこのコース水準より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>新潟8R</b><span class="rname">ダリア賞<span class="grade">重賞</span></span>
+      <div class="rhead"><b>新潟8R</b><span class="rname">ダリア賞</span>
         <span class="cond">芝1400m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>最も割の良い2番カレンハウでも期待値1.00で基準1.10未満。市場とモデルの評価が一致しており、過小評価（＝買える）馬がいない。</div>
       
@@ -10593,7 +10600,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.92が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 前走2着と好走直後、前走3番人気で評価されていた、持ちタイムがこのコース水準より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>中京6R</b><span class="rname">納屋橋特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>中京6R</b><span class="rname">納屋橋特別</span>
         <span class="cond">芝1600m</span><span class="rbuy">○2点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：10番クイックバイオ（単EV1.16）、11番オリバナム（単EV1.119）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 3頭（先行争いの中心 7番スナークピカソ）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明5頭で推定</span></div>
@@ -10612,7 +10619,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">単勝5.2倍は約19%で当たればトントンの水準。モデルは勝率22%とみて“買える”と判断。 根拠: 前走2着と好走直後、通算勝率25%と勝ち切る力がある、持ちタイムがこのコース水準より速い。</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>中京7R</b><span class="rname">三河ステークス<span class="grade">重賞</span></span>
+      <div class="rhead"><b>中京7R</b><span class="rname">三河ステークス</span>
         <span class="cond">ダート1800m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>最も割の良い5番ユウトザユウトでも期待値1.06で基準1.10未満。市場とモデルの評価が一致しており、過小評価（＝買える）馬がいない。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 5頭（先行争いの中心 7番ロードヴォイジャー）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明8頭で推定</span></div>
@@ -10631,7 +10638,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.85が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 前走3番人気で評価されていた、ダートでの複勝率40%と適性が高い、持ちタイムがこのコース水準より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>中京8R</b><span class="rname">恵那特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>中京8R</b><span class="rname">恵那特別</span>
         <span class="cond">ダート1800m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>2番ブルーストレイルは単勝の期待値が基準を超えるが、220倍の大穴（オッズ変動・薄い校正で不利）のため方針で除外。ほかに割の合う馬なし。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 3頭（先行争いの中心 9番リアンドゥクール）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明12頭で推定</span></div>
@@ -11030,7 +11037,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.89が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: ダートでの複勝率50%と適性が高い、持ちタイムがこのコース水準より速い、上がり(末脚)がコース平均より速い）</div>
     </div>
     </section></div></div><div class="daypanel" data-date="2026-08-01" style="display:none"><div class="dsum">投資 21,300円 → 払戻 41,450円<span class="dnet">（+20,150円）</span><span class="dsub">回収率 195%・3場 15R評価</span></div><div class="daynote mid"><b>📊 本日の総評：標準的な決着</b> 15レース中4レースで1番人気が勝利（勝ち馬オッズ中央値 6.0倍、上位3人気での決着 73%）。全見送り6レースは、上位人気での決着67%＝市場が本命を順当に評価し妙味が出にくかったレース群。買い目を出した9レースは市場と見立てが分かれた歪みのあるレース。<span class="cav">※少数のため傾向の目安</span></div><div class="venuetabs"><button data-venue="札幌">札幌</button><button data-venue="新潟">新潟</button><button data-venue="中京">中京</button></div><div class="venuepanel" data-venue="札幌"><section class="racecard">
-      <div class="rhead"><b>札幌11R</b><span class="rname">ＳＴＶ賞<span class="grade">重賞</span></span>
+      <div class="rhead"><b>札幌11R</b><span class="rname">ＳＴＶ賞</span>
         <span class="cond">芝2000m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：16番ディーガレジェンド（複EV1.101）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 9頭（先行争いの中心 1番クレバーテースト）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明16頭で推定</span></div>
@@ -11049,7 +11056,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値1.05が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 芝での複勝率38%と適性が高い、通算勝率23%と勝ち切る力がある、持ちタイムがこのコース水準より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>札幌12R</b><span class="rname">大倉山特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>札幌12R</b><span class="rname">大倉山特別</span>
         <span class="cond">ダート1700m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>最も割の良い3番エアニゲラでも期待値0.93で基準1.10未満。市場とモデルの評価が一致しており、過小評価（＝買える）馬がいない。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 6頭（先行争いの中心 8番エーリアル）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明8頭で推定</span></div>
@@ -11068,7 +11075,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.81が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: ダートでの複勝率36%と適性が高い、持ちタイムがこのコース水準より速い、当地(札幌)の複勝率100%とコース巧者）</div>
     </div>
     </section></div><div class="venuepanel" data-venue="新潟" style="display:none"><section class="racecard">
-      <div class="rhead"><b>新潟6R</b><span class="rname">月岡温泉特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>新潟6R</b><span class="rname">月岡温泉特別</span>
         <span class="cond">芝1800m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>最も割の良い12番ミーントゥビーでも期待値1.07で基準1.10未満。市場とモデルの評価が一致しており、過小評価（＝買える）馬がいない。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 6頭（先行争いの中心 5番コスモスプモーニ）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明10頭で推定</span></div>
@@ -11087,7 +11094,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.87が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 持ちタイムがこのコース水準より速い、前走から62日と好interval、中団から立ち回れる脚質）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>新潟7R</b><span class="rname">柳都ステークス<span class="grade">重賞</span></span>
+      <div class="rhead"><b>新潟7R</b><span class="rname">柳都ステークス</span>
         <span class="cond">ダート1800m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：8番ラフエイジアン（単EV1.425・複EV1.153）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 6頭（先行争いの中心 13番カフェニクス）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明14頭で推定</span></div>
@@ -11106,7 +11113,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値1.03が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: ダートでの複勝率40%と適性が高い、騎手が勝率11%と好調、上がり(末脚)がコース平均より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>新潟8R</b><span class="rname">燕特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>新潟8R</b><span class="rname">燕特別</span>
         <span class="cond">芝2200m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>最も割の良い12番ティラーノでも期待値1.00で基準1.10未満。市場とモデルの評価が一致しており、過小評価（＝買える）馬がいない。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 2頭（先行争いの中心 11番リアライズルミナス）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明13頭で推定</span></div>
@@ -11201,7 +11208,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値1.06が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 上がり(末脚)がコース平均より速い）</div>
     </div>
     </section></div><div class="venuepanel" data-venue="中京" style="display:none"><section class="racecard">
-      <div class="rhead"><b>中京7R</b><span class="rname">豊橋ステークス<span class="grade">重賞</span></span>
+      <div class="rhead"><b>中京7R</b><span class="rname">豊橋ステークス</span>
         <span class="cond">芝1600m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：10番エポックヴィーナス（単EV1.291）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 5頭（先行争いの中心 2番アンドゥーリル）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明6頭で推定</span></div>
@@ -11220,7 +11227,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値1.01が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 騎手が勝率11%と好調、持ちタイムがこのコース水準より速い、厩舎が勝率10%と信頼できる）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>中京8R</b><span class="rname">日進特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>中京8R</b><span class="rname">日進特別</span>
         <span class="cond">ダート1800m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>最も割の良い11番レッドボブでも期待値1.06で基準1.10未満。市場とモデルの評価が一致しており、過小評価（＝買える）馬がいない。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 5頭（先行争いの中心 3番ビルンバウム）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明13頭で推定</span></div>
@@ -11410,7 +11417,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.82が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: ダートでの複勝率67%と適性が高い、持ちタイムがこのコース水準より速い、通算複勝率67%と堅実に走る）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>札幌10R</b><span class="rname">羊ヶ丘特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>札幌10R</b><span class="rname">羊ヶ丘特別</span>
         <span class="cond">芝1500m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>7番ブラックルビーは単勝の期待値が基準を超えるが、21倍の大穴（オッズ変動・薄い校正で不利）のため方針で除外。ほかに割の合う馬なし。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 4頭（先行争いの中心 8番ワタシマツワ）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明5頭で推定</span></div>
@@ -11448,7 +11455,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.85が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 持ちタイムがこのコース水準より速い、この距離(2600m)は複勝率100%と得意、前走3番人気で評価されていた）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>札幌12R</b><span class="rname">厚岸特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>札幌12R</b><span class="rname">厚岸特別</span>
         <span class="cond">芝2000m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>最も割の良い4番デルマジュテームでも期待値0.96で基準1.10未満。市場とモデルの評価が一致しており、過小評価（＝買える）馬がいない。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 1頭（先行争いの中心 6番カージオイド）。スローペース想定で、逃げ・先行に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明8頭で推定</span></div>
@@ -11486,7 +11493,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.87が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 上がり(末脚)がコース平均より速い、持ちタイムがこのコース水準より速い、中団から立ち回れる脚質）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>新潟6R</b><span class="rname">出雲崎特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>新潟6R</b><span class="rname">出雲崎特別</span>
         <span class="cond">ダート1200m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：9番オカメノコイ（単EV1.166）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       
@@ -11524,7 +11531,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値1.01が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 通算勝率21%と勝ち切る力がある、持ちタイムがこのコース水準より速い、前走2番人気で評価されていた）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>新潟8R</b><span class="rname">麒麟山特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>新潟8R</b><span class="rname">麒麟山特別</span>
         <span class="cond">ダート1800m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：7番ケイツーリーブル（複EV1.261）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 7頭（先行争いの中心 14番エターナルプロミス）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明14頭で推定</span></div>
@@ -11638,7 +11645,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.83が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 持ちタイムがこのコース水準より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>中京6R</b><span class="rname">木曽川特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>中京6R</b><span class="rname">木曽川特別</span>
         <span class="cond">芝2000m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>最も割の良い2番レッドラージャでも期待値1.06で基準1.10未満。市場とモデルの評価が一致しており、過小評価（＝買える）馬がいない。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 3頭（先行争いの中心 8番オデット）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明8頭で推定</span></div>
@@ -11676,7 +11683,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.89が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 通算勝率16%と勝ち切る力がある、上がり(末脚)がコース平均より速い、厩舎が勝率11%と信頼できる）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>中京8R</b><span class="rname">遠州灘特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>中京8R</b><span class="rname">遠州灘特別</span>
         <span class="cond">ダート1800m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：4番ジョータルマエ（単EV1.142）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 4頭（先行争いの中心 4番ジョータルマエ）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明12頭で推定</span></div>
@@ -11923,7 +11930,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.98が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 持ちタイムがこのコース水準より速い、通算勝率20%と勝ち切る力がある、前に行って粘れる先行脚質）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>札幌10R</b><span class="rname">ライラック賞<span class="grade">重賞</span></span>
+      <div class="rhead"><b>札幌10R</b><span class="rname">ライラック賞</span>
         <span class="cond">芝2600m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>10番ドッビアーコは単勝の期待値が基準を超えるが、28倍の大穴（オッズ変動・薄い校正で不利）のため方針で除外。ほかに割の合う馬なし。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 2頭（先行争いの中心 11番ウェイクフィールド）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明11頭で推定</span></div>
@@ -11942,7 +11949,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値1.03が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 持ちタイムがこのコース水準より速い、上がり(末脚)がコース平均より速い、馬体重+6kg）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>札幌11R</b><span class="rname">ＴＶｈ賞<span class="grade">重賞</span></span>
+      <div class="rhead"><b>札幌11R</b><span class="rname">ＴＶｈ賞</span>
         <span class="cond">芝1200m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：3番サウスバンク（複EV1.159）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       
@@ -11961,7 +11968,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">複勝3.8倍は3着内に来れば的中。モデルは3着内率28%とみて“買える”と判断。 根拠: 持ちタイムがこのコース水準より速い、前に行って粘れる先行脚質、前走から21日と好interval。</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>札幌12R</b><span class="rname">桑園特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>札幌12R</b><span class="rname">桑園特別</span>
         <span class="cond">ダート1700m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>3番ショウナンヤッホーは単勝の期待値が基準を超えるが、35倍の大穴（オッズ変動・薄い校正で不利）のため方針で除外。ほかに割の合う馬なし。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 3頭（先行争いの中心 7番ハイクオリティ）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明8頭で推定</span></div>
@@ -12037,7 +12044,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.91が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 厩舎が勝率11%と信頼できる、前に行って粘れる先行脚質、上がり(末脚)がコース平均より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>新潟6R</b><span class="rname">豊栄特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>新潟6R</b><span class="rname">豊栄特別</span>
         <span class="cond">芝1600m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：3番ラビットアイ（複EV1.593）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 4頭（先行争いの中心 6番ドリームクルーズ）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明8頭で推定</span></div>
@@ -12056,7 +12063,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.98が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 通算勝率33%と勝ち切る力がある、前走2着と好走直後、持ちタイムがこのコース水準より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>新潟7R</b><span class="rname">新潟日報賞<span class="grade">重賞</span></span>
+      <div class="rhead"><b>新潟7R</b><span class="rname">新潟日報賞</span>
         <span class="cond">芝1400m</span><span class="rbuy">○2点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：14番ルミノメテオール（複EV1.282）、17番モジャーリオ（単EV1.305・複EV1.214）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       
@@ -12075,7 +12082,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">単勝は期待値1.28だが43倍の大穴(上限20)で除外（モデル注目点: 厩舎が勝率10%と信頼できる、通算勝率15%と勝ち切る力がある、持ちタイムがこのコース水準より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>新潟8R</b><span class="rname">清津峡特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>新潟8R</b><span class="rname">清津峡特別</span>
         <span class="cond">ダート1800m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：11番インナーパッション（複EV1.33）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 3頭（先行争いの中心 10番パイオニアスクエア）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明11頭で推定</span></div>
@@ -12227,7 +12234,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">複勝は期待値1.25だが16倍(上限13)で除外（モデル注目点: 厩舎が勝率12%と信頼できる）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>中京6R</b><span class="rname">四日市特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>中京6R</b><span class="rname">四日市特別</span>
         <span class="cond">ダート1400m</span><span class="rbuy">○2点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：7番ホウオウゴールド（複EV1.196）、3番ヤマニンバロネス（単EV1.188）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       
@@ -12246,7 +12253,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">単勝は期待値1.28だが105倍の大穴(上限20)で除外（モデル注目点: 前に行って粘れる先行脚質、持ちタイムがこのコース水準より速い、上がり(末脚)がコース平均より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>中京7R</b><span class="rname">関ケ原ステークス<span class="grade">重賞</span></span>
+      <div class="rhead"><b>中京7R</b><span class="rname">関ケ原ステークス</span>
         <span class="cond">芝2200m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>最も割の良い10番カレンメンドーサでも期待値0.91で基準1.10未満。市場とモデルの評価が一致しており、過小評価（＝買える）馬がいない。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 2頭（先行争いの中心 9番ミュージシャン）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明11頭で推定</span></div>
@@ -12265,7 +12272,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.81が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 前走から55日と好interval、芝での複勝率40%と適性が高い、持ちタイムがこのコース水準より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>中京8R</b><span class="rname">香嵐渓特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>中京8R</b><span class="rname">香嵐渓特別</span>
         <span class="cond">芝2000m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>最も割の良い1番スノースケープでも期待値0.99で基準1.10未満。市場とモデルの評価が一致しており、過小評価（＝買える）馬がいない。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 3頭（先行争いの中心 3番サンダーバード）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明7頭で推定</span></div>
@@ -12512,7 +12519,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.99が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 持ちタイムがこのコース水準より速い、前走から35日と好interval、上がり(末脚)がコース平均より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>函館9R</b><span class="rname">かもめ島特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>函館9R</b><span class="rname">かもめ島特別</span>
         <span class="cond">芝1800m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>最も割の良い3番ハニードレスでも期待値1.09で基準1.10未満。市場とモデルの評価が一致しており、過小評価（＝買える）馬がいない。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 4頭（先行争いの中心 9番モンローウォーク）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明12頭で推定</span></div>
@@ -12531,7 +12538,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値1.01が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 馬体重-6kg、持ちタイムがこのコース水準より速い、前走2着と好走直後）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>函館10R</b><span class="rname">駒場特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>函館10R</b><span class="rname">駒場特別</span>
         <span class="cond">ダート1700m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：3番テルアスワッド（複EV1.19）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 5頭（先行争いの中心 5番キングベルベット）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明12頭で推定</span></div>
@@ -12740,7 +12747,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">単勝は期待値1.22だが38倍の大穴(上限20)で除外（モデル注目点: 通算勝率20%と勝ち切る力がある、芝での複勝率40%と適性が高い、持ちタイムがこのコース水準より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>福島9R</b><span class="rname">南相馬特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>福島9R</b><span class="rname">南相馬特別</span>
         <span class="cond">芝1200m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：7番キョウエイボニータ（複EV1.123）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       
@@ -12759,7 +12766,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値1.02が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 通算勝率33%と勝ち切る力がある、持ちタイムがこのコース水準より速い、前走1番人気で評価されていた）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>福島10R</b><span class="rname">猪苗代特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>福島10R</b><span class="rname">猪苗代特別</span>
         <span class="cond">芝2000m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：2番ゴーソーファー（複EV1.169）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 7頭（先行争いの中心 10番クラヴァンス）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明12頭で推定</span></div>
@@ -12778,7 +12785,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.92が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 前走から63日と好interval、当地(福島)の複勝率100%とコース巧者、持ちタイムがこのコース水準より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>福島11R</b><span class="rname">福島テレビ賞<span class="grade">重賞</span></span>
+      <div class="rhead"><b>福島11R</b><span class="rname">福島テレビ賞</span>
         <span class="cond">ダート1150m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：16番ルディック（単EV1.207）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       
@@ -12968,7 +12975,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">複勝2.3倍は3着内に来れば的中。モデルは3着内率49%とみて“買える”と判断。 根拠: 通算勝率20%と勝ち切る力がある、持ちタイムがこのコース水準より速い、馬体重+6kg。</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>小倉9R</b><span class="rname">不知火特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>小倉9R</b><span class="rname">不知火特別</span>
         <span class="cond">芝1800m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：7番クスクス（単EV1.256）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 3頭（先行争いの中心 5番ハイディージェン）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明6頭で推定</span></div>
@@ -12987,7 +12994,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.75が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 持ちタイムがこのコース水準より速い、前に行って粘れる先行脚質、前走から42日と好interval）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>小倉10R</b><span class="rname">宮崎ステークス<span class="grade">重賞</span></span>
+      <div class="rhead"><b>小倉10R</b><span class="rname">宮崎ステークス</span>
         <span class="cond">ダート1700m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>9番マッシャーブルムは単勝の期待値が基準を超えるが、30倍の大穴（オッズ変動・薄い校正で不利）のため方針で除外。ほかに割の合う馬なし。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 9頭（先行争いの中心 9番マッシャーブルム）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明15頭で推定</span></div>
@@ -13025,7 +13032,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値1.03が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 持ちタイムがこのコース水準より速い、騎手が勝率23%と好調、前走から56日と好interval）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>小倉12R</b><span class="rname">筑紫特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>小倉12R</b><span class="rname">筑紫特別</span>
         <span class="cond">芝1800m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>最も割の良い3番ブリッツアロングでも期待値1.02で基準1.10未満。市場とモデルの評価が一致しており、過小評価（＝買える）馬がいない。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 4頭（先行争いの中心 7番ミッキージャンプ）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明7頭で推定</span></div>
@@ -13196,7 +13203,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.90が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 馬体重-8kg、上がり(末脚)がコース平均より速い、持ちタイムがこのコース水準より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>函館9R</b><span class="rname">湯浜特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>函館9R</b><span class="rname">湯浜特別</span>
         <span class="cond">芝1800m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：4番グランセゾン（複EV1.217）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 5頭（先行争いの中心 6番ビービーバザーク）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明13頭で推定</span></div>
@@ -13215,7 +13222,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">単勝6.4倍は約16%で当たればトントンの水準。モデルは勝率16%とみて“買える”と判断。 根拠: 通算勝率33%と勝ち切る力がある、持ちタイムがこのコース水準より速い、中団から立ち回れる脚質。</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>函館10R</b><span class="rname">潮騒特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>函館10R</b><span class="rname">潮騒特別</span>
         <span class="cond">芝1200m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>最も割の良い7番サンドロナイトでも期待値0.96で基準1.10未満。市場とモデルの評価が一致しており、過小評価（＝買える）馬がいない。</div>
       
@@ -13234,7 +13241,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">単勝5倍は約20%で当たればトントンの水準。モデルは勝率18%とみて“買える”と判断。 根拠: 通算勝率29%と勝ち切る力がある、前走3着と好走直後、厩舎が勝率18%と信頼できる。</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>函館11R</b><span class="rname">デルマーサラブレッドクラブ賞マリーンステークス<span class="grade">重賞</span></span>
+      <div class="rhead"><b>函館11R</b><span class="rname">デルマーサラブレッドクラブ賞マリーンステークス</span>
         <span class="cond">ダート1700m</span><span class="rbuy">○2点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：13番マーブルロック（単EV1.423・複EV1.189）、8番ハグ（複EV1.165）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 7頭（先行争いの中心 13番マーブルロック）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明12頭で推定</span></div>
@@ -13424,7 +13431,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値1.02が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 前走1番人気で評価されていた、前走から62日と好interval、上がり(末脚)がコース平均より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>福島9R</b><span class="rname">開成山特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>福島9R</b><span class="rname">開成山特別</span>
         <span class="cond">芝2600m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>8番リュクスパトロールは単勝の期待値が基準を超えるが、24倍の大穴（オッズ変動・薄い校正で不利）のため方針で除外。ほかに割の合う馬なし。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 5頭（先行争いの中心 7番オメガストリーム）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明12頭で推定</span></div>
@@ -13443,7 +13450,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値1.03が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 上がり(末脚)がコース平均より速い、通算勝率17%と勝ち切る力がある、厩舎が勝率11%と信頼できる）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>福島10R</b><span class="rname">米沢特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>福島10R</b><span class="rname">米沢特別</span>
         <span class="cond">ダート1700m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>最も割の良い7番ライジンマルでも期待値1.10で基準1.10未満。市場とモデルの評価が一致しており、過小評価（＝買える）馬がいない。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 5頭（先行争いの中心 5番ウインハルモニア）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明9頭で推定</span></div>
@@ -13462,7 +13469,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値1.03が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: ダートでの複勝率60%と適性が高い、前走0番人気で評価されていた、持ちタイムがこのコース水準より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>福島11R</b><span class="rname">阿武隈ステークス<span class="grade">重賞</span></span>
+      <div class="rhead"><b>福島11R</b><span class="rname">阿武隈ステークス</span>
         <span class="cond">芝1800m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：1番ショーマンフリート（複EV1.914）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 11頭（先行争いの中心 7番グラニット）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明15頭で推定</span></div>
@@ -13557,7 +13564,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.90が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 前走から49日と好interval）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>小倉4R</b><span class="rname">ソレイユジャンプステークス<span class="grade">重賞</span></span>
+      <div class="rhead"><b>小倉4R</b><span class="rname">ソレイユジャンプステークス</span>
         <span class="cond">障害3390m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>5番ヴァレッタカズマは単勝の期待値が基準を超えるが、35倍の大穴（オッズ変動・薄い校正で不利）のため方針で除外。ほかに割の合う馬なし。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 6頭（先行争いの中心 8番スノーディーヴァ）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明8頭で推定</span></div>
@@ -13652,7 +13659,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.96が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 芝での複勝率40%と適性が高い、通算勝率20%と勝ち切る力がある、持ちタイムがこのコース水準より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>小倉9R</b><span class="rname">ひまわり賞<span class="grade">重賞</span></span>
+      <div class="rhead"><b>小倉9R</b><span class="rname">ひまわり賞</span>
         <span class="cond">芝1200m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>8番タカヨシは単勝の期待値が基準を超えるが、33倍の大穴（オッズ変動・薄い校正で不利）のため方針で除外。ほかに割の合う馬なし。</div>
       
@@ -13671,7 +13678,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.98が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 前に行って粘れる先行脚質）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>小倉10R</b><span class="rname">熊本城特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>小倉10R</b><span class="rname">熊本城特別</span>
         <span class="cond">ダート1700m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>11番ハピアーザンエバーは単勝の期待値が基準を超えるが、25倍の大穴（オッズ変動・薄い校正で不利）のため方針で除外。ほかに割の合う馬なし。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 8頭（先行争いの中心 6番タマモナポリ）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明8頭で推定</span></div>
@@ -13690,7 +13697,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.81が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 前走から62日と好interval、上がり(末脚)がコース平均より速い、前走3番人気で評価されていた）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>小倉11R</b><span class="rname">テレＱ杯<span class="grade">重賞</span></span>
+      <div class="rhead"><b>小倉11R</b><span class="rname">テレＱ杯</span>
         <span class="cond">芝1200m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>最も割の良い12番ジュンヴァンケットでも期待値1.10で基準1.10未満。市場とモデルの評価が一致しており、過小評価（＝買える）馬がいない。</div>
       
@@ -13823,7 +13830,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.99が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 前走から43日と好interval、後方から差してくる脚質）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>函館9R</b><span class="rname">北海ハンデキャップ<span class="grade">重賞</span></span>
+      <div class="rhead"><b>函館9R</b><span class="rname">北海ハンデキャップ</span>
         <span class="cond">芝1800m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>最も割の良い1番マイネルフーガでも期待値1.07で基準1.10未満。市場とモデルの評価が一致しており、過小評価（＝買える）馬がいない。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 3頭（先行争いの中心 5番テルヒコウ）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明12頭で推定</span></div>
@@ -13842,7 +13849,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.89が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 通算勝率25%と勝ち切る力がある、芝での複勝率38%と適性が高い、前走2着と好走直後）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>函館10R</b><span class="rname">噴火湾特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>函館10R</b><span class="rname">噴火湾特別</span>
         <span class="cond">ダート1000m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>7番サベージラヴは単勝の期待値が基準を超えるが、30倍の大穴（オッズ変動・薄い校正で不利）のため方針で除外。ほかに割の合う馬なし。</div>
       
@@ -13861,7 +13868,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.92が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: ダートでの複勝率38%と適性が高い、通算勝率25%と勝ち切る力がある、持ちタイムがこのコース水準より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>函館11R</b><span class="rname">巴賞<span class="grade">重賞</span></span>
+      <div class="rhead"><b>函館11R</b><span class="rname">巴賞</span>
         <span class="cond">芝1800m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>最も割の良い2番パレハでも期待値1.06で基準1.10未満。市場とモデルの評価が一致しており、過小評価（＝買える）馬がいない。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 7頭（先行争いの中心 8番ストレイトトーカー）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明12頭で推定</span></div>
@@ -14013,7 +14020,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.91が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 前走2着と好走直後、通算勝率25%と勝ち切る力がある、通算複勝率75%と堅実に走る）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>福島9R</b><span class="rname">織姫賞<span class="grade">重賞</span></span>
+      <div class="rhead"><b>福島9R</b><span class="rname">織姫賞</span>
         <span class="cond">芝1800m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：5番ロゼフェリシア（複EV1.198）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 5頭（先行争いの中心 1番クイーンズワーフ）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明14頭で推定</span></div>
@@ -14032,7 +14039,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値1.03が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 通算勝率25%と勝ち切る力がある、126日ぶりの休養明け、馬体重+14kg）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>福島10R</b><span class="rname">天の川ステークス<span class="grade">重賞</span></span>
+      <div class="rhead"><b>福島10R</b><span class="rname">天の川ステークス</span>
         <span class="cond">ダート1700m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：2番ジェイエルマスター（単EV1.26）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 3頭（先行争いの中心 3番リフレックス）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明10頭で推定</span></div>
@@ -14070,7 +14077,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.97が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 持ちタイムがこのコース水準より速い、通算勝率18%と勝ち切る力がある、通算複勝率59%と堅実に走る）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>福島12R</b><span class="rname">彦星賞<span class="grade">重賞</span></span>
+      <div class="rhead"><b>福島12R</b><span class="rname">彦星賞</span>
         <span class="cond">ダート1150m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：6番サヨノジャンボリー（複EV1.227）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       
@@ -14184,7 +14191,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.87が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 上がり(末脚)がコース平均より速い、馬体重-6kg、持ちタイムがこのコース水準より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>小倉9R</b><span class="rname">八女特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>小倉9R</b><span class="rname">八女特別</span>
         <span class="cond">ダート1700m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>最も割の良い8番ショウナンバンライでも期待値0.95で基準1.10未満。市場とモデルの評価が一致しており、過小評価（＝買える）馬がいない。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 4頭（先行争いの中心 10番サンライズケヴィン）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明10頭で推定</span></div>
@@ -14203,7 +14210,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.84が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 通算勝率29%と勝ち切る力がある、通算複勝率57%と堅実に走る、持ちタイムがこのコース水準より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>小倉10R</b><span class="rname">西部スポニチ賞<span class="grade">重賞</span></span>
+      <div class="rhead"><b>小倉10R</b><span class="rname">西部スポニチ賞</span>
         <span class="cond">芝2000m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：8番コリカンチャ（複EV1.174）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 5頭（先行争いの中心 5番フォーチュンライド）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明10頭で推定</span></div>
@@ -14222,7 +14229,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値1.04が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 通算勝率15%と勝ち切る力がある、前に行って粘れる先行脚質）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>小倉11R</b><span class="rname">阿蘇ステークス<span class="grade">重賞</span></span>
+      <div class="rhead"><b>小倉11R</b><span class="rname">阿蘇ステークス</span>
         <span class="cond">ダート1700m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：6番レイナデアルシーラ（単EV1.259）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 6頭（先行争いの中心 1番メルキオル）。ハイペース想定で、差し・追込に展開が向く。<span class="cav">※過去の位置取りからの目安・脚質判明10頭で推定</span></div>
@@ -14412,7 +14419,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.89が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 馬体重-8kg）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>函館9R</b><span class="rname">北斗特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>函館9R</b><span class="rname">北斗特別</span>
         <span class="cond">芝2000m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：4番ハルフロンティア（単EV1.179）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 2頭（先行争いの中心 5番メイショウソラリス）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明8頭で推定</span></div>
@@ -14431,7 +14438,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.89が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 通算勝率50%と勝ち切る力がある、前走から49日と好interval、芝での複勝率50%と適性が高い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>函館10R</b><span class="rname">ＨＴＢ杯<span class="grade">重賞</span></span>
+      <div class="rhead"><b>函館10R</b><span class="rname">ＨＴＢ杯</span>
         <span class="cond">芝1200m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：11番ラスティングスノー（単EV1.451）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       
@@ -14450,7 +14457,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値1.06が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 通算勝率17%と勝ち切る力がある、前に行って粘れる先行脚質、持ちタイムがこのコース水準より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>函館11R</b><span class="rname">五稜郭ステークス<span class="grade">重賞</span></span>
+      <div class="rhead"><b>函館11R</b><span class="rname">五稜郭ステークス</span>
         <span class="cond">芝1800m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>最も割の良い2番アイスグリーンでも期待値1.02で基準1.10未満。市場とモデルの評価が一致しており、過小評価（＝買える）馬がいない。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 6頭（先行争いの中心 8番インヴォーグ）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明12頭で推定</span></div>
@@ -14640,7 +14647,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.92が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 通算勝率17%と勝ち切る力がある、前走から56日と好interval、前に行って粘れる先行脚質）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>福島9R</b><span class="rname">信夫山特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>福島9R</b><span class="rname">信夫山特別</span>
         <span class="cond">芝2600m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>11番ウインマイルートは単勝の期待値が基準を超えるが、58倍の大穴（オッズ変動・薄い校正で不利）のため方針で除外。ほかに割の合う馬なし。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 6頭（先行争いの中心 15番アメティスタ）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明15頭で推定</span></div>
@@ -14659,7 +14666,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値1.02が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 持ちタイムがこのコース水準より速い、通算勝率20%と勝ち切る力がある、中団から立ち回れる脚質）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>福島10R</b><span class="rname">会津ステークス<span class="grade">重賞</span></span>
+      <div class="rhead"><b>福島10R</b><span class="rname">会津ステークス</span>
         <span class="cond">芝1200m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>4番ズバットマサムネは単勝の期待値が基準を超えるが、29倍の大穴（オッズ変動・薄い校正で不利）のため方針で除外。ほかに割の合う馬なし。</div>
       
@@ -14678,7 +14685,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値0.89が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 当地(福島)の複勝率100%とコース巧者、前走から48日と好interval、持ちタイムがこのコース水準より速い）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>福島11R</b><span class="rname">安達太良ステークス<span class="grade">重賞</span></span>
+      <div class="rhead"><b>福島11R</b><span class="rname">安達太良ステークス</span>
         <span class="cond">芝1200m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>最も割の良い6番クリエープキーでも期待値1.09で基準1.10未満。市場とモデルの評価が一致しており、過小評価（＝買える）馬がいない。</div>
       
@@ -14868,7 +14875,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値1.01が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 前走から49日と好interval、持ちタイムがこのコース水準より速い、厩舎が勝率11%と信頼できる）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>小倉9R</b><span class="rname">英彦山特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>小倉9R</b><span class="rname">英彦山特別</span>
         <span class="cond">芝2600m</span><span class="rbuy">○1点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：4番カレンラップスター（単EV1.142）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       <div class="pace"><b>展開</b>前へ行きたい馬 3頭（先行争いの中心 8番ミッドタウンナイト）。平均的なペースで、脚質の有利不利は小さめ。<span class="cav">※過去の位置取りからの目安・脚質判明11頭で推定</span></div>
@@ -14887,7 +14894,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">最高期待値1.04が基準1.1未満＝市場が適正〜割高とみて見送り（モデル注目点: 通算勝率33%と勝ち切る力がある、持ちタイムがこのコース水準より速い、中団から立ち回れる脚質）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>小倉10R</b><span class="rname">耶馬渓特別<span class="grade">重賞</span></span>
+      <div class="rhead"><b>小倉10R</b><span class="rname">耶馬渓特別</span>
         <span class="cond">芝1200m</span><span class="rbuy">○2点</span></div>
       <div class="verdict buy"><b>○ 買い</b>買える：10番ファイツオン（複EV1.638）、12番ライクアフラワー（複EV1.171）。市場がこの馬を過小評価しているとモデルが判断（期待値が基準1.10超）。</div>
       
@@ -14906,7 +14913,7 @@ footer{color:var(--mut);font-size:.72rem;text-align:center;margin:26px 0 10px}
       <div class="cwhy">単勝は期待値1.26だが33倍の大穴(上限20)で除外（モデル注目点: 持ちタイムがこのコース水準より速い、厩舎が勝率11%と信頼できる、前に行って粘れる先行脚質）</div>
     </div>
     </section><section class="racecard">
-      <div class="rhead"><b>小倉11R</b><span class="rname">釜山ステークス<span class="grade">重賞</span></span>
+      <div class="rhead"><b>小倉11R</b><span class="rname">釜山ステークス</span>
         <span class="cond">ダート1000m</span><span class="rpass">見送り</span></div>
       <div class="verdict pass"><b>✕ 見送り</b>最も割の良い7番ヴェロクオーレでも期待値0.94で基準1.10未満。市場とモデルの評価が一致しており、過小評価（＝買える）馬がいない。</div>
       
