@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T14:25:30",
+ "generated_at": "2026-10-12T14:30:38",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -551,35 +551,9 @@
      "course": "ダート1800m",
      "rough": "荒れやすい",
      "rough_past": "5/7",
-     "status": "provisional",
-     "odds_at": "14:05",
-     "picks": [],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 12,
-       "name": "テイエムサンレーヴ",
-       "ai_win": 27,
-       "odds": 3.2,
-       "buy_line_win": "4.1〜4.4倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 10,
-       "name": "ニホンピロデヴィン",
-       "ai_win": 19,
-       "odds": 3.8,
-       "buy_line_win": "5.8〜6.3倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 4,
-       "name": "ソルチェリア",
-       "ai_win": 17,
-       "odds": 5.5,
-       "buy_line_win": "6.5〜7.1倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "14:30",
+     "picks": []
     },
     {
      "race_id": "2026101205040510",
@@ -672,14 +646,21 @@
      "rough": "平均的",
      "rough_past": "4/9",
      "status": "provisional",
-     "odds_at": "09:00",
+     "odds_at": "14:30",
      "picks": [
+      {
+       "umaban": 3,
+       "name": "ニシノレヴナント",
+       "type": "単勝",
+       "odds": 19.7,
+       "ev": 1.141
+      },
       {
        "umaban": 18,
        "name": "トーセンリョウ",
-       "type": "複勝",
-       "odds": 4.2,
-       "ev": 1.113
+       "type": "単勝",
+       "odds": 13.6,
+       "ev": 1.155
       }
      ],
      "top": [
@@ -687,25 +668,25 @@
        "mark": "◎",
        "umaban": 2,
        "name": "アスクセクシーモア",
-       "ai_win": 23,
-       "odds": 3.9,
-       "buy_line_win": "4.8〜5.3倍"
+       "ai_win": 25,
+       "odds": 3.5,
+       "buy_line_win": "4.4〜4.8倍"
       },
       {
        "mark": "○",
        "umaban": 9,
        "name": "ディマイザキッド",
        "ai_win": 12,
-       "odds": 8.3,
-       "buy_line_win": "9.2〜10.0倍"
+       "odds": 7.1,
+       "buy_line_win": "8.9〜9.7倍"
       },
       {
        "mark": "▲",
        "umaban": 1,
        "name": "メイショウハチコウ",
-       "ai_win": 8,
-       "odds": 6.1,
-       "buy_line_win": "13.2〜14.4倍"
+       "ai_win": 9,
+       "odds": 6.5,
+       "buy_line_win": "12.8〜13.9倍"
       }
      ]
     },
