@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T14:15:22",
+ "generated_at": "2026-10-12T14:25:30",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -506,9 +506,26 @@
      "course": "芝2000m",
      "rough": "",
      "rough_past": "",
-     "status": "decided",
+     "status": "result",
      "decided_at": "13:55",
-     "picks": []
+     "picks": [],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 9,
+       "name": "レゼルフォート"
+      },
+      {
+       "pos": 2,
+       "umaban": 1,
+       "name": "エレガンシア"
+      },
+      {
+       "pos": 3,
+       "umaban": 7,
+       "name": "レーヌマロン"
+      }
+     ]
     },
     {
      "race_id": "2026101205040509",
@@ -575,32 +592,32 @@
      "rough": "判断材料が少ない",
      "rough_past": "0/2",
      "status": "provisional",
-     "odds_at": "13:55",
+     "odds_at": "14:25",
      "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 11,
        "name": "レッドバンデ",
-       "ai_win": 47,
-       "odds": 1.6,
-       "buy_line_win": "2.3〜2.6倍"
+       "ai_win": 48,
+       "odds": 1.5,
+       "buy_line_win": "2.3〜2.5倍"
       },
       {
        "mark": "○",
        "umaban": 1,
        "name": "バドリナート",
        "ai_win": 12,
-       "odds": 6.1,
-       "buy_line_win": "9.2〜10.0倍"
+       "odds": 5.5,
+       "buy_line_win": "8.9〜9.7倍"
       },
       {
        "mark": "▲",
        "umaban": 5,
        "name": "オメガナビゲーター",
-       "ai_win": 7,
-       "odds": 10.8,
-       "buy_line_win": "14.9〜16.2倍"
+       "ai_win": 8,
+       "odds": 11.8,
+       "buy_line_win": "14.4〜15.7倍"
       }
      ]
     },
