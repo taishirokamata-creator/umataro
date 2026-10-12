@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T14:45:50",
+ "generated_at": "2026-10-12T14:50:54",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -582,35 +582,9 @@
      "course": "芝2400m",
      "rough": "判断材料が少ない",
      "rough_past": "0/2",
-     "status": "provisional",
-     "odds_at": "14:25",
-     "picks": [],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 11,
-       "name": "レッドバンデ",
-       "ai_win": 48,
-       "odds": 1.5,
-       "buy_line_win": "2.3〜2.5倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 1,
-       "name": "バドリナート",
-       "ai_win": 12,
-       "odds": 5.5,
-       "buy_line_win": "8.9〜9.7倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 5,
-       "name": "オメガナビゲーター",
-       "ai_win": 8,
-       "odds": 11.8,
-       "buy_line_win": "14.4〜15.7倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "14:50",
+     "picks": []
     },
     {
      "race_id": "2026101208040510",
