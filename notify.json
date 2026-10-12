@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T15:25:20",
+ "generated_at": "2026-10-12T15:35:28",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -630,9 +630,26 @@
      "course": "芝1800m",
      "rough": "堅い",
      "rough_past": "0/6",
-     "status": "decided",
+     "status": "result",
      "decided_at": "15:05",
-     "picks": []
+     "picks": [],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 5,
+       "name": "アクセス"
+      },
+      {
+       "pos": 2,
+       "umaban": 2,
+       "name": "カムアップローゼス"
+      },
+      {
+       "pos": 3,
+       "umaban": 9,
+       "name": "ミリタリータトゥー"
+      }
+     ]
     },
     {
      "race_id": "2026101205040511",
@@ -769,11 +786,11 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:00",
+     "odds_at": "15:30",
      "picks": [
       {
-       "umaban": 16,
-       "name": "カネコメファミリー",
+       "umaban": 8,
+       "name": "ザングウィル",
        "type": "複勝",
        "odds": 3.0,
        "ev": 1.159
@@ -784,22 +801,22 @@
        "mark": "◎",
        "umaban": 3,
        "name": "ウェルカムソング",
-       "ai_win": 15,
-       "odds": 4.5
+       "ai_win": 18,
+       "odds": 4.1
       },
       {
        "mark": "○",
-       "umaban": 16,
-       "name": "カネコメファミリー",
+       "umaban": 8,
+       "name": "ザングウィル",
        "ai_win": 14,
-       "odds": 6.8
+       "odds": 8.2
       },
       {
        "mark": "▲",
-       "umaban": 8,
-       "name": "ザングウィル",
+       "umaban": 16,
+       "name": "カネコメファミリー",
        "ai_win": 12,
-       "odds": 9.6
+       "odds": 7.5
       }
      ]
     }
