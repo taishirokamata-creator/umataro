@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T15:55:39",
+ "generated_at": "2026-10-12T16:10:47",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -737,30 +737,17 @@
      "course": "ダート1300m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "15:45",
-     "picks": [],
-     "top": [
+     "status": "decided",
+     "decided_at": "16:10",
+     "picks": [
       {
-       "mark": "◎",
-       "umaban": 8,
-       "name": "ロードトライデント",
-       "ai_win": 23,
-       "odds": 4.0
-      },
-      {
-       "mark": "○",
-       "umaban": 1,
-       "name": "ピコレッド",
-       "ai_win": 18,
-       "odds": 4.5
-      },
-      {
-       "mark": "▲",
        "umaban": 7,
        "name": "ユイノカタリベ",
-       "ai_win": 8,
-       "odds": 10.8
+       "type": "複勝",
+       "odds": 5.3,
+       "ev": 1.127,
+       "stake": 700,
+       "finish": null
       }
      ]
     },
@@ -775,37 +762,29 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "15:30",
-     "picks": [
-      {
-       "umaban": 8,
-       "name": "ザングウィル",
-       "type": "複勝",
-       "odds": 3.0,
-       "ev": 1.159
-      }
-     ],
+     "odds_at": "16:00",
+     "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 3,
        "name": "ウェルカムソング",
-       "ai_win": 18,
-       "odds": 4.1
+       "ai_win": 15,
+       "odds": 4.8
       },
       {
        "mark": "○",
-       "umaban": 8,
-       "name": "ザングウィル",
-       "ai_win": 14,
-       "odds": 8.2
+       "umaban": 16,
+       "name": "カネコメファミリー",
+       "ai_win": 15,
+       "odds": 5.9
       },
       {
        "mark": "▲",
-       "umaban": 16,
-       "name": "カネコメファミリー",
-       "ai_win": 12,
-       "odds": 7.5
+       "umaban": 14,
+       "name": "ビスケットアソート",
+       "ai_win": 14,
+       "odds": 7.6
       }
      ]
     }
