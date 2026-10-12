@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T15:05:08",
+ "generated_at": "2026-10-12T15:20:16",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -599,9 +599,26 @@
      "course": "芝2400m",
      "rough": "判断材料が少ない",
      "rough_past": "0/2",
-     "status": "decided",
+     "status": "result",
      "decided_at": "14:50",
-     "picks": []
+     "picks": [],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 11,
+       "name": "レッドバンデ"
+      },
+      {
+       "pos": 2,
+       "umaban": 1,
+       "name": "バドリナート"
+      },
+      {
+       "pos": 3,
+       "umaban": 10,
+       "name": "ロードガレリア"
+      }
+     ]
     },
     {
      "race_id": "2026101208040510",
@@ -690,14 +707,21 @@
      "rough": "荒れやすい",
      "rough_past": "4/5",
      "status": "provisional",
-     "odds_at": "14:45",
+     "odds_at": "15:15",
      "picks": [
       {
        "umaban": 2,
        "name": "ショウナンザナドゥ",
        "type": "複勝",
        "odds": 5.0,
-       "ev": 1.111
+       "ev": 1.18
+      },
+      {
+       "umaban": 17,
+       "name": "ミニトランザット",
+       "type": "単勝",
+       "odds": 18.0,
+       "ev": 1.123
       }
      ],
      "top": [
@@ -705,9 +729,9 @@
        "mark": "◎",
        "umaban": 9,
        "name": "オフトレイル",
-       "ai_win": 23,
-       "odds": 4.3,
-       "buy_line_win": "4.8〜5.3倍"
+       "ai_win": 19,
+       "odds": 4.1,
+       "buy_line_win": "5.9〜6.4倍"
       },
       {
        "mark": "○",
@@ -715,15 +739,15 @@
        "name": "ダイヤモンドノット",
        "ai_win": 13,
        "odds": 6.0,
-       "buy_line_win": "8.7〜9.5倍"
+       "buy_line_win": "8.3〜9.0倍"
       },
       {
        "mark": "▲",
        "umaban": 18,
        "name": "エリカエクスプレス",
        "ai_win": 13,
-       "odds": 6.9,
-       "buy_line_win": "8.7〜9.5倍"
+       "odds": 7.0,
+       "buy_line_win": "8.3〜9.0倍"
       }
      ]
     },
@@ -738,29 +762,37 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:00",
-     "picks": [],
+     "odds_at": "15:15",
+     "picks": [
+      {
+       "umaban": 14,
+       "name": "ボナーテソーロ",
+       "type": "複勝",
+       "odds": 4.4,
+       "ev": 1.132
+      }
+     ],
      "top": [
       {
        "mark": "◎",
        "umaban": 8,
        "name": "ロードトライデント",
-       "ai_win": 19,
-       "odds": 5.0
+       "ai_win": 18,
+       "odds": 4.4
       },
       {
        "mark": "○",
        "umaban": 1,
        "name": "ピコレッド",
-       "ai_win": 13,
-       "odds": 5.4
+       "ai_win": 16,
+       "odds": 5.0
       },
       {
        "mark": "▲",
        "umaban": 15,
        "name": "アンプイットアップ",
        "ai_win": 11,
-       "odds": 8.3
+       "odds": 8.9
       }
      ]
     },
