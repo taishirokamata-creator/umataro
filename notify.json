@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T15:40:31",
+ "generated_at": "2026-10-12T15:55:39",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -661,7 +661,7 @@
      "course": "芝2000m",
      "rough": "平均的",
      "rough_past": "4/9",
-     "status": "decided",
+     "status": "result",
      "decided_at": "15:25",
      "picks": [
       {
@@ -671,9 +671,28 @@
        "odds": 14.4,
        "ev": 1.101,
        "stake": 100,
-       "finish": null
+       "finish": 14
       }
-     ]
+     ],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 2,
+       "name": "アスクセクシーモア"
+      },
+      {
+       "pos": 2,
+       "umaban": 16,
+       "name": "ミッキーゴールド"
+      },
+      {
+       "pos": 3,
+       "umaban": 10,
+       "name": "ジュンブロッサム"
+      }
+     ],
+     "net": -100,
+     "hit": false
     },
     {
      "race_id": "2026101208040511",
@@ -719,37 +738,29 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "15:15",
-     "picks": [
-      {
-       "umaban": 14,
-       "name": "ボナーテソーロ",
-       "type": "複勝",
-       "odds": 4.4,
-       "ev": 1.132
-      }
-     ],
+     "odds_at": "15:45",
+     "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 8,
        "name": "ロードトライデント",
-       "ai_win": 18,
-       "odds": 4.4
+       "ai_win": 23,
+       "odds": 4.0
       },
       {
        "mark": "○",
        "umaban": 1,
        "name": "ピコレッド",
-       "ai_win": 16,
-       "odds": 5.0
+       "ai_win": 18,
+       "odds": 4.5
       },
       {
        "mark": "▲",
-       "umaban": 15,
-       "name": "アンプイットアップ",
-       "ai_win": 11,
-       "odds": 8.9
+       "umaban": 7,
+       "name": "ユイノカタリベ",
+       "ai_win": 8,
+       "odds": 10.8
       }
      ]
     },
