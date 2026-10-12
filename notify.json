@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T12:20:33",
+ "generated_at": "2026-10-12T12:35:42",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -305,32 +305,9 @@
      "course": "ダート1300m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "12:10",
-     "picks": [],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 14,
-       "name": "サノノソルジャー",
-       "ai_win": 45,
-       "odds": 2.0
-      },
-      {
-       "mark": "○",
-       "umaban": 2,
-       "name": "クシャナーダ",
-       "ai_win": 8,
-       "odds": 9.6
-      },
-      {
-       "mark": "▲",
-       "umaban": 5,
-       "name": "ツジベン",
-       "ai_win": 8,
-       "odds": 8.0
-      }
-     ]
+     "status": "decided",
+     "decided_at": "12:35",
+     "picks": []
     },
     {
      "race_id": "2026101208040506",
@@ -343,29 +320,29 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "11:55",
+     "odds_at": "12:25",
      "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 12,
        "name": "メイショウギフト",
-       "ai_win": 31,
-       "odds": 3.3
+       "ai_win": 27,
+       "odds": 3.4
       },
       {
        "mark": "○",
        "umaban": 11,
        "name": "クラストムーン",
-       "ai_win": 14,
-       "odds": 5.2
+       "ai_win": 18,
+       "odds": 4.4
       },
       {
        "mark": "▲",
        "umaban": 8,
        "name": "ルーチェドンナ",
        "ai_win": 11,
-       "odds": 6.8
+       "odds": 7.1
       }
      ]
     },
@@ -420,61 +397,32 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:00",
-     "picks": [
-      {
-       "umaban": 7,
-       "name": "ドメイン",
-       "type": "複勝",
-       "odds": 5.3,
-       "ev": 1.127
-      },
-      {
-       "umaban": 10,
-       "name": "エクストラプッシュ",
-       "type": "複勝",
-       "odds": 5.2,
-       "ev": 1.105
-      },
-      {
-       "umaban": 11,
-       "name": "カイラーサ",
-       "type": "単勝",
-       "odds": 9.6,
-       "ev": 1.195
-      },
-      {
-       "umaban": 14,
-       "name": "セルリアンゲーゲン",
-       "type": "複勝",
-       "odds": 7.4,
-       "ev": 1.133
-      }
-     ],
+     "odds_at": "12:25",
+     "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 11,
        "name": "カイラーサ",
-       "ai_win": 12,
-       "odds": 9.6,
-       "buy_line_win": "8.8〜9.6倍"
+       "ai_win": 23,
+       "odds": 4.0,
+       "buy_line_win": "4.8〜5.2倍"
       },
       {
        "mark": "○",
        "umaban": 15,
        "name": "ジーティーアメリカ",
-       "ai_win": 12,
-       "odds": 6.6,
-       "buy_line_win": "8.8〜9.6倍"
+       "ai_win": 13,
+       "odds": 6.8,
+       "buy_line_win": "8.7〜9.5倍"
       },
       {
        "mark": "▲",
-       "umaban": 12,
-       "name": "ダイシンレアレア",
-       "ai_win": 12,
-       "odds": 6.2,
-       "buy_line_win": "9.4〜10.3倍"
+       "umaban": 2,
+       "name": "アレンスター",
+       "ai_win": 9,
+       "odds": 5.9,
+       "buy_line_win": "12.4〜13.5倍"
       }
      ]
     },
