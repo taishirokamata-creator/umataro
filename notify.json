@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T13:50:58",
+ "generated_at": "2026-10-12T13:55:06",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -489,35 +489,9 @@
      "course": "芝2000m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "13:30",
-     "picks": [],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 3,
-       "name": "ストロベリーツリー",
-       "ai_win": 15,
-       "odds": 6.8,
-       "buy_line_win": "7.5〜8.2倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 5,
-       "name": "ウィズクィーン",
-       "ai_win": 15,
-       "odds": 6.0,
-       "buy_line_win": "7.5〜8.2倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 11,
-       "name": "ベルシュヴァル",
-       "ai_win": 15,
-       "odds": 4.6,
-       "buy_line_win": "7.5〜8.2倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "13:55",
+     "picks": []
     },
     {
      "race_id": "2026101205040509",
@@ -610,32 +584,32 @@
      "rough": "判断材料が少ない",
      "rough_past": "0/2",
      "status": "provisional",
-     "odds_at": "09:00",
+     "odds_at": "13:55",
      "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 11,
        "name": "レッドバンデ",
-       "ai_win": 35,
-       "odds": 1.9,
-       "buy_line_win": "3.1〜3.4倍"
+       "ai_win": 47,
+       "odds": 1.6,
+       "buy_line_win": "2.3〜2.6倍"
       },
       {
        "mark": "○",
        "umaban": 1,
        "name": "バドリナート",
-       "ai_win": 17,
-       "odds": 5.3,
-       "buy_line_win": "6.6〜7.2倍"
+       "ai_win": 12,
+       "odds": 6.1,
+       "buy_line_win": "9.2〜10.0倍"
       },
       {
        "mark": "▲",
        "umaban": 5,
        "name": "オメガナビゲーター",
-       "ai_win": 8,
-       "odds": 10.6,
-       "buy_line_win": "14.0〜15.3倍"
+       "ai_win": 7,
+       "odds": 10.8,
+       "buy_line_win": "14.9〜16.2倍"
       }
      ]
     },
