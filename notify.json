@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T15:01:02",
+ "generated_at": "2026-10-12T15:05:08",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -613,35 +613,9 @@
      "course": "芝1800m",
      "rough": "堅い",
      "rough_past": "0/6",
-     "status": "provisional",
-     "odds_at": "14:40",
-     "picks": [],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 5,
-       "name": "アクセス",
-       "ai_win": 29,
-       "odds": 2.6,
-       "buy_line_win": "3.8〜4.1倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 2,
-       "name": "カムアップローゼス",
-       "ai_win": 20,
-       "odds": 4.4,
-       "buy_line_win": "5.4〜5.9倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 9,
-       "name": "ミリタリータトゥー",
-       "ai_win": 14,
-       "odds": 4.2,
-       "buy_line_win": "8.1〜8.9倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "15:05",
+     "picks": []
     },
     {
      "race_id": "2026101205040511",
