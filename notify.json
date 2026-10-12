@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T09:00:21",
+ "generated_at": "2026-10-12T09:45:44",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -17,43 +17,9 @@
      "course": "ダート1400m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "09:00",
-     "picks": [
-      {
-       "umaban": 2,
-       "name": "トロフィアス",
-       "type": "複勝",
-       "odds": 5.4,
-       "ev": 1.148
-      }
-     ],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 15,
-       "name": "イトウカカリチョウ",
-       "ai_win": 37,
-       "odds": 2.1,
-       "buy_line_win": "2.9〜3.2倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 6,
-       "name": "アンバーバレット",
-       "ai_win": 20,
-       "odds": 4.0,
-       "buy_line_win": "5.6〜6.1倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 4,
-       "name": "オーケーエース",
-       "ai_win": 13,
-       "odds": 5.6,
-       "buy_line_win": "8.4〜9.2倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "09:45",
+     "picks": []
     },
     {
      "race_id": "2026101208040501",
@@ -66,32 +32,32 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:00",
+     "odds_at": "09:35",
      "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 0,
        "name": "サンシルヴァリー",
-       "ai_win": 48,
+       "ai_win": 50,
        "odds": null,
-       "buy_line_win": "2.3〜2.5倍"
+       "buy_line_win": "2.2〜2.4倍"
       },
       {
        "mark": "○",
        "umaban": 14,
        "name": "パストザクラウン",
-       "ai_win": 23,
-       "odds": 2.0,
-       "buy_line_win": "4.7〜5.1倍"
+       "ai_win": 24,
+       "odds": 1.8,
+       "buy_line_win": "4.6〜5.0倍"
       },
       {
        "mark": "▲",
        "umaban": 12,
        "name": "ファーストステイト",
-       "ai_win": 7,
-       "odds": 6.1,
-       "buy_line_win": "15.3〜16.7倍"
+       "ai_win": 6,
+       "odds": 7.4,
+       "buy_line_win": "18.0〜19.7倍"
       }
      ]
     },
@@ -106,7 +72,7 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:00",
+     "odds_at": "09:20",
      "picks": [],
      "top": [
       {
@@ -122,7 +88,7 @@
        "umaban": 2,
        "name": "ソニックアイル",
        "ai_win": 34,
-       "odds": 1.5,
+       "odds": 1.4,
        "buy_line_win": "3.2〜3.5倍"
       },
       {
@@ -130,8 +96,8 @@
        "umaban": 1,
        "name": "クラオルグジェシダ",
        "ai_win": 6,
-       "odds": 7.1,
-       "buy_line_win": "17.6〜19.2倍"
+       "odds": 7.4,
+       "buy_line_win": "17.6〜19.1倍"
       }
      ]
     },
@@ -146,32 +112,32 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:00",
+     "odds_at": "09:35",
      "picks": [],
      "top": [
       {
        "mark": "◎",
-       "umaban": 11,
-       "name": "ホシヲミテルンナ",
-       "ai_win": 37,
-       "odds": 2.2,
-       "buy_line_win": "2.9〜3.2倍"
+       "umaban": 4,
+       "name": "ケイアイトリノ",
+       "ai_win": 40,
+       "odds": 2.0,
+       "buy_line_win": "2.7〜3.0倍"
       },
       {
        "mark": "○",
-       "umaban": 4,
-       "name": "ケイアイトリノ",
-       "ai_win": 33,
+       "umaban": 11,
+       "name": "ホシヲミテルンナ",
+       "ai_win": 29,
        "odds": 2.9,
-       "buy_line_win": "3.3〜3.6倍"
+       "buy_line_win": "3.8〜4.1倍"
       },
       {
        "mark": "▲",
        "umaban": 12,
        "name": "サトノステラ",
-       "ai_win": 8,
-       "odds": 9.6,
-       "buy_line_win": "13.1〜14.3倍"
+       "ai_win": 9,
+       "odds": 11.6,
+       "buy_line_win": "12.3〜13.4倍"
       }
      ]
     },
