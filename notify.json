@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T11:45:14",
+ "generated_at": "2026-10-12T12:00:22",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -246,9 +246,26 @@
      "course": "ダート1800m",
      "rough": "",
      "rough_past": "",
-     "status": "decided",
+     "status": "result",
      "decided_at": "11:30",
-     "picks": []
+     "picks": [],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 12,
+       "name": "アメリカンソウル"
+      },
+      {
+       "pos": 2,
+       "umaban": 5,
+       "name": "マーゴットバサラ"
+      },
+      {
+       "pos": 3,
+       "umaban": 13,
+       "name": "グランビート"
+      }
+     ]
     },
     {
      "race_id": "2026101205040505",
@@ -301,32 +318,32 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "11:25",
+     "odds_at": "11:55",
      "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 2,
        "name": "サンティエリュール",
-       "ai_win": 35,
-       "odds": 2.2,
-       "buy_line_win": "3.1〜3.4倍"
+       "ai_win": 38,
+       "odds": 1.8,
+       "buy_line_win": "2.9〜3.1倍"
       },
       {
        "mark": "○",
-       "umaban": 9,
-       "name": "コスモベネチア",
+       "umaban": 4,
+       "name": "ホウオウビースト",
        "ai_win": 13,
-       "odds": 5.2,
-       "buy_line_win": "8.6〜9.4倍"
+       "odds": 6.4,
+       "buy_line_win": "8.4〜9.2倍"
       },
       {
        "mark": "▲",
-       "umaban": 4,
-       "name": "ホウオウビースト",
-       "ai_win": 12,
-       "odds": 6.0,
-       "buy_line_win": "9.0〜9.8倍"
+       "umaban": 9,
+       "name": "コスモベネチア",
+       "ai_win": 13,
+       "odds": 5.4,
+       "buy_line_win": "8.4〜9.2倍"
       }
      ]
     },
@@ -378,29 +395,29 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:00",
+     "odds_at": "11:55",
      "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 12,
        "name": "メイショウギフト",
-       "ai_win": 27,
-       "odds": 3.5
+       "ai_win": 31,
+       "odds": 3.3
       },
       {
        "mark": "○",
-       "umaban": 8,
-       "name": "ルーチェドンナ",
-       "ai_win": 16,
-       "odds": 5.3
+       "umaban": 11,
+       "name": "クラストムーン",
+       "ai_win": 14,
+       "odds": 5.2
       },
       {
        "mark": "▲",
-       "umaban": 11,
-       "name": "クラストムーン",
-       "ai_win": 12,
-       "odds": 6.2
+       "umaban": 8,
+       "name": "ルーチェドンナ",
+       "ai_win": 11,
+       "odds": 6.8
       }
      ]
     },
