@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T16:10:51",
+ "generated_at": "2026-10-12T16:25:54",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -780,32 +780,9 @@
      "course": "ダート1200m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "16:00",
-     "picks": [],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 3,
-       "name": "ウェルカムソング",
-       "ai_win": 15,
-       "odds": 4.8
-      },
-      {
-       "mark": "○",
-       "umaban": 16,
-       "name": "カネコメファミリー",
-       "ai_win": 15,
-       "odds": 5.9
-      },
-      {
-       "mark": "▲",
-       "umaban": 14,
-       "name": "ビスケットアソート",
-       "ai_win": 14,
-       "odds": 7.6
-      }
-     ]
+     "status": "decided",
+     "decided_at": "16:25",
+     "picks": []
     }
    ]
   }
