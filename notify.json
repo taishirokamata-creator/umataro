@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T13:55:06",
+ "generated_at": "2026-10-12T14:10:19",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -475,9 +475,26 @@
      "course": "ダート1600m",
      "rough": "平均的",
      "rough_past": "3/9",
-     "status": "decided",
+     "status": "result",
      "decided_at": "13:40",
-     "picks": []
+     "picks": [],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 5,
+       "name": "ウィンターブリーズ"
+      },
+      {
+       "pos": 2,
+       "umaban": 2,
+       "name": "ユイノリュウギ"
+      },
+      {
+       "pos": 3,
+       "umaban": 1,
+       "name": "レガメデルヴェント"
+      }
+     ]
     },
     {
      "race_id": "2026101208040508",
@@ -544,32 +561,32 @@
      "rough": "荒れやすい",
      "rough_past": "5/7",
      "status": "provisional",
-     "odds_at": "13:35",
+     "odds_at": "14:05",
      "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 12,
        "name": "テイエムサンレーヴ",
-       "ai_win": 30,
-       "odds": 3.1,
-       "buy_line_win": "3.6〜4.0倍"
+       "ai_win": 27,
+       "odds": 3.2,
+       "buy_line_win": "4.1〜4.4倍"
       },
       {
        "mark": "○",
-       "umaban": 4,
-       "name": "ソルチェリア",
-       "ai_win": 18,
-       "odds": 5.3,
-       "buy_line_win": "6.2〜6.8倍"
+       "umaban": 10,
+       "name": "ニホンピロデヴィン",
+       "ai_win": 19,
+       "odds": 3.8,
+       "buy_line_win": "5.8〜6.3倍"
       },
       {
        "mark": "▲",
-       "umaban": 10,
-       "name": "ニホンピロデヴィン",
-       "ai_win": 16,
-       "odds": 4.7,
-       "buy_line_win": "7.0〜7.6倍"
+       "umaban": 4,
+       "name": "ソルチェリア",
+       "ai_win": 17,
+       "odds": 5.5,
+       "buy_line_win": "6.5〜7.1倍"
       }
      ]
     },
@@ -624,32 +641,32 @@
      "rough": "堅い",
      "rough_past": "0/6",
      "status": "provisional",
-     "odds_at": "09:00",
+     "odds_at": "14:10",
      "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 5,
        "name": "アクセス",
-       "ai_win": 34,
-       "odds": 2.1,
-       "buy_line_win": "3.2〜3.5倍"
+       "ai_win": 33,
+       "odds": 2.4,
+       "buy_line_win": "3.4〜3.7倍"
       },
       {
        "mark": "○",
        "umaban": 2,
        "name": "カムアップローゼス",
-       "ai_win": 20,
+       "ai_win": 19,
        "odds": 4.4,
-       "buy_line_win": "5.6〜6.1倍"
+       "buy_line_win": "5.7〜6.3倍"
       },
       {
        "mark": "▲",
-       "umaban": 7,
-       "name": "キシダンチョウ",
+       "umaban": 9,
+       "name": "ミリタリータトゥー",
        "ai_win": 13,
-       "odds": 7.7,
-       "buy_line_win": "8.4〜9.1倍"
+       "odds": 4.8,
+       "buy_line_win": "8.7〜9.4倍"
       }
      ]
     },
