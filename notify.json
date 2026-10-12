@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T15:20:16",
+ "generated_at": "2026-10-12T15:25:20",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -644,55 +644,17 @@
      "course": "芝2000m",
      "rough": "平均的",
      "rough_past": "4/9",
-     "status": "provisional",
-     "odds_at": "15:00",
+     "status": "decided",
+     "decided_at": "15:25",
      "picks": [
-      {
-       "umaban": 3,
-       "name": "ニシノレヴナント",
-       "type": "単勝",
-       "odds": 19.2,
-       "ev": 1.122
-      },
-      {
-       "umaban": 3,
-       "name": "ニシノレヴナント",
-       "type": "複勝",
-       "odds": 5.2,
-       "ev": 1.105
-      },
       {
        "umaban": 18,
        "name": "トーセンリョウ",
        "type": "単勝",
-       "odds": 13.4,
-       "ev": 1.148
-      }
-     ],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 2,
-       "name": "アスクセクシーモア",
-       "ai_win": 25,
-       "odds": 3.4,
-       "buy_line_win": "4.4〜4.8倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 9,
-       "name": "ディマイザキッド",
-       "ai_win": 12,
-       "odds": 7.3,
-       "buy_line_win": "8.8〜9.6倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 1,
-       "name": "メイショウハチコウ",
-       "ai_win": 9,
-       "odds": 6.4,
-       "buy_line_win": "12.6〜13.8倍"
+       "odds": 14.4,
+       "ev": 1.101,
+       "stake": 100,
+       "finish": null
       }
      ]
     },
