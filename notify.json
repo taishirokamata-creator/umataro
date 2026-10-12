@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T10:45:27",
+ "generated_at": "2026-10-12T11:00:35",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -148,50 +148,9 @@
      "course": "芝1400m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "10:35",
-     "picks": [
-      {
-       "umaban": 11,
-       "name": "エコログレイス",
-       "type": "単勝",
-       "odds": 13.3,
-       "ev": 1.165
-      },
-      {
-       "umaban": 11,
-       "name": "エコログレイス",
-       "type": "複勝",
-       "odds": 4.1,
-       "ev": 1.137
-      }
-     ],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 12,
-       "name": "エアロクリスタ",
-       "ai_win": 16,
-       "odds": 3.5,
-       "buy_line_win": "6.9〜7.6倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 6,
-       "name": "ジャストワナフライ",
-       "ai_win": 13,
-       "odds": 6.9,
-       "buy_line_win": "8.2〜9.0倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 1,
-       "name": "アヴァロン",
-       "ai_win": 11,
-       "odds": 6.2,
-       "buy_line_win": "9.9〜10.8倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "11:00",
+     "picks": []
     },
     {
      "race_id": "2026101205040504",
@@ -204,21 +163,21 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "10:20",
+     "odds_at": "10:50",
      "picks": [
       {
        "umaban": 2,
        "name": "バンデルオーラ",
        "type": "複勝",
        "odds": 2.2,
-       "ev": 1.103
+       "ev": 1.106
       },
       {
-       "umaban": 3,
-       "name": "ゲレル",
-       "type": "複勝",
-       "odds": 4.1,
-       "ev": 1.137
+       "umaban": 13,
+       "name": "アヴニールドブリエ",
+       "type": "単勝",
+       "odds": 15.1,
+       "ev": 1.128
       }
      ],
      "top": [
@@ -227,24 +186,24 @@
        "umaban": 2,
        "name": "バンデルオーラ",
        "ai_win": 21,
-       "odds": 4.0,
-       "buy_line_win": "5.2〜5.7倍"
+       "odds": 4.3,
+       "buy_line_win": "5.1〜5.6倍"
       },
       {
        "mark": "○",
        "umaban": 8,
        "name": "セイウンビッグバン",
-       "ai_win": 20,
-       "odds": 4.7,
-       "buy_line_win": "5.5〜6.0倍"
+       "ai_win": 21,
+       "odds": 4.2,
+       "buy_line_win": "5.1〜5.6倍"
       },
       {
        "mark": "▲",
        "umaban": 4,
        "name": "セイフウサツキ",
        "ai_win": 10,
-       "odds": 7.3,
-       "buy_line_win": "11.2〜12.2倍"
+       "odds": 6.9,
+       "buy_line_win": "11.0〜12.0倍"
       }
      ]
     },
