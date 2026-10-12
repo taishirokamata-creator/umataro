@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T12:50:58",
+ "generated_at": "2026-10-12T12:51:01",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -308,9 +308,26 @@
      "course": "芝1800m",
      "rough": "",
      "rough_past": "",
-     "status": "decided",
+     "status": "result",
      "decided_at": "12:20",
-     "picks": []
+     "picks": [],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 6,
+       "name": "レインインザスカイ"
+      },
+      {
+       "pos": 2,
+       "umaban": 2,
+       "name": "サンティエリュール"
+      },
+      {
+       "pos": 3,
+       "umaban": 4,
+       "name": "ホウオウビースト"
+      }
+     ]
     },
     {
      "race_id": "2026101205040506",
