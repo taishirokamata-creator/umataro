@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T11:15:51",
+ "generated_at": "2026-10-12T11:15:54",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -141,7 +141,7 @@
      "course": "芝1800m",
      "rough": "",
      "rough_past": "",
-     "status": "decided",
+     "status": "result",
      "decided_at": "10:45",
      "picks": [
       {
@@ -151,9 +151,28 @@
        "odds": 2.7,
        "ev": 1.163,
        "stake": 2300,
-       "finish": null
+       "finish": 4
       }
-     ]
+     ],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 4,
+       "name": "モンサンラパージュ"
+      },
+      {
+       "pos": 2,
+       "umaban": 11,
+       "name": "コスモバルムンク"
+      },
+      {
+       "pos": 3,
+       "umaban": 6,
+       "name": "マイネルリシャール"
+      }
+     ],
+     "net": -2300,
+     "hit": false
     },
     {
      "race_id": "2026101208040503",
