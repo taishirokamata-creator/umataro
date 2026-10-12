@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-12T15:35:28",
+ "generated_at": "2026-10-12T15:40:31",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -685,48 +685,26 @@
      "course": "芝1400m",
      "rough": "荒れやすい",
      "rough_past": "4/5",
-     "status": "provisional",
-     "odds_at": "15:15",
+     "status": "decided",
+     "decided_at": "15:40",
      "picks": [
+      {
+       "umaban": 17,
+       "name": "ミニトランザット",
+       "type": "単勝",
+       "odds": 19.3,
+       "ev": 1.188,
+       "stake": 200,
+       "finish": null
+      },
       {
        "umaban": 2,
        "name": "ショウナンザナドゥ",
        "type": "複勝",
        "odds": 5.0,
-       "ev": 1.18
-      },
-      {
-       "umaban": 17,
-       "name": "ミニトランザット",
-       "type": "単勝",
-       "odds": 18.0,
-       "ev": 1.123
-      }
-     ],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 9,
-       "name": "オフトレイル",
-       "ai_win": 19,
-       "odds": 4.1,
-       "buy_line_win": "5.9〜6.4倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 1,
-       "name": "ダイヤモンドノット",
-       "ai_win": 13,
-       "odds": 6.0,
-       "buy_line_win": "8.3〜9.0倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 18,
-       "name": "エリカエクスプレス",
-       "ai_win": 13,
-       "odds": 7.0,
-       "buy_line_win": "8.3〜9.0倍"
+       "ev": 1.18,
+       "stake": 1100,
+       "finish": null
       }
      ]
     },
