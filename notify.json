@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T14:00:28",
+ "generated_at": "2026-10-18T14:05:39",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -804,43 +804,9 @@
      "course": "障害3110m",
      "rough": "平均的",
      "rough_past": "2/9",
-     "status": "provisional",
-     "odds_at": "13:40",
-     "picks": [
-      {
-       "umaban": 7,
-       "name": "マイネルグロン",
-       "type": "単勝",
-       "odds": 15.3,
-       "ev": 1.104
-      }
-     ],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 6,
-       "name": "エコロデュエル",
-       "ai_win": 38,
-       "odds": 1.6,
-       "buy_line_win": "2.9〜3.1倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 9,
-       "name": "ジューンベロシティ",
-       "ai_win": 28,
-       "odds": 3.8,
-       "buy_line_win": "3.9〜4.2倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 2,
-       "name": "サイード",
-       "ai_win": 8,
-       "odds": 15.9,
-       "buy_line_win": "13.5〜14.7倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "14:05",
+     "picks": []
     },
     {
      "race_id": "2026101808040709",
@@ -893,22 +859,30 @@
      "rough": "荒れやすい",
      "rough_past": "5/10",
      "status": "provisional",
-     "odds_at": "13:35",
-     "picks": [],
+     "odds_at": "14:05",
+     "picks": [
+      {
+       "umaban": 15,
+       "name": "スペルキャスター",
+       "type": "複勝",
+       "odds": 2.3,
+       "ev": 1.153
+      }
+     ],
      "top": [
       {
        "mark": "◎",
        "umaban": 15,
        "name": "スペルキャスター",
        "ai_win": 22,
-       "odds": 5.7
+       "odds": 5.8
       },
       {
        "mark": "○",
        "umaban": 18,
        "name": "シーグルロス",
        "ai_win": 12,
-       "odds": 6.2
+       "odds": 6.4
       },
       {
        "mark": "▲",
