@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T16:05:07",
+ "generated_at": "2026-10-18T16:25:11",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -1169,43 +1169,9 @@
      "course": "ダート1400m",
      "rough": "堅い",
      "rough_past": "1/7",
-     "status": "provisional",
-     "odds_at": "16:00",
-     "picks": [
-      {
-       "umaban": 7,
-       "name": "クーデール",
-       "type": "複勝",
-       "odds": 6.3,
-       "ev": 1.126
-      }
-     ],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 5,
-       "name": "モーニングマジック",
-       "ai_win": 23,
-       "odds": 3.5,
-       "buy_line_win": "4.8〜5.3倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 8,
-       "name": "ジョディーズマロン",
-       "ai_win": 15,
-       "odds": 8.8,
-       "buy_line_win": "7.3〜8.0倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 12,
-       "name": "サンダーバース",
-       "ai_win": 15,
-       "odds": 5.1,
-       "buy_line_win": "7.3〜8.0倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "16:25",
+     "picks": []
     }
    ]
   }
