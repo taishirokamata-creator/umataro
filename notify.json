@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T10:30:20",
+ "generated_at": "2026-10-18T10:40:31",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -183,35 +183,9 @@
      "course": "芝1400m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "10:15",
-     "picks": [],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 1,
-       "name": "シドニーハーバー",
-       "ai_win": 43,
-       "odds": 1.8,
-       "buy_line_win": "2.5〜2.8倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 7,
-       "name": "アウアリイ",
-       "ai_win": 13,
-       "odds": 5.4,
-       "buy_line_win": "8.4〜9.1倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 8,
-       "name": "シュネーバレン",
-       "ai_win": 11,
-       "odds": 7.6,
-       "buy_line_win": "10.3〜11.2倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "10:40",
+     "picks": []
     },
     {
      "race_id": "2026101808040703",
@@ -264,37 +238,29 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "10:05",
-     "picks": [
-      {
-       "umaban": 14,
-       "name": "ガイストライヒ",
-       "type": "複勝",
-       "odds": 3.8,
-       "ev": 1.164
-      }
-     ],
+     "odds_at": "10:35",
+     "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 4,
        "name": "サトノエスケープ",
-       "ai_win": 31,
-       "odds": 2.9
+       "ai_win": 36,
+       "odds": 2.5
       },
       {
        "mark": "○",
        "umaban": 11,
        "name": "コウソクルリアン",
-       "ai_win": 11,
-       "odds": 4.2
+       "ai_win": 9,
+       "odds": 4.8
       },
       {
        "mark": "▲",
        "umaban": 14,
        "name": "ガイストライヒ",
        "ai_win": 9,
-       "odds": 13.0
+       "odds": 12.9
       }
      ]
     },
