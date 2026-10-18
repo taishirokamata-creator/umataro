@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T14:40:34",
+ "generated_at": "2026-10-18T14:45:37",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -871,9 +871,26 @@
      "course": "芝1600m",
      "rough": "荒れやすい",
      "rough_past": "2/4",
-     "status": "decided",
+     "status": "result",
      "decided_at": "14:15",
-     "picks": []
+     "picks": [],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 3,
+       "name": "リアンマヒナ"
+      },
+      {
+       "pos": 2,
+       "umaban": 2,
+       "name": "リカントロポ"
+      },
+      {
+       "pos": 3,
+       "umaban": 8,
+       "name": "サーディンラン"
+      }
+     ]
     },
     {
      "race_id": "2026101804040210",
