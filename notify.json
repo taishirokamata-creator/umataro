@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T15:35:36",
+ "generated_at": "2026-10-18T15:35:39",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -1007,9 +1007,26 @@
      "course": "芝2200m",
      "rough": "平均的",
      "rough_past": "2/6",
-     "status": "decided",
+     "status": "result",
      "decided_at": "15:05",
-     "picks": []
+     "picks": [],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 3,
+       "name": "シャドウメテオ"
+      },
+      {
+       "pos": 2,
+       "umaban": 1,
+       "name": "ウインデイジー"
+      },
+      {
+       "pos": 3,
+       "umaban": 5,
+       "name": "カニキュル"
+      }
+     ]
     },
     {
      "race_id": "2026101805040711",
