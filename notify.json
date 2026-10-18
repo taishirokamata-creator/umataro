@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T15:56:54",
+ "generated_at": "2026-10-18T16:05:04",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -1119,41 +1119,26 @@
      "course": "芝1800m",
      "rough": "堅い",
      "rough_past": "2/10",
-     "status": "provisional",
-     "odds_at": "15:40",
+     "status": "decided",
+     "decided_at": "16:05",
      "picks": [
       {
        "umaban": 6,
        "name": "ロンギングセリーヌ",
        "type": "単勝",
-       "odds": 13.3,
-       "ev": 1.188
-      }
-     ],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 9,
-       "name": "タイセイプランセス",
-       "ai_win": 14,
-       "odds": 5.4,
-       "buy_line_win": "7.6〜8.3倍"
+       "odds": 16.7,
+       "ev": 1.108,
+       "stake": 100,
+       "finish": null
       },
       {
-       "mark": "○",
-       "umaban": 14,
-       "name": "ベストミーエヴァー",
-       "ai_win": 11,
-       "odds": 5.6,
-       "buy_line_win": "9.9〜10.8倍"
-      },
-      {
-       "mark": "▲",
        "umaban": 13,
        "name": "キングノジョー",
-       "ai_win": 10,
-       "odds": 8.0,
-       "buy_line_win": "10.9〜11.9倍"
+       "type": "複勝",
+       "odds": 4.4,
+       "ev": 1.132,
+       "stake": 900,
+       "finish": null
       }
      ]
     },
@@ -1168,47 +1153,40 @@
      "rough": "堅い",
      "rough_past": "1/7",
      "status": "provisional",
-     "odds_at": "15:30",
+     "odds_at": "16:00",
      "picks": [
       {
        "umaban": 7,
        "name": "クーデール",
-       "type": "単勝",
-       "odds": 19.5,
-       "ev": 1.118
-      },
-      {
-       "umaban": 8,
-       "name": "ジョディーズマロン",
        "type": "複勝",
-       "odds": 2.6,
-       "ev": 1.12
+       "odds": 6.3,
+       "ev": 1.126
       }
      ],
      "top": [
       {
        "mark": "◎",
-       "umaban": 8,
-       "name": "ジョディーズマロン",
-       "ai_win": 17,
-       "odds": 7.8,
-       "buy_line_win": "6.4〜7.0倍"
+       "umaban": 5,
+       "name": "モーニングマジック",
+       "ai_win": 23,
+       "odds": 3.5,
+       "buy_line_win": "4.8〜5.3倍"
       },
       {
        "mark": "○",
-       "umaban": 5,
-       "name": "モーニングマジック",
-       "ai_win": 16,
-       "odds": 4.8,
-       "buy_line_win": "6.9〜7.5倍"
+       "umaban": 8,
+       "name": "ジョディーズマロン",
+       "ai_win": 15,
+       "odds": 8.8,
+       "buy_line_win": "7.3〜8.0倍"
       },
       {
        "mark": "▲",
        "umaban": 12,
        "name": "サンダーバース",
        "ai_win": 15,
-       "odds": 5.0,
-       "buy_line_win": "7.2〜7.8倍"
+       "odds": 5.1,
+       "buy_line_win": "7.3〜8.0倍"
       }
      ]
     }
