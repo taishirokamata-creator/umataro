@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T15:10:11",
+ "generated_at": "2026-10-18T15:15:15",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -1002,41 +1002,17 @@
      "course": "ダート2100m",
      "rough": "平均的",
      "rough_past": "4/10",
-     "status": "provisional",
-     "odds_at": "14:50",
+     "status": "decided",
+     "decided_at": "15:15",
      "picks": [
       {
-       "umaban": 2,
-       "name": "メイプルリッジ",
-       "type": "単勝",
-       "odds": 11.7,
-       "ev": 1.13
-      }
-     ],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 11,
-       "name": "レッドプロフェシー",
-       "ai_win": 16,
-       "odds": 6.0,
-       "buy_line_win": "6.8〜7.4倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 9,
-       "name": "クールミラボー",
-       "ai_win": 16,
-       "odds": 4.6,
-       "buy_line_win": "6.9〜7.5倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 6,
-       "name": "ハピ",
-       "ai_win": 11,
-       "odds": 5.6,
-       "buy_line_win": "9.6〜10.5倍"
+       "umaban": 12,
+       "name": "リチュアル",
+       "type": "複勝",
+       "odds": 4.7,
+       "ev": 1.129,
+       "stake": 800,
+       "finish": null
       }
      ]
     },
