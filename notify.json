@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T12:40:04",
+ "generated_at": "2026-10-18T12:40:07",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -463,7 +463,7 @@
      "course": "芝2000m",
      "rough": "",
      "rough_past": "",
-     "status": "decided",
+     "status": "result",
      "decided_at": "12:10",
      "picks": [
       {
@@ -473,9 +473,28 @@
        "odds": 5.4,
        "ev": 1.148,
        "stake": 800,
-       "finish": null
+       "finish": 5
       }
-     ]
+     ],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 3,
+       "name": "ビンドゥング"
+      },
+      {
+       "pos": 2,
+       "umaban": 4,
+       "name": "メールデトワール"
+      },
+      {
+       "pos": 3,
+       "umaban": 1,
+       "name": "ヤングリッチ"
+      }
+     ],
+     "net": -800,
+     "hit": false
     },
     {
      "race_id": "2026101804040206",
