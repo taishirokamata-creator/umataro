@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T13:40:54",
+ "generated_at": "2026-10-18T13:40:57",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -673,9 +673,26 @@
      "course": "ダート1800m",
      "rough": "",
      "rough_past": "",
-     "status": "decided",
+     "status": "result",
      "decided_at": "13:10",
-     "picks": []
+     "picks": [],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 7,
+       "name": "タガノアルトゥーラ"
+      },
+      {
+       "pos": 2,
+       "umaban": 8,
+       "name": "バリオス"
+      },
+      {
+       "pos": 3,
+       "umaban": 3,
+       "name": "エイシンマールス"
+      }
+     ]
     },
     {
      "race_id": "2026101804040208",
