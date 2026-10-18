@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T15:35:39",
+ "generated_at": "2026-10-18T15:45:50",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -1038,7 +1038,7 @@
      "course": "ダート2100m",
      "rough": "平均的",
      "rough_past": "4/10",
-     "status": "decided",
+     "status": "result",
      "decided_at": "15:15",
      "picks": [
       {
@@ -1048,9 +1048,28 @@
        "odds": 4.7,
        "ev": 1.129,
        "stake": 800,
-       "finish": null
+       "finish": 9
       }
-     ]
+     ],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 9,
+       "name": "クールミラボー"
+      },
+      {
+       "pos": 2,
+       "umaban": 11,
+       "name": "レッドプロフェシー"
+      },
+      {
+       "pos": 3,
+       "umaban": 6,
+       "name": "ハピ"
+      }
+     ],
+     "net": -800,
+     "hit": false
     },
     {
      "race_id": "2026101808040711",
@@ -1117,14 +1136,14 @@
      "rough": "堅い",
      "rough_past": "2/10",
      "status": "provisional",
-     "odds_at": "15:10",
+     "odds_at": "15:40",
      "picks": [
       {
        "umaban": 6,
        "name": "ロンギングセリーヌ",
        "type": "単勝",
-       "odds": 14.1,
-       "ev": 1.198
+       "odds": 13.3,
+       "ev": 1.188
       }
      ],
      "top": [
@@ -1132,17 +1151,17 @@
        "mark": "◎",
        "umaban": 9,
        "name": "タイセイプランセス",
-       "ai_win": 16,
-       "odds": 5.1,
-       "buy_line_win": "7.0〜7.7倍"
+       "ai_win": 14,
+       "odds": 5.4,
+       "buy_line_win": "7.6〜8.3倍"
       },
       {
        "mark": "○",
        "umaban": 14,
        "name": "ベストミーエヴァー",
-       "ai_win": 12,
-       "odds": 5.5,
-       "buy_line_win": "9.5〜10.3倍"
+       "ai_win": 11,
+       "odds": 5.6,
+       "buy_line_win": "9.9〜10.8倍"
       },
       {
        "mark": "▲",
@@ -1150,7 +1169,7 @@
        "name": "キングノジョー",
        "ai_win": 10,
        "odds": 8.0,
-       "buy_line_win": "11.4〜12.5倍"
+       "buy_line_win": "10.9〜11.9倍"
       }
      ]
     },
