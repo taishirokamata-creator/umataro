@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T15:00:51",
+ "generated_at": "2026-10-18T15:05:01",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -971,43 +971,9 @@
      "course": "芝2200m",
      "rough": "平均的",
      "rough_past": "2/6",
-     "status": "provisional",
-     "odds_at": "14:40",
-     "picks": [
-      {
-       "umaban": 10,
-       "name": "ケリフレッドアスク",
-       "type": "単勝",
-       "odds": 4.4,
-       "ev": 1.15
-      }
-     ],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 10,
-       "name": "ケリフレッドアスク",
-       "ai_win": 26,
-       "odds": 4.4,
-       "buy_line_win": "4.2〜4.6倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 5,
-       "name": "カニキュル",
-       "ai_win": 18,
-       "odds": 4.9,
-       "buy_line_win": "6.1〜6.7倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 3,
-       "name": "シャドウメテオ",
-       "ai_win": 13,
-       "odds": 4.2,
-       "buy_line_win": "8.6〜9.4倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "15:05",
+     "picks": []
     },
     {
      "race_id": "2026101805040711",
@@ -1108,40 +1074,32 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:00",
-     "picks": [
-      {
-       "umaban": 8,
-       "name": "ホウオウストライク",
-       "type": "複勝",
-       "odds": 2.4,
-       "ev": 1.15
-      }
-     ],
+     "odds_at": "15:01",
+     "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 7,
        "name": "サトノグロリア",
-       "ai_win": 24,
-       "odds": 2.9,
-       "buy_line_win": "4.6〜5.0倍"
+       "ai_win": 29,
+       "odds": 2.4,
+       "buy_line_win": "3.8〜4.2倍"
       },
       {
        "mark": "○",
-       "umaban": 8,
-       "name": "ホウオウストライク",
-       "ai_win": 19,
-       "odds": 4.5,
-       "buy_line_win": "5.9〜6.5倍"
+       "umaban": 3,
+       "name": "テスタヴェローチェ",
+       "ai_win": 14,
+       "odds": 5.0,
+       "buy_line_win": "7.7〜8.4倍"
       },
       {
        "mark": "▲",
-       "umaban": 2,
-       "name": "レボルシオン",
-       "ai_win": 12,
-       "odds": 5.7,
-       "buy_line_win": "8.8〜9.6倍"
+       "umaban": 9,
+       "name": "アメリカンイズム",
+       "ai_win": 14,
+       "odds": 7.4,
+       "buy_line_win": "7.7〜8.4倍"
       }
      ]
     },
