@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T09:40:14",
+ "generated_at": "2026-10-18T09:50:25",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -45,32 +45,9 @@
      "course": "ダート1200m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "09:25",
-     "picks": [],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 11,
-       "name": "マルモリマイベスト",
-       "ai_win": 37,
-       "odds": 2.0
-      },
-      {
-       "mark": "○",
-       "umaban": 8,
-       "name": "アワードリームス",
-       "ai_win": 12,
-       "odds": 6.8
-      },
-      {
-       "mark": "▲",
-       "umaban": 2,
-       "name": "ピコジャック",
-       "ai_win": 9,
-       "odds": 10.0
-      }
-     ]
+     "status": "decided",
+     "decided_at": "09:50",
+     "picks": []
     },
     {
      "race_id": "2026101804040202",
@@ -120,7 +97,7 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:15",
+     "odds_at": "09:45",
      "picks": [],
      "top": [
       {
@@ -128,16 +105,16 @@
        "umaban": 9,
        "name": "ティアラード",
        "ai_win": 39,
-       "odds": 2.1,
-       "buy_line_win": "2.8〜3.0倍"
+       "odds": 2.2,
+       "buy_line_win": "2.8〜3.1倍"
       },
       {
        "mark": "○",
        "umaban": 3,
        "name": "エピックジャーニー",
        "ai_win": 29,
-       "odds": 2.7,
-       "buy_line_win": "3.8〜4.2倍"
+       "odds": 2.8,
+       "buy_line_win": "3.9〜4.2倍"
       },
       {
        "mark": "▲",
@@ -145,7 +122,7 @@
        "name": "ヴェントリナ",
        "ai_win": 18,
        "odds": 3.9,
-       "buy_line_win": "6.1〜6.7倍"
+       "buy_line_win": "6.2〜6.7倍"
       }
      ]
     },
@@ -256,32 +233,32 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:00",
+     "odds_at": "09:45",
      "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 1,
        "name": "シドニーハーバー",
-       "ai_win": 48,
-       "odds": 1.6,
-       "buy_line_win": "2.3〜2.5倍"
+       "ai_win": 43,
+       "odds": 1.8,
+       "buy_line_win": "2.5〜2.8倍"
       },
       {
        "mark": "○",
        "umaban": 7,
        "name": "アウアリイ",
-       "ai_win": 13,
-       "odds": 5.5,
-       "buy_line_win": "8.7〜9.5倍"
+       "ai_win": 16,
+       "odds": 5.3,
+       "buy_line_win": "7.1〜7.7倍"
       },
       {
        "mark": "▲",
        "umaban": 8,
        "name": "シュネーバレン",
-       "ai_win": 10,
-       "odds": 9.0,
-       "buy_line_win": "10.9〜11.9倍"
+       "ai_win": 11,
+       "odds": 7.4,
+       "buy_line_win": "10.2〜11.1倍"
       }
      ]
     },
