@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T11:01:02",
+ "generated_at": "2026-10-18T11:10:12",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -286,35 +286,9 @@
      "course": "ダート1600m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "10:45",
-     "picks": [],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 12,
-       "name": "ファクスカエリ",
-       "ai_win": 23,
-       "odds": 4.0,
-       "buy_line_win": "4.7〜5.2倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 16,
-       "name": "ランフェザー",
-       "ai_win": 16,
-       "odds": 5.2,
-       "buy_line_win": "6.8〜7.5倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 1,
-       "name": "サトノテオドール",
-       "ai_win": 9,
-       "odds": 8.0,
-       "buy_line_win": "12.3〜13.4倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "11:10",
+     "picks": []
     },
     {
      "race_id": "2026101808040704",
@@ -407,32 +381,32 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:00",
+     "odds_at": "11:05",
      "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 4,
        "name": "ユメノカケラ",
-       "ai_win": 42,
-       "odds": 1.8,
-       "buy_line_win": "2.6〜2.8倍"
+       "ai_win": 48,
+       "odds": 1.7,
+       "buy_line_win": "2.3〜2.5倍"
       },
       {
        "mark": "○",
        "umaban": 1,
        "name": "スイープラディウス",
-       "ai_win": 26,
-       "odds": 3.6,
-       "buy_line_win": "4.2〜4.6倍"
+       "ai_win": 23,
+       "odds": 3.9,
+       "buy_line_win": "4.9〜5.3倍"
       },
       {
        "mark": "▲",
        "umaban": 5,
        "name": "プレヴォスト",
        "ai_win": 12,
-       "odds": 5.9,
-       "buy_line_win": "9.1〜9.9倍"
+       "odds": 6.6,
+       "buy_line_win": "9.4〜10.2倍"
       }
      ]
     },
