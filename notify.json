@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T14:25:17",
+ "generated_at": "2026-10-18T14:30:20",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -868,40 +868,9 @@
      "course": "芝1000m",
      "rough": "荒れやすい",
      "rough_past": "5/10",
-     "status": "provisional",
-     "odds_at": "14:05",
-     "picks": [
-      {
-       "umaban": 15,
-       "name": "スペルキャスター",
-       "type": "複勝",
-       "odds": 2.3,
-       "ev": 1.153
-      }
-     ],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 15,
-       "name": "スペルキャスター",
-       "ai_win": 22,
-       "odds": 5.8
-      },
-      {
-       "mark": "○",
-       "umaban": 18,
-       "name": "シーグルロス",
-       "ai_win": 12,
-       "odds": 6.4
-      },
-      {
-       "mark": "▲",
-       "umaban": 13,
-       "name": "カレンデュラ",
-       "ai_win": 10,
-       "odds": 5.4
-      }
-     ]
+     "status": "decided",
+     "decided_at": "14:30",
+     "picks": []
     },
     {
      "race_id": "2026101805040710",
