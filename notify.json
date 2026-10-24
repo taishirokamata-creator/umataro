@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T09:40:04",
+ "generated_at": "2026-10-24T09:50:15",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -31,35 +31,9 @@
      "course": "ダート1800m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "09:25",
-     "picks": [],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 9,
-       "name": "アメリカンステラ",
-       "ai_win": 37,
-       "odds": 1.8,
-       "buy_line_win": "3.0〜3.3倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 7,
-       "name": "マーゴットバサラ",
-       "ai_win": 19,
-       "odds": 3.8,
-       "buy_line_win": "5.8〜6.4倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 3,
-       "name": "ロードグレイル",
-       "ai_win": 11,
-       "odds": 11.1,
-       "buy_line_win": "9.7〜10.6倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "09:50",
+     "picks": []
     },
     {
      "race_id": "2026102405040801",
@@ -112,7 +86,7 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:15",
+     "odds_at": "09:45",
      "picks": [],
      "top": [
       {
@@ -120,8 +94,8 @@
        "umaban": 18,
        "name": "ドミナートル",
        "ai_win": 21,
-       "odds": 3.9,
-       "buy_line_win": "5.2〜5.7倍"
+       "odds": 3.8,
+       "buy_line_win": "5.2〜5.6倍"
       },
       {
        "mark": "○",
@@ -129,15 +103,15 @@
        "name": "サノノキセキ",
        "ai_win": 21,
        "odds": 4.4,
-       "buy_line_win": "5.3〜5.8倍"
+       "buy_line_win": "5.2〜5.7倍"
       },
       {
        "mark": "▲",
        "umaban": 13,
        "name": "ヨドノプレミアム",
-       "ai_win": 13,
-       "odds": 6.2,
-       "buy_line_win": "8.7〜9.5倍"
+       "ai_win": 14,
+       "odds": 5.9,
+       "buy_line_win": "7.8〜8.5倍"
       }
      ]
     },
@@ -248,58 +222,29 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:00",
-     "picks": [
-      {
-       "umaban": 9,
-       "name": "ローズガーデン",
-       "type": "複勝",
-       "odds": 8.6,
-       "ev": 1.153
-      },
-      {
-       "umaban": 10,
-       "name": "ワイドウィンザー",
-       "type": "複勝",
-       "odds": 10.3,
-       "ev": 1.148
-      },
-      {
-       "umaban": 11,
-       "name": "リコルディオーロ",
-       "type": "複勝",
-       "odds": 3.1,
-       "ev": 1.198
-      },
-      {
-       "umaban": 13,
-       "name": "ビーテリオス",
-       "type": "複勝",
-       "odds": 2.6,
-       "ev": 1.108
-      }
-     ],
+     "odds_at": "09:45",
+     "picks": [],
      "top": [
       {
        "mark": "◎",
-       "umaban": 6,
-       "name": "エコロメジャー",
-       "ai_win": 29,
-       "odds": 2.4
+       "umaban": 5,
+       "name": "ユイノジカンカセギ",
+       "ai_win": 30,
+       "odds": 2.7
       },
       {
        "mark": "○",
-       "umaban": 13,
-       "name": "ビーテリオス",
-       "ai_win": 16,
-       "odds": 4.2
-      },
-      {
-       "mark": "▲",
        "umaban": 11,
        "name": "リコルディオーロ",
        "ai_win": 13,
-       "odds": 11.4
+       "odds": 11.6
+      },
+      {
+       "mark": "▲",
+       "umaban": 12,
+       "name": "コパノキャンペーン",
+       "ai_win": 13,
+       "odds": 7.8
       }
      ]
     },
