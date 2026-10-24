@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T14:50:23",
+ "generated_at": "2026-10-24T14:55:27",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -940,33 +940,17 @@
      "course": "ダート1600m",
      "rough": "過去データなし",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "14:30",
-     "picks": [],
-     "top": [
+     "status": "decided",
+     "decided_at": "14:55",
+     "picks": [
       {
-       "mark": "◎",
-       "umaban": 12,
-       "name": "サムシャイン",
-       "ai_win": 34,
-       "odds": 2.5,
-       "buy_line_win": "3.2〜3.5倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 14,
-       "name": "ロカヒ",
-       "ai_win": 12,
-       "odds": 5.9,
-       "buy_line_win": "9.4〜10.2倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 7,
-       "name": "ジェイエルマスター",
-       "ai_win": 8,
-       "odds": 11.5,
-       "buy_line_win": "14.2〜15.5倍"
+       "umaban": 9,
+       "name": "デコラシオン",
+       "type": "複勝",
+       "odds": 4.1,
+       "ev": 1.116,
+       "stake": 900,
+       "finish": null
       }
      ]
     },
