@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T14:31:02",
+ "generated_at": "2026-10-24T14:35:06",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -868,33 +868,17 @@
      "course": "ダート1800m",
      "rough": "平均的",
      "rough_past": "2/7",
-     "status": "provisional",
-     "odds_at": "14:10",
-     "picks": [],
-     "top": [
+     "status": "decided",
+     "decided_at": "14:35",
+     "picks": [
       {
-       "mark": "◎",
-       "umaban": 15,
-       "name": "ルーナディサングエ",
-       "ai_win": 26,
-       "odds": 3.1,
-       "buy_line_win": "4.2〜4.6倍"
-      },
-      {
-       "mark": "○",
        "umaban": 13,
        "name": "ディアウス",
-       "ai_win": 17,
-       "odds": 7.2,
-       "buy_line_win": "6.5〜7.0倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 11,
-       "name": "ヴァイヴァーイ",
-       "ai_win": 9,
-       "odds": 9.1,
-       "buy_line_win": "12.1〜13.2倍"
+       "type": "単勝",
+       "odds": 8.3,
+       "ev": 1.1,
+       "stake": 300,
+       "finish": null
       }
      ]
     },
