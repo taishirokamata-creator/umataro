@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T14:55:27",
+ "generated_at": "2026-10-24T15:05:37",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -902,7 +902,7 @@
      "course": "ダート1800m",
      "rough": "平均的",
      "rough_past": "2/7",
-     "status": "decided",
+     "status": "result",
      "decided_at": "14:35",
      "picks": [
       {
@@ -912,9 +912,28 @@
        "odds": 8.3,
        "ev": 1.1,
        "stake": 300,
-       "finish": null
+       "finish": 3
       }
-     ]
+     ],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 1,
+       "name": "ケーヴァラ"
+      },
+      {
+       "pos": 2,
+       "umaban": 15,
+       "name": "ルーナディサングエ"
+      },
+      {
+       "pos": 3,
+       "umaban": 13,
+       "name": "ディアウス"
+      }
+     ],
+     "net": -300,
+     "hit": false
     },
     {
      "race_id": "2026102408040810",
@@ -1013,32 +1032,32 @@
      "rough": "荒れやすい",
      "rough_past": "6/10",
      "status": "provisional",
-     "odds_at": "14:30",
+     "odds_at": "15:00",
      "picks": [
       {
        "umaban": 12,
        "name": "ディールメーカー",
        "type": "単勝",
        "odds": 10.0,
-       "ev": 1.15
+       "ev": 1.148
       }
      ],
      "top": [
       {
        "mark": "◎",
-       "umaban": 11,
-       "name": "ジーティーアダマン",
-       "ai_win": 16,
-       "odds": 3.9,
-       "buy_line_win": "6.8〜7.5倍"
+       "umaban": 13,
+       "name": "ガイアメンテ",
+       "ai_win": 17,
+       "odds": 3.8,
+       "buy_line_win": "6.4〜6.9倍"
       },
       {
        "mark": "○",
-       "umaban": 13,
-       "name": "ガイアメンテ",
-       "ai_win": 15,
-       "odds": 4.0,
-       "buy_line_win": "7.1〜7.8倍"
+       "umaban": 11,
+       "name": "ジーティーアダマン",
+       "ai_win": 17,
+       "odds": 3.6,
+       "buy_line_win": "6.4〜7.0倍"
       },
       {
        "mark": "▲",
@@ -1046,7 +1065,7 @@
        "name": "ディールメーカー",
        "ai_win": 11,
        "odds": 10.0,
-       "buy_line_win": "9.6〜10.4倍"
+       "buy_line_win": "9.6〜10.5倍"
       }
      ]
     },
@@ -1101,40 +1120,40 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:00",
+     "odds_at": "15:00",
      "picks": [
       {
-       "umaban": 14,
-       "name": "サリーチェ",
+       "umaban": 9,
+       "name": "レインオンミー",
        "type": "複勝",
-       "odds": 8.6,
-       "ev": 1.176
+       "odds": 5.2,
+       "ev": 1.105
       }
      ],
      "top": [
       {
        "mark": "◎",
-       "umaban": 8,
-       "name": "スピリットサージ",
-       "ai_win": 23,
-       "odds": 3.4,
-       "buy_line_win": "4.8〜5.3倍"
+       "umaban": 6,
+       "name": "リアライズブラーヴ",
+       "ai_win": 25,
+       "odds": 3.5,
+       "buy_line_win": "4.5〜4.9倍"
       },
       {
        "mark": "○",
        "umaban": 12,
        "name": "ジョワイユノエル",
-       "ai_win": 23,
-       "odds": 3.6,
-       "buy_line_win": "4.8〜5.3倍"
+       "ai_win": 12,
+       "odds": 5.1,
+       "buy_line_win": "9.0〜9.8倍"
       },
       {
        "mark": "▲",
-       "umaban": 6,
-       "name": "リアライズブラーヴ",
+       "umaban": 1,
+       "name": "リアライズリバティ",
        "ai_win": 8,
-       "odds": 9.2,
-       "buy_line_win": "14.1〜15.4倍"
+       "odds": 8.2,
+       "buy_line_win": "14.6〜15.9倍"
       }
      ]
     },
