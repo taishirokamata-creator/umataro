@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T16:10:38",
+ "generated_at": "2026-10-24T16:10:42",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -1081,9 +1081,26 @@
      "course": "芝1600m",
      "rough": "平均的",
      "rough_past": "3/10",
-     "status": "decided",
+     "status": "result",
      "decided_at": "15:40",
-     "picks": []
+     "picks": [],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 9,
+       "name": "プルヴィナル"
+      },
+      {
+       "pos": 2,
+       "umaban": 13,
+       "name": "ローズサルーテ"
+      },
+      {
+       "pos": 3,
+       "umaban": 5,
+       "name": "シティオブドリーム"
+      }
+     ]
     },
     {
      "race_id": "2026102404040312",
