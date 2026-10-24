@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T13:50:51",
+ "generated_at": "2026-10-24T13:50:55",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -673,9 +673,26 @@
      "course": "ダート1600m",
      "rough": "",
      "rough_past": "",
-     "status": "decided",
+     "status": "result",
      "decided_at": "13:20",
-     "picks": []
+     "picks": [],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 4,
+       "name": "ラヴアンドライク"
+      },
+      {
+       "pos": 2,
+       "umaban": 5,
+       "name": "グロリアス"
+      },
+      {
+       "pos": 3,
+       "umaban": 9,
+       "name": "ディペンダブル"
+      }
+     ]
     },
     {
      "race_id": "2026102404040308",
