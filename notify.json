@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T14:35:06",
+ "generated_at": "2026-10-24T14:40:09",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -840,9 +840,26 @@
      "course": "ダート1400m",
      "rough": "堅い",
      "rough_past": "2/10",
-     "status": "decided",
+     "status": "result",
      "decided_at": "14:10",
-     "picks": []
+     "picks": [],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 6,
+       "name": "スカイメテオ"
+      },
+      {
+       "pos": 2,
+       "umaban": 5,
+       "name": "ペアスターロード"
+      },
+      {
+       "pos": 3,
+       "umaban": 2,
+       "name": "タケルレジェンド"
+      }
+     ]
     },
     {
      "race_id": "2026102405040809",
