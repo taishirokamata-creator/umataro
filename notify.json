@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T13:30:09",
+ "generated_at": "2026-10-24T13:30:12",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -599,9 +599,26 @@
      "course": "芝1800m",
      "rough": "",
      "rough_past": "",
-     "status": "decided",
+     "status": "result",
      "decided_at": "13:00",
-     "picks": []
+     "picks": [],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 1,
+       "name": "グランセゾン"
+      },
+      {
+       "pos": 2,
+       "umaban": 2,
+       "name": "レッドシュトラール"
+      },
+      {
+       "pos": 3,
+       "umaban": 12,
+       "name": "メイショウハンター"
+      }
+     ]
     },
     {
      "race_id": "2026102408040807",
