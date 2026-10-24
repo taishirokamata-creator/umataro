@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T14:40:09",
+ "generated_at": "2026-10-24T14:45:20",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -909,35 +909,9 @@
      "course": "芝1400m",
      "rough": "荒れやすい",
      "rough_past": "4/8",
-     "status": "provisional",
-     "odds_at": "14:20",
-     "picks": [],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 10,
-       "name": "スカイハイ",
-       "ai_win": 20,
-       "odds": 3.5,
-       "buy_line_win": "5.4〜5.9倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 14,
-       "name": "ガンマジーティーピ",
-       "ai_win": 15,
-       "odds": 6.2,
-       "buy_line_win": "7.5〜8.2倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 2,
-       "name": "アスミル",
-       "ai_win": 12,
-       "odds": 6.7,
-       "buy_line_win": "8.9〜9.7倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "14:45",
+     "picks": []
     },
     {
      "race_id": "2026102405040810",
@@ -990,8 +964,16 @@
      "rough": "堅い",
      "rough_past": "1/5",
      "status": "provisional",
-     "odds_at": "14:15",
-     "picks": [],
+     "odds_at": "14:45",
+     "picks": [
+      {
+       "umaban": 12,
+       "name": "ドラゴンヘッド",
+       "type": "単勝",
+       "odds": 15.6,
+       "ev": 1.112
+      }
+     ],
      "top": [
       {
        "mark": "◎",
@@ -999,23 +981,23 @@
        "name": "ユキワリザクラ",
        "ai_win": 24,
        "odds": 3.5,
-       "buy_line_win": "4.7〜5.1倍"
+       "buy_line_win": "4.5〜4.9倍"
       },
       {
        "mark": "○",
        "umaban": 10,
        "name": "ミュージシャン",
        "ai_win": 15,
-       "odds": 4.5,
-       "buy_line_win": "7.5〜8.2倍"
+       "odds": 4.3,
+       "buy_line_win": "7.2〜7.9倍"
       },
       {
        "mark": "▲",
-       "umaban": 5,
-       "name": "アラタマフェーヴル",
-       "ai_win": 10,
-       "odds": 10.6,
-       "buy_line_win": "10.7〜11.7倍"
+       "umaban": 7,
+       "name": "フクノブルーレイク",
+       "ai_win": 11,
+       "odds": 5.7,
+       "buy_line_win": "10.4〜11.3倍"
       }
      ]
     },
@@ -1078,32 +1060,32 @@
      "rough": "平均的",
      "rough_past": "3/10",
      "status": "provisional",
-     "odds_at": "09:00",
+     "odds_at": "14:45",
      "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 6,
        "name": "リスグロワール",
-       "ai_win": 26,
-       "odds": 3.4,
-       "buy_line_win": "4.2〜4.6倍"
+       "ai_win": 33,
+       "odds": 3.1,
+       "buy_line_win": "3.3〜3.6倍"
       },
       {
        "mark": "○",
        "umaban": 9,
        "name": "プルヴィナル",
-       "ai_win": 20,
-       "odds": 3.8,
-       "buy_line_win": "5.4〜5.9倍"
+       "ai_win": 19,
+       "odds": 3.7,
+       "buy_line_win": "5.7〜6.3倍"
       },
       {
        "mark": "▲",
        "umaban": 5,
        "name": "シティオブドリーム",
-       "ai_win": 14,
-       "odds": 5.4,
-       "buy_line_win": "8.1〜8.8倍"
+       "ai_win": 13,
+       "odds": 5.8,
+       "buy_line_win": "8.6〜9.3倍"
       }
      ]
     },
