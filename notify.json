@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T14:20:51",
+ "generated_at": "2026-10-24T14:31:02",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -809,9 +809,26 @@
      "course": "芝1000m",
      "rough": "荒れやすい",
      "rough_past": "4/8",
-     "status": "decided",
+     "status": "result",
      "decided_at": "14:00",
-     "picks": []
+     "picks": [],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 13,
+       "name": "アカウフリューゲル"
+      },
+      {
+       "pos": 2,
+       "umaban": 5,
+       "name": "オタルイーグル"
+      },
+      {
+       "pos": 3,
+       "umaban": 7,
+       "name": "イングラム"
+      }
+     ]
     },
     {
      "race_id": "2026102408040809",
@@ -932,7 +949,7 @@
      "rough": "過去データなし",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "14:00",
+     "odds_at": "14:30",
      "picks": [],
      "top": [
       {
@@ -948,16 +965,16 @@
        "umaban": 14,
        "name": "ロカヒ",
        "ai_win": 12,
-       "odds": 6.0,
-       "buy_line_win": "9.3〜10.1倍"
+       "odds": 5.9,
+       "buy_line_win": "9.4〜10.2倍"
       },
       {
        "mark": "▲",
        "umaban": 7,
        "name": "ジェイエルマスター",
        "ai_win": 8,
-       "odds": 10.9,
-       "buy_line_win": "14.1〜15.4倍"
+       "odds": 11.5,
+       "buy_line_win": "14.2〜15.5倍"
       }
      ]
     },
@@ -1012,32 +1029,40 @@
      "rough": "荒れやすい",
      "rough_past": "6/10",
      "status": "provisional",
-     "odds_at": "09:00",
-     "picks": [],
+     "odds_at": "14:30",
+     "picks": [
+      {
+       "umaban": 12,
+       "name": "ディールメーカー",
+       "type": "単勝",
+       "odds": 10.0,
+       "ev": 1.15
+      }
+     ],
      "top": [
       {
        "mark": "◎",
        "umaban": 11,
        "name": "ジーティーアダマン",
-       "ai_win": 19,
-       "odds": 3.2,
-       "buy_line_win": "5.7〜6.2倍"
+       "ai_win": 16,
+       "odds": 3.9,
+       "buy_line_win": "6.8〜7.5倍"
       },
       {
        "mark": "○",
        "umaban": 13,
        "name": "ガイアメンテ",
        "ai_win": 15,
-       "odds": 4.3,
-       "buy_line_win": "7.2〜7.9倍"
+       "odds": 4.0,
+       "buy_line_win": "7.1〜7.8倍"
       },
       {
        "mark": "▲",
        "umaban": 12,
        "name": "ディールメーカー",
        "ai_win": 11,
-       "odds": 10.7,
-       "buy_line_win": "9.7〜10.5倍"
+       "odds": 10.0,
+       "buy_line_win": "9.6〜10.4倍"
       }
      ]
     },
