@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T15:40:10",
+ "generated_at": "2026-10-24T15:40:13",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -1019,9 +1019,26 @@
      "course": "芝2000m",
      "rough": "堅い",
      "rough_past": "1/5",
-     "status": "decided",
+     "status": "result",
      "decided_at": "15:10",
-     "picks": []
+     "picks": [],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 5,
+       "name": "アラタマフェーヴル"
+      },
+      {
+       "pos": 2,
+       "umaban": 10,
+       "name": "ミュージシャン"
+      },
+      {
+       "pos": 3,
+       "umaban": 8,
+       "name": "シンゼンカガ"
+      }
+     ]
     },
     {
      "race_id": "2026102408040811",
