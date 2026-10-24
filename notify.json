@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-24T14:10:30",
+ "generated_at": "2026-10-24T14:20:48",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -820,43 +820,9 @@
      "course": "芝1400m",
      "rough": "堅い",
      "rough_past": "0/6",
-     "status": "provisional",
-     "odds_at": "13:55",
-     "picks": [
-      {
-       "umaban": 13,
-       "name": "アドマイヤジェイ",
-       "type": "単勝",
-       "odds": 17.0,
-       "ev": 1.141
-      }
-     ],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 12,
-       "name": "ダガーリング",
-       "ai_win": 20,
-       "odds": 3.5,
-       "buy_line_win": "5.5〜6.0倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 1,
-       "name": "レイユール",
-       "ai_win": 13,
-       "odds": 6.6,
-       "buy_line_win": "8.2〜8.9倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 9,
-       "name": "ウインイザナミ",
-       "ai_win": 13,
-       "odds": 6.7,
-       "buy_line_win": "8.2〜8.9倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "14:20",
+     "picks": []
     },
     {
      "race_id": "2026102404040310",
@@ -909,32 +875,32 @@
      "rough": "荒れやすい",
      "rough_past": "4/8",
      "status": "provisional",
-     "odds_at": "13:50",
+     "odds_at": "14:20",
      "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 10,
        "name": "スカイハイ",
-       "ai_win": 19,
-       "odds": 4.1,
-       "buy_line_win": "5.8〜6.3倍"
+       "ai_win": 20,
+       "odds": 3.5,
+       "buy_line_win": "5.4〜5.9倍"
       },
       {
        "mark": "○",
-       "umaban": 2,
-       "name": "アスミル",
-       "ai_win": 14,
-       "odds": 6.4,
-       "buy_line_win": "8.1〜8.9倍"
+       "umaban": 14,
+       "name": "ガンマジーティーピ",
+       "ai_win": 15,
+       "odds": 6.2,
+       "buy_line_win": "7.5〜8.2倍"
       },
       {
        "mark": "▲",
-       "umaban": 14,
-       "name": "ガンマジーティーピ",
-       "ai_win": 14,
-       "odds": 6.5,
-       "buy_line_win": "8.1〜8.9倍"
+       "umaban": 2,
+       "name": "アスミル",
+       "ai_win": 12,
+       "odds": 6.7,
+       "buy_line_win": "8.9〜9.7倍"
       }
      ]
     },
@@ -989,40 +955,32 @@
      "rough": "堅い",
      "rough_past": "1/5",
      "status": "provisional",
-     "odds_at": "09:00",
-     "picks": [
-      {
-       "umaban": 5,
-       "name": "アラタマフェーヴル",
-       "type": "単勝",
-       "odds": 8.9,
-       "ev": 1.131
-      }
-     ],
+     "odds_at": "14:15",
+     "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 3,
        "name": "ユキワリザクラ",
-       "ai_win": 21,
-       "odds": 3.8,
-       "buy_line_win": "5.2〜5.7倍"
+       "ai_win": 24,
+       "odds": 3.5,
+       "buy_line_win": "4.7〜5.1倍"
       },
       {
        "mark": "○",
-       "umaban": 6,
-       "name": "フィオレストラーダ",
-       "ai_win": 16,
-       "odds": 4.8,
-       "buy_line_win": "7.0〜7.7倍"
-      },
-      {
-       "mark": "▲",
        "umaban": 10,
        "name": "ミュージシャン",
        "ai_win": 15,
-       "odds": 4.2,
-       "buy_line_win": "7.3〜8.0倍"
+       "odds": 4.5,
+       "buy_line_win": "7.5〜8.2倍"
+      },
+      {
+       "mark": "▲",
+       "umaban": 5,
+       "name": "アラタマフェーヴル",
+       "ai_win": 10,
+       "odds": 10.6,
+       "buy_line_win": "10.7〜11.7倍"
       }
      ]
     },
