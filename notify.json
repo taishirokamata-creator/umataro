@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T10:05:35",
+ "generated_at": "2026-10-25T10:15:46",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -90,43 +90,9 @@
      "course": "芝2000m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "09:50",
-     "picks": [
-      {
-       "umaban": 1,
-       "name": "アースグレイジング",
-       "type": "複勝",
-       "odds": 7.6,
-       "ev": 1.163
-      }
-     ],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 7,
-       "name": "ヴェルバーニア",
-       "ai_win": 37,
-       "odds": 1.8,
-       "buy_line_win": "3.0〜3.3倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 2,
-       "name": "シアルナーレ",
-       "ai_win": 28,
-       "odds": 3.2,
-       "buy_line_win": "4.0〜4.4倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 3,
-       "name": "マテンロウアルカナ",
-       "ai_win": 16,
-       "odds": 6.5,
-       "buy_line_win": "7.0〜7.6倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "10:15",
+     "picks": []
     },
     {
      "race_id": "2026102508040902",
@@ -179,14 +145,14 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:40",
+     "odds_at": "10:10",
      "picks": [
       {
-       "umaban": 16,
-       "name": "ムーンパッセ",
-       "type": "単勝",
-       "odds": 6.5,
-       "ev": 1.125
+       "umaban": 12,
+       "name": "オプティミスタ",
+       "type": "複勝",
+       "odds": 6.1,
+       "ev": 1.161
       }
      ],
      "top": [
@@ -195,24 +161,24 @@
        "umaban": 16,
        "name": "ムーンパッセ",
        "ai_win": 17,
-       "odds": 6.5,
-       "buy_line_win": "6.4〜6.9倍"
+       "odds": 7.3,
+       "buy_line_win": "6.4〜7.0倍"
       },
       {
        "mark": "○",
        "umaban": 17,
        "name": "スロノス",
-       "ai_win": 15,
-       "odds": 6.0,
-       "buy_line_win": "7.3〜8.0倍"
+       "ai_win": 16,
+       "odds": 5.6,
+       "buy_line_win": "6.7〜7.3倍"
       },
       {
        "mark": "▲",
        "umaban": 14,
        "name": "ルクスアルカード",
-       "ai_win": 12,
-       "odds": 5.2,
-       "buy_line_win": "8.9〜9.7倍"
+       "ai_win": 11,
+       "odds": 5.4,
+       "buy_line_win": "9.9〜10.8倍"
       }
      ]
     },
@@ -307,37 +273,29 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:00",
-     "picks": [
-      {
-       "umaban": 11,
-       "name": "リカード",
-       "type": "複勝",
-       "odds": 4.3,
-       "ev": 1.192
-      }
-     ],
+     "odds_at": "10:10",
+     "picks": [],
      "top": [
       {
        "mark": "◎",
-       "umaban": 5,
-       "name": "ペルセポネ",
-       "ai_win": 20,
-       "odds": 5.1
+       "umaban": 4,
+       "name": "アーガイルショア",
+       "ai_win": 21,
+       "odds": 3.7
       },
       {
        "mark": "○",
        "umaban": 7,
        "name": "ペンテリコン",
        "ai_win": 19,
-       "odds": 4.2
+       "odds": 4.3
       },
       {
        "mark": "▲",
-       "umaban": 10,
-       "name": "モズオサキニ",
-       "ai_win": 14,
-       "odds": 4.3
+       "umaban": 5,
+       "name": "ペルセポネ",
+       "ai_win": 15,
+       "odds": 7.1
       }
      ]
     },
