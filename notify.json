@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T10:26:04",
+ "generated_at": "2026-10-25T10:35:15",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -75,7 +75,7 @@
      "race_no": 1,
      "name": "",
      "grade": "",
-     "start": "10:00",
+     "start": "10:01",
      "course": "ダート1800m",
      "rough": "",
      "rough_past": "",
@@ -152,41 +152,17 @@
      "course": "芝2000m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "10:10",
+     "status": "decided",
+     "decided_at": "10:35",
      "picks": [
       {
-       "umaban": 12,
-       "name": "オプティミスタ",
-       "type": "複勝",
-       "odds": 6.1,
-       "ev": 1.161
-      }
-     ],
-     "top": [
-      {
-       "mark": "◎",
        "umaban": 16,
        "name": "ムーンパッセ",
-       "ai_win": 17,
-       "odds": 7.3,
-       "buy_line_win": "6.4〜7.0倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 17,
-       "name": "スロノス",
-       "ai_win": 16,
-       "odds": 5.6,
-       "buy_line_win": "6.7〜7.3倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 14,
-       "name": "ルクスアルカード",
-       "ai_win": 11,
-       "odds": 5.4,
-       "buy_line_win": "9.9〜10.8倍"
+       "type": "単勝",
+       "odds": 9.7,
+       "ev": 1.15,
+       "stake": 400,
+       "finish": null
       }
      ]
     },
@@ -241,7 +217,7 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "10:00",
+     "odds_at": "10:30",
      "picks": [],
      "top": [
       {
@@ -265,7 +241,7 @@
        "umaban": 6,
        "name": "デュアルサイン",
        "ai_win": 18,
-       "odds": 3.3,
+       "odds": 3.5,
        "buy_line_win": "6.1〜6.7倍"
       }
      ]
@@ -366,32 +342,32 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:00",
+     "odds_at": "10:30",
      "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 11,
        "name": "パッションシーザー",
-       "ai_win": 29,
+       "ai_win": 30,
        "odds": 3.5,
-       "buy_line_win": "3.7〜4.1倍"
+       "buy_line_win": "3.7〜4.0倍"
       },
       {
        "mark": "○",
-       "umaban": 4,
-       "name": "マーゴットヴィム",
-       "ai_win": 11,
-       "odds": 5.5,
-       "buy_line_win": "10.3〜11.2倍"
-      },
-      {
-       "mark": "▲",
        "umaban": 15,
        "name": "ザラフェット",
        "ai_win": 11,
-       "odds": 8.7,
-       "buy_line_win": "10.3〜11.2倍"
+       "odds": 7.8,
+       "buy_line_win": "10.2〜11.1倍"
+      },
+      {
+       "mark": "▲",
+       "umaban": 4,
+       "name": "マーゴットヴィム",
+       "ai_win": 10,
+       "odds": 6.2,
+       "buy_line_win": "10.8〜11.8倍"
       }
      ]
     },
