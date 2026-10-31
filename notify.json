@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T15:25:46",
+ "generated_at": "2026-10-31T15:35:50",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -618,9 +618,26 @@
      "course": "ダート1900m",
      "rough": "判断材料が少ない",
      "rough_past": "1/2",
-     "status": "decided",
+     "status": "result",
      "decided_at": "15:05",
-     "picks": []
+     "picks": [],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 3,
+       "name": "ソルチェリア"
+      },
+      {
+       "pos": 2,
+       "umaban": 11,
+       "name": "ペンナヴェローチェ"
+      },
+      {
+       "pos": 3,
+       "umaban": 9,
+       "name": "システマソラー"
+      }
+     ]
     },
     {
      "race_id": "2026103105041011",
