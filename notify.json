@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T14:26:52",
+ "generated_at": "2026-10-31T14:31:00",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -539,35 +539,9 @@
      "course": "芝2000m",
      "rough": "平均的",
      "rough_past": "2/7",
-     "status": "provisional",
-     "odds_at": "14:05",
-     "picks": [],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 6,
-       "name": "ダイヤモンドハンズ",
-       "ai_win": 24,
-       "odds": 4.2,
-       "buy_line_win": "4.6〜5.0倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 8,
-       "name": "スカイスプレンダー",
-       "ai_win": 20,
-       "odds": 3.7,
-       "buy_line_win": "5.5〜6.0倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 7,
-       "name": "カムアップローゼス",
-       "ai_win": 18,
-       "odds": 3.8,
-       "buy_line_win": "6.1〜6.7倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "14:30",
+     "picks": []
     },
     {
      "race_id": "2026103105041010",
@@ -668,23 +642,23 @@
      "rough": "荒れやすい",
      "rough_past": "2/4",
      "status": "provisional",
-     "odds_at": "13:14",
+     "odds_at": "14:30",
      "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 16,
        "name": "ピエマンソン",
-       "ai_win": 16,
-       "odds": 4.2,
-       "buy_line_win": "7.1〜7.7倍"
+       "ai_win": 18,
+       "odds": 4.1,
+       "buy_line_win": "6.3〜6.9倍"
       },
       {
        "mark": "○",
        "umaban": 6,
        "name": "ジェイパームス",
        "ai_win": 12,
-       "odds": 7.2,
+       "odds": 7.4,
        "buy_line_win": "8.9〜9.7倍"
       },
       {
@@ -692,8 +666,8 @@
        "umaban": 12,
        "name": "クレーキング",
        "ai_win": 12,
-       "odds": 5.3,
-       "buy_line_win": "9.5〜10.4倍"
+       "odds": 4.8,
+       "buy_line_win": "8.9〜9.7倍"
       }
      ]
     },
