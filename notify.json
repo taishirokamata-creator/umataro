@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T13:20:54",
+ "generated_at": "2026-10-31T13:35:07",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -401,9 +401,26 @@
      "course": "芝2000m",
      "rough": "",
      "rough_past": "",
-     "status": "decided",
+     "status": "result",
      "decided_at": "13:05",
-     "picks": []
+     "picks": [],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 5,
+       "name": "ランザワールド"
+      },
+      {
+       "pos": 2,
+       "umaban": 10,
+       "name": "ディヒターリーベ"
+      },
+      {
+       "pos": 3,
+       "umaban": 11,
+       "name": "オプレントジュエル"
+      }
+     ]
     },
     {
      "race_id": "2026103108041007",
@@ -478,7 +495,7 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "13:14",
+     "odds_at": "13:31",
      "picks": [],
      "top": [
       {
@@ -486,21 +503,21 @@
        "umaban": 8,
        "name": "マメタンク",
        "ai_win": 17,
-       "odds": 4.3
+       "odds": 4.4
       },
       {
        "mark": "○",
        "umaban": 3,
        "name": "ダノンモンテローザ",
-       "ai_win": 14,
-       "odds": 5.3
+       "ai_win": 15,
+       "odds": 4.8
       },
       {
        "mark": "▲",
        "umaban": 10,
        "name": "バッハアルプゼー",
-       "ai_win": 14,
-       "odds": 6.1
+       "ai_win": 13,
+       "odds": 6.4
       }
      ]
     },
@@ -555,7 +572,7 @@
      "rough": "平均的",
      "rough_past": "2/7",
      "status": "provisional",
-     "odds_at": "13:14",
+     "odds_at": "13:35",
      "picks": [],
      "top": [
       {
@@ -563,15 +580,15 @@
        "umaban": 6,
        "name": "ダイヤモンドハンズ",
        "ai_win": 24,
-       "odds": 4.2,
-       "buy_line_win": "4.6〜5.1倍"
+       "odds": 4.3,
+       "buy_line_win": "4.6〜5.0倍"
       },
       {
        "mark": "○",
        "umaban": 8,
        "name": "スカイスプレンダー",
        "ai_win": 20,
-       "odds": 3.6,
+       "odds": 3.7,
        "buy_line_win": "5.6〜6.1倍"
       },
       {
@@ -579,7 +596,7 @@
        "umaban": 7,
        "name": "カムアップローゼス",
        "ai_win": 18,
-       "odds": 4.1,
+       "odds": 3.9,
        "buy_line_win": "6.2〜6.7倍"
       }
      ]
