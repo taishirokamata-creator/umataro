@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T11:16:01",
+ "generated_at": "2026-10-31T11:30:09",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -212,35 +212,9 @@
      "course": "障害2910m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "11:05",
-     "picks": [],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 1,
-       "name": "グロリアラウス",
-       "ai_win": 45,
-       "odds": 1.9,
-       "buy_line_win": "2.5〜2.7倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 5,
-       "name": "カイコウ",
-       "ai_win": 22,
-       "odds": 2.8,
-       "buy_line_win": "5.0〜5.5倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 9,
-       "name": "ラパンラピッド",
-       "ai_win": 11,
-       "odds": 7.4,
-       "buy_line_win": "10.3〜11.2倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "11:30",
+     "picks": []
     },
     {
      "race_id": "2026103105041005",
@@ -293,32 +267,32 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:00",
+     "odds_at": "11:25",
      "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 0,
        "name": "グリマー",
-       "ai_win": 32,
+       "ai_win": 33,
        "odds": null,
-       "buy_line_win": "3.4〜3.7倍"
+       "buy_line_win": "3.3〜3.7倍"
       },
       {
        "mark": "○",
        "umaban": 5,
        "name": "アンドロニクス",
-       "ai_win": 21,
-       "odds": 2.8,
-       "buy_line_win": "5.3〜5.8倍"
+       "ai_win": 18,
+       "odds": 3.4,
+       "buy_line_win": "6.0〜6.6倍"
       },
       {
        "mark": "▲",
        "umaban": 10,
        "name": "フォコンノワール",
-       "ai_win": 20,
-       "odds": 2.9,
-       "buy_line_win": "5.4〜5.9倍"
+       "ai_win": 18,
+       "odds": 3.2,
+       "buy_line_win": "6.0〜6.6倍"
       }
      ]
     },
