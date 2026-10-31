@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T13:35:07",
+ "generated_at": "2026-10-31T13:40:11",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -446,43 +446,9 @@
      "course": "ダート1400m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "13:15",
-     "picks": [
-      {
-       "umaban": 13,
-       "name": "アクアマリーナ",
-       "type": "単勝",
-       "odds": 8.7,
-       "ev": 1.152
-      }
-     ],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 7,
-       "name": "ヘリテージブルーム",
-       "ai_win": 45,
-       "odds": 1.6,
-       "buy_line_win": "2.4〜2.7倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 3,
-       "name": "ダイシンリンク",
-       "ai_win": 15,
-       "odds": 5.8,
-       "buy_line_win": "7.3〜8.0倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 13,
-       "name": "アクアマリーナ",
-       "ai_win": 13,
-       "odds": 8.7,
-       "buy_line_win": "8.3〜9.1倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "13:40",
+     "picks": []
     },
     {
      "race_id": "2026103108041008",
