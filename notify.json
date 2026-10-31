@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T10:15:08",
+ "generated_at": "2026-10-31T10:30:16",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -86,35 +86,9 @@
      "course": "芝1600m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "10:05",
-     "picks": [],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 6,
-       "name": "ラガッタレアーレ",
-       "ai_win": 35,
-       "odds": 2.5,
-       "buy_line_win": "3.1〜3.4倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 9,
-       "name": "コンセルノ",
-       "ai_win": 35,
-       "odds": 2.2,
-       "buy_line_win": "3.1〜3.4倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 1,
-       "name": "フクノブルースカイ",
-       "ai_win": 9,
-       "odds": 11.4,
-       "buy_line_win": "12.3〜13.4倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "10:30",
+     "picks": []
     },
     {
      "race_id": "2026103105041003",
@@ -127,7 +101,7 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:50",
+     "odds_at": "10:20",
      "picks": [],
      "top": [
       {
@@ -143,15 +117,15 @@
        "umaban": 2,
        "name": "グランドストーリー",
        "ai_win": 13,
-       "odds": 6.1,
-       "buy_line_win": "8.7〜9.5倍"
+       "odds": 5.8,
+       "buy_line_win": "8.6〜9.4倍"
       },
       {
        "mark": "▲",
        "umaban": 5,
        "name": "ゴールドテソーロ",
        "ai_win": 12,
-       "odds": 8.5,
+       "odds": 8.2,
        "buy_line_win": "9.2〜10.1倍"
       }
      ]
@@ -215,32 +189,40 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:00",
-     "picks": [],
+     "odds_at": "10:20",
+     "picks": [
+      {
+       "umaban": 13,
+       "name": "チェンジエッジ",
+       "type": "複勝",
+       "odds": 4.5,
+       "ev": 1.158
+      }
+     ],
      "top": [
       {
        "mark": "◎",
-       "umaban": 14,
-       "name": "エコロガルディア",
-       "ai_win": 14,
-       "odds": 5.5,
-       "buy_line_win": "8.1〜8.8倍"
+       "umaban": 6,
+       "name": "ジャスティンバルサ",
+       "ai_win": 18,
+       "odds": 5.3,
+       "buy_line_win": "6.1〜6.7倍"
       },
       {
        "mark": "○",
-       "umaban": 3,
-       "name": "ワイワイシャイニー",
-       "ai_win": 13,
-       "odds": 6.0,
-       "buy_line_win": "8.6〜9.4倍"
+       "umaban": 14,
+       "name": "エコロガルディア",
+       "ai_win": 18,
+       "odds": 4.7,
+       "buy_line_win": "6.1〜6.7倍"
       },
       {
        "mark": "▲",
        "umaban": 9,
        "name": "ミヤルロワ",
-       "ai_win": 13,
-       "odds": 5.4,
-       "buy_line_win": "8.6〜9.4倍"
+       "ai_win": 11,
+       "odds": 5.7,
+       "buy_line_win": "10.1〜11.0倍"
       }
      ]
     },
