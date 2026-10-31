@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T13:56:27",
+ "generated_at": "2026-10-31T14:10:40",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -463,9 +463,26 @@
      "course": "ダート1400m",
      "rough": "",
      "rough_past": "",
-     "status": "decided",
+     "status": "result",
      "decided_at": "13:40",
-     "picks": []
+     "picks": [],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 7,
+       "name": "ヘリテージブルーム"
+      },
+      {
+       "pos": 2,
+       "umaban": 5,
+       "name": "レディサン"
+      },
+      {
+       "pos": 3,
+       "umaban": 10,
+       "name": "ヴィンブルレー"
+      }
+     ]
     },
     {
      "race_id": "2026103108041008",
@@ -532,7 +549,7 @@
      "rough": "平均的",
      "rough_past": "2/7",
      "status": "provisional",
-     "odds_at": "13:35",
+     "odds_at": "14:05",
      "picks": [],
      "top": [
       {
@@ -540,7 +557,7 @@
        "umaban": 6,
        "name": "ダイヤモンドハンズ",
        "ai_win": 24,
-       "odds": 4.3,
+       "odds": 4.2,
        "buy_line_win": "4.6〜5.0倍"
       },
       {
@@ -549,15 +566,15 @@
        "name": "スカイスプレンダー",
        "ai_win": 20,
        "odds": 3.7,
-       "buy_line_win": "5.6〜6.1倍"
+       "buy_line_win": "5.5〜6.0倍"
       },
       {
        "mark": "▲",
        "umaban": 7,
        "name": "カムアップローゼス",
        "ai_win": 18,
-       "odds": 3.9,
-       "buy_line_win": "6.2〜6.7倍"
+       "odds": 3.8,
+       "buy_line_win": "6.1〜6.7倍"
       }
      ]
     },
@@ -612,32 +629,40 @@
      "rough": "判断材料が少ない",
      "rough_past": "1/2",
      "status": "provisional",
-     "odds_at": "13:14",
-     "picks": [],
+     "odds_at": "14:10",
+     "picks": [
+      {
+       "umaban": 12,
+       "name": "オリーブグリーン",
+       "type": "複勝",
+       "odds": 6.8,
+       "ev": 1.142
+      }
+     ],
      "top": [
       {
        "mark": "◎",
        "umaban": 9,
        "name": "システマソラー",
-       "ai_win": 17,
-       "odds": 4.1,
-       "buy_line_win": "6.4〜7.0倍"
+       "ai_win": 18,
+       "odds": 4.0,
+       "buy_line_win": "6.2〜6.7倍"
       },
       {
        "mark": "○",
        "umaban": 16,
        "name": "リューデスハイム",
-       "ai_win": 11,
-       "odds": 10.9,
-       "buy_line_win": "9.6〜10.5倍"
+       "ai_win": 12,
+       "odds": 10.8,
+       "buy_line_win": "9.3〜10.2倍"
       },
       {
        "mark": "▲",
        "umaban": 3,
        "name": "ソルチェリア",
-       "ai_win": 10,
+       "ai_win": 11,
        "odds": 7.0,
-       "buy_line_win": "10.7〜11.7倍"
+       "buy_line_win": "10.3〜11.3倍"
       }
      ]
     },
