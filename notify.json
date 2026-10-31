@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T12:50:11",
+ "generated_at": "2026-10-31T13:05:25",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -367,43 +367,9 @@
      "course": "芝2000m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "12:40",
-     "picks": [
-      {
-       "umaban": 11,
-       "name": "オプレントジュエル",
-       "type": "複勝",
-       "odds": 4.2,
-       "ev": 1.165
-      }
-     ],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 5,
-       "name": "ランザワールド",
-       "ai_win": 25,
-       "odds": 3.0,
-       "buy_line_win": "4.4〜4.8倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 3,
-       "name": "ホールドザデイ",
-       "ai_win": 19,
-       "odds": 4.2,
-       "buy_line_win": "5.7〜6.2倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 10,
-       "name": "ディヒターリーベ",
-       "ai_win": 14,
-       "odds": 4.7,
-       "buy_line_win": "8.0〜8.7倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "13:05",
+     "picks": []
     },
     {
      "race_id": "2026103108041007",
@@ -416,32 +382,32 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "12:25",
+     "odds_at": "12:55",
      "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 2,
        "name": "スカイストライプス",
-       "ai_win": 33,
-       "odds": 3.3,
-       "buy_line_win": "3.4〜3.7倍"
+       "ai_win": 27,
+       "odds": 3.9,
+       "buy_line_win": "4.1〜4.5倍"
       },
       {
        "mark": "○",
        "umaban": 10,
        "name": "バリオス",
-       "ai_win": 24,
+       "ai_win": 27,
        "odds": 3.1,
-       "buy_line_win": "4.5〜4.9倍"
+       "buy_line_win": "4.1〜4.5倍"
       },
       {
        "mark": "▲",
        "umaban": 12,
        "name": "ジーティーアメリカ",
-       "ai_win": 9,
-       "odds": 7.4,
-       "buy_line_win": "11.8〜12.9倍"
+       "ai_win": 19,
+       "odds": 3.9,
+       "buy_line_win": "5.9〜6.4倍"
       }
      ]
     },
@@ -496,29 +462,29 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:00",
+     "odds_at": "13:00",
      "picks": [],
      "top": [
       {
        "mark": "◎",
-       "umaban": 13,
-       "name": "ライトオブヌカタ",
-       "ai_win": 25,
-       "odds": 3.8
+       "umaban": 10,
+       "name": "バッハアルプゼー",
+       "ai_win": 14,
+       "odds": 6.2
       },
       {
        "mark": "○",
-       "umaban": 4,
-       "name": "ビッグドリーム",
+       "umaban": 3,
+       "name": "ダノンモンテローザ",
        "ai_win": 14,
-       "odds": 6.5
+       "odds": 5.3
       },
       {
        "mark": "▲",
-       "umaban": 1,
-       "name": "ミサビスケッツ",
-       "ai_win": 8,
-       "odds": 10.9
+       "umaban": 8,
+       "name": "マメタンク",
+       "ai_win": 14,
+       "odds": 4.4
       }
      ]
     },
