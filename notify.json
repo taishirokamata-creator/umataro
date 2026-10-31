@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T15:00:25",
+ "generated_at": "2026-10-31T15:05:29",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -601,35 +601,9 @@
      "course": "ダート1900m",
      "rough": "判断材料が少ない",
      "rough_past": "1/2",
-     "status": "provisional",
-     "odds_at": "14:40",
-     "picks": [],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 9,
-       "name": "システマソラー",
-       "ai_win": 22,
-       "odds": 3.4,
-       "buy_line_win": "5.0〜5.4倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 16,
-       "name": "リューデスハイム",
-       "ai_win": 11,
-       "odds": 11.7,
-       "buy_line_win": "9.6〜10.5倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 3,
-       "name": "ソルチェリア",
-       "ai_win": 10,
-       "odds": 7.3,
-       "buy_line_win": "10.7〜11.6倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "15:05",
+     "picks": []
     },
     {
      "race_id": "2026103105041011",
