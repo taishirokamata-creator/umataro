@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T13:14:38",
+ "generated_at": "2026-10-31T13:20:51",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -415,35 +415,9 @@
      "course": "ダート1800m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "13:14",
-     "picks": [],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 10,
-       "name": "バリオス",
-       "ai_win": 26,
-       "odds": 3.0,
-       "buy_line_win": "4.2〜4.6倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 2,
-       "name": "スカイストライプス",
-       "ai_win": 24,
-       "odds": 3.8,
-       "buy_line_win": "4.5〜4.9倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 12,
-       "name": "ジーティーアメリカ",
-       "ai_win": 17,
-       "odds": 4.7,
-       "buy_line_win": "6.6〜7.1倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "13:20",
+     "picks": []
     },
     {
      "race_id": "2026103105041008",
@@ -456,14 +430,14 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "13:14",
+     "odds_at": "13:15",
      "picks": [
       {
        "umaban": 13,
        "name": "アクアマリーナ",
        "type": "単勝",
        "odds": 8.7,
-       "ev": 1.147
+       "ev": 1.152
       }
      ],
      "top": [
@@ -472,8 +446,8 @@
        "umaban": 7,
        "name": "ヘリテージブルーム",
        "ai_win": 45,
-       "odds": 1.7,
-       "buy_line_win": "2.5〜2.7倍"
+       "odds": 1.6,
+       "buy_line_win": "2.4〜2.7倍"
       },
       {
        "mark": "○",
@@ -541,7 +515,7 @@
      "rough": "荒れやすい",
      "rough_past": "5/10",
      "status": "provisional",
-     "odds_at": "13:14",
+     "odds_at": "13:20",
      "picks": [],
      "top": [
       {
@@ -565,7 +539,7 @@
        "umaban": 7,
        "name": "イトウカカリチョウ",
        "ai_win": 10,
-       "odds": 7.3,
+       "odds": 7.4,
        "buy_line_win": "10.7〜11.7倍"
       }
      ]
