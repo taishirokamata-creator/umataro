@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T15:40:53",
+ "generated_at": "2026-10-31T15:55:06",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -649,9 +649,26 @@
      "course": "ダート1600m",
      "rough": "荒れやすい",
      "rough_past": "2/4",
-     "status": "decided",
+     "status": "result",
      "decided_at": "15:25",
-     "picks": []
+     "picks": [],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 6,
+       "name": "ジェイパームス"
+      },
+      {
+       "pos": 2,
+       "umaban": 9,
+       "name": "リサシテーション"
+      },
+      {
+       "pos": 3,
+       "umaban": 12,
+       "name": "クレーキング"
+      }
+     ]
     },
     {
      "race_id": "2026103108041011",
@@ -688,7 +705,7 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "15:15",
+     "odds_at": "15:45",
      "picks": [],
      "top": [
       {
@@ -696,7 +713,7 @@
        "umaban": 7,
        "name": "ラヴェニュー",
        "ai_win": 44,
-       "odds": 1.6,
+       "odds": 1.7,
        "buy_line_win": "2.5〜2.7倍"
       },
       {
@@ -704,16 +721,16 @@
        "umaban": 10,
        "name": "オルグジェシダ",
        "ai_win": 19,
-       "odds": 4.9,
-       "buy_line_win": "5.8〜6.4倍"
+       "odds": 4.2,
+       "buy_line_win": "5.8〜6.3倍"
       },
       {
        "mark": "▲",
-       "umaban": 8,
-       "name": "アメテュストス",
+       "umaban": 12,
+       "name": "ヴァロアーク",
        "ai_win": 8,
-       "odds": 9.3,
-       "buy_line_win": "13.3〜14.5倍"
+       "odds": 11.3,
+       "buy_line_win": "13.2〜14.4倍"
       }
      ]
     },
@@ -728,32 +745,32 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "15:25",
+     "odds_at": "15:55",
      "picks": [],
      "top": [
       {
        "mark": "◎",
-       "umaban": 2,
-       "name": "テイエムスティール",
-       "ai_win": 18,
-       "odds": 4.1,
-       "buy_line_win": "6.1〜6.7倍"
+       "umaban": 6,
+       "name": "パスコード",
+       "ai_win": 19,
+       "odds": 3.9,
+       "buy_line_win": "5.7〜6.3倍"
       },
       {
        "mark": "○",
-       "umaban": 6,
-       "name": "パスコード",
-       "ai_win": 18,
-       "odds": 4.6,
-       "buy_line_win": "6.1〜6.7倍"
+       "umaban": 2,
+       "name": "テイエムスティール",
+       "ai_win": 15,
+       "odds": 5.0,
+       "buy_line_win": "7.1〜7.8倍"
       },
       {
        "mark": "▲",
        "umaban": 17,
        "name": "フォルナックス",
-       "ai_win": 12,
-       "odds": 8.4,
-       "buy_line_win": "9.1〜9.9倍"
+       "ai_win": 13,
+       "odds": 8.0,
+       "buy_line_win": "8.6〜9.4倍"
       }
      ]
     }
