@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T14:31:00",
+ "generated_at": "2026-10-31T14:45:13",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -525,9 +525,26 @@
      "course": "ダート1400m",
      "rough": "荒れやすい",
      "rough_past": "5/10",
-     "status": "decided",
+     "status": "result",
      "decided_at": "14:15",
-     "picks": []
+     "picks": [],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 4,
+       "name": "ワンスフォーユー"
+      },
+      {
+       "pos": 2,
+       "umaban": 9,
+       "name": "スマートポーション"
+      },
+      {
+       "pos": 3,
+       "umaban": 3,
+       "name": "スマートブライド"
+      }
+     ]
     },
     {
      "race_id": "2026103108041009",
@@ -594,40 +611,32 @@
      "rough": "判断材料が少ない",
      "rough_past": "1/2",
      "status": "provisional",
-     "odds_at": "14:10",
-     "picks": [
-      {
-       "umaban": 12,
-       "name": "オリーブグリーン",
-       "type": "複勝",
-       "odds": 6.8,
-       "ev": 1.142
-      }
-     ],
+     "odds_at": "14:40",
+     "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 9,
        "name": "システマソラー",
-       "ai_win": 18,
-       "odds": 4.0,
-       "buy_line_win": "6.2〜6.7倍"
+       "ai_win": 22,
+       "odds": 3.4,
+       "buy_line_win": "5.0〜5.4倍"
       },
       {
        "mark": "○",
        "umaban": 16,
        "name": "リューデスハイム",
-       "ai_win": 12,
-       "odds": 10.8,
-       "buy_line_win": "9.3〜10.2倍"
+       "ai_win": 11,
+       "odds": 11.7,
+       "buy_line_win": "9.6〜10.5倍"
       },
       {
        "mark": "▲",
        "umaban": 3,
        "name": "ソルチェリア",
-       "ai_win": 11,
-       "odds": 7.0,
-       "buy_line_win": "10.3〜11.3倍"
+       "ai_win": 10,
+       "odds": 7.3,
+       "buy_line_win": "10.7〜11.6倍"
       }
      ]
     },
@@ -682,16 +691,8 @@
      "rough": "荒れやすい",
      "rough_past": "5/10",
      "status": "provisional",
-     "odds_at": "13:14",
-     "picks": [
-      {
-       "umaban": 11,
-       "name": "ツキミ",
-       "type": "単勝",
-       "odds": 19.3,
-       "ev": 1.11
-      }
-     ],
+     "odds_at": "14:45",
+     "picks": [],
      "top": [
       {
        "mark": "◎",
@@ -699,23 +700,23 @@
        "name": "ブライトスクリプト",
        "ai_win": 29,
        "odds": 2.4,
-       "buy_line_win": "3.7〜4.1倍"
+       "buy_line_win": "3.8〜4.1倍"
       },
       {
        "mark": "○",
-       "umaban": 4,
-       "name": "ニクスルーナ",
+       "umaban": 3,
+       "name": "ビスケットサンド",
        "ai_win": 15,
-       "odds": 6.4,
+       "odds": 6.9,
        "buy_line_win": "7.2〜7.9倍"
       },
       {
        "mark": "▲",
        "umaban": 6,
        "name": "イモージェン",
-       "ai_win": 14,
-       "odds": 5.0,
-       "buy_line_win": "8.0〜8.7倍"
+       "ai_win": 15,
+       "odds": 4.8,
+       "buy_line_win": "7.2〜7.9倍"
       }
      ]
     },
