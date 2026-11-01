@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T14:55:04",
+ "generated_at": "2026-11-01T15:10:17",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -587,9 +587,26 @@
      "course": "芝3000m",
      "rough": "平均的",
      "rough_past": "3/10",
-     "status": "decided",
+     "status": "result",
      "decided_at": "14:40",
-     "picks": []
+     "picks": [],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 1,
+       "name": "ファームツエンティ"
+      },
+      {
+       "pos": 2,
+       "umaban": 3,
+       "name": "ディヴァインスター"
+      },
+      {
+       "pos": 3,
+       "umaban": 6,
+       "name": "ダカラフェスティヴ"
+      }
+     ]
     },
     {
      "race_id": "2026110105041110",
@@ -656,7 +673,7 @@
      "rough": "堅い",
      "rough_past": "2/10",
      "status": "provisional",
-     "odds_at": "14:40",
+     "odds_at": "15:10",
      "picks": [],
      "top": [
       {
@@ -664,8 +681,8 @@
        "umaban": 1,
        "name": "クロワデュノール",
        "ai_win": 31,
-       "odds": 2.6,
-       "buy_line_win": "3.6〜3.9倍"
+       "odds": 2.5,
+       "buy_line_win": "3.5〜3.8倍"
       },
       {
        "mark": "○",
@@ -673,15 +690,15 @@
        "name": "マスカレードボール",
        "ai_win": 31,
        "odds": 2.7,
-       "buy_line_win": "3.6〜3.9倍"
+       "buy_line_win": "3.5〜3.8倍"
       },
       {
        "mark": "▲",
-       "umaban": 17,
-       "name": "ダノンデサイル",
-       "ai_win": 9,
-       "odds": 9.9,
-       "buy_line_win": "12.4〜13.6倍"
+       "umaban": 3,
+       "name": "レガレイラ",
+       "ai_win": 8,
+       "odds": 8.9,
+       "buy_line_win": "13.7〜15.0倍"
       }
      ]
     },
@@ -696,40 +713,32 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:00",
-     "picks": [
-      {
-       "umaban": 2,
-       "name": "ワンコールアウェイ",
-       "type": "複勝",
-       "odds": 2.9,
-       "ev": 1.121
-      }
-     ],
+     "odds_at": "15:05",
+     "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 1,
        "name": "ポペット",
        "ai_win": 19,
-       "odds": 5.4,
-       "buy_line_win": "5.7〜6.2倍"
+       "odds": 5.5,
+       "buy_line_win": "5.6〜6.2倍"
       },
       {
        "mark": "○",
        "umaban": 6,
        "name": "ナルキッソス",
-       "ai_win": 17,
-       "odds": 5.0,
-       "buy_line_win": "6.3〜6.9倍"
+       "ai_win": 18,
+       "odds": 4.6,
+       "buy_line_win": "6.0〜6.6倍"
       },
       {
        "mark": "▲",
        "umaban": 2,
        "name": "ワンコールアウェイ",
        "ai_win": 14,
-       "odds": 7.2,
-       "buy_line_win": "8.0〜8.7倍"
+       "odds": 7.0,
+       "buy_line_win": "7.9〜8.6倍"
       }
      ]
     },
