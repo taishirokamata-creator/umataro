@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T14:40:52",
+ "generated_at": "2026-11-01T14:51:00",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -556,9 +556,26 @@
      "course": "芝1600m",
      "rough": "平均的",
      "rough_past": "2/8",
-     "status": "decided",
+     "status": "result",
      "decided_at": "14:20",
-     "picks": []
+     "picks": [],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 1,
+       "name": "ミッキーソルジャー"
+      },
+      {
+       "pos": 2,
+       "umaban": 14,
+       "name": "ウフドゥウフ"
+      },
+      {
+       "pos": 3,
+       "umaban": 6,
+       "name": "テラメリタ"
+      }
+     ]
     },
     {
      "race_id": "2026110108041110",
@@ -622,7 +639,7 @@
      "rough": "判断材料が少ない",
      "rough_past": "1/1",
      "status": "provisional",
-     "odds_at": "14:20",
+     "odds_at": "14:50",
      "picks": [],
      "top": [
       {
@@ -630,24 +647,24 @@
        "umaban": 3,
        "name": "ブエナオンダ",
        "ai_win": 15,
-       "odds": 7.1,
-       "buy_line_win": "7.4〜8.0倍"
+       "odds": 7.3,
+       "buy_line_win": "7.3〜8.0倍"
       },
       {
        "mark": "○",
        "umaban": 7,
        "name": "レザベーション",
        "ai_win": 15,
-       "odds": 5.0,
-       "buy_line_win": "7.4〜8.0倍"
+       "odds": 4.7,
+       "buy_line_win": "7.3〜8.0倍"
       },
       {
        "mark": "▲",
        "umaban": 8,
        "name": "スマートワイス",
-       "ai_win": 15,
-       "odds": 3.8,
-       "buy_line_win": "7.4〜8.0倍"
+       "ai_win": 14,
+       "odds": 3.9,
+       "buy_line_win": "7.6〜8.3倍"
       }
      ]
     },
