@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T15:10:17",
+ "generated_at": "2026-11-01T15:15:21",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -632,33 +632,17 @@
      "course": "芝1600m",
      "rough": "判断材料が少ない",
      "rough_past": "1/1",
-     "status": "provisional",
-     "odds_at": "14:50",
-     "picks": [],
-     "top": [
+     "status": "decided",
+     "decided_at": "15:15",
+     "picks": [
       {
-       "mark": "◎",
-       "umaban": 3,
-       "name": "ブエナオンダ",
-       "ai_win": 15,
+       "umaban": 10,
+       "name": "セオ",
+       "type": "複勝",
        "odds": 7.3,
-       "buy_line_win": "7.3〜8.0倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 7,
-       "name": "レザベーション",
-       "ai_win": 15,
-       "odds": 4.7,
-       "buy_line_win": "7.3〜8.0倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 8,
-       "name": "スマートワイス",
-       "ai_win": 14,
-       "odds": 3.9,
-       "buy_line_win": "7.6〜8.3倍"
+       "ev": 1.187,
+       "stake": 700,
+       "finish": null
       }
      ]
     },
