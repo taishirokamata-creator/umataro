@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T09:00:22",
+ "generated_at": "2026-11-01T09:40:41",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -17,35 +17,9 @@
      "course": "ダート1400m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "09:00",
-     "picks": [],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 0,
-       "name": "ペプチドカトレア",
-       "ai_win": 36,
-       "odds": null,
-       "buy_line_win": "3.0〜3.3倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 6,
-       "name": "ルージュミスティカ",
-       "ai_win": 21,
-       "odds": 2.3,
-       "buy_line_win": "5.3〜5.7倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 10,
-       "name": "アヴレディール",
-       "ai_win": 17,
-       "odds": 3.7,
-       "buy_line_win": "6.3〜6.9倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "09:40",
+     "picks": []
     },
     {
      "race_id": "2026110105041101",
@@ -58,14 +32,14 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:00",
+     "odds_at": "09:30",
      "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 1,
        "name": "インサイドエッジ",
-       "ai_win": 55,
+       "ai_win": 56,
        "odds": 1.5,
        "buy_line_win": "2.0〜2.2倍"
       },
@@ -74,16 +48,16 @@
        "umaban": 13,
        "name": "ユリア",
        "ai_win": 15,
-       "odds": 5.1,
-       "buy_line_win": "7.2〜7.9倍"
+       "odds": 5.2,
+       "buy_line_win": "7.1〜7.8倍"
       },
       {
        "mark": "▲",
        "umaban": 9,
        "name": "アニーリング",
        "ai_win": 8,
-       "odds": 10.9,
-       "buy_line_win": "14.5〜15.8倍"
+       "odds": 8.2,
+       "buy_line_win": "13.3〜14.6倍"
       }
      ]
     },
@@ -98,21 +72,14 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:00",
+     "odds_at": "09:15",
      "picks": [
-      {
-       "umaban": 5,
-       "name": "テーオータイタン",
-       "type": "単勝",
-       "odds": 6.8,
-       "ev": 1.102
-      },
       {
        "umaban": 7,
        "name": "プレヴォスト",
-       "type": "複勝",
-       "odds": 3.3,
-       "ev": 1.125
+       "type": "単勝",
+       "odds": 13.2,
+       "ev": 1.132
       }
      ],
      "top": [
@@ -122,7 +89,7 @@
        "name": "グランビート",
        "ai_win": 26,
        "odds": 2.8,
-       "buy_line_win": "4.3〜4.6倍"
+       "buy_line_win": "4.3〜4.7倍"
       },
       {
        "mark": "○",
@@ -138,7 +105,7 @@
        "name": "テーオータイタン",
        "ai_win": 16,
        "odds": 6.8,
-       "buy_line_win": "6.8〜7.4倍"
+       "buy_line_win": "6.8〜7.5倍"
       }
      ]
     },
@@ -153,40 +120,47 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:00",
+     "odds_at": "09:30",
      "picks": [
       {
-       "umaban": 5,
-       "name": "アブリコース",
+       "umaban": 6,
+       "name": "ナムラアラバイ",
+       "type": "単勝",
+       "odds": 3.8,
+       "ev": 1.105
+      },
+      {
+       "umaban": 6,
+       "name": "ナムラアラバイ",
        "type": "複勝",
-       "odds": 3.0,
-       "ev": 1.159
+       "odds": 1.9,
+       "ev": 1.147
       }
      ],
      "top": [
       {
        "mark": "◎",
-       "umaban": 5,
-       "name": "アブリコース",
-       "ai_win": 14,
-       "odds": 9.8,
-       "buy_line_win": "7.8〜8.5倍"
+       "umaban": 6,
+       "name": "ナムラアラバイ",
+       "ai_win": 29,
+       "odds": 3.8,
+       "buy_line_win": "3.8〜4.1倍"
       },
       {
        "mark": "○",
-       "umaban": 6,
-       "name": "ナムラアラバイ",
+       "umaban": 16,
+       "name": "スピカテソーロ",
        "ai_win": 14,
-       "odds": 7.2,
-       "buy_line_win": "7.8〜8.5倍"
+       "odds": 6.8,
+       "buy_line_win": "8.1〜8.8倍"
       },
       {
        "mark": "▲",
-       "umaban": 15,
-       "name": "タワーレイヴン",
-       "ai_win": 14,
-       "odds": 7.1,
-       "buy_line_win": "7.8〜8.5倍"
+       "umaban": 7,
+       "name": "クールランナー",
+       "ai_win": 9,
+       "odds": 6.8,
+       "buy_line_win": "12.3〜13.4倍"
       }
      ]
     },
