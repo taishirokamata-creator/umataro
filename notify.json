@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T10:40:26",
+ "generated_at": "2026-11-01T10:55:34",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -138,35 +138,9 @@
      "course": "芝1800m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "10:30",
-     "picks": [],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 5,
-       "name": "ラニアケア",
-       "ai_win": 49,
-       "odds": 2.0,
-       "buy_line_win": "2.2〜2.4倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 9,
-       "name": "ハートノート",
-       "ai_win": 39,
-       "odds": 1.7,
-       "buy_line_win": "2.8〜3.1倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 4,
-       "name": "コスモバルムンク",
-       "ai_win": 6,
-       "odds": 13.4,
-       "buy_line_win": "19.9〜20.0倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "10:55",
+     "picks": []
     },
     {
      "race_id": "2026110108041104",
@@ -179,14 +153,14 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "10:15",
+     "odds_at": "10:45",
      "picks": [
       {
        "umaban": 4,
        "name": "ヴェストラン",
        "type": "単勝",
        "odds": 9.6,
-       "ev": 1.145
+       "ev": 1.101
       }
      ],
      "top": [
@@ -194,25 +168,25 @@
        "mark": "◎",
        "umaban": 13,
        "name": "アウスヴァール",
-       "ai_win": 26,
-       "odds": 3.4,
-       "buy_line_win": "4.3〜4.7倍"
+       "ai_win": 25,
+       "odds": 3.5,
+       "buy_line_win": "4.5〜4.9倍"
       },
       {
        "mark": "○",
        "umaban": 5,
        "name": "テイエムリステット",
-       "ai_win": 18,
-       "odds": 4.2,
-       "buy_line_win": "6.1〜6.7倍"
+       "ai_win": 17,
+       "odds": 4.1,
+       "buy_line_win": "6.4〜6.9倍"
       },
       {
        "mark": "▲",
        "umaban": 12,
        "name": "モスクロッサー",
-       "ai_win": 13,
-       "odds": 5.5,
-       "buy_line_win": "8.6〜9.4倍"
+       "ai_win": 17,
+       "odds": 4.9,
+       "buy_line_win": "6.4〜6.9倍"
       }
      ]
     },
