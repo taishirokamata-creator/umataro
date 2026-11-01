@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T15:45:42",
+ "generated_at": "2026-11-01T16:00:50",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -706,35 +706,9 @@
      "course": "芝1400m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "15:35",
-     "picks": [],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 6,
-       "name": "ナルキッソス",
-       "ai_win": 19,
-       "odds": 4.4,
-       "buy_line_win": "5.7〜6.2倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 1,
-       "name": "ポペット",
-       "ai_win": 18,
-       "odds": 5.8,
-       "buy_line_win": "6.0〜6.6倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 2,
-       "name": "ワンコールアウェイ",
-       "ai_win": 14,
-       "odds": 7.4,
-       "buy_line_win": "7.9〜8.6倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "16:00",
+     "picks": []
     },
     {
      "race_id": "2026110105041112",
@@ -747,32 +721,32 @@
      "rough": "荒れやすい",
      "rough_past": "6/10",
      "status": "provisional",
-     "odds_at": "15:25",
+     "odds_at": "15:55",
      "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 8,
        "name": "スマートスピア",
-       "ai_win": 27,
-       "odds": 2.9,
-       "buy_line_win": "4.0〜4.4倍"
+       "ai_win": 37,
+       "odds": 2.3,
+       "buy_line_win": "3.0〜3.3倍"
       },
       {
        "mark": "○",
        "umaban": 13,
        "name": "サマーマッドネス",
-       "ai_win": 20,
-       "odds": 3.7,
-       "buy_line_win": "5.4〜5.9倍"
+       "ai_win": 19,
+       "odds": 4.1,
+       "buy_line_win": "5.9〜6.5倍"
       },
       {
        "mark": "▲",
        "umaban": 3,
        "name": "ドントゥザムーン",
-       "ai_win": 9,
-       "odds": 8.9,
-       "buy_line_win": "12.4〜13.6倍"
+       "ai_win": 8,
+       "odds": 8.5,
+       "buy_line_win": "13.4〜14.6倍"
       }
      ]
     }
