@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T14:15:26",
+ "generated_at": "2026-11-01T14:20:35",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -539,35 +539,9 @@
      "course": "芝1600m",
      "rough": "平均的",
      "rough_past": "2/8",
-     "status": "provisional",
-     "odds_at": "13:55",
-     "picks": [],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 0,
-       "name": "ジャサルディア",
-       "ai_win": 42,
-       "odds": null,
-       "buy_line_win": "2.6〜2.9倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 1,
-       "name": "ミッキーソルジャー",
-       "ai_win": 15,
-       "odds": 3.0,
-       "buy_line_win": "7.4〜8.1倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 7,
-       "name": "エルハーベン",
-       "ai_win": 7,
-       "odds": 5.9,
-       "buy_line_win": "15.0〜16.3倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "14:20",
+     "picks": []
     },
     {
      "race_id": "2026110108041110",
@@ -665,40 +639,32 @@
      "rough": "判断材料が少ない",
      "rough_past": "1/1",
      "status": "provisional",
-     "odds_at": "09:00",
-     "picks": [
-      {
-       "umaban": 1,
-       "name": "ガロンヌ",
-       "type": "単勝",
-       "odds": 11.9,
-       "ev": 1.173
-      }
-     ],
+     "odds_at": "14:20",
+     "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 3,
        "name": "ブエナオンダ",
-       "ai_win": 16,
-       "odds": 6.3,
-       "buy_line_win": "6.7〜7.3倍"
+       "ai_win": 15,
+       "odds": 7.1,
+       "buy_line_win": "7.4〜8.0倍"
       },
       {
        "mark": "○",
        "umaban": 7,
        "name": "レザベーション",
        "ai_win": 15,
-       "odds": 4.5,
-       "buy_line_win": "7.2〜7.9倍"
+       "odds": 5.0,
+       "buy_line_win": "7.4〜8.0倍"
       },
       {
        "mark": "▲",
-       "umaban": 12,
-       "name": "キョウエイブリッサ",
-       "ai_win": 12,
-       "odds": 6.4,
-       "buy_line_win": "9.4〜10.3倍"
+       "umaban": 8,
+       "name": "スマートワイス",
+       "ai_win": 15,
+       "odds": 3.8,
+       "buy_line_win": "7.4〜8.0倍"
       }
      ]
     },
