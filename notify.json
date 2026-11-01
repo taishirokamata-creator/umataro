@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T13:15:28",
+ "generated_at": "2026-11-01T13:30:41",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -427,43 +427,9 @@
      "course": "芝2200m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "13:05",
-     "picks": [
-      {
-       "umaban": 13,
-       "name": "ゴールドアクセス",
-       "type": "単勝",
-       "odds": 16.8,
-       "ev": 1.164
-      }
-     ],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 10,
-       "name": "マイコンプリート",
-       "ai_win": 43,
-       "odds": 1.6,
-       "buy_line_win": "2.5〜2.8倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 4,
-       "name": "ニホンピロロジャー",
-       "ai_win": 9,
-       "odds": 7.9,
-       "buy_line_win": "12.1〜13.1倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 2,
-       "name": "ムスクレスト",
-       "ai_win": 7,
-       "odds": 11.8,
-       "buy_line_win": "14.9〜16.2倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "13:30",
+     "picks": []
     },
     {
      "race_id": "2026110105041108",
@@ -476,14 +442,14 @@
      "rough": "平均的",
      "rough_past": "3/10",
      "status": "provisional",
-     "odds_at": "12:50",
+     "odds_at": "13:20",
      "picks": [
       {
        "umaban": 7,
        "name": "ノチェセラーダ",
        "type": "単勝",
        "odds": 4.3,
-       "ev": 1.191
+       "ev": 1.196
       }
      ],
      "top": [
@@ -492,8 +458,8 @@
        "umaban": 4,
        "name": "ミッキーファルコン",
        "ai_win": 32,
-       "odds": 2.5,
-       "buy_line_win": "3.5〜3.8倍"
+       "odds": 2.6,
+       "buy_line_win": "3.4〜3.7倍"
       },
       {
        "mark": "○",
@@ -505,11 +471,11 @@
       },
       {
        "mark": "▲",
-       "umaban": 2,
-       "name": "プレイザリード",
-       "ai_win": 16,
-       "odds": 4.4,
-       "buy_line_win": "6.9〜7.5倍"
+       "umaban": 6,
+       "name": "イブキ",
+       "ai_win": 15,
+       "odds": 3.7,
+       "buy_line_win": "7.3〜8.0倍"
       }
      ]
     },
@@ -564,32 +530,32 @@
      "rough": "平均的",
      "rough_past": "2/8",
      "status": "provisional",
-     "odds_at": "09:00",
+     "odds_at": "13:25",
      "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 0,
        "name": "ジャサルディア",
-       "ai_win": 42,
+       "ai_win": 43,
        "odds": null,
-       "buy_line_win": "2.6〜2.9倍"
+       "buy_line_win": "2.6〜2.8倍"
       },
       {
        "mark": "○",
        "umaban": 1,
        "name": "ミッキーソルジャー",
-       "ai_win": 13,
-       "odds": 3.5,
-       "buy_line_win": "8.3〜9.0倍"
+       "ai_win": 15,
+       "odds": 3.1,
+       "buy_line_win": "7.3〜8.0倍"
       },
       {
        "mark": "▲",
        "umaban": 7,
        "name": "エルハーベン",
-       "ai_win": 8,
-       "odds": 5.2,
-       "buy_line_win": "13.2〜14.4倍"
+       "ai_win": 7,
+       "odds": 5.6,
+       "buy_line_win": "14.7〜16.0倍"
       }
      ]
     },
