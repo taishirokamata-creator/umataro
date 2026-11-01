@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T12:30:48",
+ "generated_at": "2026-11-01T12:45:56",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -324,35 +324,9 @@
      "course": "ダート1400m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "12:20",
-     "picks": [],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 13,
-       "name": "ソリッドベーシス",
-       "ai_win": 38,
-       "odds": null,
-       "buy_line_win": "2.9〜3.1倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 9,
-       "name": "ガラク",
-       "ai_win": 12,
-       "odds": 4.8,
-       "buy_line_win": "8.9〜9.7倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 12,
-       "name": "ゴーゴーパンチ",
-       "ai_win": 9,
-       "odds": 5.3,
-       "buy_line_win": "12.6〜13.8倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "12:45",
+     "picks": []
     },
     {
      "race_id": "2026110108041107",
@@ -365,14 +339,21 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "12:05",
+     "odds_at": "12:35",
      "picks": [
+      {
+       "umaban": 2,
+       "name": "ブレイジングスター",
+       "type": "複勝",
+       "odds": 10.4,
+       "ev": 1.159
+      },
       {
        "umaban": 12,
        "name": "メイショウビストロ",
        "type": "単勝",
-       "odds": 18.7,
-       "ev": 1.13
+       "odds": 18.9,
+       "ev": 1.136
       }
      ],
      "top": [
@@ -381,7 +362,7 @@
        "umaban": 15,
        "name": "バトルアックス",
        "ai_win": 17,
-       "odds": 4.3,
+       "odds": 4.2,
        "buy_line_win": "6.5〜7.1倍"
       },
       {
@@ -389,16 +370,16 @@
        "umaban": 16,
        "name": "ダノンクロム",
        "ai_win": 16,
-       "odds": 5.8,
-       "buy_line_win": "6.7〜7.3倍"
+       "odds": 5.7,
+       "buy_line_win": "6.8〜7.4倍"
       },
       {
        "mark": "▲",
        "umaban": 11,
        "name": "ブロンテス",
        "ai_win": 11,
-       "odds": 6.3,
-       "buy_line_win": "9.6〜10.5倍"
+       "odds": 6.0,
+       "buy_line_win": "9.7〜10.6倍"
       }
      ]
     },
@@ -453,21 +434,14 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:00",
+     "odds_at": "12:35",
      "picks": [
-      {
-       "umaban": 3,
-       "name": "オープンザパンドラ",
-       "type": "単勝",
-       "odds": 13.0,
-       "ev": 1.142
-      },
       {
        "umaban": 13,
        "name": "ゴールドアクセス",
        "type": "単勝",
-       "odds": 9.8,
-       "ev": 1.178
+       "odds": 13.4,
+       "ev": 1.188
       }
      ],
      "top": [
@@ -475,25 +449,25 @@
        "mark": "◎",
        "umaban": 10,
        "name": "マイコンプリート",
-       "ai_win": 20,
-       "odds": 2.7,
-       "buy_line_win": "5.5〜6.0倍"
+       "ai_win": 35,
+       "odds": 1.9,
+       "buy_line_win": "3.2〜3.5倍"
       },
       {
        "mark": "○",
        "umaban": 4,
        "name": "ニホンピロロジャー",
        "ai_win": 12,
-       "odds": 6.9,
-       "buy_line_win": "9.2〜10.0倍"
+       "odds": 7.3,
+       "buy_line_win": "9.1〜9.9倍"
       },
       {
        "mark": "▲",
        "umaban": 13,
        "name": "ゴールドアクセス",
-       "ai_win": 12,
-       "odds": 9.8,
-       "buy_line_win": "9.2〜10.0倍"
+       "ai_win": 9,
+       "odds": 13.4,
+       "buy_line_win": "12.4〜13.5倍"
       }
      ]
     },
