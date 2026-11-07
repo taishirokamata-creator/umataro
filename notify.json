@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T16:10:04",
+ "generated_at": "2026-11-07T16:20:07",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -1164,35 +1164,9 @@
      "course": "芝2000m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "15:55",
-     "picks": [],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 2,
-       "name": "ロードスタニング",
-       "ai_win": 18,
-       "odds": 5.3,
-       "buy_line_win": "6.2〜6.7倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 9,
-       "name": "アグレイビューティ",
-       "ai_win": 13,
-       "odds": 4.4,
-       "buy_line_win": "8.6〜9.4倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 13,
-       "name": "トラカイキャッスル",
-       "ai_win": 12,
-       "odds": 8.9,
-       "buy_line_win": "9.2〜10.0倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "16:20",
+     "picks": []
     }
    ]
   },
