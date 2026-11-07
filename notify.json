@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T14:20:21",
+ "generated_at": "2026-11-07T14:25:24",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -802,7 +802,7 @@
      "course": "障害3170m",
      "rough": "堅い",
      "rough_past": "1/10",
-     "status": "decided",
+     "status": "result",
      "decided_at": "13:55",
      "picks": [
       {
@@ -812,9 +812,28 @@
        "odds": 6.2,
        "ev": 1.196,
        "stake": 900,
-       "finish": null
+       "finish": 2
       }
-     ]
+     ],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 8,
+       "name": "スマイルスルー"
+      },
+      {
+       "pos": 2,
+       "umaban": 6,
+       "name": "シホノスペランツァ"
+      },
+      {
+       "pos": 3,
+       "umaban": 9,
+       "name": "ディナースタ"
+      }
+     ],
+     "net": -900,
+     "hit": false
     },
     {
      "race_id": "2026110703030109",
