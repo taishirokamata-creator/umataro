@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T09:40:07",
+ "generated_at": "2026-11-07T09:50:19",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -31,35 +31,9 @@
      "course": "ダート1600m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "09:25",
-     "picks": [],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 5,
-       "name": "ブリスブリンク",
-       "ai_win": 60,
-       "odds": 1.4,
-       "buy_line_win": "1.8〜2.0倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 7,
-       "name": "ルージュロマーナ",
-       "ai_win": 15,
-       "odds": 5.0,
-       "buy_line_win": "7.3〜8.0倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 9,
-       "name": "チャームドール",
-       "ai_win": 7,
-       "odds": 9.5,
-       "buy_line_win": "16.2〜17.7倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "09:50",
+     "picks": []
     },
     {
      "race_id": "2026110708050101",
@@ -120,47 +94,32 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:15",
-     "picks": [
-      {
-       "umaban": 9,
-       "name": "ジーフォーリア",
-       "type": "複勝",
-       "odds": 3.1,
-       "ev": 1.198
-      },
-      {
-       "umaban": 13,
-       "name": "ラインディアーナ",
-       "type": "複勝",
-       "odds": 5.6,
-       "ev": 1.15
-      }
-     ],
+     "odds_at": "09:45",
+     "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 1,
        "name": "プレシャスタイム",
-       "ai_win": 20,
-       "odds": 4.8,
-       "buy_line_win": "5.4〜5.9倍"
+       "ai_win": 16,
+       "odds": 5.3,
+       "buy_line_win": "6.8〜7.4倍"
       },
       {
        "mark": "○",
-       "umaban": 9,
-       "name": "ジーフォーリア",
-       "ai_win": 14,
-       "odds": 7.1,
-       "buy_line_win": "7.8〜8.5倍"
+       "umaban": 2,
+       "name": "ハルカカナタ",
+       "ai_win": 12,
+       "odds": 8.2,
+       "buy_line_win": "9.5〜10.4倍"
       },
       {
        "mark": "▲",
-       "umaban": 2,
-       "name": "ハルカカナタ",
-       "ai_win": 11,
-       "odds": 8.2,
-       "buy_line_win": "9.8〜10.7倍"
+       "umaban": 9,
+       "name": "ジーフォーリア",
+       "ai_win": 12,
+       "odds": 7.7,
+       "buy_line_win": "9.5〜10.4倍"
       }
      ]
     },
@@ -252,14 +211,22 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:00",
-     "picks": [],
+     "odds_at": "09:45",
+     "picks": [
+      {
+       "umaban": 5,
+       "name": "バトゥル",
+       "type": "単勝",
+       "odds": 11.3,
+       "ev": 1.138
+      }
+     ],
      "top": [
       {
        "mark": "◎",
        "umaban": 4,
        "name": "レッドアバンドーネ",
-       "ai_win": 21,
+       "ai_win": 22,
        "odds": 3.9,
        "buy_line_win": "5.1〜5.6倍"
       },
@@ -267,16 +234,16 @@
        "mark": "○",
        "umaban": 8,
        "name": "ソリドゥス",
-       "ai_win": 21,
-       "odds": 3.9,
-       "buy_line_win": "5.1〜5.6倍"
+       "ai_win": 17,
+       "odds": 4.2,
+       "buy_line_win": "6.5〜7.1倍"
       },
       {
        "mark": "▲",
        "umaban": 2,
        "name": "スーパーユタカ",
        "ai_win": 17,
-       "odds": 4.9,
+       "odds": 5.1,
        "buy_line_win": "6.6〜7.2倍"
       }
      ]
