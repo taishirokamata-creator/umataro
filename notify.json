@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T10:00:30",
+ "generated_at": "2026-11-07T10:10:41",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -69,35 +69,9 @@
      "course": "芝2000m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "09:45",
-     "picks": [],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 1,
-       "name": "プレシャスタイム",
-       "ai_win": 16,
-       "odds": 5.3,
-       "buy_line_win": "6.8〜7.4倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 2,
-       "name": "ハルカカナタ",
-       "ai_win": 12,
-       "odds": 8.2,
-       "buy_line_win": "9.5〜10.4倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 9,
-       "name": "ジーフォーリア",
-       "ai_win": 12,
-       "odds": 7.7,
-       "buy_line_win": "9.5〜10.4倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "10:10",
+     "picks": []
     },
     {
      "race_id": "2026110705050102",
@@ -147,31 +121,31 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:35",
+     "odds_at": "10:05",
      "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 3,
        "name": "ヘヴンインザレイン",
-       "ai_win": 34,
+       "ai_win": 36,
        "odds": 3.0,
-       "buy_line_win": "3.3〜3.6倍"
+       "buy_line_win": "3.0〜3.3倍"
       },
       {
        "mark": "○",
-       "umaban": 14,
-       "name": "ウォーターガルーダ",
-       "ai_win": 15,
-       "odds": 4.5,
-       "buy_line_win": "7.1〜7.7倍"
-      },
-      {
-       "mark": "▲",
        "umaban": 11,
        "name": "プリンキピッサ",
        "ai_win": 14,
-       "odds": 4.2,
+       "odds": 4.1,
+       "buy_line_win": "7.9〜8.6倍"
+      },
+      {
+       "mark": "▲",
+       "umaban": 14,
+       "name": "ウォーターガルーダ",
+       "ai_win": 14,
+       "odds": 4.5,
        "buy_line_win": "7.9〜8.6倍"
       }
      ]
@@ -275,7 +249,7 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:00",
+     "odds_at": "10:05",
      "picks": [],
      "top": [
       {
@@ -291,8 +265,8 @@
        "umaban": 1,
        "name": "ダノンチャンピオン",
        "ai_win": 14,
-       "odds": 6.8,
-       "buy_line_win": "7.7〜8.4倍"
+       "odds": 6.7,
+       "buy_line_win": "7.8〜8.5倍"
       },
       {
        "mark": "▲",
@@ -300,7 +274,7 @@
        "name": "ルクスアルカード",
        "ai_win": 12,
        "odds": 4.8,
-       "buy_line_win": "9.2〜10.0倍"
+       "buy_line_win": "9.3〜10.1倍"
       }
      ]
     },
