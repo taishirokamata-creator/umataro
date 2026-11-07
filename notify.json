@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T14:35:46",
+ "generated_at": "2026-11-07T14:40:57",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -904,38 +904,17 @@
      "course": "芝1200m",
      "rough": "荒れやすい",
      "rough_past": "5/10",
-     "status": "provisional",
-     "odds_at": "14:15",
+     "status": "decided",
+     "decided_at": "14:40",
      "picks": [
       {
        "umaban": 3,
        "name": "ホウオウヘッセン",
        "type": "複勝",
-       "odds": 6.2,
-       "ev": 1.18
-      }
-     ],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 1,
-       "name": "デアリングエア",
-       "ai_win": 14,
-       "odds": 6.6
-      },
-      {
-       "mark": "○",
-       "umaban": 16,
-       "name": "アイルドリアン",
-       "ai_win": 13,
-       "odds": 5.6
-      },
-      {
-       "mark": "▲",
-       "umaban": 2,
-       "name": "サンポーニャ",
-       "ai_win": 9,
-       "odds": 11.2
+       "odds": 7.3,
+       "ev": 1.118,
+       "stake": 400,
+       "finish": null
       }
      ]
     },
@@ -990,29 +969,29 @@
      "rough": "荒れやすい",
      "rough_past": "4/8",
      "status": "provisional",
-     "odds_at": "14:10",
+     "odds_at": "14:40",
      "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 1,
        "name": "メイショウバルク",
-       "ai_win": 31,
-       "odds": 2.6
+       "ai_win": 28,
+       "odds": 2.7
       },
       {
        "mark": "○",
        "umaban": 5,
        "name": "ルクスデイジー",
-       "ai_win": 17,
-       "odds": 4.9
+       "ai_win": 18,
+       "odds": 4.8
       },
       {
        "mark": "▲",
        "umaban": 10,
        "name": "テーオーグレーザー",
        "ai_win": 12,
-       "odds": 6.2
+       "odds": 6.4
       }
      ]
     },
