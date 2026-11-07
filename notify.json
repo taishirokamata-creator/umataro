@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T13:11:05",
+ "generated_at": "2026-11-07T13:11:09",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -585,9 +585,26 @@
      "course": "ダート1300m",
      "rough": "",
      "rough_past": "",
-     "status": "decided",
+     "status": "result",
      "decided_at": "12:40",
-     "picks": []
+     "picks": [],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 4,
+       "name": "サトノヘラクレス"
+      },
+      {
+       "pos": 2,
+       "umaban": 1,
+       "name": "ビリーブハーモニー"
+      },
+      {
+       "pos": 3,
+       "umaban": 5,
+       "name": "ネバースリープ"
+      }
+     ]
     },
     {
      "race_id": "2026110708050106",
