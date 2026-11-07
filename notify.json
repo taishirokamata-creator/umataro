@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T10:30:13",
+ "generated_at": "2026-11-07T10:40:24",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -174,41 +174,17 @@
      "course": "ダート1700m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "10:15",
+     "status": "decided",
+     "decided_at": "10:40",
      "picks": [
       {
-       "umaban": 5,
-       "name": "バトゥル",
-       "type": "単勝",
-       "odds": 11.8,
-       "ev": 1.121
-      }
-     ],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 4,
-       "name": "レッドアバンドーネ",
-       "ai_win": 22,
-       "odds": 3.9,
-       "buy_line_win": "4.9〜5.4倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 8,
-       "name": "ソリドゥス",
-       "ai_win": 22,
-       "odds": 3.4,
-       "buy_line_win": "4.9〜5.4倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 2,
-       "name": "スーパーユタカ",
-       "ai_win": 12,
-       "odds": 6.0,
-       "buy_line_win": "8.9〜9.7倍"
+       "umaban": 11,
+       "name": "ポッドレーヴ",
+       "type": "複勝",
+       "odds": 6.8,
+       "ev": 1.106,
+       "stake": 400,
+       "finish": null
       }
      ]
     },
@@ -263,7 +239,7 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "10:05",
+     "odds_at": "10:35",
      "picks": [],
      "top": [
       {
@@ -287,8 +263,8 @@
        "umaban": 13,
        "name": "ルクスアルカード",
        "ai_win": 12,
-       "odds": 4.8,
-       "buy_line_win": "9.3〜10.1倍"
+       "odds": 4.9,
+       "buy_line_win": "9.2〜10.0倍"
       }
      ]
     },
@@ -398,32 +374,32 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:00",
+     "odds_at": "10:35",
      "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 6,
        "name": "グラシアレスインク",
-       "ai_win": 20,
-       "odds": 4.5,
-       "buy_line_win": "5.6〜6.1倍"
+       "ai_win": 19,
+       "odds": 5.0,
+       "buy_line_win": "5.7〜6.2倍"
       },
       {
        "mark": "○",
        "umaban": 2,
        "name": "ハニーベル",
        "ai_win": 14,
-       "odds": 5.1,
-       "buy_line_win": "8.0〜8.7倍"
+       "odds": 4.7,
+       "buy_line_win": "7.9〜8.6倍"
       },
       {
        "mark": "▲",
-       "umaban": 13,
-       "name": "オスカーレイア",
-       "ai_win": 12,
-       "odds": 6.3,
-       "buy_line_win": "9.4〜10.3倍"
+       "umaban": 5,
+       "name": "マスリュウオー",
+       "ai_win": 10,
+       "odds": 9.0,
+       "buy_line_win": "11.3〜12.4倍"
       }
      ]
     },
