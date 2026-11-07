@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T12:50:26",
+ "generated_at": "2026-11-07T13:00:44",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -594,40 +594,9 @@
      "course": "芝1200m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "12:35",
-     "picks": [
-      {
-       "umaban": 14,
-       "name": "シュークリーム",
-       "type": "複勝",
-       "odds": 4.7,
-       "ev": 1.129
-      }
-     ],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 9,
-       "name": "フロムレイブン",
-       "ai_win": 34,
-       "odds": 2.8
-      },
-      {
-       "mark": "○",
-       "umaban": 3,
-       "name": "セゾンデフィーユ",
-       "ai_win": 9,
-       "odds": 6.6
-      },
-      {
-       "mark": "▲",
-       "umaban": 7,
-       "name": "ベレーバスク",
-       "ai_win": 7,
-       "odds": 11.9
-      }
-     ]
+     "status": "decided",
+     "decided_at": "13:00",
+     "picks": []
     },
     {
      "race_id": "2026110705050107",
@@ -688,32 +657,32 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "12:25",
+     "odds_at": "12:55",
      "picks": [],
      "top": [
       {
        "mark": "◎",
-       "umaban": 7,
-       "name": "ゴールデンカイト",
-       "ai_win": 27,
-       "odds": 3.6,
-       "buy_line_win": "4.1〜4.5倍"
+       "umaban": 9,
+       "name": "パンサーズ",
+       "ai_win": 26,
+       "odds": 3.0,
+       "buy_line_win": "4.2〜4.6倍"
       },
       {
        "mark": "○",
-       "umaban": 9,
-       "name": "パンサーズ",
-       "ai_win": 27,
-       "odds": 2.8,
-       "buy_line_win": "4.1〜4.5倍"
+       "umaban": 7,
+       "name": "ゴールデンカイト",
+       "ai_win": 24,
+       "odds": 3.8,
+       "buy_line_win": "4.7〜5.1倍"
       },
       {
        "mark": "▲",
        "umaban": 8,
        "name": "テーオーパーセル",
-       "ai_win": 11,
-       "odds": 5.9,
-       "buy_line_win": "9.7〜10.6倍"
+       "ai_win": 15,
+       "odds": 5.2,
+       "buy_line_win": "7.4〜8.1倍"
       }
      ]
     },
@@ -805,32 +774,40 @@
      "rough": "堅い",
      "rough_past": "1/10",
      "status": "provisional",
-     "odds_at": "09:00",
-     "picks": [],
+     "odds_at": "13:00",
+     "picks": [
+      {
+       "umaban": 6,
+       "name": "シホノスペランツァ",
+       "type": "単勝",
+       "odds": 5.8,
+       "ev": 1.106
+      }
+     ],
      "top": [
       {
        "mark": "◎",
        "umaban": 9,
        "name": "ディナースタ",
-       "ai_win": 31,
-       "odds": 2.2,
-       "buy_line_win": "3.6〜3.9倍"
+       "ai_win": 44,
+       "odds": 1.7,
+       "buy_line_win": "2.5〜2.7倍"
       },
       {
        "mark": "○",
        "umaban": 6,
        "name": "シホノスペランツァ",
-       "ai_win": 22,
-       "odds": 4.6,
-       "buy_line_win": "4.9〜5.4倍"
+       "ai_win": 19,
+       "odds": 5.8,
+       "buy_line_win": "5.8〜6.3倍"
       },
       {
        "mark": "▲",
        "umaban": 8,
        "name": "スマイルスルー",
-       "ai_win": 16,
-       "odds": 5.1,
-       "buy_line_win": "7.1〜7.7倍"
+       "ai_win": 11,
+       "odds": 6.0,
+       "buy_line_win": "10.4〜11.4倍"
       }
      ]
     },
