@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T14:30:35",
+ "generated_at": "2026-11-07T14:35:46",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -845,9 +845,26 @@
      "course": "芝2000m",
      "rough": "堅い",
      "rough_past": "1/10",
-     "status": "decided",
+     "status": "result",
      "decided_at": "14:05",
-     "picks": []
+     "picks": [],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 9,
+       "name": "ダノンハドソン"
+      },
+      {
+       "pos": 2,
+       "umaban": 5,
+       "name": "ゼットエイト"
+      },
+      {
+       "pos": 3,
+       "umaban": 4,
+       "name": "アッシズオブローズ"
+      }
+     ]
     },
     {
      "race_id": "2026110705050109",
@@ -1047,32 +1064,32 @@
      "rough": "荒れやすい",
      "rough_past": "6/10",
      "status": "provisional",
-     "odds_at": "09:00",
+     "odds_at": "14:35",
      "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 2,
        "name": "フレイコン",
-       "ai_win": 27,
-       "odds": 3.8,
-       "buy_line_win": "4.0〜4.4倍"
+       "ai_win": 26,
+       "odds": 3.9,
+       "buy_line_win": "4.2〜4.6倍"
       },
       {
        "mark": "○",
        "umaban": 9,
        "name": "ブルージェイ",
-       "ai_win": 21,
-       "odds": 3.9,
-       "buy_line_win": "5.1〜5.6倍"
+       "ai_win": 26,
+       "odds": 3.3,
+       "buy_line_win": "4.2〜4.6倍"
       },
       {
        "mark": "▲",
        "umaban": 6,
        "name": "インパルスドライブ",
-       "ai_win": 11,
-       "odds": 7.1,
-       "buy_line_win": "10.4〜11.3倍"
+       "ai_win": 12,
+       "odds": 6.4,
+       "buy_line_win": "9.1〜9.9倍"
       }
      ]
     },
