@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T15:25:13",
+ "generated_at": "2026-11-07T15:30:24",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -977,7 +977,7 @@
      "race_no": 10,
      "name": "ノベンバーステークス",
      "grade": "",
-     "start": "15:00",
+     "start": "15:01",
      "course": "芝2000m",
      "rough": "平均的",
      "rough_past": "2/9",
@@ -1040,35 +1040,9 @@
      "course": "芝1400m",
      "rough": "荒れやすい",
      "rough_past": "6/10",
-     "status": "provisional",
-     "odds_at": "15:05",
-     "picks": [],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 9,
-       "name": "ブルージェイ",
-       "ai_win": 29,
-       "odds": 3.2,
-       "buy_line_win": "3.8〜4.2倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 2,
-       "name": "フレイコン",
-       "ai_win": 26,
-       "odds": 3.8,
-       "buy_line_win": "4.3〜4.7倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 6,
-       "name": "インパルスドライブ",
-       "ai_win": 10,
-       "odds": 6.8,
-       "buy_line_win": "11.1〜12.1倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "15:30",
+     "picks": []
     },
     {
      "race_id": "2026110708050111",
@@ -1118,40 +1092,32 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "15:00",
-     "picks": [
-      {
-       "umaban": 1,
-       "name": "ゲレーロアスール",
-       "type": "複勝",
-       "odds": 6.9,
-       "ev": 1.122
-      }
-     ],
+     "odds_at": "15:30",
+     "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 6,
        "name": "エイシンマールス",
-       "ai_win": 20,
-       "odds": 4.6,
-       "buy_line_win": "5.6〜6.1倍"
+       "ai_win": 22,
+       "odds": 4.1,
+       "buy_line_win": "5.0〜5.5倍"
       },
       {
        "mark": "○",
        "umaban": 5,
        "name": "コイオステソーロ",
-       "ai_win": 18,
-       "odds": 3.3,
-       "buy_line_win": "6.1〜6.7倍"
+       "ai_win": 16,
+       "odds": 3.6,
+       "buy_line_win": "7.1〜7.7倍"
       },
       {
        "mark": "▲",
        "umaban": 8,
        "name": "エコロスパーダ",
        "ai_win": 10,
-       "odds": 9.3,
-       "buy_line_win": "11.3〜12.3倍"
+       "odds": 9.7,
+       "buy_line_win": "11.4〜12.5倍"
       }
      ]
     },
