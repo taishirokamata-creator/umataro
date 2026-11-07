@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T12:30:50",
+ "generated_at": "2026-11-07T12:40:01",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -530,32 +530,9 @@
      "course": "ダート1300m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "12:15",
-     "picks": [],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 4,
-       "name": "サトノヘラクレス",
-       "ai_win": 53,
-       "odds": 1.7
-      },
-      {
-       "mark": "○",
-       "umaban": 11,
-       "name": "ラマナス",
-       "ai_win": 9,
-       "odds": 9.8
-      },
-      {
-       "mark": "▲",
-       "umaban": 1,
-       "name": "ビリーブハーモニー",
-       "ai_win": 8,
-       "odds": 7.1
-      }
-     ]
+     "status": "decided",
+     "decided_at": "12:40",
+     "picks": []
     },
     {
      "race_id": "2026110708050106",
@@ -608,14 +585,14 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "12:05",
+     "odds_at": "12:35",
      "picks": [
       {
        "umaban": 14,
        "name": "シュークリーム",
        "type": "複勝",
-       "odds": 5.3,
-       "ev": 1.127
+       "odds": 4.7,
+       "ev": 1.129
       }
      ],
      "top": [
@@ -623,22 +600,22 @@
        "mark": "◎",
        "umaban": 9,
        "name": "フロムレイブン",
-       "ai_win": 36,
-       "odds": 2.9
+       "ai_win": 34,
+       "odds": 2.8
       },
       {
        "mark": "○",
        "umaban": 3,
        "name": "セゾンデフィーユ",
        "ai_win": 9,
-       "odds": 6.5
+       "odds": 6.6
       },
       {
        "mark": "▲",
        "umaban": 7,
        "name": "ベレーバスク",
        "ai_win": 7,
-       "odds": 12.6
+       "odds": 11.9
       }
      ]
     },
@@ -733,37 +710,29 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:00",
-     "picks": [
-      {
-       "umaban": 4,
-       "name": "ガルディーノ",
-       "type": "複勝",
-       "odds": 4.7,
-       "ev": 1.165
-      }
-     ],
+     "odds_at": "12:35",
+     "picks": [],
      "top": [
       {
        "mark": "◎",
-       "umaban": 12,
-       "name": "マダムイグレイン",
-       "ai_win": 20,
+       "umaban": 10,
+       "name": "ロードクラシコ",
+       "ai_win": 22,
        "odds": 4.7
       },
       {
        "mark": "○",
-       "umaban": 10,
-       "name": "ロードクラシコ",
-       "ai_win": 16,
-       "odds": 6.0
+       "umaban": 9,
+       "name": "モズオウンゴール",
+       "ai_win": 20,
+       "odds": 3.1
       },
       {
        "mark": "▲",
-       "umaban": 9,
-       "name": "モズオウンゴール",
-       "ai_win": 13,
-       "odds": 3.6
+       "umaban": 12,
+       "name": "マダムイグレイン",
+       "ai_win": 11,
+       "odds": 6.9
       }
      ]
     },
