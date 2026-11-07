@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T10:10:44",
+ "generated_at": "2026-11-07T10:20:55",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -100,32 +100,9 @@
      "course": "ダート1300m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "09:55",
-     "picks": [],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 1,
-       "name": "エコロヴォルグ",
-       "ai_win": 61,
-       "odds": 1.3
-      },
-      {
-       "mark": "○",
-       "umaban": 5,
-       "name": "ハイトラクション",
-       "ai_win": 9,
-       "odds": 10.9
-      },
-      {
-       "mark": "▲",
-       "umaban": 4,
-       "name": "スパーキー",
-       "ai_win": 7,
-       "odds": 11.9
-      }
-     ]
+     "status": "decided",
+     "decided_at": "10:20",
+     "picks": []
     },
     {
      "race_id": "2026110708050102",
@@ -178,14 +155,14 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:45",
+     "odds_at": "10:15",
      "picks": [
       {
        "umaban": 5,
        "name": "バトゥル",
        "type": "単勝",
-       "odds": 11.3,
-       "ev": 1.138
+       "odds": 11.8,
+       "ev": 1.121
       }
      ],
      "top": [
@@ -195,23 +172,23 @@
        "name": "レッドアバンドーネ",
        "ai_win": 22,
        "odds": 3.9,
-       "buy_line_win": "5.1〜5.6倍"
+       "buy_line_win": "4.9〜5.4倍"
       },
       {
        "mark": "○",
        "umaban": 8,
        "name": "ソリドゥス",
-       "ai_win": 17,
-       "odds": 4.2,
-       "buy_line_win": "6.5〜7.1倍"
+       "ai_win": 22,
+       "odds": 3.4,
+       "buy_line_win": "4.9〜5.4倍"
       },
       {
        "mark": "▲",
        "umaban": 2,
        "name": "スーパーユタカ",
-       "ai_win": 17,
-       "odds": 5.1,
-       "buy_line_win": "6.6〜7.2倍"
+       "ai_win": 12,
+       "odds": 6.0,
+       "buy_line_win": "8.9〜9.7倍"
       }
      ]
     },
@@ -306,14 +283,21 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:00",
+     "odds_at": "10:15",
      "picks": [
       {
        "umaban": 1,
        "name": "エクストラプッシュ",
        "type": "複勝",
-       "odds": 5.5,
-       "ev": 1.119
+       "odds": 5.6,
+       "ev": 1.139
+      },
+      {
+       "umaban": 5,
+       "name": "ステイアンビシャス",
+       "type": "単勝",
+       "odds": 15.7,
+       "ev": 1.103
       }
      ],
      "top": [
@@ -321,25 +305,25 @@
        "mark": "◎",
        "umaban": 2,
        "name": "ダイシンレアレア",
-       "ai_win": 17,
-       "odds": 4.5,
-       "buy_line_win": "6.4〜7.0倍"
+       "ai_win": 16,
+       "odds": 4.7,
+       "buy_line_win": "7.1〜7.7倍"
       },
       {
        "mark": "○",
-       "umaban": 6,
-       "name": "ロードヴェリタス",
-       "ai_win": 9,
-       "odds": 8.3,
-       "buy_line_win": "11.8〜12.8倍"
+       "umaban": 9,
+       "name": "スノーディーヴァ",
+       "ai_win": 10,
+       "odds": 6.6,
+       "buy_line_win": "10.5〜11.5倍"
       },
       {
        "mark": "▲",
-       "umaban": 9,
-       "name": "スノーディーヴァ",
+       "umaban": 6,
+       "name": "ロードヴェリタス",
        "ai_win": 9,
-       "odds": 7.7,
-       "buy_line_win": "11.8〜12.8倍"
+       "odds": 8.8,
+       "buy_line_win": "11.9〜13.0倍"
       }
      ]
     },
