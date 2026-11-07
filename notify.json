@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T12:10:25",
+ "generated_at": "2026-11-07T12:20:36",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -475,35 +475,9 @@
      "course": "芝1800m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "11:55",
-     "picks": [],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 1,
-       "name": "ロードラムセス",
-       "ai_win": 55,
-       "odds": 1.3,
-       "buy_line_win": "2.0〜2.2倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 8,
-       "name": "エイシンジュゲム",
-       "ai_win": 17,
-       "odds": 5.2,
-       "buy_line_win": "6.6〜7.2倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 2,
-       "name": "テンタシオン",
-       "ai_win": 9,
-       "odds": 8.3,
-       "buy_line_win": "12.4〜13.6倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "12:20",
+     "picks": []
     },
     {
      "race_id": "2026110703030106",
@@ -571,29 +545,29 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "11:45",
+     "odds_at": "12:15",
      "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 4,
        "name": "サトノヘラクレス",
-       "ai_win": 44,
-       "odds": 1.9
+       "ai_win": 53,
+       "odds": 1.7
       },
       {
        "mark": "○",
-       "umaban": 1,
-       "name": "ビリーブハーモニー",
-       "ai_win": 9,
-       "odds": 6.4
-      },
-      {
-       "mark": "▲",
        "umaban": 11,
        "name": "ラマナス",
        "ai_win": 9,
-       "odds": 8.9
+       "odds": 9.8
+      },
+      {
+       "mark": "▲",
+       "umaban": 1,
+       "name": "ビリーブハーモニー",
+       "ai_win": 8,
+       "odds": 7.1
       }
      ]
     },
@@ -693,32 +667,32 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:00",
+     "odds_at": "12:15",
      "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 12,
        "name": "インワンズブラッド",
-       "ai_win": 23,
-       "odds": 4.3,
-       "buy_line_win": "4.8〜5.3倍"
+       "ai_win": 25,
+       "odds": 4.0,
+       "buy_line_win": "4.5〜4.9倍"
       },
       {
        "mark": "○",
-       "umaban": 16,
-       "name": "クードルアラマン",
+       "umaban": 3,
+       "name": "アルモワール",
        "ai_win": 13,
-       "odds": 7.3,
+       "odds": 6.3,
        "buy_line_win": "8.7〜9.5倍"
       },
       {
        "mark": "▲",
-       "umaban": 4,
-       "name": "クロスペンダント",
+       "umaban": 16,
+       "name": "クードルアラマン",
        "ai_win": 12,
-       "odds": 6.0,
-       "buy_line_win": "9.3〜10.2倍"
+       "odds": 7.0,
+       "buy_line_win": "9.0〜9.8倍"
       }
      ]
     },
