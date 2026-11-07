@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T16:06:00",
+ "generated_at": "2026-11-07T16:10:04",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -1105,9 +1105,26 @@
      "course": "ダート1200m",
      "rough": "荒れやすい",
      "rough_past": "7/10",
-     "status": "decided",
+     "status": "result",
      "decided_at": "15:40",
-     "picks": []
+     "picks": [],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 3,
+       "name": "エコロレーヴ"
+      },
+      {
+       "pos": 2,
+       "umaban": 13,
+       "name": "ファムエレガンテ"
+      },
+      {
+       "pos": 3,
+       "umaban": 10,
+       "name": "ジョーメッドヴィン"
+      }
+     ]
     },
     {
      "race_id": "2026110703030112",
