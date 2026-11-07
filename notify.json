@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T14:00:41",
+ "generated_at": "2026-11-07T14:05:52",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -809,35 +809,9 @@
      "course": "芝2000m",
      "rough": "堅い",
      "rough_past": "1/10",
-     "status": "provisional",
-     "odds_at": "13:40",
-     "picks": [],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 16,
-       "name": "ダーコ",
-       "ai_win": 23,
-       "odds": 2.8,
-       "buy_line_win": "4.8〜5.3倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 13,
-       "name": "トレベルオール",
-       "ai_win": 11,
-       "odds": 11.0,
-       "buy_line_win": "9.7〜10.6倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 3,
-       "name": "レダアトミカ",
-       "ai_win": 11,
-       "odds": 9.1,
-       "buy_line_win": "9.9〜10.8倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "14:05",
+     "picks": []
     },
     {
      "race_id": "2026110705050109",
@@ -890,40 +864,32 @@
      "rough": "平均的",
      "rough_past": "2/6",
      "status": "provisional",
-     "odds_at": "13:35",
-     "picks": [
-      {
-       "umaban": 10,
-       "name": "オーシャントライブ",
-       "type": "単勝",
-       "odds": 15.1,
-       "ev": 1.102
-      }
-     ],
+     "odds_at": "14:05",
+     "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 8,
        "name": "サーディンラン",
-       "ai_win": 24,
-       "odds": 3.1,
-       "buy_line_win": "4.6〜5.0倍"
+       "ai_win": 22,
+       "odds": 3.2,
+       "buy_line_win": "5.0〜5.4倍"
       },
       {
        "mark": "○",
        "umaban": 9,
        "name": "ランスオブヒーロー",
-       "ai_win": 17,
-       "odds": 4.2,
-       "buy_line_win": "6.4〜6.9倍"
+       "ai_win": 18,
+       "odds": 3.9,
+       "buy_line_win": "6.1〜6.6倍"
       },
       {
        "mark": "▲",
        "umaban": 5,
        "name": "ダガーリング",
        "ai_win": 17,
-       "odds": 4.7,
-       "buy_line_win": "6.6〜7.2倍"
+       "odds": 4.6,
+       "buy_line_win": "6.3〜6.9倍"
       }
      ]
     },
