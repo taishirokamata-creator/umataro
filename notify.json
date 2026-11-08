@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T12:00:32",
+ "generated_at": "2026-11-08T12:00:35",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -382,7 +382,7 @@
      "course": "ダート1800m",
      "rough": "",
      "rough_past": "",
-     "status": "decided",
+     "status": "result",
      "decided_at": "11:30",
      "picks": [
       {
@@ -392,9 +392,28 @@
        "odds": 15.7,
        "ev": 1.166,
        "stake": 200,
-       "finish": null
+       "finish": 3
       }
-     ]
+     ],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 6,
+       "name": "サトノグロリア"
+      },
+      {
+       "pos": 2,
+       "umaban": 8,
+       "name": "トラッドロア"
+      },
+      {
+       "pos": 3,
+       "umaban": 7,
+       "name": "アメリカンスタイル"
+      }
+     ],
+     "net": -200,
+     "hit": false
     },
     {
      "race_id": "2026110803030205",
