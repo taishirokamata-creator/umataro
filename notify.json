@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T14:55:08",
+ "generated_at": "2026-11-08T15:00:19",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -947,35 +947,9 @@
      "course": "芝1600m",
      "rough": "平均的",
      "rough_past": "3/7",
-     "status": "provisional",
-     "odds_at": "14:35",
-     "picks": [],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 6,
-       "name": "アヴィオン",
-       "ai_win": 39,
-       "odds": 1.8,
-       "buy_line_win": "2.8〜3.1倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 1,
-       "name": "フェアリーライク",
-       "ai_win": 18,
-       "odds": 6.6,
-       "buy_line_win": "6.1〜6.6倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 8,
-       "name": "ブルーマエストロ",
-       "ai_win": 17,
-       "odds": 3.9,
-       "buy_line_win": "6.3〜6.9倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "15:00",
+     "picks": []
     },
     {
      "race_id": "2026110803030211",
@@ -1025,15 +999,23 @@
      "rough": "平均的",
      "rough_past": "4/10",
      "status": "provisional",
-     "odds_at": "14:30",
-     "picks": [],
+     "odds_at": "15:00",
+     "picks": [
+      {
+       "umaban": 16,
+       "name": "キングズパレス",
+       "type": "複勝",
+       "odds": 5.8,
+       "ev": 1.104
+      }
+     ],
      "top": [
       {
        "mark": "◎",
        "umaban": 5,
        "name": "ドゥラドーレス",
        "ai_win": 19,
-       "odds": 7.1,
+       "odds": 6.7,
        "buy_line_win": "5.8〜6.3倍"
       },
       {
@@ -1041,15 +1023,15 @@
        "umaban": 7,
        "name": "ファイアンクランツ",
        "ai_win": 13,
-       "odds": 6.0,
-       "buy_line_win": "8.7〜9.5倍"
+       "odds": 5.6,
+       "buy_line_win": "8.7〜9.4倍"
       },
       {
        "mark": "▲",
        "umaban": 4,
        "name": "ミラージュナイト",
        "ai_win": 11,
-       "odds": 5.9,
+       "odds": 6.1,
        "buy_line_win": "9.6〜10.5倍"
       }
      ]
@@ -1113,37 +1095,37 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:00",
+     "odds_at": "15:00",
      "picks": [
       {
-       "umaban": 8,
-       "name": "リュウセイコウテイ",
+       "umaban": 3,
+       "name": "スピリットライズ",
        "type": "複勝",
-       "odds": 5.3,
-       "ev": 1.127
+       "odds": 5.5,
+       "ev": 1.119
       }
      ],
      "top": [
       {
        "mark": "◎",
-       "umaban": 1,
-       "name": "マイネルユーゲント",
-       "ai_win": 12,
-       "odds": 6.4
+       "umaban": 6,
+       "name": "ディオデルマーレ",
+       "ai_win": 22,
+       "odds": 4.2
       },
       {
        "mark": "○",
-       "umaban": 4,
-       "name": "チュウワメロディー",
-       "ai_win": 10,
-       "odds": 6.9
+       "umaban": 1,
+       "name": "マイネルユーゲント",
+       "ai_win": 12,
+       "odds": 6.6
       },
       {
        "mark": "▲",
-       "umaban": 11,
-       "name": "ロンドンアームズ",
-       "ai_win": 10,
-       "odds": 8.1
+       "umaban": 9,
+       "name": "ジェムシリカ",
+       "ai_win": 11,
+       "odds": 5.4
       }
      ]
     },
