@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T14:25:21",
+ "generated_at": "2026-11-08T14:35:39",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -774,7 +774,7 @@
      "race_no": 8,
      "name": "",
      "grade": "",
-     "start": "14:00",
+     "start": "14:01",
      "course": "芝2400m",
      "rough": "",
      "rough_past": "",
@@ -814,7 +814,7 @@
      "course": "芝1800m",
      "rough": "荒れやすい",
      "rough_past": "5/10",
-     "status": "decided",
+     "status": "result",
      "decided_at": "14:05",
      "picks": [
       {
@@ -824,9 +824,28 @@
        "odds": 6.7,
        "ev": 1.125,
        "stake": 500,
-       "finish": null
+       "finish": 14
       }
-     ]
+     ],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 13,
+       "name": "カクウチ"
+      },
+      {
+       "pos": 2,
+       "umaban": 6,
+       "name": "コンバットペスカ"
+      },
+      {
+       "pos": 3,
+       "umaban": 9,
+       "name": "バンオンタイム"
+      }
+     ],
+     "net": -500,
+     "hit": false
     },
     {
      "race_id": "2026110805050209",
@@ -947,32 +966,32 @@
      "rough": "平均的",
      "rough_past": "3/7",
      "status": "provisional",
-     "odds_at": "14:05",
+     "odds_at": "14:35",
      "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 6,
        "name": "アヴィオン",
-       "ai_win": 32,
-       "odds": 2.2,
-       "buy_line_win": "3.4〜3.8倍"
+       "ai_win": 39,
+       "odds": 1.8,
+       "buy_line_win": "2.8〜3.1倍"
       },
       {
        "mark": "○",
-       "umaban": 8,
-       "name": "ブルーマエストロ",
-       "ai_win": 23,
-       "odds": 3.4,
-       "buy_line_win": "4.8〜5.2倍"
+       "umaban": 1,
+       "name": "フェアリーライク",
+       "ai_win": 18,
+       "odds": 6.6,
+       "buy_line_win": "6.1〜6.6倍"
       },
       {
        "mark": "▲",
-       "umaban": 1,
-       "name": "フェアリーライク",
+       "umaban": 8,
+       "name": "ブルーマエストロ",
        "ai_win": 17,
-       "odds": 6.1,
-       "buy_line_win": "6.6〜7.2倍"
+       "odds": 3.9,
+       "buy_line_win": "6.3〜6.9倍"
       }
      ]
     },
@@ -1024,24 +1043,16 @@
      "rough": "平均的",
      "rough_past": "4/10",
      "status": "provisional",
-     "odds_at": "09:00",
-     "picks": [
-      {
-       "umaban": 5,
-       "name": "ドゥラドーレス",
-       "type": "複勝",
-       "odds": 2.5,
-       "ev": 1.106
-      }
-     ],
+     "odds_at": "14:30",
+     "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 5,
        "name": "ドゥラドーレス",
        "ai_win": 19,
-       "odds": 7.4,
-       "buy_line_win": "5.9〜6.4倍"
+       "odds": 7.1,
+       "buy_line_win": "5.8〜6.3倍"
       },
       {
        "mark": "○",
@@ -1049,15 +1060,15 @@
        "name": "ファイアンクランツ",
        "ai_win": 13,
        "odds": 6.0,
-       "buy_line_win": "8.8〜9.6倍"
+       "buy_line_win": "8.7〜9.5倍"
       },
       {
        "mark": "▲",
        "umaban": 4,
        "name": "ミラージュナイト",
        "ai_win": 11,
-       "odds": 6.1,
-       "buy_line_win": "9.7〜10.6倍"
+       "odds": 5.9,
+       "buy_line_win": "9.6〜10.5倍"
       }
      ]
     },
