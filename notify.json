@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T11:10:09",
+ "generated_at": "2026-11-08T11:20:20",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -300,35 +300,9 @@
      "course": "ダート1600m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "10:55",
-     "picks": [],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 7,
-       "name": "スペルチェック",
-       "ai_win": 24,
-       "odds": 3.6,
-       "buy_line_win": "4.5〜4.9倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 14,
-       "name": "ロスコンデレジェス",
-       "ai_win": 24,
-       "odds": 3.8,
-       "buy_line_win": "4.5〜4.9倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 11,
-       "name": "ブルールチル",
-       "ai_win": 18,
-       "odds": 4.0,
-       "buy_line_win": "6.0〜6.5倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "11:20",
+     "picks": []
     },
     {
      "race_id": "2026110808050204",
@@ -421,32 +395,32 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:00",
+     "odds_at": "11:15",
      "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 1,
        "name": "エウゲニオス",
-       "ai_win": 37,
-       "odds": 1.7,
-       "buy_line_win": "3.0〜3.2倍"
+       "ai_win": 41,
+       "odds": 1.6,
+       "buy_line_win": "2.7〜2.9倍"
       },
       {
        "mark": "○",
        "umaban": 8,
        "name": "フューチャー",
-       "ai_win": 11,
-       "odds": 9.5,
-       "buy_line_win": "9.7〜10.6倍"
+       "ai_win": 12,
+       "odds": 8.3,
+       "buy_line_win": "9.3〜10.1倍"
       },
       {
        "mark": "▲",
-       "umaban": 3,
-       "name": "ビクトリーコン",
-       "ai_win": 8,
-       "odds": 8.7,
-       "buy_line_win": "13.3〜14.5倍"
+       "umaban": 4,
+       "name": "ウェザリング",
+       "ai_win": 10,
+       "odds": 7.5,
+       "buy_line_win": "11.4〜12.5倍"
       }
      ]
     },
