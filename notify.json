@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T15:10:30",
+ "generated_at": "2026-11-08T15:15:41",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -978,30 +978,17 @@
      "course": "芝1200m",
      "rough": "荒れやすい",
      "rough_past": "6/10",
-     "status": "provisional",
-     "odds_at": "14:50",
-     "picks": [],
-     "top": [
+     "status": "decided",
+     "decided_at": "15:15",
+     "picks": [
       {
-       "mark": "◎",
-       "umaban": 2,
-       "name": "インブロリオ",
-       "ai_win": 14,
-       "odds": 5.3
-      },
-      {
-       "mark": "○",
-       "umaban": 8,
-       "name": "ギリーズボール",
-       "ai_win": 14,
-       "odds": 5.6
-      },
-      {
-       "mark": "▲",
-       "umaban": 5,
-       "name": "アスティスプマンテ",
-       "ai_win": 10,
-       "odds": 7.0
+       "umaban": 3,
+       "name": "ショウナンハクラク",
+       "type": "複勝",
+       "odds": 4.7,
+       "ev": 1.129,
+       "stake": 800,
+       "finish": null
       }
      ]
     },
@@ -1064,14 +1051,28 @@
      "rough": "荒れやすい",
      "rough_past": "6/9",
      "status": "provisional",
-     "odds_at": "14:45",
+     "odds_at": "15:15",
      "picks": [
       {
        "umaban": 1,
        "name": "トリポリタニア",
        "type": "単勝",
-       "odds": 13.5,
-       "ev": 1.13
+       "odds": 13.4,
+       "ev": 1.134
+      },
+      {
+       "umaban": 7,
+       "name": "マイノワール",
+       "type": "単勝",
+       "odds": 16.5,
+       "ev": 1.184
+      },
+      {
+       "umaban": 9,
+       "name": "ラムジェット",
+       "type": "単勝",
+       "odds": 10.4,
+       "ev": 1.111
       }
      ],
      "top": [
@@ -1080,8 +1081,8 @@
        "umaban": 4,
        "name": "ビービークローサー",
        "ai_win": 15,
-       "odds": 4.9,
-       "buy_line_win": "7.3〜7.9倍"
+       "odds": 4.8,
+       "buy_line_win": "7.2〜7.8倍"
       },
       {
        "mark": "○",
@@ -1089,15 +1090,15 @@
        "name": "ロードクロンヌ",
        "ai_win": 12,
        "odds": 4.7,
-       "buy_line_win": "9.4〜10.3倍"
+       "buy_line_win": "9.3〜10.2倍"
       },
       {
        "mark": "▲",
-       "umaban": 9,
-       "name": "ラムジェット",
+       "umaban": 8,
+       "name": "テスティモーネ",
        "ai_win": 11,
-       "odds": 10.4,
-       "buy_line_win": "10.4〜11.4倍"
+       "odds": 7.5,
+       "buy_line_win": "10.3〜11.2倍"
       }
      ]
     },
