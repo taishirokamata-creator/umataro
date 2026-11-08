@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T15:55:33",
+ "generated_at": "2026-11-08T15:55:36",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -1055,9 +1055,26 @@
      "course": "芝2500m",
      "rough": "平均的",
      "rough_past": "4/10",
-     "status": "decided",
+     "status": "result",
      "decided_at": "15:25",
-     "picks": []
+     "picks": [],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 6,
+       "name": "ファミリータイム"
+      },
+      {
+       "pos": 2,
+       "umaban": 15,
+       "name": "ホーエリート"
+      },
+      {
+       "pos": 3,
+       "umaban": 12,
+       "name": "メイショウゲキリン"
+      }
+     ]
     },
     {
      "race_id": "2026110808050211",
