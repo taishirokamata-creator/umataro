@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T14:40:43",
+ "generated_at": "2026-11-08T14:45:53",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -857,9 +857,26 @@
      "course": "芝2000m",
      "rough": "堅い",
      "rough_past": "0/10",
-     "status": "decided",
+     "status": "result",
      "decided_at": "14:15",
-     "picks": []
+     "picks": [],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 7,
+       "name": "エスクアドラ"
+      },
+      {
+       "pos": 2,
+       "umaban": 6,
+       "name": "ヴァンドレスト"
+      },
+      {
+       "pos": 3,
+       "umaban": 3,
+       "name": "テキサス"
+      }
+     ]
     },
     {
      "race_id": "2026110808050209",
@@ -1057,14 +1074,14 @@
      "rough": "荒れやすい",
      "rough_past": "6/9",
      "status": "provisional",
-     "odds_at": "09:00",
+     "odds_at": "14:45",
      "picks": [
       {
        "umaban": 1,
        "name": "トリポリタニア",
        "type": "単勝",
-       "odds": 12.7,
-       "ev": 1.143
+       "odds": 13.5,
+       "ev": 1.13
       }
      ],
      "top": [
@@ -1072,25 +1089,25 @@
        "mark": "◎",
        "umaban": 4,
        "name": "ビービークローサー",
-       "ai_win": 14,
-       "odds": 5.0,
-       "buy_line_win": "8.0〜8.8倍"
+       "ai_win": 15,
+       "odds": 4.9,
+       "buy_line_win": "7.3〜7.9倍"
       },
       {
        "mark": "○",
-       "umaban": 15,
-       "name": "ショウナンバンライ",
+       "umaban": 11,
+       "name": "ロードクロンヌ",
        "ai_win": 12,
-       "odds": 6.4,
-       "buy_line_win": "8.9〜9.7倍"
+       "odds": 4.7,
+       "buy_line_win": "9.4〜10.3倍"
       },
       {
        "mark": "▲",
-       "umaban": 11,
-       "name": "ロードクロンヌ",
+       "umaban": 9,
+       "name": "ラムジェット",
        "ai_win": 11,
-       "odds": 5.0,
-       "buy_line_win": "9.8〜10.7倍"
+       "odds": 10.4,
+       "buy_line_win": "10.4〜11.4倍"
       }
      ]
     },
