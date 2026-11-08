@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T15:31:07",
+ "generated_at": "2026-11-08T15:40:18",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -1050,55 +1050,17 @@
      "course": "ダート1800m",
      "rough": "荒れやすい",
      "rough_past": "6/9",
-     "status": "provisional",
-     "odds_at": "15:15",
+     "status": "decided",
+     "decided_at": "15:40",
      "picks": [
-      {
-       "umaban": 1,
-       "name": "トリポリタニア",
-       "type": "単勝",
-       "odds": 13.4,
-       "ev": 1.134
-      },
-      {
-       "umaban": 7,
-       "name": "マイノワール",
-       "type": "単勝",
-       "odds": 16.5,
-       "ev": 1.184
-      },
       {
        "umaban": 9,
        "name": "ラムジェット",
        "type": "単勝",
-       "odds": 10.4,
-       "ev": 1.111
-      }
-     ],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 4,
-       "name": "ビービークローサー",
-       "ai_win": 15,
-       "odds": 4.8,
-       "buy_line_win": "7.2〜7.8倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 11,
-       "name": "ロードクロンヌ",
-       "ai_win": 12,
-       "odds": 4.7,
-       "buy_line_win": "9.3〜10.2倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 8,
-       "name": "テスティモーネ",
-       "ai_win": 11,
-       "odds": 7.5,
-       "buy_line_win": "10.3〜11.2倍"
+       "odds": 11.9,
+       "ev": 1.137,
+       "stake": 300,
+       "finish": null
       }
      ]
     },
@@ -1150,7 +1112,7 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "15:10",
+     "odds_at": "15:40",
      "picks": [],
      "top": [
       {
@@ -1165,17 +1127,17 @@
        "mark": "○",
        "umaban": 5,
        "name": "インプロペリア",
-       "ai_win": 13,
-       "odds": 4.9,
-       "buy_line_win": "8.5〜9.3倍"
+       "ai_win": 14,
+       "odds": 4.7,
+       "buy_line_win": "8.1〜8.9倍"
       },
       {
        "mark": "▲",
        "umaban": 4,
        "name": "デンプシー",
        "ai_win": 8,
-       "odds": 7.1,
-       "buy_line_win": "13.8〜15.0倍"
+       "odds": 7.0,
+       "buy_line_win": "13.1〜14.3倍"
       }
      ]
     },
