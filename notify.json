@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T13:05:55",
+ "generated_at": "2026-11-08T13:15:06",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -591,35 +591,9 @@
      "course": "ダート1600m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "12:50",
-     "picks": [],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 14,
-       "name": "ダノンマスタング",
-       "ai_win": 64,
-       "odds": 1.3,
-       "buy_line_win": "1.7〜1.9倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 7,
-       "name": "ハクシンブライアン",
-       "ai_win": 8,
-       "odds": 9.8,
-       "buy_line_win": "13.9〜15.1倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 2,
-       "name": "インディヴァイン",
-       "ai_win": 6,
-       "odds": 20.9,
-       "buy_line_win": "18.3〜20.0倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "13:15",
+     "picks": []
     },
     {
      "race_id": "2026110808050207",
@@ -680,37 +654,29 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "12:40",
-     "picks": [
-      {
-       "umaban": 13,
-       "name": "グランルチャドール",
-       "type": "複勝",
-       "odds": 5.9,
-       "ev": 1.123
-      }
-     ],
+     "odds_at": "13:10",
+     "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 14,
        "name": "トゥインクルアップ",
        "ai_win": 24,
-       "odds": 3.7
+       "odds": 3.8
       },
       {
        "mark": "○",
        "umaban": 6,
        "name": "オプティモ",
-       "ai_win": 13,
-       "odds": 5.4
+       "ai_win": 17,
+       "odds": 5.1
       },
       {
        "mark": "▲",
        "umaban": 2,
        "name": "ダイイズキャスト",
        "ai_win": 9,
-       "odds": 11.1
+       "odds": 11.2
       }
      ]
     },
@@ -810,40 +776,40 @@
      "rough": "荒れやすい",
      "rough_past": "5/10",
      "status": "provisional",
-     "odds_at": "09:00",
+     "odds_at": "13:10",
      "picks": [
       {
-       "umaban": 2,
-       "name": "クラシカルカイザー",
+       "umaban": 10,
+       "name": "ユメシルベ",
        "type": "複勝",
-       "odds": 3.5,
-       "ev": 1.193
+       "odds": 6.0,
+       "ev": 1.142
       }
      ],
      "top": [
       {
        "mark": "◎",
-       "umaban": 4,
-       "name": "ミエノフェアリー",
-       "ai_win": 13,
-       "odds": 5.7,
-       "buy_line_win": "8.2〜8.9倍"
+       "umaban": 8,
+       "name": "カージオイド",
+       "ai_win": 12,
+       "odds": 5.4,
+       "buy_line_win": "9.2〜10.0倍"
       },
       {
        "mark": "○",
-       "umaban": 2,
-       "name": "クラシカルカイザー",
-       "ai_win": 12,
-       "odds": 8.1,
-       "buy_line_win": "9.0〜9.9倍"
+       "umaban": 3,
+       "name": "ウインポセイドン",
+       "ai_win": 9,
+       "odds": 8.6,
+       "buy_line_win": "12.6〜13.7倍"
       },
       {
        "mark": "▲",
-       "umaban": 6,
-       "name": "コンバットペスカ",
-       "ai_win": 11,
+       "umaban": 7,
+       "name": "ホウオウギンガ",
+       "ai_win": 9,
        "odds": 6.6,
-       "buy_line_win": "9.9〜10.8倍"
+       "buy_line_win": "12.6〜13.7倍"
       }
      ]
     },
