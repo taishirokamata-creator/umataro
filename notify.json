@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T15:00:19",
+ "generated_at": "2026-11-08T15:10:30",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -919,9 +919,26 @@
      "course": "ダート1700m",
      "rough": "荒れやすい",
      "rough_past": "7/10",
-     "status": "decided",
+     "status": "result",
      "decided_at": "14:40",
-     "picks": []
+     "picks": [],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 6,
+       "name": "ハイクオリティ"
+      },
+      {
+       "pos": 2,
+       "umaban": 1,
+       "name": "アラナコア"
+      },
+      {
+       "pos": 3,
+       "umaban": 3,
+       "name": "ホウショウルクス"
+      }
+     ]
     },
     {
      "race_id": "2026110805050210",
@@ -1140,40 +1157,32 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:00",
-     "picks": [
-      {
-       "umaban": 4,
-       "name": "デンプシー",
-       "type": "複勝",
-       "odds": 2.0,
-       "ev": 1.19
-      }
-     ],
+     "odds_at": "15:10",
+     "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 3,
        "name": "スペルーチェ",
-       "ai_win": 46,
-       "odds": 2.1,
-       "buy_line_win": "2.4〜2.6倍"
+       "ai_win": 57,
+       "odds": 1.7,
+       "buy_line_win": "1.9〜2.1倍"
       },
       {
        "mark": "○",
-       "umaban": 4,
-       "name": "デンプシー",
-       "ai_win": 20,
-       "odds": 3.5,
-       "buy_line_win": "5.6〜6.1倍"
+       "umaban": 5,
+       "name": "インプロペリア",
+       "ai_win": 13,
+       "odds": 4.9,
+       "buy_line_win": "8.5〜9.3倍"
       },
       {
        "mark": "▲",
-       "umaban": 5,
-       "name": "インプロペリア",
-       "ai_win": 9,
-       "odds": 7.5,
-       "buy_line_win": "12.6〜13.8倍"
+       "umaban": 4,
+       "name": "デンプシー",
+       "ai_win": 8,
+       "odds": 7.1,
+       "buy_line_win": "13.8〜15.0倍"
       }
      ]
     },
