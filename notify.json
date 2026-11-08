@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T11:40:55",
+ "generated_at": "2026-11-08T11:50:14",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -351,9 +351,26 @@
      "course": "ダート1600m",
      "rough": "",
      "rough_past": "",
-     "status": "decided",
+     "status": "result",
      "decided_at": "11:20",
-     "picks": []
+     "picks": [],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 11,
+       "name": "ブルールチル"
+      },
+      {
+       "pos": 2,
+       "umaban": 8,
+       "name": "ムーンレガリア"
+      },
+      {
+       "pos": 3,
+       "umaban": 6,
+       "name": "エプリダルジャン"
+      }
+     ]
     },
     {
      "race_id": "2026110808050204",
@@ -438,32 +455,40 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "11:15",
-     "picks": [],
+     "odds_at": "11:45",
+     "picks": [
+      {
+       "umaban": 13,
+       "name": "ダルマッコ",
+       "type": "単勝",
+       "odds": 15.4,
+       "ev": 1.167
+      }
+     ],
      "top": [
       {
        "mark": "◎",
        "umaban": 1,
        "name": "エウゲニオス",
-       "ai_win": 41,
-       "odds": 1.6,
-       "buy_line_win": "2.7〜2.9倍"
+       "ai_win": 51,
+       "odds": 1.5,
+       "buy_line_win": "2.1〜2.3倍"
       },
       {
        "mark": "○",
-       "umaban": 8,
-       "name": "フューチャー",
+       "umaban": 3,
+       "name": "ビクトリーコン",
        "ai_win": 12,
-       "odds": 8.3,
-       "buy_line_win": "9.3〜10.1倍"
+       "odds": 6.2,
+       "buy_line_win": "9.6〜10.4倍"
       },
       {
        "mark": "▲",
-       "umaban": 4,
-       "name": "ウェザリング",
-       "ai_win": 10,
-       "odds": 7.5,
-       "buy_line_win": "11.4〜12.5倍"
+       "umaban": 8,
+       "name": "フューチャー",
+       "ai_win": 9,
+       "odds": 11.3,
+       "buy_line_win": "11.6〜12.7倍"
       }
      ]
     },
@@ -558,37 +583,29 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:00",
-     "picks": [
-      {
-       "umaban": 4,
-       "name": "ユイノカタリベ",
-       "type": "複勝",
-       "odds": 5.3,
-       "ev": 1.127
-      }
-     ],
+     "odds_at": "11:50",
+     "picks": [],
      "top": [
       {
        "mark": "◎",
-       "umaban": 9,
-       "name": "アンバサダネージュ",
-       "ai_win": 27,
-       "odds": 3.8
+       "umaban": 13,
+       "name": "アヴァランチ",
+       "ai_win": 26,
+       "odds": 3.7
       },
       {
        "mark": "○",
-       "umaban": 15,
-       "name": "プリプリプリン",
+       "umaban": 9,
+       "name": "アンバサダネージュ",
        "ai_win": 15,
-       "odds": 4.4
+       "odds": 6.0
       },
       {
        "mark": "▲",
-       "umaban": 13,
-       "name": "アヴァランチ",
-       "ai_win": 9,
-       "odds": 7.6
+       "umaban": 15,
+       "name": "プリプリプリン",
+       "ai_win": 14,
+       "odds": 5.2
       }
      ]
     },
