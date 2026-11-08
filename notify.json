@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T15:25:56",
+ "generated_at": "2026-11-08T15:31:07",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -981,9 +981,26 @@
      "course": "芝1600m",
      "rough": "平均的",
      "rough_past": "3/7",
-     "status": "decided",
+     "status": "result",
      "decided_at": "15:00",
-     "picks": []
+     "picks": [],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 6,
+       "name": "アヴィオン"
+      },
+      {
+       "pos": 2,
+       "umaban": 8,
+       "name": "ブルーマエストロ"
+      },
+      {
+       "pos": 3,
+       "umaban": 2,
+       "name": "スライビングロード"
+      }
+     ]
     },
     {
      "race_id": "2026110803030211",
@@ -1096,37 +1113,29 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "15:00",
-     "picks": [
-      {
-       "umaban": 3,
-       "name": "スピリットライズ",
-       "type": "複勝",
-       "odds": 5.5,
-       "ev": 1.119
-      }
-     ],
+     "odds_at": "15:30",
+     "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 6,
        "name": "ディオデルマーレ",
-       "ai_win": 22,
-       "odds": 4.2
+       "ai_win": 23,
+       "odds": 3.9
       },
       {
        "mark": "○",
        "umaban": 1,
        "name": "マイネルユーゲント",
-       "ai_win": 12,
-       "odds": 6.6
+       "ai_win": 10,
+       "odds": 6.8
       },
       {
        "mark": "▲",
-       "umaban": 9,
-       "name": "ジェムシリカ",
-       "ai_win": 11,
-       "odds": 5.4
+       "umaban": 4,
+       "name": "チュウワメロディー",
+       "ai_win": 10,
+       "odds": 7.5
       }
      ]
     },
