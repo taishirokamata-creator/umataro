@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T15:45:21",
+ "generated_at": "2026-11-08T15:55:33",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -1093,32 +1093,9 @@
      "course": "芝1200m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "15:30",
-     "picks": [],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 6,
-       "name": "ディオデルマーレ",
-       "ai_win": 23,
-       "odds": 3.9
-      },
-      {
-       "mark": "○",
-       "umaban": 1,
-       "name": "マイネルユーゲント",
-       "ai_win": 10,
-       "odds": 6.8
-      },
-      {
-       "mark": "▲",
-       "umaban": 4,
-       "name": "チュウワメロディー",
-       "ai_win": 10,
-       "odds": 7.5
-      }
-     ]
+     "status": "decided",
+     "decided_at": "15:55",
+     "picks": []
     },
     {
      "race_id": "2026110805050212",
@@ -1171,21 +1148,21 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "15:25",
+     "odds_at": "15:55",
      "picks": [
-      {
-       "umaban": 14,
-       "name": "スウィッチインラヴ",
-       "type": "単勝",
-       "odds": 13.0,
-       "ev": 1.148
-      },
       {
        "umaban": 16,
        "name": "メイクワンズデイ",
        "type": "単勝",
-       "odds": 9.9,
-       "ev": 1.196
+       "odds": 11.1,
+       "ev": 1.141
+      },
+      {
+       "umaban": 16,
+       "name": "メイクワンズデイ",
+       "type": "複勝",
+       "odds": 3.6,
+       "ev": 1.103
       }
      ],
      "top": [
@@ -1193,25 +1170,25 @@
        "mark": "◎",
        "umaban": 5,
        "name": "キシャール",
-       "ai_win": 12,
-       "odds": 5.4,
-       "buy_line_win": "9.1〜9.9倍"
+       "ai_win": 15,
+       "odds": 4.1,
+       "buy_line_win": "7.5〜8.2倍"
       },
       {
        "mark": "○",
        "umaban": 10,
        "name": "ニシノトリビュート",
        "ai_win": 12,
-       "odds": 6.5,
-       "buy_line_win": "9.1〜9.9倍"
+       "odds": 6.6,
+       "buy_line_win": "8.8〜9.7倍"
       },
       {
        "mark": "▲",
        "umaban": 16,
        "name": "メイクワンズデイ",
-       "ai_win": 12,
-       "odds": 9.9,
-       "buy_line_win": "9.1〜9.9倍"
+       "ai_win": 10,
+       "odds": 11.1,
+       "buy_line_win": "10.7〜11.7倍"
       }
      ]
     }
