@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T16:05:40",
+ "generated_at": "2026-11-08T16:10:43",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -1086,7 +1086,7 @@
      "course": "ダート1800m",
      "rough": "荒れやすい",
      "rough_past": "6/9",
-     "status": "decided",
+     "status": "result",
      "decided_at": "15:40",
      "picks": [
       {
@@ -1096,9 +1096,28 @@
        "odds": 11.9,
        "ev": 1.137,
        "stake": 300,
-       "finish": null
+       "finish": 12
       }
-     ]
+     ],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 11,
+       "name": "ロードクロンヌ"
+      },
+      {
+       "pos": 2,
+       "umaban": 8,
+       "name": "テスティモーネ"
+      },
+      {
+       "pos": 3,
+       "umaban": 3,
+       "name": "パシアンジャン"
+      }
+     ],
+     "net": -300,
+     "hit": false
     },
     {
      "race_id": "2026110803030212",
