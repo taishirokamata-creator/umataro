@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T13:45:59",
+ "generated_at": "2026-11-08T13:55:18",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -725,35 +725,9 @@
      "course": "芝2400m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "13:30",
-     "picks": [],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 1,
-       "name": "メディテラニアン",
-       "ai_win": 45,
-       "odds": 2.1,
-       "buy_line_win": "2.5〜2.7倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 8,
-       "name": "アロマフェリス",
-       "ai_win": 19,
-       "odds": 3.2,
-       "buy_line_win": "5.9〜6.4倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 2,
-       "name": "レッドヴァリアート",
-       "ai_win": 13,
-       "odds": 5.2,
-       "buy_line_win": "8.3〜9.1倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "13:55",
+     "picks": []
     },
     {
      "race_id": "2026110803030209",
@@ -806,32 +780,32 @@
      "rough": "堅い",
      "rough_past": "0/10",
      "status": "provisional",
-     "odds_at": "13:20",
+     "odds_at": "13:50",
      "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 6,
        "name": "ヴァンドレスト",
-       "ai_win": 33,
-       "odds": 2.5,
-       "buy_line_win": "3.3〜3.6倍"
+       "ai_win": 41,
+       "odds": 2.0,
+       "buy_line_win": "2.7〜2.9倍"
       },
       {
        "mark": "○",
        "umaban": 3,
        "name": "テキサス",
-       "ai_win": 23,
-       "odds": 3.7,
-       "buy_line_win": "4.7〜5.1倍"
+       "ai_win": 21,
+       "odds": 4.4,
+       "buy_line_win": "5.2〜5.6倍"
       },
       {
        "mark": "▲",
        "umaban": 7,
        "name": "エスクアドラ",
-       "ai_win": 16,
-       "odds": 4.2,
-       "buy_line_win": "7.1〜7.7倍"
+       "ai_win": 14,
+       "odds": 4.5,
+       "buy_line_win": "7.7〜8.4倍"
       }
      ]
     },
@@ -934,40 +908,32 @@
      "rough": "平均的",
      "rough_past": "2/9",
      "status": "provisional",
-     "odds_at": "09:00",
-     "picks": [
-      {
-       "umaban": 5,
-       "name": "キョウエイフロイデ",
-       "type": "複勝",
-       "odds": 1.9,
-       "ev": 1.136
-      }
-     ],
+     "odds_at": "13:55",
+     "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 10,
        "name": "セボンサデッセ",
-       "ai_win": 29,
-       "odds": 2.2,
-       "buy_line_win": "3.8〜4.1倍"
+       "ai_win": 31,
+       "odds": 2.1,
+       "buy_line_win": "3.5〜3.8倍"
       },
       {
        "mark": "○",
        "umaban": 5,
        "name": "キョウエイフロイデ",
-       "ai_win": 24,
-       "odds": 6.0,
-       "buy_line_win": "4.5〜4.9倍"
+       "ai_win": 23,
+       "odds": 5.9,
+       "buy_line_win": "4.8〜5.2倍"
       },
       {
        "mark": "▲",
        "umaban": 3,
        "name": "セギレエルビエント",
-       "ai_win": 17,
-       "odds": 3.8,
-       "buy_line_win": "6.5〜7.1倍"
+       "ai_win": 15,
+       "odds": 5.3,
+       "buy_line_win": "7.3〜8.0倍"
       }
      ]
     },
