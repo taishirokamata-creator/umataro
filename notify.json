@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T15:40:18",
+ "generated_at": "2026-11-08T15:45:21",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -1012,7 +1012,7 @@
      "course": "芝1200m",
      "rough": "荒れやすい",
      "rough_past": "6/10",
-     "status": "decided",
+     "status": "result",
      "decided_at": "15:15",
      "picks": [
       {
@@ -1022,9 +1022,28 @@
        "odds": 4.7,
        "ev": 1.129,
        "stake": 800,
-       "finish": null
+       "finish": 15
       }
-     ]
+     ],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 8,
+       "name": "ギリーズボール"
+      },
+      {
+       "pos": 2,
+       "umaban": 6,
+       "name": "シンバーシア"
+      },
+      {
+       "pos": 3,
+       "umaban": 7,
+       "name": "ベイビーキッス"
+      }
+     ],
+     "net": -800,
+     "hit": false
     },
     {
      "race_id": "2026110805050211",
