@@ -1,6 +1,1570 @@
 {
- "generated_at": "2026-11-14T20:00:55",
+ "generated_at": "2026-11-14T21:00:27",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
- "days": []
+ "days": [
+  {
+   "date": "2026-11-15",
+   "is_today": false,
+   "races": [
+    {
+     "race_id": "2026111503030401",
+     "venue": "福島",
+     "race_no": 1,
+     "name": "",
+     "grade": "",
+     "start": "09:40",
+     "course": "ダート1150m",
+     "rough": "",
+     "rough_past": "",
+     "status": "provisional",
+     "odds_at": "21:00",
+     "picks": [],
+     "top": [
+      {
+       "mark": "◎",
+       "umaban": 8,
+       "name": "エコロメジャー",
+       "ai_win": 38,
+       "odds": 2.2
+      },
+      {
+       "mark": "○",
+       "umaban": 7,
+       "name": "クリスタルシャイン",
+       "ai_win": 13,
+       "odds": 4.7
+      },
+      {
+       "mark": "▲",
+       "umaban": 11,
+       "name": "ビーテリオス",
+       "ai_win": 9,
+       "odds": 9.1
+      }
+     ]
+    },
+    {
+     "race_id": "2026111505050401",
+     "venue": "東京",
+     "race_no": 1,
+     "name": "",
+     "grade": "",
+     "start": "09:45",
+     "course": "ダート1400m",
+     "rough": "",
+     "rough_past": "",
+     "status": "provisional",
+     "odds_at": "21:00",
+     "picks": [
+      {
+       "umaban": 10,
+       "name": "ディーヴァレギオン",
+       "type": "複勝",
+       "odds": 4.7,
+       "ev": 1.109
+      }
+     ],
+     "top": [
+      {
+       "mark": "◎",
+       "umaban": 7,
+       "name": "オーケーエース",
+       "ai_win": 40,
+       "odds": 2.1,
+       "buy_line_win": "2.8〜3.0倍"
+      },
+      {
+       "mark": "○",
+       "umaban": 3,
+       "name": "コスモツクヨミ",
+       "ai_win": 18,
+       "odds": 4.5,
+       "buy_line_win": "6.0〜6.6倍"
+      },
+      {
+       "mark": "▲",
+       "umaban": 6,
+       "name": "マイネルヴェスペル",
+       "ai_win": 12,
+       "odds": 7.4,
+       "buy_line_win": "9.0〜9.8倍"
+      }
+     ]
+    },
+    {
+     "race_id": "2026111508050401",
+     "venue": "京都",
+     "race_no": 1,
+     "name": "",
+     "grade": "",
+     "start": "09:55",
+     "course": "ダート1800m",
+     "rough": "",
+     "rough_past": "",
+     "status": "provisional",
+     "odds_at": "21:00",
+     "picks": [
+      {
+       "umaban": 1,
+       "name": "ハリケンライズ",
+       "type": "単勝",
+       "odds": 5.9,
+       "ev": 1.178
+      }
+     ],
+     "top": [
+      {
+       "mark": "◎",
+       "umaban": 2,
+       "name": "ケーリュケイオン",
+       "ai_win": 30,
+       "odds": 2.4,
+       "buy_line_win": "3.6〜4.0倍"
+      },
+      {
+       "mark": "○",
+       "umaban": 3,
+       "name": "ハレムスビ",
+       "ai_win": 22,
+       "odds": 3.0,
+       "buy_line_win": "5.0〜5.4倍"
+      },
+      {
+       "mark": "▲",
+       "umaban": 1,
+       "name": "ハリケンライズ",
+       "ai_win": 20,
+       "odds": 5.9,
+       "buy_line_win": "5.5〜6.0倍"
+      }
+     ]
+    },
+    {
+     "race_id": "2026111503030402",
+     "venue": "福島",
+     "race_no": 2,
+     "name": "",
+     "grade": "",
+     "start": "10:05",
+     "course": "芝1800m",
+     "rough": "",
+     "rough_past": "",
+     "status": "provisional",
+     "odds_at": "21:00",
+     "picks": [],
+     "top": [
+      {
+       "mark": "◎",
+       "umaban": 7,
+       "name": "ヴェントリナ",
+       "ai_win": 19,
+       "odds": 4.0,
+       "buy_line_win": "5.9〜6.5倍"
+      },
+      {
+       "mark": "○",
+       "umaban": 8,
+       "name": "モーモーゼロ",
+       "ai_win": 14,
+       "odds": 6.7,
+       "buy_line_win": "7.8〜8.5倍"
+      },
+      {
+       "mark": "▲",
+       "umaban": 5,
+       "name": "サンオブシディアン",
+       "ai_win": 9,
+       "odds": 7.9,
+       "buy_line_win": "12.6〜13.7倍"
+      }
+     ]
+    },
+    {
+     "race_id": "2026111505050402",
+     "venue": "東京",
+     "race_no": 2,
+     "name": "",
+     "grade": "",
+     "start": "10:15",
+     "course": "芝1800m",
+     "rough": "",
+     "rough_past": "",
+     "status": "provisional",
+     "odds_at": "21:00",
+     "picks": [],
+     "top": [
+      {
+       "mark": "◎",
+       "umaban": 1,
+       "name": "シネファイル",
+       "ai_win": 39,
+       "odds": 2.4,
+       "buy_line_win": "2.8〜3.1倍"
+      },
+      {
+       "mark": "○",
+       "umaban": 8,
+       "name": "オンザボー",
+       "ai_win": 13,
+       "odds": 6.1,
+       "buy_line_win": "8.2〜9.0倍"
+      },
+      {
+       "mark": "▲",
+       "umaban": 11,
+       "name": "シュートザワークス",
+       "ai_win": 12,
+       "odds": 6.1,
+       "buy_line_win": "9.2〜10.0倍"
+      }
+     ]
+    },
+    {
+     "race_id": "2026111508050402",
+     "venue": "京都",
+     "race_no": 2,
+     "name": "",
+     "grade": "",
+     "start": "10:25",
+     "course": "芝1600m",
+     "rough": "",
+     "rough_past": "",
+     "status": "provisional",
+     "odds_at": "21:00",
+     "picks": [],
+     "top": [
+      {
+       "mark": "◎",
+       "umaban": 2,
+       "name": "リーベラーリア",
+       "ai_win": 61,
+       "odds": 1.3,
+       "buy_line_win": "1.8〜2.0倍"
+      },
+      {
+       "mark": "○",
+       "umaban": 1,
+       "name": "アレオクール",
+       "ai_win": 9,
+       "odds": 10.1,
+       "buy_line_win": "12.2〜13.3倍"
+      },
+      {
+       "mark": "▲",
+       "umaban": 6,
+       "name": "マイヴェール",
+       "ai_win": 7,
+       "odds": 10.2,
+       "buy_line_win": "16.1〜17.5倍"
+      }
+     ]
+    },
+    {
+     "race_id": "2026111503030403",
+     "venue": "福島",
+     "race_no": 3,
+     "name": "",
+     "grade": "",
+     "start": "10:35",
+     "course": "ダート1700m",
+     "rough": "",
+     "rough_past": "",
+     "status": "provisional",
+     "odds_at": "21:00",
+     "picks": [
+      {
+       "umaban": 4,
+       "name": "ヒヒーン",
+       "type": "単勝",
+       "odds": 4.6,
+       "ev": 1.169
+      }
+     ],
+     "top": [
+      {
+       "mark": "◎",
+       "umaban": 4,
+       "name": "ヒヒーン",
+       "ai_win": 25,
+       "odds": 4.6,
+       "buy_line_win": "4.3〜4.7倍"
+      },
+      {
+       "mark": "○",
+       "umaban": 3,
+       "name": "ラブインアクション",
+       "ai_win": 12,
+       "odds": 4.9,
+       "buy_line_win": "9.3〜10.1倍"
+      },
+      {
+       "mark": "▲",
+       "umaban": 10,
+       "name": "オーライカモン",
+       "ai_win": 9,
+       "odds": 9.4,
+       "buy_line_win": "12.7〜13.8倍"
+      }
+     ]
+    },
+    {
+     "race_id": "2026111505050403",
+     "venue": "東京",
+     "race_no": 3,
+     "name": "",
+     "grade": "",
+     "start": "10:45",
+     "course": "芝1400m",
+     "rough": "",
+     "rough_past": "",
+     "status": "provisional",
+     "odds_at": "21:00",
+     "picks": [
+      {
+       "umaban": 6,
+       "name": "ショウナンワンパク",
+       "type": "単勝",
+       "odds": 19.1,
+       "ev": 1.141
+      }
+     ],
+     "top": [
+      {
+       "mark": "◎",
+       "umaban": 12,
+       "name": "フィオリアーモ",
+       "ai_win": 19,
+       "odds": 4.4,
+       "buy_line_win": "5.7〜6.2倍"
+      },
+      {
+       "mark": "○",
+       "umaban": 9,
+       "name": "ダブルスプリング",
+       "ai_win": 17,
+       "odds": 4.1,
+       "buy_line_win": "6.5〜7.1倍"
+      },
+      {
+       "mark": "▲",
+       "umaban": 11,
+       "name": "ドミナートル",
+       "ai_win": 17,
+       "odds": 4.4,
+       "buy_line_win": "6.5〜7.1倍"
+      }
+     ]
+    },
+    {
+     "race_id": "2026111508050403",
+     "venue": "京都",
+     "race_no": 3,
+     "name": "",
+     "grade": "",
+     "start": "10:55",
+     "course": "芝2000m",
+     "rough": "",
+     "rough_past": "",
+     "status": "provisional",
+     "odds_at": "21:00",
+     "picks": [],
+     "top": [
+      {
+       "mark": "◎",
+       "umaban": 1,
+       "name": "エフティヒア",
+       "ai_win": 33,
+       "odds": 2.0,
+       "buy_line_win": "3.3〜3.6倍"
+      },
+      {
+       "mark": "○",
+       "umaban": 8,
+       "name": "マテンロウアルカナ",
+       "ai_win": 24,
+       "odds": 5.1,
+       "buy_line_win": "4.6〜5.0倍"
+      },
+      {
+       "mark": "▲",
+       "umaban": 4,
+       "name": "コルソヴェローチェ",
+       "ai_win": 12,
+       "odds": 8.6,
+       "buy_line_win": "9.2〜10.0倍"
+      }
+     ]
+    },
+    {
+     "race_id": "2026111503030404",
+     "venue": "福島",
+     "race_no": 4,
+     "name": "",
+     "grade": "",
+     "start": "11:05",
+     "course": "障害2750m",
+     "rough": "",
+     "rough_past": "",
+     "status": "provisional",
+     "odds_at": "21:00",
+     "picks": [
+      {
+       "umaban": 4,
+       "name": "クラウンウルル",
+       "type": "複勝",
+       "odds": 6.3,
+       "ev": 1.153
+      }
+     ],
+     "top": [
+      {
+       "mark": "◎",
+       "umaban": 12,
+       "name": "バトラーズワーフ",
+       "ai_win": 19,
+       "odds": 3.6,
+       "buy_line_win": "5.9〜6.4倍"
+      },
+      {
+       "mark": "○",
+       "umaban": 9,
+       "name": "スカイロケット",
+       "ai_win": 14,
+       "odds": 5.0,
+       "buy_line_win": "8.0〜8.7倍"
+      },
+      {
+       "mark": "▲",
+       "umaban": 10,
+       "name": "フレイムジョーカー",
+       "ai_win": 14,
+       "odds": 7.9,
+       "buy_line_win": "8.0〜8.7倍"
+      }
+     ]
+    },
+    {
+     "race_id": "2026111505050404",
+     "venue": "東京",
+     "race_no": 4,
+     "name": "",
+     "grade": "",
+     "start": "11:15",
+     "course": "ダート1600m",
+     "rough": "",
+     "rough_past": "",
+     "status": "provisional",
+     "odds_at": "21:00",
+     "picks": [],
+     "top": [
+      {
+       "mark": "◎",
+       "umaban": 5,
+       "name": "レイビエント",
+       "ai_win": 30,
+       "odds": 3.0,
+       "buy_line_win": "3.7〜4.0倍"
+      },
+      {
+       "mark": "○",
+       "umaban": 2,
+       "name": "ニシノイブシギン",
+       "ai_win": 12,
+       "odds": 6.0,
+       "buy_line_win": "8.9〜9.7倍"
+      },
+      {
+       "mark": "▲",
+       "umaban": 12,
+       "name": "ホウオウマジカル",
+       "ai_win": 12,
+       "odds": 6.4,
+       "buy_line_win": "8.9〜9.7倍"
+      }
+     ]
+    },
+    {
+     "race_id": "2026111508050404",
+     "venue": "京都",
+     "race_no": 4,
+     "name": "",
+     "grade": "",
+     "start": "11:25",
+     "course": "ダート1400m",
+     "rough": "",
+     "rough_past": "",
+     "status": "provisional",
+     "odds_at": "21:00",
+     "picks": [
+      {
+       "umaban": 7,
+       "name": "モズデキマリ",
+       "type": "複勝",
+       "odds": 5.5,
+       "ev": 1.129
+      },
+      {
+       "umaban": 10,
+       "name": "ジェリーロラム",
+       "type": "複勝",
+       "odds": 7.2,
+       "ev": 1.171
+      }
+     ],
+     "top": [
+      {
+       "mark": "◎",
+       "umaban": 12,
+       "name": "ユーキャンダンス",
+       "ai_win": 29,
+       "odds": 3.6,
+       "buy_line_win": "3.8〜4.1倍"
+      },
+      {
+       "mark": "○",
+       "umaban": 5,
+       "name": "ゴッドスカーレット",
+       "ai_win": 15,
+       "odds": 4.7,
+       "buy_line_win": "7.4〜8.1倍"
+      },
+      {
+       "mark": "▲",
+       "umaban": 14,
+       "name": "アンソフィリア",
+       "ai_win": 10,
+       "odds": 10.5,
+       "buy_line_win": "11.1〜12.1倍"
+      }
+     ]
+    },
+    {
+     "race_id": "2026111503030405",
+     "venue": "福島",
+     "race_no": 5,
+     "name": "",
+     "grade": "",
+     "start": "11:55",
+     "course": "障害2750m",
+     "rough": "",
+     "rough_past": "",
+     "status": "provisional",
+     "odds_at": "21:00",
+     "picks": [],
+     "top": [
+      {
+       "mark": "◎",
+       "umaban": 6,
+       "name": "キャプテンシー",
+       "ai_win": 61,
+       "odds": 1.2,
+       "buy_line_win": "1.8〜2.0倍"
+      },
+      {
+       "mark": "○",
+       "umaban": 2,
+       "name": "アップストローク",
+       "ai_win": 20,
+       "odds": 5.5,
+       "buy_line_win": "5.6〜6.1倍"
+      },
+      {
+       "mark": "▲",
+       "umaban": 8,
+       "name": "リードアクトレス",
+       "ai_win": 7,
+       "odds": 13.4,
+       "buy_line_win": "16.5〜18.0倍"
+      }
+     ]
+    },
+    {
+     "race_id": "2026111505050405",
+     "venue": "東京",
+     "race_no": 5,
+     "name": "",
+     "grade": "",
+     "start": "12:05",
+     "course": "芝1600m",
+     "rough": "",
+     "rough_past": "",
+     "status": "provisional",
+     "odds_at": "21:00",
+     "picks": [],
+     "top": [
+      {
+       "mark": "◎",
+       "umaban": 9,
+       "name": "コルシカ",
+       "ai_win": 37,
+       "odds": 2.3,
+       "buy_line_win": "3.0〜3.3倍"
+      },
+      {
+       "mark": "○",
+       "umaban": 5,
+       "name": "ラディオーサ",
+       "ai_win": 17,
+       "odds": 4.8,
+       "buy_line_win": "6.7〜7.3倍"
+      },
+      {
+       "mark": "▲",
+       "umaban": 3,
+       "name": "ヘルズゲート",
+       "ai_win": 13,
+       "odds": 5.5,
+       "buy_line_win": "8.4〜9.1倍"
+      }
+     ]
+    },
+    {
+     "race_id": "2026111508050405",
+     "venue": "京都",
+     "race_no": 5,
+     "name": "",
+     "grade": "",
+     "start": "12:15",
+     "course": "芝1600m",
+     "rough": "",
+     "rough_past": "",
+     "status": "provisional",
+     "odds_at": "21:00",
+     "picks": [],
+     "top": [
+      {
+       "mark": "◎",
+       "umaban": 7,
+       "name": "フォーセブンライズ",
+       "ai_win": 32,
+       "odds": 2.6,
+       "buy_line_win": "3.4〜3.7倍"
+      },
+      {
+       "mark": "○",
+       "umaban": 18,
+       "name": "ナジュム",
+       "ai_win": 15,
+       "odds": 5.4,
+       "buy_line_win": "7.3〜7.9倍"
+      },
+      {
+       "mark": "▲",
+       "umaban": 11,
+       "name": "サトノミラクル",
+       "ai_win": 13,
+       "odds": 5.5,
+       "buy_line_win": "8.4〜9.2倍"
+      }
+     ]
+    },
+    {
+     "race_id": "2026111503030406",
+     "venue": "福島",
+     "race_no": 6,
+     "name": "",
+     "grade": "",
+     "start": "12:30",
+     "course": "ダート1700m",
+     "rough": "",
+     "rough_past": "",
+     "status": "provisional",
+     "odds_at": "21:00",
+     "picks": [],
+     "top": [
+      {
+       "mark": "◎",
+       "umaban": 8,
+       "name": "グラスアステール",
+       "ai_win": 27,
+       "odds": 3.7,
+       "buy_line_win": "4.1〜4.4倍"
+      },
+      {
+       "mark": "○",
+       "umaban": 4,
+       "name": "ストライクアロー",
+       "ai_win": 16,
+       "odds": 4.3,
+       "buy_line_win": "7.0〜7.6倍"
+      },
+      {
+       "mark": "▲",
+       "umaban": 2,
+       "name": "ミルトサクセス",
+       "ai_win": 11,
+       "odds": 7.5,
+       "buy_line_win": "9.8〜10.7倍"
+      }
+     ]
+    },
+    {
+     "race_id": "2026111505050406",
+     "venue": "東京",
+     "race_no": 6,
+     "name": "",
+     "grade": "",
+     "start": "12:40",
+     "course": "ダート1600m",
+     "rough": "",
+     "rough_past": "",
+     "status": "provisional",
+     "odds_at": "21:00",
+     "picks": [],
+     "top": [
+      {
+       "mark": "◎",
+       "umaban": 5,
+       "name": "モンスターラッシュ",
+       "ai_win": 44,
+       "odds": 1.7,
+       "buy_line_win": "2.5〜2.7倍"
+      },
+      {
+       "mark": "○",
+       "umaban": 4,
+       "name": "アクアマーズ",
+       "ai_win": 27,
+       "odds": 3.7,
+       "buy_line_win": "4.1〜4.4倍"
+      },
+      {
+       "mark": "▲",
+       "umaban": 3,
+       "name": "テイクオンミー",
+       "ai_win": 5,
+       "odds": 20.2
+      }
+     ]
+    },
+    {
+     "race_id": "2026111508050406",
+     "venue": "京都",
+     "race_no": 6,
+     "name": "",
+     "grade": "",
+     "start": "12:50",
+     "course": "ダート1800m",
+     "rough": "",
+     "rough_past": "",
+     "status": "provisional",
+     "odds_at": "21:00",
+     "picks": [
+      {
+       "umaban": 1,
+       "name": "クイーンズホリデー",
+       "type": "複勝",
+       "odds": 6.9,
+       "ev": 1.122
+      },
+      {
+       "umaban": 13,
+       "name": "アキノビューティー",
+       "type": "複勝",
+       "odds": 4.4,
+       "ev": 1.166
+      }
+     ],
+     "top": [
+      {
+       "mark": "◎",
+       "umaban": 8,
+       "name": "ティエラレイナ",
+       "ai_win": 26,
+       "odds": 3.4,
+       "buy_line_win": "4.2〜4.6倍"
+      },
+      {
+       "mark": "○",
+       "umaban": 7,
+       "name": "レザーアンドレース",
+       "ai_win": 10,
+       "odds": 8.8,
+       "buy_line_win": "10.8〜11.8倍"
+      },
+      {
+       "mark": "▲",
+       "umaban": 2,
+       "name": "モスカテル",
+       "ai_win": 10,
+       "odds": 6.2,
+       "buy_line_win": "11.0〜12.0倍"
+      }
+     ]
+    },
+    {
+     "race_id": "2026111503030407",
+     "venue": "福島",
+     "race_no": 7,
+     "name": "",
+     "grade": "",
+     "start": "13:00",
+     "course": "芝1200m",
+     "rough": "",
+     "rough_past": "",
+     "status": "provisional",
+     "odds_at": "21:00",
+     "picks": [],
+     "top": [
+      {
+       "mark": "◎",
+       "umaban": 6,
+       "name": "シヴィータス",
+       "ai_win": 37,
+       "odds": 2.2
+      },
+      {
+       "mark": "○",
+       "umaban": 3,
+       "name": "サウンドファミリエ",
+       "ai_win": 11,
+       "odds": 11.5
+      },
+      {
+       "mark": "▲",
+       "umaban": 7,
+       "name": "ジェムシリカ",
+       "ai_win": 7,
+       "odds": 8.0
+      }
+     ]
+    },
+    {
+     "race_id": "2026111505050407",
+     "venue": "東京",
+     "race_no": 7,
+     "name": "",
+     "grade": "",
+     "start": "13:10",
+     "course": "ダート1400m",
+     "rough": "",
+     "rough_past": "",
+     "status": "provisional",
+     "odds_at": "21:00",
+     "picks": [
+      {
+       "umaban": 7,
+       "name": "バルダンツァ",
+       "type": "複勝",
+       "odds": 4.3,
+       "ev": 1.192
+      }
+     ],
+     "top": [
+      {
+       "mark": "◎",
+       "umaban": 2,
+       "name": "タイキブリッツェン",
+       "ai_win": 36,
+       "odds": 2.2,
+       "buy_line_win": "3.0〜3.3倍"
+      },
+      {
+       "mark": "○",
+       "umaban": 13,
+       "name": "レッドスティンガー",
+       "ai_win": 18,
+       "odds": 5.0,
+       "buy_line_win": "6.0〜6.6倍"
+      },
+      {
+       "mark": "▲",
+       "umaban": 8,
+       "name": "トラヴェリンバンド",
+       "ai_win": 9,
+       "odds": 6.7,
+       "buy_line_win": "12.1〜13.2倍"
+      }
+     ]
+    },
+    {
+     "race_id": "2026111508050407",
+     "venue": "京都",
+     "race_no": 7,
+     "name": "",
+     "grade": "",
+     "start": "13:20",
+     "course": "芝1600m",
+     "rough": "",
+     "rough_past": "",
+     "status": "provisional",
+     "odds_at": "21:00",
+     "picks": [],
+     "top": [
+      {
+       "mark": "◎",
+       "umaban": 17,
+       "name": "ルーチェブリラーレ",
+       "ai_win": 43,
+       "odds": 2.0,
+       "buy_line_win": "2.6〜2.8倍"
+      },
+      {
+       "mark": "○",
+       "umaban": 7,
+       "name": "ロードレジェロ",
+       "ai_win": 18,
+       "odds": 4.1,
+       "buy_line_win": "6.1〜6.6倍"
+      },
+      {
+       "mark": "▲",
+       "umaban": 1,
+       "name": "メイショウトウコウ",
+       "ai_win": 9,
+       "odds": 7.5,
+       "buy_line_win": "12.1〜13.2倍"
+      }
+     ]
+    },
+    {
+     "race_id": "2026111503030408",
+     "venue": "福島",
+     "race_no": 8,
+     "name": "",
+     "grade": "",
+     "start": "13:30",
+     "course": "ダート1150m",
+     "rough": "",
+     "rough_past": "",
+     "status": "provisional",
+     "odds_at": "21:00",
+     "picks": [
+      {
+       "umaban": 8,
+       "name": "ミッシオーネ",
+       "type": "複勝",
+       "odds": 5.5,
+       "ev": 1.119
+      }
+     ],
+     "top": [
+      {
+       "mark": "◎",
+       "umaban": 13,
+       "name": "アパレイユ",
+       "ai_win": 15,
+       "odds": 6.2
+      },
+      {
+       "mark": "○",
+       "umaban": 7,
+       "name": "シュヴァルム",
+       "ai_win": 14,
+       "odds": 6.6
+      },
+      {
+       "mark": "▲",
+       "umaban": 11,
+       "name": "ブルーレース",
+       "ai_win": 12,
+       "odds": 6.4
+      }
+     ]
+    },
+    {
+     "race_id": "2026111505050408",
+     "venue": "東京",
+     "race_no": 8,
+     "name": "",
+     "grade": "",
+     "start": "13:40",
+     "course": "芝1800m",
+     "rough": "",
+     "rough_past": "",
+     "status": "provisional",
+     "odds_at": "21:00",
+     "picks": [],
+     "top": [
+      {
+       "mark": "◎",
+       "umaban": 11,
+       "name": "ダノンファンスター",
+       "ai_win": 21,
+       "odds": 3.1,
+       "buy_line_win": "5.3〜5.8倍"
+      },
+      {
+       "mark": "○",
+       "umaban": 2,
+       "name": "ヴァイザーブリック",
+       "ai_win": 19,
+       "odds": 3.9,
+       "buy_line_win": "5.7〜6.3倍"
+      },
+      {
+       "mark": "▲",
+       "umaban": 5,
+       "name": "リッツパーティー",
+       "ai_win": 15,
+       "odds": 4.4,
+       "buy_line_win": "7.5〜8.2倍"
+      }
+     ]
+    },
+    {
+     "race_id": "2026111508050408",
+     "venue": "京都",
+     "race_no": 8,
+     "name": "",
+     "grade": "",
+     "start": "13:50",
+     "course": "ダート1200m",
+     "rough": "",
+     "rough_past": "",
+     "status": "provisional",
+     "odds_at": "21:00",
+     "picks": [],
+     "top": [
+      {
+       "mark": "◎",
+       "umaban": 1,
+       "name": "ショウナンタハティ",
+       "ai_win": 30,
+       "odds": 3.0
+      },
+      {
+       "mark": "○",
+       "umaban": 3,
+       "name": "ブルーマッキンジー",
+       "ai_win": 22,
+       "odds": 3.1
+      },
+      {
+       "mark": "▲",
+       "umaban": 5,
+       "name": "カーリキュー",
+       "ai_win": 10,
+       "odds": 5.7
+      }
+     ]
+    },
+    {
+     "race_id": "2026111503030409",
+     "venue": "福島",
+     "race_no": 9,
+     "name": "福島２歳ステークス",
+     "grade": "",
+     "start": "14:00",
+     "course": "芝1200m",
+     "rough": "平均的",
+     "rough_past": "3/10",
+     "status": "provisional",
+     "odds_at": "21:00",
+     "picks": [
+      {
+       "umaban": 7,
+       "name": "ライーリーアース",
+       "type": "複勝",
+       "odds": 4.8,
+       "ev": 1.189
+      }
+     ],
+     "top": [
+      {
+       "mark": "◎",
+       "umaban": 12,
+       "name": "ダイシンドラゴン",
+       "ai_win": 16,
+       "odds": 4.0
+      },
+      {
+       "mark": "○",
+       "umaban": 5,
+       "name": "イトウカカリチョウ",
+       "ai_win": 15,
+       "odds": 5.2
+      },
+      {
+       "mark": "▲",
+       "umaban": 6,
+       "name": "ショウナンカノア",
+       "ai_win": 11,
+       "odds": 7.3
+      }
+     ]
+    },
+    {
+     "race_id": "2026111505050409",
+     "venue": "東京",
+     "race_no": 9,
+     "name": "銀嶺ステークス",
+     "grade": "",
+     "start": "14:10",
+     "course": "ダート1400m",
+     "rough": "荒れやすい",
+     "rough_past": "6/10",
+     "status": "provisional",
+     "odds_at": "21:00",
+     "picks": [
+      {
+       "umaban": 11,
+       "name": "リゾートアイランド",
+       "type": "単勝",
+       "odds": 4.8,
+       "ev": 1.109
+      }
+     ],
+     "top": [
+      {
+       "mark": "◎",
+       "umaban": 11,
+       "name": "リゾートアイランド",
+       "ai_win": 23,
+       "odds": 4.8,
+       "buy_line_win": "4.8〜5.2倍"
+      },
+      {
+       "mark": "○",
+       "umaban": 8,
+       "name": "トヨサカエ",
+       "ai_win": 17,
+       "odds": 3.6,
+       "buy_line_win": "6.6〜7.2倍"
+      },
+      {
+       "mark": "▲",
+       "umaban": 5,
+       "name": "ビルカール",
+       "ai_win": 8,
+       "odds": 11.8,
+       "buy_line_win": "14.0〜15.2倍"
+      }
+     ]
+    },
+    {
+     "race_id": "2026111508050409",
+     "venue": "京都",
+     "race_no": 9,
+     "name": "黄菊賞",
+     "grade": "",
+     "start": "14:20",
+     "course": "芝2000m",
+     "rough": "堅い",
+     "rough_past": "2/10",
+     "status": "provisional",
+     "odds_at": "21:00",
+     "picks": [],
+     "top": [
+      {
+       "mark": "◎",
+       "umaban": 1,
+       "name": "サイモンレガシー",
+       "ai_win": 19,
+       "odds": 4.4,
+       "buy_line_win": "5.8〜6.4倍"
+      },
+      {
+       "mark": "○",
+       "umaban": 9,
+       "name": "フランソワーズ",
+       "ai_win": 17,
+       "odds": 3.3,
+       "buy_line_win": "6.3〜6.9倍"
+      },
+      {
+       "mark": "▲",
+       "umaban": 6,
+       "name": "キトゥンズクラフト",
+       "ai_win": 14,
+       "odds": 5.1,
+       "buy_line_win": "7.9〜8.7倍"
+      }
+     ]
+    },
+    {
+     "race_id": "2026111503030410",
+     "venue": "福島",
+     "race_no": 10,
+     "name": "三陸特別",
+     "grade": "",
+     "start": "14:35",
+     "course": "芝2600m",
+     "rough": "平均的",
+     "rough_past": "3/9",
+     "status": "provisional",
+     "odds_at": "21:00",
+     "picks": [
+      {
+       "umaban": 8,
+       "name": "スズカミエール",
+       "type": "単勝",
+       "odds": 13.6,
+       "ev": 1.107
+      }
+     ],
+     "top": [
+      {
+       "mark": "◎",
+       "umaban": 7,
+       "name": "バースライト",
+       "ai_win": 13,
+       "odds": 5.2,
+       "buy_line_win": "8.3〜9.1倍"
+      },
+      {
+       "mark": "○",
+       "umaban": 16,
+       "name": "ゲンジ",
+       "ai_win": 12,
+       "odds": 7.3,
+       "buy_line_win": "8.9〜9.7倍"
+      },
+      {
+       "mark": "▲",
+       "umaban": 5,
+       "name": "タケルフォーカス",
+       "ai_win": 8,
+       "odds": 6.4,
+       "buy_line_win": "13.5〜14.7倍"
+      }
+     ]
+    },
+    {
+     "race_id": "2026111505050410",
+     "venue": "東京",
+     "race_no": 10,
+     "name": "ユートピアステークス",
+     "grade": "",
+     "start": "14:45",
+     "course": "芝1800m",
+     "rough": "荒れやすい",
+     "rough_past": "5/10",
+     "status": "provisional",
+     "odds_at": "21:00",
+     "picks": [],
+     "top": [
+      {
+       "mark": "◎",
+       "umaban": 11,
+       "name": "ファムクラジューズ",
+       "ai_win": 31,
+       "odds": 2.2,
+       "buy_line_win": "3.6〜3.9倍"
+      },
+      {
+       "mark": "○",
+       "umaban": 6,
+       "name": "マイエレメント",
+       "ai_win": 18,
+       "odds": 5.4,
+       "buy_line_win": "6.2〜6.8倍"
+      },
+      {
+       "mark": "▲",
+       "umaban": 1,
+       "name": "ガジュノリ",
+       "ai_win": 17,
+       "odds": 6.5,
+       "buy_line_win": "6.6〜7.3倍"
+      }
+     ]
+    },
+    {
+     "race_id": "2026111508050410",
+     "venue": "京都",
+     "race_no": 10,
+     "name": "花背特別",
+     "grade": "",
+     "start": "15:00",
+     "course": "ダート1800m",
+     "rough": "判断材料が少ない",
+     "rough_past": "0/1",
+     "status": "provisional",
+     "odds_at": "21:00",
+     "picks": [],
+     "top": [
+      {
+       "mark": "◎",
+       "umaban": 6,
+       "name": "アートレスマインド",
+       "ai_win": 43,
+       "odds": null,
+       "buy_line_win": "2.6〜2.8倍"
+      },
+      {
+       "mark": "○",
+       "umaban": 9,
+       "name": "タイセイドラード",
+       "ai_win": 18,
+       "odds": 2.3,
+       "buy_line_win": "6.0〜6.6倍"
+      },
+      {
+       "mark": "▲",
+       "umaban": 7,
+       "name": "シーミハットク",
+       "ai_win": 11,
+       "odds": 4.3,
+       "buy_line_win": "10.4〜11.3倍"
+      }
+     ]
+    },
+    {
+     "race_id": "2026111503030411",
+     "venue": "福島",
+     "race_no": 11,
+     "name": "福島民友カップ",
+     "grade": "L",
+     "start": "15:10",
+     "course": "ダート1700m",
+     "rough": "平均的",
+     "rough_past": "3/10",
+     "status": "provisional",
+     "odds_at": "21:00",
+     "picks": [
+      {
+       "umaban": 1,
+       "name": "ワイドブリザード",
+       "type": "複勝",
+       "odds": 3.4,
+       "ev": 1.159
+      },
+      {
+       "umaban": 9,
+       "name": "オンザライン",
+       "type": "複勝",
+       "odds": 6.8,
+       "ev": 1.142
+      }
+     ],
+     "top": [
+      {
+       "mark": "◎",
+       "umaban": 14,
+       "name": "ドバイブルース",
+       "ai_win": 14,
+       "odds": 6.1,
+       "buy_line_win": "8.1〜8.8倍"
+      },
+      {
+       "mark": "○",
+       "umaban": 1,
+       "name": "ワイドブリザード",
+       "ai_win": 12,
+       "odds": 6.4,
+       "buy_line_win": "9.2〜10.0倍"
+      },
+      {
+       "mark": "▲",
+       "umaban": 6,
+       "name": "シュラザック",
+       "ai_win": 10,
+       "odds": 9.7,
+       "buy_line_win": "10.8〜11.8倍"
+      }
+     ]
+    },
+    {
+     "race_id": "2026111505050411",
+     "venue": "東京",
+     "race_no": 11,
+     "name": "オーロカップ",
+     "grade": "L",
+     "start": "15:20",
+     "course": "芝1400m",
+     "rough": "荒れやすい",
+     "rough_past": "7/10",
+     "status": "provisional",
+     "odds_at": "21:00",
+     "picks": [],
+     "top": [
+      {
+       "mark": "◎",
+       "umaban": 18,
+       "name": "フォーチュンタイム",
+       "ai_win": 13,
+       "odds": 9.6,
+       "buy_line_win": "8.2〜8.9倍"
+      },
+      {
+       "mark": "○",
+       "umaban": 5,
+       "name": "マイネルチケット",
+       "ai_win": 13,
+       "odds": 6.4,
+       "buy_line_win": "8.7〜9.5倍"
+      },
+      {
+       "mark": "▲",
+       "umaban": 15,
+       "name": "エコロアルバ",
+       "ai_win": 9,
+       "odds": 6.4,
+       "buy_line_win": "11.7〜12.8倍"
+      }
+     ]
+    },
+    {
+     "race_id": "2026111508050411",
+     "venue": "京都",
+     "race_no": 11,
+     "name": "エリザベス女王杯",
+     "grade": "G1",
+     "start": "15:40",
+     "course": "芝2200m",
+     "rough": "荒れやすい",
+     "rough_past": "7/10",
+     "status": "provisional",
+     "odds_at": "21:00",
+     "picks": [],
+     "top": [
+      {
+       "mark": "◎",
+       "umaban": 7,
+       "name": "カムニャック",
+       "ai_win": 23,
+       "odds": 4.4,
+       "buy_line_win": "4.8〜5.2倍"
+      },
+      {
+       "mark": "○",
+       "umaban": 11,
+       "name": "ジュウリョクピエロ",
+       "ai_win": 16,
+       "odds": 4.2,
+       "buy_line_win": "6.9〜7.5倍"
+      },
+      {
+       "mark": "▲",
+       "umaban": 16,
+       "name": "アクアヴァーナル",
+       "ai_win": 9,
+       "odds": 7.9,
+       "buy_line_win": "12.4〜13.6倍"
+      }
+     ]
+    },
+    {
+     "race_id": "2026111503030412",
+     "venue": "福島",
+     "race_no": 12,
+     "name": "",
+     "grade": "",
+     "start": "15:55",
+     "course": "芝2000m",
+     "rough": "",
+     "rough_past": "",
+     "status": "provisional",
+     "odds_at": "21:00",
+     "picks": [],
+     "top": [
+      {
+       "mark": "◎",
+       "umaban": 2,
+       "name": "アルマリブレ",
+       "ai_win": 13,
+       "odds": 6.1,
+       "buy_line_win": "8.2〜8.9倍"
+      },
+      {
+       "mark": "○",
+       "umaban": 10,
+       "name": "メイショウキンタイ",
+       "ai_win": 13,
+       "odds": 7.0,
+       "buy_line_win": "8.7〜9.5倍"
+      },
+      {
+       "mark": "▲",
+       "umaban": 15,
+       "name": "ミッドセンチュリー",
+       "ai_win": 13,
+       "odds": 5.8,
+       "buy_line_win": "8.7〜9.5倍"
+      }
+     ]
+    },
+    {
+     "race_id": "2026111505050412",
+     "venue": "東京",
+     "race_no": 12,
+     "name": "",
+     "grade": "",
+     "start": "16:10",
+     "course": "芝2000m",
+     "rough": "",
+     "rough_past": "",
+     "status": "provisional",
+     "odds_at": "21:00",
+     "picks": [],
+     "top": [
+      {
+       "mark": "◎",
+       "umaban": 1,
+       "name": "プラウディッツ",
+       "ai_win": 25,
+       "odds": 2.6,
+       "buy_line_win": "4.4〜4.8倍"
+      },
+      {
+       "mark": "○",
+       "umaban": 11,
+       "name": "レッドレガリア",
+       "ai_win": 14,
+       "odds": 7.3,
+       "buy_line_win": "8.0〜8.7倍"
+      },
+      {
+       "mark": "▲",
+       "umaban": 18,
+       "name": "イニスフェイル",
+       "ai_win": 13,
+       "odds": 7.1,
+       "buy_line_win": "8.5〜9.3倍"
+      }
+     ]
+    },
+    {
+     "race_id": "2026111508050412",
+     "venue": "京都",
+     "race_no": 12,
+     "name": "ドンカスターカップ",
+     "grade": "",
+     "start": "16:25",
+     "course": "芝1800m",
+     "rough": "平均的",
+     "rough_past": "4/10",
+     "status": "provisional",
+     "odds_at": "21:00",
+     "picks": [
+      {
+       "umaban": 16,
+       "name": "アイスグリーン",
+       "type": "複勝",
+       "odds": 3.4,
+       "ev": 1.159
+      }
+     ],
+     "top": [
+      {
+       "mark": "◎",
+       "umaban": 4,
+       "name": "マトラコーニッシュ",
+       "ai_win": 22,
+       "odds": 4.1,
+       "buy_line_win": "4.9〜5.3倍"
+      },
+      {
+       "mark": "○",
+       "umaban": 7,
+       "name": "アスクコモンタレヴ",
+       "ai_win": 17,
+       "odds": 4.7,
+       "buy_line_win": "6.6〜7.2倍"
+      },
+      {
+       "mark": "▲",
+       "umaban": 16,
+       "name": "アイスグリーン",
+       "ai_win": 12,
+       "odds": 6.5,
+       "buy_line_win": "9.4〜10.2倍"
+      }
+     ]
+    }
+   ]
+  }
+ ]
 }
