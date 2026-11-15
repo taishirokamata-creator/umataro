@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T13:55:23",
+ "generated_at": "2026-11-15T14:05:41",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -784,43 +784,9 @@
      "course": "ダート1400m",
      "rough": "荒れやすい",
      "rough_past": "6/10",
-     "status": "provisional",
-     "odds_at": "13:40",
-     "picks": [
-      {
-       "umaban": 1,
-       "name": "キョウエイカンセ",
-       "type": "単勝",
-       "odds": 5.2,
-       "ev": 1.114
-      }
-     ],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 8,
-       "name": "トヨサカエ",
-       "ai_win": 33,
-       "odds": 2.1,
-       "buy_line_win": "3.4〜3.7倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 1,
-       "name": "キョウエイカンセ",
-       "ai_win": 21,
-       "odds": 5.2,
-       "buy_line_win": "5.1〜5.6倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 11,
-       "name": "リゾートアイランド",
-       "ai_win": 7,
-       "odds": 10.1,
-       "buy_line_win": "15.1〜16.4倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "14:05",
+     "picks": []
     },
     {
      "race_id": "2026111508050409",
@@ -873,40 +839,40 @@
      "rough": "平均的",
      "rough_past": "3/9",
      "status": "provisional",
-     "odds_at": "13:35",
+     "odds_at": "14:05",
      "picks": [
       {
-       "umaban": 8,
-       "name": "スズカミエール",
-       "type": "単勝",
-       "odds": 16.2,
-       "ev": 1.155
+       "umaban": 13,
+       "name": "ヴァイザーバルコ",
+       "type": "複勝",
+       "odds": 6.6,
+       "ev": 1.191
       }
      ],
      "top": [
       {
        "mark": "◎",
-       "umaban": 16,
-       "name": "ゲンジ",
-       "ai_win": 11,
-       "odds": 7.5,
-       "buy_line_win": "10.1〜11.0倍"
+       "umaban": 5,
+       "name": "タケルフォーカス",
+       "ai_win": 13,
+       "odds": 3.9,
+       "buy_line_win": "8.2〜8.9倍"
       },
       {
        "mark": "○",
        "umaban": 12,
        "name": "アスクデッドヒート",
        "ai_win": 10,
-       "odds": 7.2,
-       "buy_line_win": "11.1〜12.1倍"
+       "odds": 7.3,
+       "buy_line_win": "10.6〜11.6倍"
       },
       {
        "mark": "▲",
-       "umaban": 5,
-       "name": "タケルフォーカス",
+       "umaban": 16,
+       "name": "ゲンジ",
        "ai_win": 9,
-       "odds": 5.5,
-       "buy_line_win": "12.2〜13.3倍"
+       "odds": 7.9,
+       "buy_line_win": "11.7〜12.8倍"
       }
      ]
     },
@@ -961,7 +927,7 @@
      "rough": "判断材料が少ない",
      "rough_past": "0/1",
      "status": "provisional",
-     "odds_at": "09:00",
+     "odds_at": "14:00",
      "picks": [],
      "top": [
       {
@@ -970,23 +936,23 @@
        "name": "アートレスマインド",
        "ai_win": 44,
        "odds": null,
-       "buy_line_win": "2.5〜2.8倍"
+       "buy_line_win": "2.5〜2.7倍"
       },
       {
        "mark": "○",
        "umaban": 9,
        "name": "タイセイドラード",
        "ai_win": 19,
-       "odds": 2.3,
-       "buy_line_win": "5.9〜6.5倍"
+       "odds": 2.1,
+       "buy_line_win": "5.9〜6.4倍"
       },
       {
        "mark": "▲",
        "umaban": 7,
        "name": "シーミハットク",
        "ai_win": 11,
-       "odds": 4.4,
-       "buy_line_win": "10.2〜11.1倍"
+       "odds": 4.6,
+       "buy_line_win": "10.1〜11.0倍"
       }
      ]
     },
