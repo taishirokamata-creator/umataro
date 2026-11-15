@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T09:35:19",
+ "generated_at": "2026-11-15T09:40:23",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -31,35 +31,9 @@
      "course": "ダート1400m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "09:15",
-     "picks": [],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 7,
-       "name": "オーケーエース",
-       "ai_win": 47,
-       "odds": 1.8,
-       "buy_line_win": "2.3〜2.6倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 3,
-       "name": "コスモツクヨミ",
-       "ai_win": 18,
-       "odds": 4.3,
-       "buy_line_win": "6.1〜6.7倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 12,
-       "name": "ケッパレ",
-       "ai_win": 10,
-       "odds": 7.6,
-       "buy_line_win": "11.2〜12.2倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "09:40",
+     "picks": []
     },
     {
      "race_id": "2026111508050401",
