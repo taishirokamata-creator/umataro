@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T10:40:59",
+ "generated_at": "2026-11-15T10:50:11",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -214,43 +214,9 @@
      "course": "芝2000m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "10:25",
-     "picks": [
-      {
-       "umaban": 8,
-       "name": "マテンロウアルカナ",
-       "type": "単勝",
-       "odds": 6.1,
-       "ev": 1.106
-      }
-     ],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 1,
-       "name": "エフティヒア",
-       "ai_win": 43,
-       "odds": 1.6,
-       "buy_line_win": "2.6〜2.8倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 8,
-       "name": "マテンロウアルカナ",
-       "ai_win": 18,
-       "odds": 6.1,
-       "buy_line_win": "6.1〜6.6倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 4,
-       "name": "コルソヴェローチェ",
-       "ai_win": 13,
-       "odds": 7.6,
-       "buy_line_win": "8.5〜9.2倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "10:50",
+     "picks": []
     },
     {
      "race_id": "2026111503030404",
@@ -303,32 +269,32 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "10:15",
+     "odds_at": "10:45",
      "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 5,
        "name": "レイビエント",
-       "ai_win": 28,
-       "odds": 3.0,
-       "buy_line_win": "3.9〜4.3倍"
+       "ai_win": 27,
+       "odds": 3.1,
+       "buy_line_win": "4.1〜4.4倍"
       },
       {
        "mark": "○",
        "umaban": 12,
        "name": "ホウオウマジカル",
-       "ai_win": 23,
-       "odds": 3.7,
-       "buy_line_win": "4.7〜5.1倍"
+       "ai_win": 27,
+       "odds": 3.2,
+       "buy_line_win": "4.1〜4.4倍"
       },
       {
        "mark": "▲",
        "umaban": 3,
        "name": "リアンフィル",
        "ai_win": 9,
-       "odds": 7.2,
-       "buy_line_win": "12.3〜13.4倍"
+       "odds": 7.1,
+       "buy_line_win": "12.8〜13.9倍"
       }
      ]
     },
