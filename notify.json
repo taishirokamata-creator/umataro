@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T15:05:24",
+ "generated_at": "2026-11-15T15:10:35",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -942,9 +942,26 @@
      "course": "芝1800m",
      "rough": "荒れやすい",
      "rough_past": "5/10",
-     "status": "decided",
+     "status": "result",
      "decided_at": "14:40",
-     "picks": []
+     "picks": [],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 10,
+       "name": "ハニーコム"
+      },
+      {
+       "pos": 2,
+       "umaban": 4,
+       "name": "ハートメテオ"
+      },
+      {
+       "pos": 3,
+       "umaban": 9,
+       "name": "タイセイプランセス"
+      }
+     ]
     },
     {
      "race_id": "2026111508050410",
@@ -1043,32 +1060,32 @@
      "rough": "荒れやすい",
      "rough_past": "7/10",
      "status": "provisional",
-     "odds_at": "14:40",
+     "odds_at": "15:10",
      "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 7,
        "name": "カムニャック",
-       "ai_win": 20,
-       "odds": 4.5,
-       "buy_line_win": "5.4〜5.9倍"
+       "ai_win": 22,
+       "odds": 4.6,
+       "buy_line_win": "5.1〜5.5倍"
       },
       {
        "mark": "○",
        "umaban": 11,
        "name": "ジュウリョクピエロ",
        "ai_win": 12,
-       "odds": 5.0,
-       "buy_line_win": "9.2〜10.1倍"
+       "odds": 5.1,
+       "buy_line_win": "9.2〜10.0倍"
       },
       {
        "mark": "▲",
-       "umaban": 16,
-       "name": "アクアヴァーナル",
-       "ai_win": 11,
-       "odds": 7.5,
-       "buy_line_win": "10.3〜11.2倍"
+       "umaban": 13,
+       "name": "ジョスラン",
+       "ai_win": 10,
+       "odds": 9.9,
+       "buy_line_win": "10.9〜11.9倍"
       }
      ]
     },
@@ -1138,14 +1155,14 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:00",
+     "odds_at": "15:10",
      "picks": [
       {
-       "umaban": 11,
-       "name": "レッドレガリア",
+       "umaban": 18,
+       "name": "イニスフェイル",
        "type": "複勝",
-       "odds": 4.2,
-       "ev": 1.182
+       "odds": 3.2,
+       "ev": 1.16
       }
      ],
      "top": [
@@ -1153,25 +1170,25 @@
        "mark": "◎",
        "umaban": 1,
        "name": "プラウディッツ",
-       "ai_win": 29,
-       "odds": 2.1,
-       "buy_line_win": "3.8〜4.1倍"
+       "ai_win": 26,
+       "odds": 2.4,
+       "buy_line_win": "4.3〜4.7倍"
       },
       {
        "mark": "○",
        "umaban": 18,
        "name": "イニスフェイル",
-       "ai_win": 12,
-       "odds": 7.6,
-       "buy_line_win": "8.9〜9.7倍"
+       "ai_win": 13,
+       "odds": 6.7,
+       "buy_line_win": "8.3〜9.1倍"
       },
       {
        "mark": "▲",
        "umaban": 11,
        "name": "レッドレガリア",
-       "ai_win": 9,
-       "odds": 10.2,
-       "buy_line_win": "12.2〜13.3倍"
+       "ai_win": 10,
+       "odds": 9.9,
+       "buy_line_win": "11.2〜12.2倍"
       }
      ]
     },
