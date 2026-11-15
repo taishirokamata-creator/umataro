@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T13:46:08",
+ "generated_at": "2026-11-15T13:55:19",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -753,32 +753,9 @@
      "course": "芝1200m",
      "rough": "平均的",
      "rough_past": "3/10",
-     "status": "provisional",
-     "odds_at": "13:30",
-     "picks": [],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 4,
-       "name": "ノヴァーリス",
-       "ai_win": 20,
-       "odds": 4.1
-      },
-      {
-       "mark": "○",
-       "umaban": 1,
-       "name": "ジャスパートレノ",
-       "ai_win": 15,
-       "odds": 5.5
-      },
-      {
-       "mark": "▲",
-       "umaban": 12,
-       "name": "ダイシンドラゴン",
-       "ai_win": 15,
-       "odds": 4.3
-      }
-     ]
+     "status": "decided",
+     "decided_at": "13:55",
+     "picks": []
     },
     {
      "race_id": "2026111505050409",
@@ -839,32 +816,32 @@
      "rough": "堅い",
      "rough_past": "2/10",
      "status": "provisional",
-     "odds_at": "13:20",
+     "odds_at": "13:50",
      "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 6,
        "name": "キトゥンズクラフト",
-       "ai_win": 26,
-       "odds": 3.1,
-       "buy_line_win": "4.2〜4.5倍"
+       "ai_win": 22,
+       "odds": 3.3,
+       "buy_line_win": "5.0〜5.4倍"
       },
       {
        "mark": "○",
        "umaban": 1,
        "name": "サイモンレガシー",
-       "ai_win": 18,
-       "odds": 5.0,
-       "buy_line_win": "6.0〜6.5倍"
+       "ai_win": 20,
+       "odds": 4.8,
+       "buy_line_win": "5.6〜6.1倍"
       },
       {
        "mark": "▲",
        "umaban": 3,
        "name": "トロカアニマダ",
-       "ai_win": 13,
-       "odds": 5.5,
-       "buy_line_win": "8.4〜9.1倍"
+       "ai_win": 14,
+       "odds": 5.1,
+       "buy_line_win": "7.9〜8.7倍"
       }
      ]
     },
