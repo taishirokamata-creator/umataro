@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T16:05:30",
+ "generated_at": "2026-11-15T16:20:34",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -1169,43 +1169,9 @@
      "course": "芝1800m",
      "rough": "平均的",
      "rough_past": "4/10",
-     "status": "provisional",
-     "odds_at": "15:55",
-     "picks": [
-      {
-       "umaban": 4,
-       "name": "マトラコーニッシュ",
-       "type": "複勝",
-       "odds": 3.5,
-       "ev": 1.148
-      }
-     ],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 7,
-       "name": "アスクコモンタレヴ",
-       "ai_win": 23,
-       "odds": 3.4,
-       "buy_line_win": "4.8〜5.3倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 4,
-       "name": "マトラコーニッシュ",
-       "ai_win": 11,
-       "odds": 8.0,
-       "buy_line_win": "9.8〜10.7倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 11,
-       "name": "デルアヴァー",
-       "ai_win": 10,
-       "odds": 7.5,
-       "buy_line_win": "10.5〜11.4倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "16:20",
+     "picks": []
     }
    ]
   }
