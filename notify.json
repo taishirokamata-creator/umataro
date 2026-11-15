@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T09:50:35",
+ "generated_at": "2026-11-15T10:00:46",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -59,50 +59,9 @@
      "course": "芝1800m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "09:35",
-     "picks": [
-      {
-       "umaban": 14,
-       "name": "プレママドンナ",
-       "type": "単勝",
-       "odds": 12.9,
-       "ev": 1.122
-      },
-      {
-       "umaban": 14,
-       "name": "プレママドンナ",
-       "type": "複勝",
-       "odds": 4.1,
-       "ev": 1.116
-      }
-     ],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 5,
-       "name": "サンオブシディアン",
-       "ai_win": 14,
-       "odds": 5.2,
-       "buy_line_win": "7.8〜8.5倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 8,
-       "name": "モーモーゼロ",
-       "ai_win": 14,
-       "odds": 6.8,
-       "buy_line_win": "7.8〜8.5倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 11,
-       "name": "イテルム",
-       "ai_win": 12,
-       "odds": 7.8,
-       "buy_line_win": "9.2〜10.1倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "10:00",
+     "picks": []
     },
     {
      "race_id": "2026111505050402",
@@ -155,32 +114,32 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:25",
+     "odds_at": "09:55",
      "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 2,
        "name": "リーベラーリア",
-       "ai_win": 24,
-       "odds": 3.5,
-       "buy_line_win": "4.5〜4.9倍"
+       "ai_win": 28,
+       "odds": 3.1,
+       "buy_line_win": "4.0〜4.3倍"
       },
       {
        "mark": "○",
        "umaban": 1,
        "name": "アレオクール",
-       "ai_win": 19,
-       "odds": 4.9,
-       "buy_line_win": "5.8〜6.3倍"
+       "ai_win": 17,
+       "odds": 5.4,
+       "buy_line_win": "6.4〜7.0倍"
       },
       {
        "mark": "▲",
        "umaban": 10,
        "name": "シャトンダンス",
-       "ai_win": 13,
-       "odds": 5.9,
-       "buy_line_win": "8.2〜8.9倍"
+       "ai_win": 14,
+       "odds": 6.1,
+       "buy_line_win": "8.1〜8.8倍"
       }
      ]
     },
@@ -275,32 +234,32 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:00",
+     "odds_at": "09:55",
      "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 1,
        "name": "エフティヒア",
-       "ai_win": 33,
-       "odds": 2.0,
-       "buy_line_win": "3.3〜3.6倍"
+       "ai_win": 37,
+       "odds": 1.8,
+       "buy_line_win": "3.0〜3.3倍"
       },
       {
        "mark": "○",
        "umaban": 8,
        "name": "マテンロウアルカナ",
-       "ai_win": 24,
-       "odds": 5.1,
-       "buy_line_win": "4.6〜5.0倍"
+       "ai_win": 18,
+       "odds": 5.5,
+       "buy_line_win": "6.0〜6.5倍"
       },
       {
        "mark": "▲",
        "umaban": 4,
        "name": "コルソヴェローチェ",
-       "ai_win": 15,
-       "odds": 7.2,
-       "buy_line_win": "7.4〜8.0倍"
+       "ai_win": 13,
+       "odds": 7.6,
+       "buy_line_win": "8.3〜9.1倍"
       }
      ]
     },
