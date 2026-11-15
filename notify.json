@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T15:35:55",
+ "generated_at": "2026-11-15T15:35:58",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -1004,7 +1004,7 @@
      "course": "ダート1700m",
      "rough": "平均的",
      "rough_past": "3/10",
-     "status": "decided",
+     "status": "result",
      "decided_at": "15:05",
      "picks": [
       {
@@ -1014,9 +1014,28 @@
        "odds": 7.0,
        "ev": 1.175,
        "stake": 700,
-       "finish": null
+       "finish": 12
       }
-     ]
+     ],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 7,
+       "name": "ゴッドブルービー"
+      },
+      {
+       "pos": 2,
+       "umaban": 15,
+       "name": "サンライズアリオン"
+      },
+      {
+       "pos": 3,
+       "umaban": 4,
+       "name": "スナークラファエロ"
+      }
+     ],
+     "net": -700,
+     "hit": false
     },
     {
      "race_id": "2026111505050411",
