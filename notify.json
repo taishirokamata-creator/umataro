@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T15:45:10",
+ "generated_at": "2026-11-15T15:50:14",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -1104,48 +1104,17 @@
      "course": "芝2000m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "15:25",
+     "status": "decided",
+     "decided_at": "15:50",
      "picks": [
       {
-       "umaban": 1,
-       "name": "フィニステーレ",
-       "type": "単勝",
-       "odds": 14.3,
-       "ev": 1.17
-      },
-      {
-       "umaban": 1,
-       "name": "フィニステーレ",
-       "type": "複勝",
-       "odds": 4.6,
-       "ev": 1.184
-      }
-     ],
-     "top": [
-      {
-       "mark": "◎",
        "umaban": 2,
        "name": "アルマリブレ",
-       "ai_win": 13,
-       "odds": 7.6,
-       "buy_line_win": "8.3〜9.1倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 6,
-       "name": "セットエトワール",
-       "ai_win": 13,
-       "odds": 6.6,
-       "buy_line_win": "8.3〜9.1倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 10,
-       "name": "メイショウキンタイ",
-       "ai_win": 12,
-       "odds": 5.8,
-       "buy_line_win": "8.9〜9.7倍"
+       "type": "複勝",
+       "odds": 3.3,
+       "ev": 1.125,
+       "stake": 1300,
+       "finish": null
       }
      ]
     },
