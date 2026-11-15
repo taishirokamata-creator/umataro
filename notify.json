@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T13:25:20",
+ "generated_at": "2026-11-15T13:35:40",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -592,7 +592,7 @@
      "race_no": 7,
      "name": "",
      "grade": "",
-     "start": "13:00",
+     "start": "13:01",
      "course": "芝1200m",
      "rough": "",
      "rough_past": "",
@@ -681,33 +681,17 @@
      "course": "芝1800m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "13:10",
-     "picks": [],
-     "top": [
+     "status": "decided",
+     "decided_at": "13:35",
+     "picks": [
       {
-       "mark": "◎",
-       "umaban": 5,
-       "name": "リッツパーティー",
-       "ai_win": 42,
-       "odds": 1.7,
-       "buy_line_win": "2.6〜2.9倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 3,
-       "name": "ドッグウッド",
-       "ai_win": 13,
-       "odds": 6.3,
-       "buy_line_win": "8.6〜9.4倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 11,
-       "name": "ダノンファンスター",
-       "ai_win": 12,
-       "odds": 5.4,
-       "buy_line_win": "9.6〜10.4倍"
+       "umaban": 4,
+       "name": "ディープキング",
+       "type": "複勝",
+       "odds": 5.6,
+       "ev": 1.19,
+       "stake": 1000,
+       "finish": null
       }
      ]
     },
@@ -759,29 +743,29 @@
      "rough": "平均的",
      "rough_past": "3/10",
      "status": "provisional",
-     "odds_at": "13:00",
+     "odds_at": "13:30",
      "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 4,
        "name": "ノヴァーリス",
-       "ai_win": 21,
-       "odds": 4.0
+       "ai_win": 20,
+       "odds": 4.1
       },
       {
        "mark": "○",
        "umaban": 1,
        "name": "ジャスパートレノ",
-       "ai_win": 16,
-       "odds": 5.3
+       "ai_win": 15,
+       "odds": 5.5
       },
       {
        "mark": "▲",
        "umaban": 12,
        "name": "ダイシンドラゴン",
-       "ai_win": 13,
-       "odds": 4.7
+       "ai_win": 15,
+       "odds": 4.3
       }
      ]
     },
@@ -876,40 +860,40 @@
      "rough": "平均的",
      "rough_past": "3/9",
      "status": "provisional",
-     "odds_at": "09:00",
+     "odds_at": "13:35",
      "picks": [
       {
        "umaban": 8,
        "name": "スズカミエール",
        "type": "単勝",
-       "odds": 13.6,
-       "ev": 1.107
+       "odds": 16.2,
+       "ev": 1.155
       }
      ],
      "top": [
       {
        "mark": "◎",
-       "umaban": 7,
-       "name": "バースライト",
-       "ai_win": 13,
-       "odds": 5.2,
-       "buy_line_win": "8.3〜9.1倍"
+       "umaban": 16,
+       "name": "ゲンジ",
+       "ai_win": 11,
+       "odds": 7.5,
+       "buy_line_win": "10.1〜11.0倍"
       },
       {
        "mark": "○",
-       "umaban": 16,
-       "name": "ゲンジ",
-       "ai_win": 12,
-       "odds": 7.3,
-       "buy_line_win": "8.9〜9.7倍"
+       "umaban": 12,
+       "name": "アスクデッドヒート",
+       "ai_win": 10,
+       "odds": 7.2,
+       "buy_line_win": "11.1〜12.1倍"
       },
       {
        "mark": "▲",
        "umaban": 5,
        "name": "タケルフォーカス",
-       "ai_win": 8,
-       "odds": 6.4,
-       "buy_line_win": "13.5〜14.7倍"
+       "ai_win": 9,
+       "odds": 5.5,
+       "buy_line_win": "12.2〜13.3倍"
       }
      ]
     },
