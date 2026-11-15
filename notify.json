@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T11:40:41",
+ "generated_at": "2026-11-15T11:51:00",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -393,35 +393,9 @@
      "course": "障害2750m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "11:25",
-     "picks": [],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 6,
-       "name": "キャプテンシー",
-       "ai_win": 39,
-       "odds": 2.1,
-       "buy_line_win": "2.8〜3.1倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 2,
-       "name": "アップストローク",
-       "ai_win": 31,
-       "odds": 3.0,
-       "buy_line_win": "3.6〜3.9倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 4,
-       "name": "ヴォンヌヴォー",
-       "ai_win": 9,
-       "odds": 10.6,
-       "buy_line_win": "12.6〜13.8倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "11:50",
+     "picks": []
     },
     {
      "race_id": "2026111505050405",
@@ -474,7 +448,7 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "11:15",
+     "odds_at": "11:45",
      "picks": [],
      "top": [
       {
@@ -482,7 +456,7 @@
        "umaban": 7,
        "name": "フォーセブンライズ",
        "ai_win": 30,
-       "odds": 2.9,
+       "odds": 3.1,
        "buy_line_win": "3.7〜4.0倍"
       },
       {
@@ -490,7 +464,7 @@
        "umaban": 11,
        "name": "サトノミラクル",
        "ai_win": 15,
-       "odds": 4.6,
+       "odds": 4.3,
        "buy_line_win": "7.2〜7.9倍"
       },
       {
@@ -498,8 +472,8 @@
        "umaban": 18,
        "name": "ナジュム",
        "ai_win": 15,
-       "odds": 5.1,
-       "buy_line_win": "7.3〜7.9倍"
+       "odds": 5.2,
+       "buy_line_win": "7.3〜8.0倍"
       }
      ]
     },
@@ -594,14 +568,14 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:00",
+     "odds_at": "11:50",
      "picks": [
       {
-       "umaban": 7,
-       "name": "レザーアンドレース",
-       "type": "単勝",
-       "odds": 12.5,
-       "ev": 1.101
+       "umaban": 11,
+       "name": "イルカンダ",
+       "type": "複勝",
+       "odds": 3.7,
+       "ev": 1.133
       }
      ],
      "top": [
@@ -609,25 +583,25 @@
        "mark": "◎",
        "umaban": 2,
        "name": "モスカテル",
-       "ai_win": 20,
-       "odds": 3.6,
-       "buy_line_win": "5.5〜6.0倍"
+       "ai_win": 25,
+       "odds": 3.2,
+       "buy_line_win": "4.3〜4.7倍"
       },
       {
        "mark": "○",
        "umaban": 8,
        "name": "ティエラレイナ",
        "ai_win": 14,
-       "odds": 4.7,
-       "buy_line_win": "7.7〜8.4倍"
+       "odds": 5.0,
+       "buy_line_win": "7.9〜8.6倍"
       },
       {
        "mark": "▲",
-       "umaban": 11,
-       "name": "イルカンダ",
-       "ai_win": 13,
-       "odds": 7.3,
-       "buy_line_win": "8.2〜9.0倍"
+       "umaban": 10,
+       "name": "アーデルリーベ",
+       "ai_win": 12,
+       "odds": 6.6,
+       "buy_line_win": "9.3〜10.2倍"
       }
      ]
     },
