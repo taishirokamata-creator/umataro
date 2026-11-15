@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T12:00:15",
+ "generated_at": "2026-11-15T12:10:26",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -438,35 +438,9 @@
      "course": "芝1600m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "11:45",
-     "picks": [],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 7,
-       "name": "フォーセブンライズ",
-       "ai_win": 30,
-       "odds": 3.1,
-       "buy_line_win": "3.7〜4.0倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 11,
-       "name": "サトノミラクル",
-       "ai_win": 15,
-       "odds": 4.3,
-       "buy_line_win": "7.2〜7.9倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 18,
-       "name": "ナジュム",
-       "ai_win": 15,
-       "odds": 5.2,
-       "buy_line_win": "7.3〜8.0倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "12:10",
+     "picks": []
     },
     {
      "race_id": "2026111503030406",
@@ -519,32 +493,32 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "11:40",
+     "odds_at": "12:10",
      "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 4,
        "name": "アクアマーズ",
-       "ai_win": 43,
-       "odds": 2.3,
-       "buy_line_win": "2.5〜2.8倍"
+       "ai_win": 45,
+       "odds": 2.1,
+       "buy_line_win": "2.4〜2.7倍"
       },
       {
        "mark": "○",
        "umaban": 5,
        "name": "モンスターラッシュ",
-       "ai_win": 13,
-       "odds": 5.1,
-       "buy_line_win": "8.3〜9.1倍"
+       "ai_win": 12,
+       "odds": 5.8,
+       "buy_line_win": "9.5〜10.4倍"
       },
       {
        "mark": "▲",
        "umaban": 6,
        "name": "ゴールドバローズ",
        "ai_win": 8,
-       "odds": 8.8,
-       "buy_line_win": "13.5〜14.7倍"
+       "odds": 8.9,
+       "buy_line_win": "13.0〜14.2倍"
       }
      ]
     },
@@ -652,40 +626,40 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:00",
+     "odds_at": "12:10",
      "picks": [
       {
-       "umaban": 7,
-       "name": "バルダンツァ",
+       "umaban": 4,
+       "name": "ヴォルスター",
        "type": "複勝",
-       "odds": 4.3,
-       "ev": 1.192
+       "odds": 5.4,
+       "ev": 1.148
       }
      ],
      "top": [
       {
        "mark": "◎",
-       "umaban": 2,
-       "name": "タイキブリッツェン",
-       "ai_win": 36,
-       "odds": 2.2,
-       "buy_line_win": "3.0〜3.3倍"
+       "umaban": 7,
+       "name": "バルダンツァ",
+       "ai_win": 20,
+       "odds": 3.8,
+       "buy_line_win": "5.6〜6.1倍"
       },
       {
        "mark": "○",
        "umaban": 13,
        "name": "レッドスティンガー",
-       "ai_win": 18,
-       "odds": 5.0,
-       "buy_line_win": "6.0〜6.6倍"
+       "ai_win": 19,
+       "odds": 5.2,
+       "buy_line_win": "5.7〜6.2倍"
       },
       {
        "mark": "▲",
-       "umaban": 8,
-       "name": "トラヴェリンバンド",
-       "ai_win": 9,
-       "odds": 6.7,
-       "buy_line_win": "12.1〜13.2倍"
+       "umaban": 12,
+       "name": "セントラルヴァレー",
+       "ai_win": 16,
+       "odds": 4.9,
+       "buy_line_win": "7.0〜7.6倍"
       }
      ]
     },
