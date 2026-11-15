@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T14:45:55",
+ "generated_at": "2026-11-15T14:55:13",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -937,35 +937,9 @@
      "course": "ダート1800m",
      "rough": "判断材料が少ない",
      "rough_past": "0/1",
-     "status": "provisional",
-     "odds_at": "14:30",
-     "picks": [],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 6,
-       "name": "アートレスマインド",
-       "ai_win": 43,
-       "odds": null,
-       "buy_line_win": "2.5〜2.8倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 9,
-       "name": "タイセイドラード",
-       "ai_win": 18,
-       "odds": 2.1,
-       "buy_line_win": "6.0〜6.5倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 7,
-       "name": "シーミハットク",
-       "ai_win": 11,
-       "odds": 4.9,
-       "buy_line_win": "10.3〜11.3倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "14:55",
+     "picks": []
     },
     {
      "race_id": "2026111503030411",
@@ -1018,33 +992,27 @@
      "rough": "荒れやすい",
      "rough_past": "7/10",
      "status": "provisional",
-     "odds_at": "14:20",
+     "odds_at": "14:50",
      "picks": [
       {
        "umaban": 7,
        "name": "カンシン",
        "type": "複勝",
-       "odds": 4.5,
-       "ev": 1.115
-      },
-      {
-       "umaban": 17,
-       "name": "タガノアラリア",
-       "type": "複勝",
-       "odds": 5.5,
-       "ev": 1.119
-      },
-      {
-       "umaban": 18,
-       "name": "フォーチュンタイム",
-       "type": "単勝",
-       "odds": 7.9,
-       "ev": 1.1
+       "odds": 4.7,
+       "ev": 1.129
       }
      ],
      "top": [
       {
        "mark": "◎",
+       "umaban": 18,
+       "name": "フォーチュンタイム",
+       "ai_win": 15,
+       "odds": 7.2,
+       "buy_line_win": "7.6〜8.3倍"
+      },
+      {
+       "mark": "○",
        "umaban": 15,
        "name": "エコロアルバ",
        "ai_win": 14,
@@ -1052,19 +1020,11 @@
        "buy_line_win": "7.9〜8.6倍"
       },
       {
-       "mark": "○",
-       "umaban": 18,
-       "name": "フォーチュンタイム",
-       "ai_win": 14,
-       "odds": 7.9,
-       "buy_line_win": "7.9〜8.6倍"
-      },
-      {
        "mark": "▲",
        "umaban": 5,
        "name": "マイネルチケット",
        "ai_win": 12,
-       "odds": 6.2,
+       "odds": 5.9,
        "buy_line_win": "9.3〜10.2倍"
       }
      ]
@@ -1120,32 +1080,47 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:00",
-     "picks": [],
+     "odds_at": "14:55",
+     "picks": [
+      {
+       "umaban": 1,
+       "name": "フィニステーレ",
+       "type": "単勝",
+       "odds": 14.5,
+       "ev": 1.185
+      },
+      {
+       "umaban": 1,
+       "name": "フィニステーレ",
+       "type": "複勝",
+       "odds": 4.3,
+       "ev": 1.118
+      }
+     ],
      "top": [
       {
        "mark": "◎",
        "umaban": 2,
        "name": "アルマリブレ",
-       "ai_win": 13,
-       "odds": 6.1,
-       "buy_line_win": "8.2〜8.9倍"
+       "ai_win": 15,
+       "odds": 6.9,
+       "buy_line_win": "7.3〜8.0倍"
       },
       {
        "mark": "○",
-       "umaban": 10,
-       "name": "メイショウキンタイ",
+       "umaban": 6,
+       "name": "セットエトワール",
        "ai_win": 13,
-       "odds": 7.0,
-       "buy_line_win": "8.7〜9.5倍"
+       "odds": 6.0,
+       "buy_line_win": "8.3〜9.1倍"
       },
       {
        "mark": "▲",
-       "umaban": 15,
-       "name": "ミッドセンチュリー",
-       "ai_win": 13,
-       "odds": 5.8,
-       "buy_line_win": "8.7〜9.5倍"
+       "umaban": 10,
+       "name": "メイショウキンタイ",
+       "ai_win": 12,
+       "odds": 5.9,
+       "buy_line_win": "8.9〜9.7倍"
       }
      ]
     },
