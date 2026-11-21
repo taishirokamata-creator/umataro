@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T10:40:33",
+ "generated_at": "2026-11-21T10:55:42",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -138,32 +138,9 @@
      "course": "芝1200m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "10:30",
-     "picks": [],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 17,
-       "name": "カツダルマ",
-       "ai_win": 31,
-       "odds": 2.7
-      },
-      {
-       "mark": "○",
-       "umaban": 8,
-       "name": "アルテクィーン",
-       "ai_win": 19,
-       "odds": 4.2
-      },
-      {
-       "mark": "▲",
-       "umaban": 15,
-       "name": "ティンタアマレラ",
-       "ai_win": 11,
-       "odds": 5.9
-      }
-     ]
+     "status": "decided",
+     "decided_at": "10:55",
+     "picks": []
     },
     {
      "race_id": "2026112103030504",
@@ -176,7 +153,7 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "10:15",
+     "odds_at": "10:45",
      "picks": [],
      "top": [
       {
@@ -184,24 +161,24 @@
        "umaban": 7,
        "name": "バンデルオーラ",
        "ai_win": 33,
-       "odds": 2.8,
+       "odds": 3.0,
        "buy_line_win": "3.4〜3.7倍"
       },
       {
        "mark": "○",
        "umaban": 1,
        "name": "ミスティックレイン",
-       "ai_win": 18,
-       "odds": 4.7,
-       "buy_line_win": "6.1〜6.7倍"
+       "ai_win": 14,
+       "odds": 5.1,
+       "buy_line_win": "7.8〜8.5倍"
       },
       {
        "mark": "▲",
        "umaban": 8,
        "name": "ウインシュクラン",
-       "ai_win": 10,
-       "odds": 6.4,
-       "buy_line_win": "10.6〜11.6倍"
+       "ai_win": 13,
+       "odds": 5.5,
+       "buy_line_win": "8.4〜9.2倍"
       }
      ]
     },
