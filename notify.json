@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T14:40:28",
+ "generated_at": "2026-11-21T14:50:37",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -580,9 +580,26 @@
      "course": "芝1400m",
      "rough": "堅い",
      "rough_past": "1/10",
-     "status": "decided",
+     "status": "result",
      "decided_at": "14:20",
-     "picks": []
+     "picks": [],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 7,
+       "name": "カレンハウ"
+      },
+      {
+       "pos": 2,
+       "umaban": 3,
+       "name": "アンムート"
+      },
+      {
+       "pos": 3,
+       "umaban": 1,
+       "name": "ミハテヌユメ"
+      }
+     ]
     },
     {
      "race_id": "2026112103030510",
@@ -668,7 +685,7 @@
      "rough": "平均的",
      "rough_past": "3/10",
      "status": "provisional",
-     "odds_at": "14:20",
+     "odds_at": "14:50",
      "picks": [],
      "top": [
       {
@@ -685,14 +702,14 @@
        "name": "マリアイリダータ",
        "ai_win": 15,
        "odds": 3.3,
-       "buy_line_win": "7.6〜8.2倍"
+       "buy_line_win": "7.5〜8.2倍"
       },
       {
        "mark": "▲",
        "umaban": 11,
        "name": "フォルテアンジェロ",
        "ai_win": 8,
-       "odds": 6.7,
+       "odds": 6.4,
        "buy_line_win": "13.7〜14.9倍"
       }
      ]
