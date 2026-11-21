@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T13:50:34",
+ "generated_at": "2026-11-21T14:05:48",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -515,35 +515,9 @@
      "course": "芝1800m",
      "rough": "荒れやすい",
      "rough_past": "5/10",
-     "status": "provisional",
-     "odds_at": "13:40",
-     "picks": [],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 2,
-       "name": "ディバインウインド",
-       "ai_win": 47,
-       "odds": 1.6,
-       "buy_line_win": "2.3〜2.5倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 12,
-       "name": "ホールドザデイ",
-       "ai_win": 14,
-       "odds": 5.8,
-       "buy_line_win": "7.9〜8.6倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 1,
-       "name": "アドミラルシップ",
-       "ai_win": 7,
-       "odds": 13.5,
-       "buy_line_win": "16.8〜18.3倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "14:05",
+     "picks": []
     },
     {
      "race_id": "2026112108050509",
@@ -556,14 +530,14 @@
      "rough": "堅い",
      "rough_past": "1/10",
      "status": "provisional",
-     "odds_at": "13:25",
+     "odds_at": "13:55",
      "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 3,
        "name": "アンムート",
-       "ai_win": 51,
+       "ai_win": 52,
        "odds": 1.7,
        "buy_line_win": "2.1〜2.3倍"
       },
@@ -572,16 +546,16 @@
        "umaban": 7,
        "name": "カレンハウ",
        "ai_win": 20,
-       "odds": 3.5,
-       "buy_line_win": "5.6〜6.1倍"
+       "odds": 3.4,
+       "buy_line_win": "5.5〜6.0倍"
       },
       {
        "mark": "▲",
        "umaban": 4,
        "name": "サンタンジェロ",
-       "ai_win": 16,
-       "odds": 5.0,
-       "buy_line_win": "7.0〜7.7倍"
+       "ai_win": 15,
+       "odds": 5.4,
+       "buy_line_win": "7.4〜8.1倍"
       }
      ]
     },
@@ -633,32 +607,40 @@
      "rough": "平均的",
      "rough_past": "3/7",
      "status": "provisional",
-     "odds_at": "09:00",
-     "picks": [],
+     "odds_at": "14:00",
+     "picks": [
+      {
+       "umaban": 9,
+       "name": "オメガナビゲーター",
+       "type": "単勝",
+       "odds": 19.2,
+       "ev": 1.176
+      }
+     ],
      "top": [
       {
        "mark": "◎",
        "umaban": 7,
        "name": "ロードフィレール",
-       "ai_win": 18,
-       "odds": 4.5,
-       "buy_line_win": "6.2〜6.7倍"
+       "ai_win": 24,
+       "odds": 3.2,
+       "buy_line_win": "4.5〜4.9倍"
       },
       {
        "mark": "○",
-       "umaban": 13,
-       "name": "ウインデイジー",
-       "ai_win": 13,
-       "odds": 5.6,
-       "buy_line_win": "8.7〜9.5倍"
+       "umaban": 5,
+       "name": "ベトルス",
+       "ai_win": 18,
+       "odds": 4.5,
+       "buy_line_win": "6.0〜6.5倍"
       },
       {
        "mark": "▲",
        "umaban": 15,
        "name": "クルミナーレ",
-       "ai_win": 12,
-       "odds": 6.8,
-       "buy_line_win": "9.3〜10.1倍"
+       "ai_win": 11,
+       "odds": 7.6,
+       "buy_line_win": "10.0〜10.9倍"
       }
      ]
     },
