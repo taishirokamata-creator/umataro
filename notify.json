@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T13:05:50",
+ "generated_at": "2026-11-21T13:20:59",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -410,33 +410,17 @@
      "course": "ダート1800m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "12:55",
-     "picks": [],
-     "top": [
+     "status": "decided",
+     "decided_at": "13:20",
+     "picks": [
       {
-       "mark": "◎",
-       "umaban": 15,
-       "name": "ヤエギリ",
-       "ai_win": 34,
-       "odds": 2.1,
-       "buy_line_win": "3.3〜3.6倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 3,
-       "name": "フランキーバローズ",
-       "ai_win": 13,
-       "odds": 7.0,
-       "buy_line_win": "8.4〜9.2倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 2,
-       "name": "タマモランプ",
-       "ai_win": 9,
-       "odds": 9.4,
-       "buy_line_win": "12.8〜13.9倍"
+       "umaban": 4,
+       "name": "ワザオギ",
+       "type": "複勝",
+       "odds": 6.1,
+       "ev": 1.161,
+       "stake": 700,
+       "finish": null
       }
      ]
     },
@@ -451,40 +435,32 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "12:40",
-     "picks": [
-      {
-       "umaban": 7,
-       "name": "レイヌドプランタン",
-       "type": "単勝",
-       "odds": 14.2,
-       "ev": 1.166
-      }
-     ],
+     "odds_at": "13:10",
+     "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 3,
        "name": "ピカキウイ",
-       "ai_win": 19,
-       "odds": 3.6,
-       "buy_line_win": "5.9〜6.5倍"
+       "ai_win": 23,
+       "odds": 3.3,
+       "buy_line_win": "4.8〜5.2倍"
       },
       {
        "mark": "○",
        "umaban": 5,
        "name": "ワダツミ",
-       "ai_win": 11,
-       "odds": 6.8,
-       "buy_line_win": "9.8〜10.7倍"
+       "ai_win": 12,
+       "odds": 6.7,
+       "buy_line_win": "9.2〜10.0倍"
       },
       {
        "mark": "▲",
-       "umaban": 7,
-       "name": "レイヌドプランタン",
+       "umaban": 8,
+       "name": "オリーボーレン",
        "ai_win": 8,
-       "odds": 14.2,
-       "buy_line_win": "13.4〜14.6倍"
+       "odds": 11.4,
+       "buy_line_win": "14.0〜15.3倍"
       }
      ]
     },
@@ -539,47 +515,40 @@
      "rough": "荒れやすい",
      "rough_past": "5/10",
      "status": "provisional",
-     "odds_at": "09:00",
+     "odds_at": "13:10",
      "picks": [
-      {
-       "umaban": 3,
-       "name": "ジーティーシンドウ",
-       "type": "単勝",
-       "odds": 6.9,
-       "ev": 1.111
-      },
       {
        "umaban": 13,
        "name": "ベネディクション",
        "type": "単勝",
-       "odds": 18.1,
-       "ev": 1.115
+       "odds": 17.6,
+       "ev": 1.181
       }
      ],
      "top": [
       {
        "mark": "◎",
-       "umaban": 12,
-       "name": "ホールドザデイ",
-       "ai_win": 23,
-       "odds": 3.2,
-       "buy_line_win": "4.8〜5.2倍"
+       "umaban": 2,
+       "name": "ディバインウインド",
+       "ai_win": 37,
+       "odds": 2.0,
+       "buy_line_win": "3.0〜3.2倍"
       },
       {
        "mark": "○",
-       "umaban": 2,
-       "name": "ディバインウインド",
-       "ai_win": 22,
-       "odds": 3.9,
-       "buy_line_win": "4.9〜5.4倍"
+       "umaban": 12,
+       "name": "ホールドザデイ",
+       "ai_win": 13,
+       "odds": 5.8,
+       "buy_line_win": "8.2〜9.0倍"
       },
       {
        "mark": "▲",
-       "umaban": 3,
-       "name": "ジーティーシンドウ",
-       "ai_win": 16,
-       "odds": 6.9,
-       "buy_line_win": "6.8〜7.5倍"
+       "umaban": 1,
+       "name": "アドミラルシップ",
+       "ai_win": 8,
+       "odds": 11.0,
+       "buy_line_win": "13.3〜14.5倍"
       }
      ]
     },
