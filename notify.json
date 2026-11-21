@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-11-20T21:00:35",
+ "generated_at": "2026-11-21T09:00:26",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
   {
    "date": "2026-11-21",
-   "is_today": false,
+   "is_today": true,
    "races": [
     {
      "race_id": "2026112103030501",
@@ -18,7 +18,7 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "21:00",
+     "odds_at": "09:00",
      "picks": [],
      "top": [
       {
@@ -58,7 +58,7 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "21:00",
+     "odds_at": "09:00",
      "picks": [
       {
        "umaban": 2,
@@ -106,7 +106,7 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "21:00",
+     "odds_at": "09:00",
      "picks": [
       {
        "umaban": 9,
@@ -151,7 +151,7 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "21:00",
+     "odds_at": "09:00",
      "picks": [],
      "top": [
       {
@@ -190,7 +190,7 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "21:00",
+     "odds_at": "09:00",
      "picks": [
       {
        "umaban": 3,
@@ -244,7 +244,7 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "21:00",
+     "odds_at": "09:00",
      "picks": [
       {
        "umaban": 8,
@@ -296,7 +296,7 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "21:00",
+     "odds_at": "09:00",
      "picks": [],
      "top": [
       {
@@ -336,7 +336,7 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "21:00",
+     "odds_at": "09:00",
      "picks": [],
      "top": [
       {
@@ -376,7 +376,7 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "21:00",
+     "odds_at": "09:00",
      "picks": [
       {
        "umaban": 13,
@@ -424,7 +424,7 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "21:00",
+     "odds_at": "09:00",
      "picks": [
       {
        "umaban": 8,
@@ -472,7 +472,7 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "21:00",
+     "odds_at": "09:00",
      "picks": [],
      "top": [
       {
@@ -512,7 +512,7 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "21:00",
+     "odds_at": "09:00",
      "picks": [
       {
        "umaban": 7,
@@ -557,7 +557,7 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "21:00",
+     "odds_at": "09:00",
      "picks": [
       {
        "umaban": 3,
@@ -619,7 +619,7 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "21:00",
+     "odds_at": "09:00",
      "picks": [
       {
        "umaban": 4,
@@ -674,7 +674,7 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "21:00",
+     "odds_at": "09:00",
      "picks": [
       {
        "umaban": 16,
@@ -722,7 +722,7 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "21:00",
+     "odds_at": "09:00",
      "picks": [],
      "top": [
       {
@@ -762,7 +762,7 @@
      "rough": "荒れやすい",
      "rough_past": "5/10",
      "status": "provisional",
-     "odds_at": "21:00",
+     "odds_at": "09:00",
      "picks": [
       {
        "umaban": 3,
@@ -817,7 +817,7 @@
      "rough": "堅い",
      "rough_past": "1/10",
      "status": "provisional",
-     "odds_at": "21:00",
+     "odds_at": "09:00",
      "picks": [],
      "top": [
       {
@@ -857,7 +857,7 @@
      "rough": "荒れやすい",
      "rough_past": "5/10",
      "status": "provisional",
-     "odds_at": "21:00",
+     "odds_at": "09:00",
      "picks": [
       {
        "umaban": 2,
@@ -902,7 +902,7 @@
      "rough": "平均的",
      "rough_past": "3/7",
      "status": "provisional",
-     "odds_at": "21:00",
+     "odds_at": "09:00",
      "picks": [],
      "top": [
       {
@@ -942,7 +942,7 @@
      "rough": "平均的",
      "rough_past": "3/10",
      "status": "provisional",
-     "odds_at": "21:00",
+     "odds_at": "09:00",
      "picks": [
       {
        "umaban": 3,
@@ -990,7 +990,7 @@
      "rough": "判断材料が少ない",
      "rough_past": "1/1",
      "status": "provisional",
-     "odds_at": "21:00",
+     "odds_at": "09:00",
      "picks": [],
      "top": [
       {
@@ -1030,7 +1030,7 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "21:00",
+     "odds_at": "09:00",
      "picks": [
       {
        "umaban": 7,
@@ -1075,47 +1075,32 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "21:00",
-     "picks": [
-      {
-       "umaban": 1,
-       "name": "ヤマニンループ",
-       "type": "単勝",
-       "odds": 14.9,
-       "ev": 1.186
-      },
-      {
-       "umaban": 4,
-       "name": "ダノンカゼルタ",
-       "type": "複勝",
-       "odds": 3.4,
-       "ev": 1.159
-      }
-     ],
+     "odds_at": "09:00",
+     "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 10,
        "name": "ロールザダイス",
-       "ai_win": 16,
-       "odds": 5.1,
-       "buy_line_win": "6.8〜7.4倍"
+       "ai_win": 17,
+       "odds": 3.9,
+       "buy_line_win": "6.3〜6.9倍"
       },
       {
        "mark": "○",
-       "umaban": 3,
-       "name": "シャドウマスター",
+       "umaban": 7,
+       "name": "ホウオウタイタン",
        "ai_win": 13,
-       "odds": 5.7,
-       "buy_line_win": "8.5〜9.3倍"
+       "odds": 6.4,
+       "buy_line_win": "8.3〜9.0倍"
       },
       {
        "mark": "▲",
-       "umaban": 4,
-       "name": "ダノンカゼルタ",
-       "ai_win": 12,
-       "odds": 5.9,
-       "buy_line_win": "9.1〜9.9倍"
+       "umaban": 6,
+       "name": "バルティカ",
+       "ai_win": 10,
+       "odds": 6.9,
+       "buy_line_win": "10.8〜11.7倍"
       }
      ]
     }
