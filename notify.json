@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T14:55:46",
+ "generated_at": "2026-11-21T15:10:55",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -611,7 +611,7 @@
      "course": "ダート1150m",
      "rough": "荒れやすい",
      "rough_past": "5/10",
-     "status": "decided",
+     "status": "result",
      "decided_at": "14:40",
      "picks": [
       {
@@ -621,7 +621,7 @@
        "odds": 10.1,
        "ev": 1.183,
        "stake": 500,
-       "finish": null
+       "finish": 13
       },
       {
        "umaban": 5,
@@ -630,9 +630,28 @@
        "odds": 6.7,
        "ev": 1.125,
        "stake": 500,
-       "finish": null
+       "finish": 15
       }
-     ]
+     ],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 3,
+       "name": "ビーマックス"
+      },
+      {
+       "pos": 2,
+       "umaban": 1,
+       "name": "ソニックブレイカー"
+      },
+      {
+       "pos": 3,
+       "umaban": 14,
+       "name": "ゼファーテソーロ"
+      }
+     ],
+     "net": -1000,
+     "hit": false
     },
     {
      "race_id": "2026112108050510",
@@ -699,40 +718,40 @@
      "rough": "判断材料が少ない",
      "rough_past": "1/1",
      "status": "provisional",
-     "odds_at": "14:40",
+     "odds_at": "15:10",
      "picks": [
       {
        "umaban": 9,
        "name": "レッドプロフェシー",
        "type": "単勝",
-       "odds": 16.9,
-       "ev": 1.112
+       "odds": 17.6,
+       "ev": 1.151
       }
      ],
      "top": [
       {
        "mark": "◎",
-       "umaban": 10,
-       "name": "テーオーマルコーニ",
-       "ai_win": 16,
-       "odds": 4.2,
-       "buy_line_win": "6.9〜7.5倍"
+       "umaban": 12,
+       "name": "メルカントゥール",
+       "ai_win": 18,
+       "odds": 5.2,
+       "buy_line_win": "6.3〜6.8倍"
       },
       {
        "mark": "○",
-       "umaban": 12,
-       "name": "メルカントゥール",
+       "umaban": 10,
+       "name": "テーオーマルコーニ",
        "ai_win": 14,
-       "odds": 5.6,
-       "buy_line_win": "7.8〜8.6倍"
+       "odds": 4.0,
+       "buy_line_win": "7.6〜8.3倍"
       },
       {
        "mark": "▲",
        "umaban": 14,
        "name": "チェリヴェント",
-       "ai_win": 11,
-       "odds": 5.4,
-       "buy_line_win": "10.2〜11.1倍"
+       "ai_win": 12,
+       "odds": 5.0,
+       "buy_line_win": "9.3〜10.2倍"
       }
      ]
     },
