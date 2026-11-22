@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T13:05:41",
+ "generated_at": "2026-11-22T13:20:50",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -396,35 +396,9 @@
      "course": "芝2400m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "12:55",
-     "picks": [],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 12,
-       "name": "ボンドマティーニ",
-       "ai_win": 28,
-       "odds": 3.7,
-       "buy_line_win": "4.0〜4.3倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 5,
-       "name": "ページターナー",
-       "ai_win": 16,
-       "odds": 6.2,
-       "buy_line_win": "6.9〜7.5倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 9,
-       "name": "ドリームプレミア",
-       "ai_win": 10,
-       "odds": 5.1,
-       "buy_line_win": "11.4〜12.4倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "13:20",
+     "picks": []
     },
     {
      "race_id": "2026112205050508",
@@ -437,24 +411,24 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "12:40",
+     "odds_at": "13:10",
      "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 3,
        "name": "ヴンダーバール",
-       "ai_win": 25,
-       "odds": 3.9,
-       "buy_line_win": "4.3〜4.7倍"
+       "ai_win": 26,
+       "odds": 3.6,
+       "buy_line_win": "4.2〜4.6倍"
       },
       {
        "mark": "○",
        "umaban": 12,
        "name": "ケープウィッカム",
        "ai_win": 12,
-       "odds": 4.4,
-       "buy_line_win": "9.3〜10.1倍"
+       "odds": 4.3,
+       "buy_line_win": "9.1〜9.9倍"
       },
       {
        "mark": "▲",
@@ -462,7 +436,7 @@
        "name": "タイセイジェイド",
        "ai_win": 11,
        "odds": 7.5,
-       "buy_line_win": "10.2〜11.1倍"
+       "buy_line_win": "10.0〜10.9倍"
       }
      ]
     },
@@ -517,40 +491,32 @@
      "rough": "堅い",
      "rough_past": "1/10",
      "status": "provisional",
-     "odds_at": "09:00",
-     "picks": [
-      {
-       "umaban": 6,
-       "name": "ピコベリー",
-       "type": "単勝",
-       "odds": 6.5,
-       "ev": 1.125
-      }
-     ],
+     "odds_at": "13:10",
+     "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 4,
        "name": "シルクドマルス",
-       "ai_win": 25,
-       "odds": 3.2,
-       "buy_line_win": "4.4〜4.8倍"
+       "ai_win": 28,
+       "odds": 2.9,
+       "buy_line_win": "3.9〜4.3倍"
       },
       {
        "mark": "○",
-       "umaban": 6,
-       "name": "ピコベリー",
-       "ai_win": 17,
-       "odds": 6.5,
-       "buy_line_win": "6.4〜6.9倍"
-      },
-      {
-       "mark": "▲",
        "umaban": 2,
        "name": "リリカルフレア",
        "ai_win": 14,
-       "odds": 7.1,
-       "buy_line_win": "8.0〜8.7倍"
+       "odds": 7.3,
+       "buy_line_win": "7.8〜8.6倍"
+      },
+      {
+       "mark": "▲",
+       "umaban": 5,
+       "name": "サトノスプレマシー",
+       "ai_win": 14,
+       "odds": 5.0,
+       "buy_line_win": "7.8〜8.6倍"
       }
      ]
     },
