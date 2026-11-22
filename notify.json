@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T14:05:42",
+ "generated_at": "2026-11-22T14:20:56",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -534,35 +534,9 @@
      "course": "芝1600m",
      "rough": "平均的",
      "rough_past": "1/4",
-     "status": "provisional",
-     "odds_at": "13:55",
-     "picks": [],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 11,
-       "name": "バルセシート",
-       "ai_win": 34,
-       "odds": 2.3,
-       "buy_line_win": "3.2〜3.5倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 2,
-       "name": "リカントロポ",
-       "ai_win": 12,
-       "odds": 7.7,
-       "buy_line_win": "9.5〜10.4倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 12,
-       "name": "アイガーリー",
-       "ai_win": 10,
-       "odds": 5.5,
-       "buy_line_win": "10.5〜11.5倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "14:20",
+     "picks": []
     },
     {
      "race_id": "2026112205050510",
@@ -575,21 +549,14 @@
      "rough": "荒れやすい",
      "rough_past": "3/6",
      "status": "provisional",
-     "odds_at": "13:45",
+     "odds_at": "14:15",
      "picks": [
-      {
-       "umaban": 1,
-       "name": "トラペジスト",
-       "type": "複勝",
-       "odds": 7.2,
-       "ev": 1.147
-      },
       {
        "umaban": 9,
        "name": "マルチャン",
        "type": "複勝",
-       "odds": 5.8,
-       "ev": 1.104
+       "odds": 6.3,
+       "ev": 1.199
       }
      ],
      "top": [
@@ -597,9 +564,9 @@
        "mark": "◎",
        "umaban": 5,
        "name": "ジッピーチューン",
-       "ai_win": 17,
-       "odds": 3.6,
-       "buy_line_win": "6.3〜6.9倍"
+       "ai_win": 16,
+       "odds": 3.5,
+       "buy_line_win": "6.7〜7.3倍"
       },
       {
        "mark": "○",
@@ -607,15 +574,15 @@
        "name": "ウフドゥウフ",
        "ai_win": 14,
        "odds": 3.8,
-       "buy_line_win": "7.9〜8.7倍"
+       "buy_line_win": "7.7〜8.4倍"
       },
       {
        "mark": "▲",
        "umaban": 3,
        "name": "ビップディラン",
-       "ai_win": 9,
-       "odds": 10.1,
-       "buy_line_win": "12.9〜14.0倍"
+       "ai_win": 10,
+       "odds": 8.8,
+       "buy_line_win": "11.0〜12.0倍"
       }
      ]
     },
@@ -670,40 +637,40 @@
      "rough": "荒れやすい",
      "rough_past": "7/10",
      "status": "provisional",
-     "odds_at": "09:00",
+     "odds_at": "14:20",
      "picks": [
       {
-       "umaban": 4,
-       "name": "サトノカルナバル",
+       "umaban": 8,
+       "name": "ヤマニンアストロン",
        "type": "単勝",
-       "odds": 16.7,
-       "ev": 1.187
+       "odds": 11.5,
+       "ev": 1.181
       }
      ],
      "top": [
       {
        "mark": "◎",
-       "umaban": 1,
-       "name": "メリディアンスター",
-       "ai_win": 15,
-       "odds": 5.1,
-       "buy_line_win": "7.3〜7.9倍"
+       "umaban": 6,
+       "name": "サトノボヤージュ",
+       "ai_win": 17,
+       "odds": 4.1,
+       "buy_line_win": "6.6〜7.2倍"
       },
       {
        "mark": "○",
-       "umaban": 6,
-       "name": "サトノボヤージュ",
-       "ai_win": 15,
-       "odds": 4.4,
-       "buy_line_win": "7.3〜7.9倍"
+       "umaban": 1,
+       "name": "メリディアンスター",
+       "ai_win": 14,
+       "odds": 5.8,
+       "buy_line_win": "8.0〜8.7倍"
       },
       {
        "mark": "▲",
-       "umaban": 8,
-       "name": "ヤマニンアストロン",
+       "umaban": 5,
+       "name": "スナッピードレッサ",
        "ai_win": 12,
-       "odds": 10.6,
-       "buy_line_win": "9.4〜10.3倍"
+       "odds": 4.5,
+       "buy_line_win": "8.8〜9.7倍"
       }
      ]
     },
