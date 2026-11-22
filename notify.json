@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T10:45:47",
+ "generated_at": "2026-11-22T11:00:57",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -138,35 +138,9 @@
      "course": "芝2000m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "10:35",
-     "picks": [],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 5,
-       "name": "メイショウジェード",
-       "ai_win": 52,
-       "odds": 1.4,
-       "buy_line_win": "2.1〜2.3倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 7,
-       "name": "ヒロノリホープ",
-       "ai_win": 19,
-       "odds": 4.8,
-       "buy_line_win": "5.8〜6.3倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 4,
-       "name": "クオーレサンライズ",
-       "ai_win": 10,
-       "odds": 7.5,
-       "buy_line_win": "10.5〜11.5倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "11:00",
+     "picks": []
     },
     {
      "race_id": "2026112205050504",
@@ -179,40 +153,32 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "10:20",
-     "picks": [
-      {
-       "umaban": 10,
-       "name": "ダノンブレイズ",
-       "type": "単勝",
-       "odds": 19.1,
-       "ev": 1.122
-      }
-     ],
+     "odds_at": "10:50",
+     "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 6,
        "name": "オペラリリカ",
-       "ai_win": 30,
+       "ai_win": 31,
        "odds": 2.8,
-       "buy_line_win": "3.6〜4.0倍"
+       "buy_line_win": "3.6〜3.9倍"
       },
       {
        "mark": "○",
-       "umaban": 11,
-       "name": "マイレホープ",
-       "ai_win": 16,
-       "odds": 5.1,
-       "buy_line_win": "7.0〜7.6倍"
+       "umaban": 8,
+       "name": "トラベルメモリーズ",
+       "ai_win": 13,
+       "odds": 6.0,
+       "buy_line_win": "8.6〜9.4倍"
       },
       {
        "mark": "▲",
-       "umaban": 5,
-       "name": "モンテカルロ",
-       "ai_win": 11,
-       "odds": 8.1,
-       "buy_line_win": "10.4〜11.3倍"
+       "umaban": 11,
+       "name": "マイレホープ",
+       "ai_win": 12,
+       "odds": 5.8,
+       "buy_line_win": "9.2〜10.0倍"
       }
      ]
     },
