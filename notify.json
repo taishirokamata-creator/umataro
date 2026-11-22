@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T14:56:31",
+ "generated_at": "2026-11-22T15:10:45",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -599,9 +599,26 @@
      "course": "芝1600m",
      "rough": "荒れやすい",
      "rough_past": "3/6",
-     "status": "decided",
+     "status": "result",
      "decided_at": "14:40",
-     "picks": []
+     "picks": [],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 14,
+       "name": "デンプシー"
+      },
+      {
+       "pos": 2,
+       "umaban": 9,
+       "name": "マルチャン"
+      },
+      {
+       "pos": 3,
+       "umaban": 6,
+       "name": "ウフドゥウフ"
+      }
+     ]
     },
     {
      "race_id": "2026112208050610",
@@ -678,7 +695,7 @@
      "rough": "平均的",
      "rough_past": "3/10",
      "status": "provisional",
-     "odds_at": "14:40",
+     "odds_at": "15:10",
      "picks": [
       {
        "umaban": 18,
@@ -694,8 +711,8 @@
        "umaban": 14,
        "name": "スターアニス",
        "ai_win": 18,
-       "odds": 4.8,
-       "buy_line_win": "6.1〜6.7倍"
+       "odds": 4.6,
+       "buy_line_win": "6.1〜6.6倍"
       },
       {
        "mark": "○",
@@ -703,7 +720,7 @@
        "name": "エンブロイダリー",
        "ai_win": 16,
        "odds": 5.6,
-       "buy_line_win": "6.9〜7.5倍"
+       "buy_line_win": "6.8〜7.4倍"
       },
       {
        "mark": "▲",
@@ -711,7 +728,7 @@
        "name": "ロデオドライブ",
        "ai_win": 13,
        "odds": 5.8,
-       "buy_line_win": "8.3〜9.1倍"
+       "buy_line_win": "8.2〜9.0倍"
       }
      ]
     },
@@ -726,32 +743,32 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:00",
+     "odds_at": "15:05",
      "picks": [],
      "top": [
       {
        "mark": "◎",
-       "umaban": 7,
-       "name": "イヌボウノウタゴエ",
-       "ai_win": 20,
-       "odds": 3.7,
-       "buy_line_win": "5.6〜6.1倍"
+       "umaban": 1,
+       "name": "ヒズマスターピース",
+       "ai_win": 14,
+       "odds": 5.5,
+       "buy_line_win": "7.8〜8.5倍"
       },
       {
        "mark": "○",
-       "umaban": 1,
-       "name": "ヒズマスターピース",
-       "ai_win": 12,
-       "odds": 5.8,
-       "buy_line_win": "9.3〜10.1倍"
+       "umaban": 9,
+       "name": "スペルーチェ",
+       "ai_win": 13,
+       "odds": 6.1,
+       "buy_line_win": "8.7〜9.5倍"
       },
       {
        "mark": "▲",
-       "umaban": 9,
-       "name": "スペルーチェ",
-       "ai_win": 12,
-       "odds": 7.2,
-       "buy_line_win": "9.3〜10.1倍"
+       "umaban": 13,
+       "name": "ラパンチュール",
+       "ai_win": 13,
+       "odds": 5.8,
+       "buy_line_win": "8.7〜9.5倍"
       }
      ]
     },
