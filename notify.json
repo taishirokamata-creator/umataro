@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T15:45:12",
+ "generated_at": "2026-11-22T16:00:21",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -718,35 +718,9 @@
      "course": "芝1400m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "15:35",
-     "picks": [],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 13,
-       "name": "ラパンチュール",
-       "ai_win": 14,
-       "odds": 5.4,
-       "buy_line_win": "7.8〜8.5倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 1,
-       "name": "ヒズマスターピース",
-       "ai_win": 13,
-       "odds": 5.7,
-       "buy_line_win": "8.7〜9.5倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 9,
-       "name": "スペルーチェ",
-       "ai_win": 13,
-       "odds": 6.0,
-       "buy_line_win": "8.7〜9.5倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "16:00",
+     "picks": []
     },
     {
      "race_id": "2026112208050612",
@@ -759,29 +733,29 @@
      "rough": "荒れやすい",
      "rough_past": "2/3",
      "status": "provisional",
-     "odds_at": "15:20",
+     "odds_at": "15:50",
      "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 11,
        "name": "ルージュスプリヤ",
-       "ai_win": 60,
-       "odds": 1.3
+       "ai_win": 58,
+       "odds": 1.4
       },
       {
        "mark": "○",
        "umaban": 13,
        "name": "ファビュラススター",
        "ai_win": 10,
-       "odds": 7.2
+       "odds": 6.9
       },
       {
        "mark": "▲",
        "umaban": 12,
        "name": "ジョヴィアン",
        "ai_win": 7,
-       "odds": 17.3
+       "odds": 15.8
       }
      ]
     }
