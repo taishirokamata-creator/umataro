@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T13:50:20",
+ "generated_at": "2026-11-22T13:50:24",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -432,9 +432,26 @@
      "course": "芝2400m",
      "rough": "",
      "rough_past": "",
-     "status": "decided",
+     "status": "result",
      "decided_at": "13:20",
-     "picks": []
+     "picks": [],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 5,
+       "name": "ページターナー"
+      },
+      {
+       "pos": 2,
+       "umaban": 9,
+       "name": "ドリームプレミア"
+      },
+      {
+       "pos": 3,
+       "umaban": 2,
+       "name": "ローレルオーブ"
+      }
+     ]
     },
     {
      "race_id": "2026112205050508",
