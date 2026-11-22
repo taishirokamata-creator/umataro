@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T12:20:02",
+ "generated_at": "2026-11-22T12:35:11",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -293,35 +293,9 @@
      "course": "ダート1400m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "12:10",
-     "picks": [],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 9,
-       "name": "コスモパリジェンヌ",
-       "ai_win": 24,
-       "odds": 3.8,
-       "buy_line_win": "4.6〜5.0倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 5,
-       "name": "シャドウアリア",
-       "ai_win": 13,
-       "odds": 5.5,
-       "buy_line_win": "8.3〜9.0倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 7,
-       "name": "ミラージュスター",
-       "ai_win": 13,
-       "odds": 5.4,
-       "buy_line_win": "8.3〜9.0倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "12:35",
+     "picks": []
     },
     {
      "race_id": "2026112208050606",
@@ -334,15 +308,15 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "11:55",
+     "odds_at": "12:25",
      "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 4,
        "name": "スターフュージョン",
-       "ai_win": 25,
-       "odds": 3.3
+       "ai_win": 26,
+       "odds": 3.1
       },
       {
        "mark": "○",
@@ -355,8 +329,8 @@
        "mark": "▲",
        "umaban": 16,
        "name": "ダノンステート",
-       "ai_win": 12,
-       "odds": 5.0
+       "ai_win": 14,
+       "odds": 4.8
       }
      ]
     },
@@ -419,32 +393,40 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:00",
-     "picks": [],
+     "odds_at": "12:25",
+     "picks": [
+      {
+       "umaban": 14,
+       "name": "ヴァロンブローサ",
+       "type": "複勝",
+       "odds": 5.3,
+       "ev": 1.127
+      }
+     ],
      "top": [
       {
        "mark": "◎",
        "umaban": 5,
        "name": "ページターナー",
-       "ai_win": 18,
-       "odds": 5.9,
-       "buy_line_win": "6.2〜6.7倍"
+       "ai_win": 17,
+       "odds": 5.7,
+       "buy_line_win": "6.4〜6.9倍"
       },
       {
        "mark": "○",
-       "umaban": 9,
-       "name": "ドリームプレミア",
-       "ai_win": 15,
-       "odds": 3.6,
-       "buy_line_win": "7.6〜8.3倍"
+       "umaban": 12,
+       "name": "ボンドマティーニ",
+       "ai_win": 12,
+       "odds": 7.5,
+       "buy_line_win": "8.9〜9.7倍"
       },
       {
        "mark": "▲",
-       "umaban": 1,
-       "name": "コワンニシタガウ",
-       "ai_win": 8,
-       "odds": 10.0,
-       "buy_line_win": "14.0〜15.2倍"
+       "umaban": 9,
+       "name": "ドリームプレミア",
+       "ai_win": 12,
+       "odds": 4.4,
+       "buy_line_win": "9.5〜10.3倍"
       }
      ]
     },
