@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T16:00:21",
+ "generated_at": "2026-11-22T16:05:24",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -704,9 +704,26 @@
      "course": "芝1600m",
      "rough": "平均的",
      "rough_past": "3/10",
-     "status": "decided",
+     "status": "result",
      "decided_at": "15:35",
-     "picks": []
+     "picks": [],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 1,
+       "name": "エルデナリ"
+      },
+      {
+       "pos": 2,
+       "umaban": 2,
+       "name": "エンブロイダリー"
+      },
+      {
+       "pos": 3,
+       "umaban": 14,
+       "name": "スターアニス"
+      }
+     ]
     },
     {
      "race_id": "2026112205050512",
