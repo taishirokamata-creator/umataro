@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T16:30:32",
+ "generated_at": "2026-11-22T16:45:36",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -766,9 +766,26 @@
      "course": "芝1200m",
      "rough": "荒れやすい",
      "rough_past": "2/3",
-     "status": "decided",
+     "status": "result",
      "decided_at": "16:15",
-     "picks": []
+     "picks": [],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 11,
+       "name": "ルージュスプリヤ"
+      },
+      {
+       "pos": 2,
+       "umaban": 3,
+       "name": "シカゴスティング"
+      },
+      {
+       "pos": 3,
+       "umaban": 12,
+       "name": "ジョヴィアン"
+      }
+     ]
     }
    ]
   },
