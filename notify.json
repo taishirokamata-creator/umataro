@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T14:35:09",
+ "generated_at": "2026-11-22T14:40:18",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -582,43 +582,9 @@
      "course": "芝1600m",
      "rough": "荒れやすい",
      "rough_past": "3/6",
-     "status": "provisional",
-     "odds_at": "14:15",
-     "picks": [
-      {
-       "umaban": 9,
-       "name": "マルチャン",
-       "type": "複勝",
-       "odds": 6.3,
-       "ev": 1.199
-      }
-     ],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 5,
-       "name": "ジッピーチューン",
-       "ai_win": 16,
-       "odds": 3.5,
-       "buy_line_win": "6.7〜7.3倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 6,
-       "name": "ウフドゥウフ",
-       "ai_win": 14,
-       "odds": 3.8,
-       "buy_line_win": "7.7〜8.4倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 3,
-       "name": "ビップディラン",
-       "ai_win": 10,
-       "odds": 8.8,
-       "buy_line_win": "11.0〜12.0倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "14:40",
+     "picks": []
     },
     {
      "race_id": "2026112208050610",
@@ -719,14 +685,14 @@
      "rough": "平均的",
      "rough_past": "3/10",
      "status": "provisional",
-     "odds_at": "09:00",
+     "odds_at": "14:40",
      "picks": [
       {
-       "umaban": 1,
-       "name": "エルデナリ",
+       "umaban": 18,
+       "name": "オフトレイル",
        "type": "複勝",
-       "odds": 3.4,
-       "ev": 1.159
+       "odds": 5.2,
+       "ev": 1.105
       }
      ],
      "top": [
@@ -734,25 +700,25 @@
        "mark": "◎",
        "umaban": 14,
        "name": "スターアニス",
-       "ai_win": 17,
-       "odds": 5.1,
-       "buy_line_win": "6.4〜7.0倍"
+       "ai_win": 18,
+       "odds": 4.8,
+       "buy_line_win": "6.1〜6.7倍"
       },
       {
        "mark": "○",
        "umaban": 2,
        "name": "エンブロイダリー",
        "ai_win": 16,
-       "odds": 5.8,
-       "buy_line_win": "7.1〜7.7倍"
+       "odds": 5.6,
+       "buy_line_win": "6.9〜7.5倍"
       },
       {
        "mark": "▲",
-       "umaban": 1,
-       "name": "エルデナリ",
-       "ai_win": 12,
-       "odds": 6.8,
-       "buy_line_win": "8.9〜9.7倍"
+       "umaban": 8,
+       "name": "ロデオドライブ",
+       "ai_win": 13,
+       "odds": 5.8,
+       "buy_line_win": "8.3〜9.1倍"
       }
      ]
     },
