@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T12:30:57",
+ "generated_at": "2026-11-23T12:45:06",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -336,35 +336,9 @@
      "course": "芝1400m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "12:20",
-     "picks": [],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 0,
-       "name": "ラポニア",
-       "ai_win": 34,
-       "odds": null,
-       "buy_line_win": "3.3〜3.6倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 3,
-       "name": "ランブルトーン",
-       "ai_win": 26,
-       "odds": 2.4,
-       "buy_line_win": "4.2〜4.5倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 5,
-       "name": "ヴォラーレジャン",
-       "ai_win": 10,
-       "odds": 4.7,
-       "buy_line_win": "10.8〜11.8倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "12:45",
+     "picks": []
     },
     {
      "race_id": "2026112303030607",
@@ -377,7 +351,7 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "12:05",
+     "odds_at": "12:35",
      "picks": [],
      "top": [
       {
@@ -385,21 +359,21 @@
        "umaban": 8,
        "name": "ララバッカナール",
        "ai_win": 21,
-       "odds": 4.2
+       "odds": 4.5
       },
       {
        "mark": "○",
        "umaban": 12,
        "name": "ベラジオリン",
        "ai_win": 15,
-       "odds": 4.3
+       "odds": 4.5
       },
       {
        "mark": "▲",
-       "umaban": 11,
-       "name": "ディヴァインスカイ",
-       "ai_win": 13,
-       "odds": 7.3
+       "umaban": 10,
+       "name": "ファンシーフリル",
+       "ai_win": 14,
+       "odds": 5.2
       }
      ]
     },
@@ -454,29 +428,44 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:00",
-     "picks": [],
+     "odds_at": "12:35",
+     "picks": [
+      {
+       "umaban": 6,
+       "name": "カモメガトンダ",
+       "type": "複勝",
+       "odds": 6.1,
+       "ev": 1.161
+      },
+      {
+       "umaban": 11,
+       "name": "スウィッチインラヴ",
+       "type": "複勝",
+       "odds": 2.4,
+       "ev": 1.117
+      }
+     ],
      "top": [
       {
        "mark": "◎",
        "umaban": 11,
        "name": "スウィッチインラヴ",
-       "ai_win": 16,
-       "odds": 5.4
+       "ai_win": 19,
+       "odds": 4.7
       },
       {
        "mark": "○",
        "umaban": 14,
        "name": "シヴィータス",
-       "ai_win": 14,
-       "odds": 4.5
+       "ai_win": 16,
+       "odds": 4.2
       },
       {
        "mark": "▲",
        "umaban": 9,
        "name": "マイティキングダム",
        "ai_win": 10,
-       "odds": 9.1
+       "odds": 8.0
       }
      ]
     },
