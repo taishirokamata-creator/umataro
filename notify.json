@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T15:05:33",
+ "generated_at": "2026-11-23T15:10:37",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -644,41 +644,17 @@
      "course": "ダート1700m",
      "rough": "荒れやすい",
      "rough_past": "5/7",
-     "status": "provisional",
-     "odds_at": "14:45",
+     "status": "decided",
+     "decided_at": "15:10",
      "picks": [
       {
-       "umaban": 2,
-       "name": "メイショウカシワデ",
-       "type": "単勝",
-       "odds": 19.7,
-       "ev": 1.19
-      }
-     ],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 8,
-       "name": "ディーズゴールド",
-       "ai_win": 18,
-       "odds": 4.2,
-       "buy_line_win": "6.0〜6.6倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 3,
-       "name": "ジェイエルモーダル",
-       "ai_win": 13,
-       "odds": 4.2,
-       "buy_line_win": "8.5〜9.3倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 12,
-       "name": "モリノアミーゴ",
-       "ai_win": 13,
-       "odds": 7.1,
-       "buy_line_win": "8.5〜9.3倍"
+       "umaban": 13,
+       "name": "プルートマスター",
+       "type": "複勝",
+       "odds": 4.7,
+       "ev": 1.109,
+       "stake": 700,
+       "finish": null
       }
      ]
     },
