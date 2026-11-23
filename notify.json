@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T14:35:01",
+ "generated_at": "2026-11-23T14:45:10",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -556,7 +556,7 @@
      "course": "芝2400m",
      "rough": "過去データなし",
      "rough_past": "",
-     "status": "decided",
+     "status": "result",
      "decided_at": "14:15",
      "picks": [
       {
@@ -566,9 +566,28 @@
        "odds": 18.4,
        "ev": 1.182,
        "stake": 200,
-       "finish": null
+       "finish": 10
       }
-     ]
+     ],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 4,
+       "name": "スカイスプレンダー"
+      },
+      {
+       "pos": 2,
+       "umaban": 2,
+       "name": "アロンズロッド"
+      },
+      {
+       "pos": 3,
+       "umaban": 7,
+       "name": "ニュークレド"
+      }
+     ],
+     "net": -200,
+     "hit": false
     },
     {
      "race_id": "2026112303030610",
@@ -635,27 +654,13 @@
      "rough": "荒れやすい",
      "rough_past": "5/7",
      "status": "provisional",
-     "odds_at": "14:15",
+     "odds_at": "14:45",
      "picks": [
       {
        "umaban": 2,
        "name": "メイショウカシワデ",
        "type": "単勝",
-       "odds": 18.5,
-       "ev": 1.158
-      },
-      {
-       "umaban": 5,
-       "name": "アレナパラシオ",
-       "type": "単勝",
-       "odds": 14.3,
-       "ev": 1.179
-      },
-      {
-       "umaban": 13,
-       "name": "プルートマスター",
-       "type": "複勝",
-       "odds": 5.6,
+       "odds": 19.7,
        "ev": 1.19
       }
      ],
@@ -664,25 +669,25 @@
        "mark": "◎",
        "umaban": 8,
        "name": "ディーズゴールド",
-       "ai_win": 17,
-       "odds": 4.3,
-       "buy_line_win": "6.6〜7.1倍"
+       "ai_win": 18,
+       "odds": 4.2,
+       "buy_line_win": "6.0〜6.6倍"
       },
       {
        "mark": "○",
        "umaban": 3,
        "name": "ジェイエルモーダル",
-       "ai_win": 14,
-       "odds": 3.9,
-       "buy_line_win": "7.9〜8.7倍"
+       "ai_win": 13,
+       "odds": 4.2,
+       "buy_line_win": "8.5〜9.3倍"
       },
       {
        "mark": "▲",
        "umaban": 12,
        "name": "モリノアミーゴ",
        "ai_win": 13,
-       "odds": 7.5,
-       "buy_line_win": "8.2〜9.0倍"
+       "odds": 7.1,
+       "buy_line_win": "8.5〜9.3倍"
       }
      ]
     },
