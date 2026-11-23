@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T13:45:07",
+ "generated_at": "2026-11-23T14:00:22",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -491,50 +491,9 @@
      "course": "芝2600m",
      "rough": "平均的",
      "rough_past": "4/10",
-     "status": "provisional",
-     "odds_at": "13:35",
-     "picks": [
-      {
-       "umaban": 1,
-       "name": "アルペングロー",
-       "type": "単勝",
-       "odds": 12.7,
-       "ev": 1.17
-      },
-      {
-       "umaban": 2,
-       "name": "ノリマル",
-       "type": "単勝",
-       "odds": 8.8,
-       "ev": 1.11
-      }
-     ],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 2,
-       "name": "ノリマル",
-       "ai_win": 13,
-       "odds": 8.8,
-       "buy_line_win": "8.7〜9.5倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 7,
-       "name": "ワンダフルデイズ",
-       "ai_win": 10,
-       "odds": 6.2,
-       "buy_line_win": "10.6〜11.5倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 13,
-       "name": "ボンボンベイビー",
-       "ai_win": 10,
-       "odds": 5.8,
-       "buy_line_win": "10.6〜11.5倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "14:00",
+     "picks": []
     },
     {
      "race_id": "2026112305050609",
@@ -547,7 +506,7 @@
      "rough": "過去データなし",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "13:20",
+     "odds_at": "13:50",
      "picks": [],
      "top": [
       {
@@ -562,16 +521,16 @@
        "mark": "○",
        "umaban": 2,
        "name": "アロンズロッド",
-       "ai_win": 17,
-       "odds": 4.4,
-       "buy_line_win": "6.4〜7.0倍"
+       "ai_win": 19,
+       "odds": 4.1,
+       "buy_line_win": "5.8〜6.3倍"
       },
       {
        "mark": "▲",
        "umaban": 6,
        "name": "リポサンテ",
        "ai_win": 14,
-       "odds": 5.1,
+       "odds": 5.0,
        "buy_line_win": "8.1〜8.8倍"
       }
      ]
@@ -635,32 +594,32 @@
      "rough": "荒れやすい",
      "rough_past": "2/3",
      "status": "provisional",
-     "odds_at": "09:00",
+     "odds_at": "13:55",
      "picks": [],
      "top": [
       {
        "mark": "◎",
-       "umaban": 6,
-       "name": "コズミックダンサー",
-       "ai_win": 29,
-       "odds": 2.5,
-       "buy_line_win": "3.8〜4.1倍"
+       "umaban": 14,
+       "name": "ロングウェイホーム",
+       "ai_win": 36,
+       "odds": 2.3,
+       "buy_line_win": "3.0〜3.3倍"
       },
       {
        "mark": "○",
-       "umaban": 5,
-       "name": "インペリアルライン",
-       "ai_win": 22,
-       "odds": 5.6,
-       "buy_line_win": "5.0〜5.5倍"
+       "umaban": 6,
+       "name": "コズミックダンサー",
+       "ai_win": 13,
+       "odds": 5.3,
+       "buy_line_win": "8.5〜9.2倍"
       },
       {
        "mark": "▲",
-       "umaban": 7,
-       "name": "ビービーアジャイル",
-       "ai_win": 12,
-       "odds": 6.5,
-       "buy_line_win": "9.1〜9.9倍"
+       "umaban": 1,
+       "name": "ペンナヴェローチェ",
+       "ai_win": 8,
+       "odds": 9.6,
+       "buy_line_win": "13.7〜15.0倍"
       }
      ]
     },
