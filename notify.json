@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T11:55:31",
+ "generated_at": "2026-11-23T12:00:34",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -265,41 +265,17 @@
      "course": "芝1800m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "11:35",
+     "status": "decided",
+     "decided_at": "12:00",
      "picks": [
       {
-       "umaban": 16,
-       "name": "マージナルゲイン",
-       "type": "単勝",
-       "odds": 9.9,
-       "ev": 1.194
-      }
-     ],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 10,
-       "name": "ミッキーラビット",
-       "ai_win": 16,
-       "odds": 4.5,
-       "buy_line_win": "7.0〜7.6倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 8,
-       "name": "メフルナーズ",
-       "ai_win": 12,
-       "odds": 5.7,
-       "buy_line_win": "9.1〜10.0倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 16,
-       "name": "マージナルゲイン",
-       "ai_win": 12,
-       "odds": 9.9,
-       "buy_line_win": "9.1〜10.0倍"
+       "umaban": 11,
+       "name": "スリーグローリー",
+       "type": "複勝",
+       "odds": 12.8,
+       "ev": 1.104,
+       "stake": 200,
+       "finish": null
       }
      ]
     },
