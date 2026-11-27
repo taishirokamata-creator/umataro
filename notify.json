@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T21:00:28",
+ "generated_at": "2026-11-27T13:00:33",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -23,23 +23,23 @@
      "top": [
       {
        "mark": "◎",
-       "umaban": 0,
+       "umaban": 12,
        "name": "ギルデッドグロス",
        "ai_win": 28,
        "odds": null,
-       "buy_line_win": "3.9〜4.2倍"
+       "buy_line_win": "3.9〜4.3倍"
       },
       {
        "mark": "○",
-       "umaban": 0,
+       "umaban": 10,
        "name": "ブルーサンタ",
-       "ai_win": 27,
+       "ai_win": 26,
        "odds": null,
-       "buy_line_win": "4.1〜4.5倍"
+       "buy_line_win": "4.2〜4.5倍"
       },
       {
        "mark": "▲",
-       "umaban": 0,
+       "umaban": 6,
        "name": "レジームチェンジ",
        "ai_win": 19,
        "odds": null,
@@ -63,27 +63,27 @@
      "top": [
       {
        "mark": "◎",
-       "umaban": 0,
+       "umaban": 10,
        "name": "エルダークローネ",
-       "ai_win": 27,
+       "ai_win": 26,
        "odds": null,
-       "buy_line_win": "4.1〜4.5倍"
+       "buy_line_win": "4.2〜4.6倍"
       },
       {
        "mark": "○",
-       "umaban": 0,
+       "umaban": 15,
        "name": "ドラゴンジョルノ",
-       "ai_win": 27,
+       "ai_win": 26,
        "odds": null,
-       "buy_line_win": "4.1〜4.5倍"
+       "buy_line_win": "4.2〜4.6倍"
       },
       {
        "mark": "▲",
-       "umaban": 0,
+       "umaban": 12,
        "name": "センチュリースカイ",
-       "ai_win": 13,
+       "ai_win": 15,
        "odds": null,
-       "buy_line_win": "8.2〜9.0倍"
+       "buy_line_win": "7.2〜7.9倍"
       }
      ]
     },
@@ -103,27 +103,27 @@
      "top": [
       {
        "mark": "◎",
-       "umaban": 0,
+       "umaban": 13,
        "name": "クロダテ",
-       "ai_win": 45,
+       "ai_win": 46,
        "odds": null,
        "buy_line_win": "2.4〜2.6倍"
       },
       {
        "mark": "○",
-       "umaban": 0,
+       "umaban": 2,
        "name": "アルデシンザン",
-       "ai_win": 25,
+       "ai_win": 24,
        "odds": null,
-       "buy_line_win": "4.4〜4.8倍"
+       "buy_line_win": "4.5〜5.0倍"
       },
       {
        "mark": "▲",
-       "umaban": 0,
+       "umaban": 12,
        "name": "コスモツクヨミ",
-       "ai_win": 6,
+       "ai_win": 8,
        "odds": null,
-       "buy_line_win": "19.3〜20.0倍"
+       "buy_line_win": "14.3〜15.6倍"
       }
      ]
     },
@@ -143,27 +143,27 @@
      "top": [
       {
        "mark": "◎",
-       "umaban": 0,
+       "umaban": 5,
        "name": "ベラジオアゲーラ",
-       "ai_win": 30,
+       "ai_win": 27,
        "odds": null,
-       "buy_line_win": "3.7〜4.0倍"
+       "buy_line_win": "4.1〜4.5倍"
       },
       {
        "mark": "○",
-       "umaban": 0,
+       "umaban": 7,
        "name": "タイセイブリオン",
-       "ai_win": 18,
+       "ai_win": 21,
        "odds": null,
-       "buy_line_win": "6.2〜6.7倍"
+       "buy_line_win": "5.3〜5.8倍"
       },
       {
        "mark": "▲",
-       "umaban": 0,
+       "umaban": 3,
        "name": "サウンドホープ",
-       "ai_win": 10,
+       "ai_win": 11,
        "odds": null,
-       "buy_line_win": "10.8〜11.8倍"
+       "buy_line_win": "10.0〜11.0倍"
       }
      ]
     },
@@ -183,27 +183,27 @@
      "top": [
       {
        "mark": "◎",
-       "umaban": 0,
+       "umaban": 6,
        "name": "ウイニングレイ",
-       "ai_win": 20,
+       "ai_win": 21,
        "odds": null,
-       "buy_line_win": "5.5〜6.0倍"
+       "buy_line_win": "5.2〜5.7倍"
       },
       {
        "mark": "○",
-       "umaban": 0,
+       "umaban": 9,
        "name": "ドナリー",
-       "ai_win": 13,
+       "ai_win": 14,
        "odds": null,
-       "buy_line_win": "8.2〜8.9倍"
+       "buy_line_win": "7.8〜8.5倍"
       },
       {
        "mark": "▲",
-       "umaban": 0,
-       "name": "フォンテキアーラ",
-       "ai_win": 13,
+       "umaban": 13,
+       "name": "コールセレスト",
+       "ai_win": 14,
        "odds": null,
-       "buy_line_win": "8.2〜8.9倍"
+       "buy_line_win": "7.8〜8.5倍"
       }
      ]
     },
@@ -223,27 +223,27 @@
      "top": [
       {
        "mark": "◎",
-       "umaban": 0,
+       "umaban": 15,
        "name": "ブロッサムスピア",
-       "ai_win": 21,
+       "ai_win": 23,
        "odds": null,
-       "buy_line_win": "5.2〜5.6倍"
+       "buy_line_win": "4.7〜5.1倍"
       },
       {
        "mark": "○",
-       "umaban": 0,
+       "umaban": 1,
        "name": "アドマイヤキングス",
        "ai_win": 16,
        "odds": null,
-       "buy_line_win": "6.9〜7.5倍"
+       "buy_line_win": "7.0〜7.7倍"
       },
       {
        "mark": "▲",
-       "umaban": 0,
+       "umaban": 7,
        "name": "ナジュム",
-       "ai_win": 14,
+       "ai_win": 13,
        "odds": null,
-       "buy_line_win": "8.1〜8.8倍"
+       "buy_line_win": "8.3〜9.0倍"
       }
      ]
     },
@@ -263,27 +263,27 @@
      "top": [
       {
        "mark": "◎",
-       "umaban": 0,
+       "umaban": 2,
        "name": "ゾディアカルライト",
-       "ai_win": 32,
+       "ai_win": 33,
        "odds": null,
-       "buy_line_win": "3.4〜3.7倍"
+       "buy_line_win": "3.3〜3.6倍"
       },
       {
        "mark": "○",
-       "umaban": 0,
+       "umaban": 1,
        "name": "アイビーチャッカリ",
-       "ai_win": 22,
+       "ai_win": 20,
        "odds": null,
-       "buy_line_win": "4.9〜5.3倍"
+       "buy_line_win": "5.4〜5.9倍"
       },
       {
        "mark": "▲",
-       "umaban": 0,
+       "umaban": 3,
        "name": "レイワブライト",
-       "ai_win": 11,
+       "ai_win": 10,
        "odds": null,
-       "buy_line_win": "9.6〜10.5倍"
+       "buy_line_win": "10.6〜11.6倍"
       }
      ]
     },
@@ -303,27 +303,27 @@
      "top": [
       {
        "mark": "◎",
-       "umaban": 0,
+       "umaban": 1,
        "name": "ラトラース",
-       "ai_win": 34,
+       "ai_win": 37,
        "odds": null,
-       "buy_line_win": "3.3〜3.6倍"
+       "buy_line_win": "3.0〜3.2倍"
       },
       {
        "mark": "○",
-       "umaban": 0,
-       "name": "アニージョ",
-       "ai_win": 18,
+       "umaban": 3,
+       "name": "ローズピリオド",
+       "ai_win": 17,
        "odds": null,
-       "buy_line_win": "6.1〜6.7倍"
+       "buy_line_win": "6.3〜6.9倍"
       },
       {
        "mark": "▲",
-       "umaban": 0,
-       "name": "ローズピリオド",
-       "ai_win": 16,
+       "umaban": 2,
+       "name": "ニヴルヘイム",
+       "ai_win": 13,
        "odds": null,
-       "buy_line_win": "6.9〜7.5倍"
+       "buy_line_win": "8.4〜9.2倍"
       }
      ]
     },
@@ -343,27 +343,27 @@
      "top": [
       {
        "mark": "◎",
-       "umaban": 0,
+       "umaban": 5,
        "name": "ドゥミセック",
        "ai_win": 17,
        "odds": null,
-       "buy_line_win": "6.6〜7.2倍"
+       "buy_line_win": "6.5〜7.1倍"
       },
       {
        "mark": "○",
-       "umaban": 0,
+       "umaban": 1,
        "name": "ドライブライン",
-       "ai_win": 17,
+       "ai_win": 16,
        "odds": null,
-       "buy_line_win": "6.6〜7.2倍"
+       "buy_line_win": "7.0〜7.6倍"
       },
       {
        "mark": "▲",
-       "umaban": 0,
+       "umaban": 3,
        "name": "デカントラップ",
-       "ai_win": 17,
+       "ai_win": 16,
        "odds": null,
-       "buy_line_win": "6.6〜7.2倍"
+       "buy_line_win": "7.0〜7.6倍"
       }
      ]
     },
@@ -383,7 +383,7 @@
      "top": [
       {
        "mark": "◎",
-       "umaban": 0,
+       "umaban": 11,
        "name": "ビッグスペンダー",
        "ai_win": 25,
        "odds": null,
@@ -391,19 +391,19 @@
       },
       {
        "mark": "○",
-       "umaban": 0,
+       "umaban": 3,
        "name": "エイカイコールマン",
        "ai_win": 21,
        "odds": null,
-       "buy_line_win": "5.1〜5.6倍"
+       "buy_line_win": "5.2〜5.7倍"
       },
       {
        "mark": "▲",
-       "umaban": 0,
+       "umaban": 12,
        "name": "エデンヴァレー",
-       "ai_win": 17,
+       "ai_win": 16,
        "odds": null,
-       "buy_line_win": "6.6〜7.2倍"
+       "buy_line_win": "6.9〜7.5倍"
       }
      ]
     },
@@ -423,27 +423,27 @@
      "top": [
       {
        "mark": "◎",
-       "umaban": 0,
+       "umaban": 2,
        "name": "スムーズセイリング",
-       "ai_win": 30,
+       "ai_win": 26,
        "odds": null,
-       "buy_line_win": "3.7〜4.0倍"
+       "buy_line_win": "4.2〜4.6倍"
       },
       {
        "mark": "○",
-       "umaban": 0,
+       "umaban": 6,
        "name": "リアライズアビオン",
-       "ai_win": 23,
+       "ai_win": 26,
        "odds": null,
-       "buy_line_win": "4.9〜5.3倍"
+       "buy_line_win": "4.2〜4.6倍"
       },
       {
        "mark": "▲",
-       "umaban": 0,
+       "umaban": 7,
        "name": "ファインハイト",
-       "ai_win": 15,
+       "ai_win": 17,
        "odds": null,
-       "buy_line_win": "7.4〜8.0倍"
+       "buy_line_win": "6.3〜6.9倍"
       }
      ]
     },
@@ -463,27 +463,27 @@
      "top": [
       {
        "mark": "◎",
-       "umaban": 0,
+       "umaban": 6,
        "name": "サントクロワ",
-       "ai_win": 17,
+       "ai_win": 16,
        "odds": null,
-       "buy_line_win": "6.4〜7.0倍"
+       "buy_line_win": "6.8〜7.5倍"
       },
       {
        "mark": "○",
-       "umaban": 0,
+       "umaban": 4,
        "name": "エールドカナロア",
-       "ai_win": 13,
+       "ai_win": 11,
        "odds": null,
-       "buy_line_win": "8.6〜9.4倍"
+       "buy_line_win": "10.1〜11.0倍"
       },
       {
        "mark": "▲",
-       "umaban": 0,
+       "umaban": 12,
        "name": "ヒエラルキー",
-       "ai_win": 9,
+       "ai_win": 11,
        "odds": null,
-       "buy_line_win": "11.7〜12.7倍"
+       "buy_line_win": "10.1〜11.0倍"
       }
      ]
     },
@@ -503,27 +503,27 @@
      "top": [
       {
        "mark": "◎",
-       "umaban": 0,
+       "umaban": 12,
        "name": "グランドスウェル",
-       "ai_win": 17,
+       "ai_win": 20,
        "odds": null,
-       "buy_line_win": "6.4〜6.9倍"
+       "buy_line_win": "5.6〜6.1倍"
       },
       {
        "mark": "○",
-       "umaban": 0,
+       "umaban": 3,
        "name": "ガウラディスコ",
-       "ai_win": 17,
+       "ai_win": 11,
        "odds": null,
-       "buy_line_win": "6.4〜7.0倍"
+       "buy_line_win": "9.9〜10.8倍"
       },
       {
        "mark": "▲",
-       "umaban": 0,
-       "name": "ペネトレイトゴー",
+       "umaban": 6,
+       "name": "ジェネラスキング",
        "ai_win": 11,
        "odds": null,
-       "buy_line_win": "10.0〜10.9倍"
+       "buy_line_win": "9.9〜10.8倍"
       }
      ]
     },
@@ -543,27 +543,27 @@
      "top": [
       {
        "mark": "◎",
-       "umaban": 0,
+       "umaban": 2,
        "name": "コスモフィレンツェ",
        "ai_win": 16,
        "odds": null,
-       "buy_line_win": "6.7〜7.3倍"
+       "buy_line_win": "6.8〜7.4倍"
       },
       {
        "mark": "○",
-       "umaban": 0,
+       "umaban": 4,
        "name": "スノースケープ",
        "ai_win": 16,
        "odds": null,
-       "buy_line_win": "6.7〜7.3倍"
+       "buy_line_win": "6.8〜7.4倍"
       },
       {
        "mark": "▲",
-       "umaban": 0,
+       "umaban": 14,
        "name": "アドマイヤシュラ",
-       "ai_win": 13,
+       "ai_win": 14,
        "odds": null,
-       "buy_line_win": "8.6〜9.4倍"
+       "buy_line_win": "7.9〜8.6倍"
       }
      ]
     },
@@ -583,7 +583,7 @@
      "top": [
       {
        "mark": "◎",
-       "umaban": 0,
+       "umaban": 15,
        "name": "フィールドノート",
        "ai_win": 31,
        "odds": null,
@@ -591,16 +591,16 @@
       },
       {
        "mark": "○",
-       "umaban": 0,
-       "name": "ミッキーダムール",
-       "ai_win": 11,
+       "umaban": 3,
+       "name": "タッセルノット",
+       "ai_win": 12,
        "odds": null,
-       "buy_line_win": "9.8〜10.7倍"
+       "buy_line_win": "9.5〜10.3倍"
       },
       {
        "mark": "▲",
-       "umaban": 0,
-       "name": "タッセルノット",
+       "umaban": 2,
+       "name": "ミッキーダムール",
        "ai_win": 11,
        "odds": null,
        "buy_line_win": "9.8〜10.7倍"
@@ -623,22 +623,22 @@
      "top": [
       {
        "mark": "◎",
-       "umaban": 0,
+       "umaban": 2,
        "name": "リアルアルバ",
-       "ai_win": 15,
+       "ai_win": 16,
        "odds": null
       },
       {
        "mark": "○",
-       "umaban": 0,
-       "name": "モンサンゴールデン",
-       "ai_win": 11,
+       "umaban": 3,
+       "name": "オプティモ",
+       "ai_win": 10,
        "odds": null
       },
       {
        "mark": "▲",
-       "umaban": 0,
-       "name": "オプティモ",
+       "umaban": 9,
+       "name": "ダノンモンテローザ",
        "ai_win": 10,
        "odds": null
       }
@@ -660,27 +660,27 @@
      "top": [
       {
        "mark": "◎",
-       "umaban": 0,
+       "umaban": 11,
        "name": "ウィロークリーク",
-       "ai_win": 18,
+       "ai_win": 22,
        "odds": null,
-       "buy_line_win": "6.0〜6.5倍"
+       "buy_line_win": "5.0〜5.4倍"
       },
       {
        "mark": "○",
-       "umaban": 0,
+       "umaban": 14,
        "name": "インナーパッション",
-       "ai_win": 18,
+       "ai_win": 15,
        "odds": null,
-       "buy_line_win": "6.2〜6.8倍"
+       "buy_line_win": "7.4〜8.1倍"
       },
       {
        "mark": "▲",
-       "umaban": 0,
+       "umaban": 3,
        "name": "ユウトザユウト",
-       "ai_win": 13,
+       "ai_win": 15,
        "odds": null,
-       "buy_line_win": "8.2〜9.0倍"
+       "buy_line_win": "7.4〜8.1倍"
       }
      ]
     },
@@ -700,15 +700,15 @@
      "top": [
       {
        "mark": "◎",
-       "umaban": 0,
+       "umaban": 1,
        "name": "ロイスター",
-       "ai_win": 27,
+       "ai_win": 26,
        "odds": null,
-       "buy_line_win": "4.1〜4.5倍"
+       "buy_line_win": "4.2〜4.5倍"
       },
       {
        "mark": "○",
-       "umaban": 0,
+       "umaban": 11,
        "name": "アートレスマインド",
        "ai_win": 18,
        "odds": null,
@@ -716,7 +716,7 @@
       },
       {
        "mark": "▲",
-       "umaban": 0,
+       "umaban": 7,
        "name": "リメンバーヒム",
        "ai_win": 14,
        "odds": null,
@@ -740,27 +740,27 @@
      "top": [
       {
        "mark": "◎",
-       "umaban": 0,
+       "umaban": 4,
        "name": "サンマルノヴェル",
-       "ai_win": 13,
+       "ai_win": 15,
        "odds": null,
-       "buy_line_win": "8.3〜9.1倍"
+       "buy_line_win": "7.5〜8.1倍"
       },
       {
        "mark": "○",
-       "umaban": 0,
-       "name": "カルパ",
-       "ai_win": 12,
+       "umaban": 15,
+       "name": "セギレエルビエント",
+       "ai_win": 13,
        "odds": null,
-       "buy_line_win": "9.3〜10.1倍"
+       "buy_line_win": "8.7〜9.5倍"
       },
       {
        "mark": "▲",
-       "umaban": 0,
-       "name": "セギレエルビエント",
-       "ai_win": 12,
+       "umaban": 6,
+       "name": "マジッククッキー",
+       "ai_win": 11,
        "odds": null,
-       "buy_line_win": "9.3〜10.1倍"
+       "buy_line_win": "10.3〜11.2倍"
       }
      ]
     },
@@ -780,27 +780,27 @@
      "top": [
       {
        "mark": "◎",
-       "umaban": 0,
+       "umaban": 15,
        "name": "アンダースコア",
-       "ai_win": 16,
+       "ai_win": 20,
        "odds": null,
-       "buy_line_win": "7.0〜7.6倍"
+       "buy_line_win": "5.4〜5.9倍"
       },
       {
        "mark": "○",
-       "umaban": 0,
-       "name": "シャイフ",
-       "ai_win": 13,
+       "umaban": 3,
+       "name": "サンタンカ",
+       "ai_win": 15,
        "odds": null,
-       "buy_line_win": "8.5〜9.3倍"
+       "buy_line_win": "7.5〜8.2倍"
       },
       {
        "mark": "▲",
-       "umaban": 0,
-       "name": "サンタンカ",
-       "ai_win": 9,
+       "umaban": 13,
+       "name": "シャイフ",
+       "ai_win": 11,
        "odds": null,
-       "buy_line_win": "11.7〜12.8倍"
+       "buy_line_win": "10.4〜11.3倍"
       }
      ]
     },
@@ -820,27 +820,27 @@
      "top": [
       {
        "mark": "◎",
-       "umaban": 0,
+       "umaban": 2,
        "name": "レッドシュヴェルト",
-       "ai_win": 16,
+       "ai_win": 17,
        "odds": null,
-       "buy_line_win": "7.0〜7.6倍"
+       "buy_line_win": "6.5〜7.1倍"
       },
       {
        "mark": "○",
-       "umaban": 0,
+       "umaban": 11,
        "name": "ディアナザール",
-       "ai_win": 13,
+       "ai_win": 14,
        "odds": null,
-       "buy_line_win": "8.7〜9.5倍"
+       "buy_line_win": "7.6〜8.3倍"
       },
       {
        "mark": "▲",
-       "umaban": 0,
-       "name": "アドマイヤクワッズ",
+       "umaban": 4,
+       "name": "マジックサンズ",
        "ai_win": 10,
        "odds": null,
-       "buy_line_win": "11.4〜12.5倍"
+       "buy_line_win": "10.8〜11.8倍"
       }
      ]
     },
@@ -860,27 +860,27 @@
      "top": [
       {
        "mark": "◎",
-       "umaban": 0,
-       "name": "ネーロノワール",
-       "ai_win": 20,
-       "odds": null,
-       "buy_line_win": "5.5〜6.0倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 0,
+       "umaban": 10,
        "name": "ドラゴンバルド",
        "ai_win": 20,
        "odds": null,
        "buy_line_win": "5.5〜6.0倍"
       },
       {
-       "mark": "▲",
-       "umaban": 0,
-       "name": "エトワールハマー",
-       "ai_win": 10,
+       "mark": "○",
+       "umaban": 9,
+       "name": "ネーロノワール",
+       "ai_win": 15,
        "odds": null,
-       "buy_line_win": "11.6〜12.6倍"
+       "buy_line_win": "7.6〜8.3倍"
+      },
+      {
+       "mark": "▲",
+       "umaban": 8,
+       "name": "ノヴァヴェローチェ",
+       "ai_win": 13,
+       "odds": null,
+       "buy_line_win": "8.3〜9.1倍"
       }
      ]
     },
@@ -900,27 +900,27 @@
      "top": [
       {
        "mark": "◎",
-       "umaban": 0,
+       "umaban": 14,
        "name": "ウップヘリーア",
-       "ai_win": 20,
+       "ai_win": 25,
        "odds": null,
-       "buy_line_win": "5.4〜5.9倍"
+       "buy_line_win": "4.4〜4.8倍"
       },
       {
        "mark": "○",
-       "umaban": 0,
+       "umaban": 10,
        "name": "エーデルゼーレ",
-       "ai_win": 13,
+       "ai_win": 14,
        "odds": null,
-       "buy_line_win": "8.2〜8.9倍"
+       "buy_line_win": "8.0〜8.8倍"
       },
       {
        "mark": "▲",
-       "umaban": 0,
+       "umaban": 18,
        "name": "ディヒターリーベ",
-       "ai_win": 12,
+       "ai_win": 10,
        "odds": null,
-       "buy_line_win": "9.2〜10.1倍"
+       "buy_line_win": "10.5〜11.4倍"
       }
      ]
     },
@@ -940,21 +940,21 @@
      "top": [
       {
        "mark": "◎",
-       "umaban": 0,
+       "umaban": 2,
        "name": "マウンテンバローズ",
-       "ai_win": 26,
+       "ai_win": 28,
        "odds": null
       },
       {
        "mark": "○",
-       "umaban": 0,
+       "umaban": 13,
        "name": "フロムレイブン",
        "ai_win": 12,
        "odds": null
       },
       {
        "mark": "▲",
-       "umaban": 0,
+       "umaban": 10,
        "name": "ピアストイヤーズ",
        "ai_win": 8,
        "odds": null
@@ -1900,24 +1900,510 @@
      "top": [
       {
        "mark": "◎",
-       "umaban": 0,
+       "umaban": 6,
        "name": "インブロリオ",
-       "ai_win": 14,
+       "ai_win": 16,
        "odds": null
       },
       {
        "mark": "○",
-       "umaban": 0,
-       "name": "ナムラクララ",
-       "ai_win": 10,
+       "umaban": 12,
+       "name": "デアヴェローチェ",
+       "ai_win": 12,
        "odds": null
       },
       {
        "mark": "▲",
-       "umaban": 0,
-       "name": "デアヴェローチェ",
-       "ai_win": 10,
+       "umaban": 7,
+       "name": "リリージョワ",
+       "ai_win": 8,
        "odds": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-30",
+   "is_today": false,
+   "races": [
+    {
+     "race_id": "2026113005050901",
+     "venue": "東京",
+     "race_no": 1,
+     "name": "",
+     "grade": "",
+     "start": "09:50",
+     "course": "ダート1400m",
+     "rough": "",
+     "rough_past": "",
+     "status": "wait",
+     "odds_at": "",
+     "picks": [],
+     "top": [
+      {
+       "mark": "◎",
+       "umaban": 0,
+       "name": "エコロブラン",
+       "ai_win": 44,
+       "odds": null,
+       "buy_line_win": "2.5〜2.7倍"
+      },
+      {
+       "mark": "○",
+       "umaban": 0,
+       "name": "ミーアキース",
+       "ai_win": 22,
+       "odds": null,
+       "buy_line_win": "5.0〜5.4倍"
+      },
+      {
+       "mark": "▲",
+       "umaban": 0,
+       "name": "ベールダウン",
+       "ai_win": 10,
+       "odds": null,
+       "buy_line_win": "11.5〜12.6倍"
+      }
+     ]
+    },
+    {
+     "race_id": "2026113005050902",
+     "venue": "東京",
+     "race_no": 2,
+     "name": "",
+     "grade": "",
+     "start": "10:20",
+     "course": "芝2000m",
+     "rough": "",
+     "rough_past": "",
+     "status": "wait",
+     "odds_at": "",
+     "picks": [],
+     "top": [
+      {
+       "mark": "◎",
+       "umaban": 0,
+       "name": "ポルターガイスト",
+       "ai_win": 20,
+       "odds": null,
+       "buy_line_win": "5.6〜6.1倍"
+      },
+      {
+       "mark": "○",
+       "umaban": 0,
+       "name": "ウィクフォード",
+       "ai_win": 18,
+       "odds": null,
+       "buy_line_win": "6.0〜6.5倍"
+      },
+      {
+       "mark": "▲",
+       "umaban": 0,
+       "name": "ドナズエクリプス",
+       "ai_win": 13,
+       "odds": null,
+       "buy_line_win": "8.3〜9.1倍"
+      }
+     ]
+    },
+    {
+     "race_id": "2026113005050903",
+     "venue": "東京",
+     "race_no": 3,
+     "name": "",
+     "grade": "",
+     "start": "10:50",
+     "course": "ダート1600m",
+     "rough": "",
+     "rough_past": "",
+     "status": "wait",
+     "odds_at": "",
+     "picks": [],
+     "top": [
+      {
+       "mark": "◎",
+       "umaban": 0,
+       "name": "サトノフルーク",
+       "ai_win": 43,
+       "odds": null,
+       "buy_line_win": "2.5〜2.8倍"
+      },
+      {
+       "mark": "○",
+       "umaban": 0,
+       "name": "クリアストライク",
+       "ai_win": 18,
+       "odds": null,
+       "buy_line_win": "6.0〜6.5倍"
+      },
+      {
+       "mark": "▲",
+       "umaban": 0,
+       "name": "ポッドコーディア",
+       "ai_win": 8,
+       "odds": null,
+       "buy_line_win": "13.7〜14.9倍"
+      }
+     ]
+    },
+    {
+     "race_id": "2026113005050904",
+     "venue": "東京",
+     "race_no": 4,
+     "name": "",
+     "grade": "",
+     "start": "11:25",
+     "course": "障害3000m",
+     "rough": "",
+     "rough_past": "",
+     "status": "wait",
+     "odds_at": "",
+     "picks": [],
+     "top": [
+      {
+       "mark": "◎",
+       "umaban": 0,
+       "name": "ノーブルクライ",
+       "ai_win": 40,
+       "odds": null,
+       "buy_line_win": "2.8〜3.0倍"
+      },
+      {
+       "mark": "○",
+       "umaban": 0,
+       "name": "サルヴァトーレ",
+       "ai_win": 23,
+       "odds": null,
+       "buy_line_win": "4.7〜5.1倍"
+      },
+      {
+       "mark": "▲",
+       "umaban": 0,
+       "name": "ダスク",
+       "ai_win": 13,
+       "odds": null,
+       "buy_line_win": "8.5〜9.3倍"
+      }
+     ]
+    },
+    {
+     "race_id": "2026113005050905",
+     "venue": "東京",
+     "race_no": 5,
+     "name": "",
+     "grade": "",
+     "start": "12:15",
+     "course": "芝1800m",
+     "rough": "",
+     "rough_past": "",
+     "status": "wait",
+     "odds_at": "",
+     "picks": [],
+     "top": [
+      {
+       "mark": "◎",
+       "umaban": 0,
+       "name": "ブルーマーブル",
+       "ai_win": 16,
+       "odds": null,
+       "buy_line_win": "6.9〜7.5倍"
+      },
+      {
+       "mark": "○",
+       "umaban": 0,
+       "name": "エコロディオ",
+       "ai_win": 14,
+       "odds": null,
+       "buy_line_win": "7.7〜8.4倍"
+      },
+      {
+       "mark": "▲",
+       "umaban": 0,
+       "name": "シーアンドパールズ",
+       "ai_win": 11,
+       "odds": null,
+       "buy_line_win": "9.7〜10.6倍"
+      }
+     ]
+    },
+    {
+     "race_id": "2026113005050906",
+     "venue": "東京",
+     "race_no": 6,
+     "name": "",
+     "grade": "",
+     "start": "12:45",
+     "course": "ダート1400m",
+     "rough": "",
+     "rough_past": "",
+     "status": "wait",
+     "odds_at": "",
+     "picks": [],
+     "top": [
+      {
+       "mark": "◎",
+       "umaban": 0,
+       "name": "キャンディデイト",
+       "ai_win": 41,
+       "odds": null,
+       "buy_line_win": "2.7〜2.9倍"
+      },
+      {
+       "mark": "○",
+       "umaban": 0,
+       "name": "イチネンハナグミ",
+       "ai_win": 18,
+       "odds": null,
+       "buy_line_win": "6.0〜6.6倍"
+      },
+      {
+       "mark": "▲",
+       "umaban": 0,
+       "name": "アルキラ",
+       "ai_win": 12,
+       "odds": null,
+       "buy_line_win": "8.8〜9.6倍"
+      }
+     ]
+    },
+    {
+     "race_id": "2026113005050907",
+     "venue": "東京",
+     "race_no": 7,
+     "name": "",
+     "grade": "",
+     "start": "13:15",
+     "course": "ダート1600m",
+     "rough": "",
+     "rough_past": "",
+     "status": "wait",
+     "odds_at": "",
+     "picks": [],
+     "top": [
+      {
+       "mark": "◎",
+       "umaban": 0,
+       "name": "ヘインズポイント",
+       "ai_win": 11,
+       "odds": null,
+       "buy_line_win": "10.1〜11.0倍"
+      },
+      {
+       "mark": "○",
+       "umaban": 0,
+       "name": "コッレヴェッキオ",
+       "ai_win": 10,
+       "odds": null,
+       "buy_line_win": "11.4〜12.4倍"
+      },
+      {
+       "mark": "▲",
+       "umaban": 0,
+       "name": "コパノエイダン",
+       "ai_win": 10,
+       "odds": null,
+       "buy_line_win": "11.4〜12.4倍"
+      }
+     ]
+    },
+    {
+     "race_id": "2026113005050908",
+     "venue": "東京",
+     "race_no": 8,
+     "name": "",
+     "grade": "",
+     "start": "13:45",
+     "course": "ダート1400m",
+     "rough": "",
+     "rough_past": "",
+     "status": "wait",
+     "odds_at": "",
+     "picks": [],
+     "top": [
+      {
+       "mark": "◎",
+       "umaban": 0,
+       "name": "モノポリオ",
+       "ai_win": 35,
+       "odds": null,
+       "buy_line_win": "3.1〜3.4倍"
+      },
+      {
+       "mark": "○",
+       "umaban": 0,
+       "name": "ペロ",
+       "ai_win": 8,
+       "odds": null,
+       "buy_line_win": "13.1〜14.3倍"
+      },
+      {
+       "mark": "▲",
+       "umaban": 0,
+       "name": "レイズレガシー",
+       "ai_win": 8,
+       "odds": null,
+       "buy_line_win": "13.1〜14.3倍"
+      }
+     ]
+    },
+    {
+     "race_id": "2026113005050909",
+     "venue": "東京",
+     "race_no": 9,
+     "name": "ベゴニア賞",
+     "grade": "",
+     "start": "14:15",
+     "course": "芝1600m",
+     "rough": "堅い",
+     "rough_past": "0/10",
+     "status": "wait",
+     "odds_at": "",
+     "picks": [],
+     "top": [
+      {
+       "mark": "◎",
+       "umaban": 0,
+       "name": "トルタパスカリーナ",
+       "ai_win": 17,
+       "odds": null,
+       "buy_line_win": "6.5〜7.0倍"
+      },
+      {
+       "mark": "○",
+       "umaban": 0,
+       "name": "イッソス",
+       "ai_win": 17,
+       "odds": null,
+       "buy_line_win": "6.5〜7.1倍"
+      },
+      {
+       "mark": "▲",
+       "umaban": 0,
+       "name": "エクラドリオン",
+       "ai_win": 11,
+       "odds": null,
+       "buy_line_win": "10.1〜11.0倍"
+      }
+     ]
+    },
+    {
+     "race_id": "2026113005050910",
+     "venue": "東京",
+     "race_no": 10,
+     "name": "河口湖特別",
+     "grade": "",
+     "start": "14:50",
+     "course": "ダート1600m",
+     "rough": "荒れやすい",
+     "rough_past": "3/6",
+     "status": "wait",
+     "odds_at": "",
+     "picks": [],
+     "top": [
+      {
+       "mark": "◎",
+       "umaban": 0,
+       "name": "サマーマッドネス",
+       "ai_win": 20,
+       "odds": null,
+       "buy_line_win": "5.4〜5.9倍"
+      },
+      {
+       "mark": "○",
+       "umaban": 0,
+       "name": "タケルハーロック",
+       "ai_win": 14,
+       "odds": null,
+       "buy_line_win": "8.0〜8.7倍"
+      },
+      {
+       "mark": "▲",
+       "umaban": 0,
+       "name": "パイシャオピン",
+       "ai_win": 12,
+       "odds": null,
+       "buy_line_win": "8.9〜9.8倍"
+      }
+     ]
+    },
+    {
+     "race_id": "2026113005050911",
+     "venue": "東京",
+     "race_no": 11,
+     "name": "初冬ステークス",
+     "grade": "",
+     "start": "15:25",
+     "course": "ダート1600m",
+     "rough": "過去データなし",
+     "rough_past": "",
+     "status": "wait",
+     "odds_at": "",
+     "picks": [],
+     "top": [
+      {
+       "mark": "◎",
+       "umaban": 0,
+       "name": "ザーフィル",
+       "ai_win": 18,
+       "odds": null,
+       "buy_line_win": "6.1〜6.6倍"
+      },
+      {
+       "mark": "○",
+       "umaban": 0,
+       "name": "オンザムービー",
+       "ai_win": 12,
+       "odds": null,
+       "buy_line_win": "9.1〜9.9倍"
+      },
+      {
+       "mark": "▲",
+       "umaban": 0,
+       "name": "スマートスピア",
+       "ai_win": 9,
+       "odds": null,
+       "buy_line_win": "11.9〜12.9倍"
+      }
+     ]
+    },
+    {
+     "race_id": "2026113005050912",
+     "venue": "東京",
+     "race_no": 12,
+     "name": "",
+     "grade": "",
+     "start": "16:00",
+     "course": "芝1400m",
+     "rough": "",
+     "rough_past": "",
+     "status": "wait",
+     "odds_at": "",
+     "picks": [],
+     "top": [
+      {
+       "mark": "◎",
+       "umaban": 0,
+       "name": "ヤマニンアレシス",
+       "ai_win": 23,
+       "odds": null,
+       "buy_line_win": "4.8〜5.3倍"
+      },
+      {
+       "mark": "○",
+       "umaban": 0,
+       "name": "ワディアルリヤハ",
+       "ai_win": 20,
+       "odds": null,
+       "buy_line_win": "5.6〜6.1倍"
+      },
+      {
+       "mark": "▲",
+       "umaban": 0,
+       "name": "ペールノエル",
+       "ai_win": 14,
+       "odds": null,
+       "buy_line_win": "7.8〜8.5倍"
       }
      ]
     }
