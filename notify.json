@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-28T14:45:18",
+ "generated_at": "2026-11-28T14:55:26",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -589,9 +589,26 @@
      "course": "ダート1800m",
      "rough": "判断材料が少ない",
      "rough_past": "1/2",
-     "status": "decided",
+     "status": "result",
      "decided_at": "14:25",
-     "picks": []
+     "picks": [],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 12,
+       "name": "レッドイステル"
+      },
+      {
+       "pos": 2,
+       "umaban": 1,
+       "name": "ロイスター"
+      },
+      {
+       "pos": 3,
+       "umaban": 13,
+       "name": "ナイトスラッガー"
+      }
+     ]
     },
     {
      "race_id": "2026112805050710",
@@ -666,7 +683,7 @@
      "rough": "判断材料が少ない",
      "rough_past": "0/1",
      "status": "provisional",
-     "odds_at": "14:25",
+     "odds_at": "14:55",
      "picks": [],
      "top": [
       {
@@ -674,7 +691,7 @@
        "umaban": 4,
        "name": "マジックサンズ",
        "ai_win": 24,
-       "odds": 4.2,
+       "odds": 4.3,
        "buy_line_win": "4.6〜5.0倍"
       },
       {
@@ -682,8 +699,8 @@
        "umaban": 3,
        "name": "アドマイヤクワッズ",
        "ai_win": 13,
-       "odds": 6.0,
-       "buy_line_win": "8.4〜9.2倍"
+       "odds": 5.9,
+       "buy_line_win": "8.5〜9.3倍"
       },
       {
        "mark": "▲",
@@ -691,7 +708,7 @@
        "name": "ダノンセンチュリー",
        "ai_win": 13,
        "odds": 4.8,
-       "buy_line_win": "8.4〜9.2倍"
+       "buy_line_win": "8.5〜9.3倍"
       }
      ]
     },
