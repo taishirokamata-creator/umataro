@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-28T13:20:48",
+ "generated_at": "2026-11-28T13:35:01",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -460,35 +460,9 @@
      "course": "芝1600m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "13:10",
-     "picks": [],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 2,
-       "name": "ミッキーダムール",
-       "ai_win": 36,
-       "odds": 2.1,
-       "buy_line_win": "3.0〜3.3倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 15,
-       "name": "フィールドノート",
-       "ai_win": 18,
-       "odds": 5.8,
-       "buy_line_win": "6.0〜6.5倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 10,
-       "name": "コルテオソレイユ",
-       "ai_win": 13,
-       "odds": 6.0,
-       "buy_line_win": "8.4〜9.2倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "13:35",
+     "picks": []
     },
     {
      "race_id": "2026112808050708",
@@ -501,37 +475,29 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "12:55",
-     "picks": [
-      {
-       "umaban": 9,
-       "name": "ダノンモンテローザ",
-       "type": "複勝",
-       "odds": 1.7,
-       "ev": 1.133
-      }
-     ],
+     "odds_at": "13:25",
+     "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 9,
        "name": "ダノンモンテローザ",
-       "ai_win": 34,
-       "odds": 2.1
+       "ai_win": 31,
+       "odds": 2.3
       },
       {
        "mark": "○",
        "umaban": 2,
        "name": "リアルアルバ",
-       "ai_win": 12,
-       "odds": 7.0
+       "ai_win": 13,
+       "odds": 6.2
       },
       {
        "mark": "▲",
        "umaban": 13,
        "name": "レッドレベンディス",
        "ai_win": 10,
-       "odds": 9.3
+       "odds": 9.4
       }
      ]
     },
@@ -586,32 +552,32 @@
      "rough": "判断材料が少ない",
      "rough_past": "1/2",
      "status": "provisional",
-     "odds_at": "09:00",
+     "odds_at": "13:30",
      "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 1,
        "name": "ロイスター",
-       "ai_win": 24,
-       "odds": 3.2,
-       "buy_line_win": "4.6〜5.0倍"
+       "ai_win": 19,
+       "odds": 3.4,
+       "buy_line_win": "5.8〜6.3倍"
       },
       {
        "mark": "○",
        "umaban": 13,
        "name": "ナイトスラッガー",
-       "ai_win": 17,
-       "odds": 8.1,
-       "buy_line_win": "6.3〜6.9倍"
+       "ai_win": 19,
+       "odds": 9.9,
+       "buy_line_win": "5.8〜6.3倍"
       },
       {
        "mark": "▲",
        "umaban": 7,
        "name": "リメンバーヒム",
-       "ai_win": 13,
-       "odds": 6.0,
-       "buy_line_win": "8.3〜9.0倍"
+       "ai_win": 14,
+       "odds": 6.1,
+       "buy_line_win": "8.0〜8.8倍"
       }
      ]
     },
