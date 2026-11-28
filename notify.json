@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-28T15:20:54",
+ "generated_at": "2026-11-28T15:31:03",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -651,9 +651,26 @@
      "course": "芝1400m",
      "rough": "判断材料が少ない",
      "rough_past": "2/2",
-     "status": "decided",
+     "status": "result",
      "decided_at": "15:00",
-     "picks": []
+     "picks": [],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 11,
+       "name": "セシリエプラージュ"
+      },
+      {
+       "pos": 2,
+       "umaban": 15,
+       "name": "アンダースコア"
+      },
+      {
+       "pos": 3,
+       "umaban": 2,
+       "name": "マッシャーブルム"
+      }
+     ]
     },
     {
      "race_id": "2026112805050711",
@@ -720,8 +737,16 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "15:00",
-     "picks": [],
+     "odds_at": "15:30",
+     "picks": [
+      {
+       "umaban": 5,
+       "name": "コレクテイニア",
+       "type": "複勝",
+       "odds": 5.9,
+       "ev": 1.18
+      }
+     ],
      "top": [
       {
        "mark": "◎",
@@ -735,17 +760,17 @@
        "mark": "○",
        "umaban": 14,
        "name": "ウップヘリーア",
-       "ai_win": 16,
-       "odds": 3.8,
-       "buy_line_win": "6.8〜7.4倍"
+       "ai_win": 18,
+       "odds": 3.4,
+       "buy_line_win": "6.2〜6.8倍"
       },
       {
        "mark": "▲",
        "umaban": 8,
        "name": "ヴォートセレスト",
-       "ai_win": 14,
-       "odds": 6.3,
-       "buy_line_win": "7.8〜8.5倍"
+       "ai_win": 13,
+       "odds": 6.5,
+       "buy_line_win": "8.3〜9.1倍"
       }
      ]
     },
