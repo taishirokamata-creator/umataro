@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-28T10:15:12",
+ "generated_at": "2026-11-28T10:30:21",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -86,43 +86,9 @@
      "course": "ダート1800m",
      "rough": "",
      "rough_past": "",
-     "status": "provisional",
-     "odds_at": "10:05",
-     "picks": [
-      {
-       "umaban": 3,
-       "name": "サウンドホープ",
-       "type": "単勝",
-       "odds": 18.0,
-       "ev": 1.17
-      }
-     ],
-     "top": [
-      {
-       "mark": "◎",
-       "umaban": 5,
-       "name": "ベラジオアゲーラ",
-       "ai_win": 47,
-       "odds": 1.6,
-       "buy_line_win": "2.4〜2.6倍"
-      },
-      {
-       "mark": "○",
-       "umaban": 7,
-       "name": "タイセイブリオン",
-       "ai_win": 13,
-       "odds": 6.2,
-       "buy_line_win": "8.3〜9.0倍"
-      },
-      {
-       "mark": "▲",
-       "umaban": 8,
-       "name": "ハルカカナタ",
-       "ai_win": 9,
-       "odds": 7.8,
-       "buy_line_win": "12.6〜13.7倍"
-      }
-     ]
+     "status": "decided",
+     "decided_at": "10:30",
+     "picks": []
     },
     {
      "race_id": "2026112805050703",
@@ -135,32 +101,32 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:50",
+     "odds_at": "10:20",
      "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 6,
        "name": "ウイニングレイ",
-       "ai_win": 32,
-       "odds": 3.2,
-       "buy_line_win": "3.5〜3.8倍"
+       "ai_win": 27,
+       "odds": 3.6,
+       "buy_line_win": "4.1〜4.4倍"
       },
       {
        "mark": "○",
        "umaban": 13,
        "name": "コールセレスト",
-       "ai_win": 11,
-       "odds": 5.5,
-       "buy_line_win": "10.0〜10.9倍"
+       "ai_win": 17,
+       "odds": 4.2,
+       "buy_line_win": "6.5〜7.1倍"
       },
       {
        "mark": "▲",
        "umaban": 14,
        "name": "フォンテキアーラ",
-       "ai_win": 11,
-       "odds": 5.9,
-       "buy_line_win": "10.2〜11.1倍"
+       "ai_win": 10,
+       "odds": 6.0,
+       "buy_line_win": "10.7〜11.7倍"
       }
      ]
     },
@@ -215,7 +181,7 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:00",
+     "odds_at": "10:20",
      "picks": [],
      "top": [
       {
@@ -223,24 +189,24 @@
        "umaban": 8,
        "name": "レグルステソーロ",
        "ai_win": 38,
-       "odds": 2.2,
-       "buy_line_win": "2.9〜3.1倍"
+       "odds": 2.4,
+       "buy_line_win": "2.9〜3.2倍"
       },
       {
        "mark": "○",
-       "umaban": 1,
-       "name": "アイビーチャッカリ",
-       "ai_win": 14,
-       "odds": 5.3,
-       "buy_line_win": "8.0〜8.7倍"
+       "umaban": 2,
+       "name": "ゾディアカルライト",
+       "ai_win": 18,
+       "odds": 4.7,
+       "buy_line_win": "6.2〜6.8倍"
       },
       {
        "mark": "▲",
-       "umaban": 2,
-       "name": "ゾディアカルライト",
+       "umaban": 1,
+       "name": "アイビーチャッカリ",
        "ai_win": 14,
-       "odds": 5.5,
-       "buy_line_win": "8.0〜8.7倍"
+       "odds": 5.0,
+       "buy_line_win": "8.1〜8.9倍"
       }
      ]
     },
