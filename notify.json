@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-28T15:00:35",
+ "generated_at": "2026-11-28T15:15:49",
  "site": "https://taishirokamata-creator.github.io/umataro/",
  "rule": "単勝は1400m以上、単勝・複勝とも期待値1.1〜1.2・単勝20倍以下・複勝13倍以下",
  "days": [
@@ -620,9 +620,26 @@
      "course": "ダート1400m",
      "rough": "平均的",
      "rough_past": "2/5",
-     "status": "decided",
+     "status": "result",
      "decided_at": "14:45",
-     "picks": []
+     "picks": [],
+     "result": [
+      {
+       "pos": 1,
+       "umaban": 6,
+       "name": "マジッククッキー"
+      },
+      {
+       "pos": 2,
+       "umaban": 14,
+       "name": "レッドラパルマ"
+      },
+      {
+       "pos": 3,
+       "umaban": 7,
+       "name": "ジャンヌドゥレーヴ"
+      }
+     ]
     },
     {
      "race_id": "2026112808050710",
@@ -689,7 +706,7 @@
      "rough": "平均的",
      "rough_past": "4/10",
      "status": "provisional",
-     "odds_at": "14:40",
+     "odds_at": "15:10",
      "picks": [],
      "top": [
       {
@@ -705,7 +722,7 @@
        "umaban": 8,
        "name": "ノヴァヴェローチェ",
        "ai_win": 14,
-       "odds": 3.3,
+       "odds": 3.5,
        "buy_line_win": "8.1〜8.8倍"
       },
       {
@@ -713,7 +730,7 @@
        "umaban": 10,
        "name": "ドラゴンバルド",
        "ai_win": 14,
-       "odds": 3.3,
+       "odds": 3.2,
        "buy_line_win": "8.1〜8.8倍"
       }
      ]
@@ -769,29 +786,29 @@
      "rough": "",
      "rough_past": "",
      "status": "provisional",
-     "odds_at": "09:00",
+     "odds_at": "15:15",
      "picks": [],
      "top": [
       {
        "mark": "◎",
        "umaban": 2,
        "name": "マウンテンバローズ",
-       "ai_win": 27,
-       "odds": 3.2
+       "ai_win": 35,
+       "odds": 2.6
       },
       {
        "mark": "○",
        "umaban": 13,
        "name": "フロムレイブン",
-       "ai_win": 10,
-       "odds": 5.7
+       "ai_win": 11,
+       "odds": 5.2
       },
       {
        "mark": "▲",
-       "umaban": 18,
-       "name": "パールフロント",
-       "ai_win": 7,
-       "odds": 12.9
+       "umaban": 10,
+       "name": "ピアストイヤーズ",
+       "ai_win": 6,
+       "odds": 13.0
       }
      ]
     }
